@@ -17,24 +17,24 @@
   <tags unique="17">
     <tag name="ADJ">185209</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, celý, poslední -->
     <tag name="ADP">145509</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
-    <tag name="ADV">75502</tag><!-- tak, už, také, jak, více, včera, ještě, již, jen, dnes -->
+    <tag name="ADV">75342</tag><!-- tak, už, také, jak, více, včera, ještě, již, jen, dnes -->
     <tag name="AUX">46587</tag><!-- být, bývat, bývávat -->
-    <tag name="CCONJ">58086</tag><!-- a, i, ale, však, nebo, či, tedy, ani, proto, totiž -->
+    <tag name="CCONJ">58250</tag><!-- a, i, ale, však, nebo, či, tedy, ani, proto, totiž -->
     <tag name="DET">56178</tag><!-- ten, který, tento, jeho, svůj, všechen, náš, některý, každý, takový -->
     <tag name="INTJ">80</tag><!-- ach, hle, inu, proboha, což, haló, ó, ahoj, běda, cha -->
     <tag name="NOUN">375455</tag><!-- rok, léta, strana, společnost, firma, doba, země, cena, koruna, zákon -->
-    <tag name="NUM">44155</tag><!-- jeden, dva, 1, tři, 2, oba, tisíc, 3, milión, 4 -->
-    <tag name="PART">11357</tag><!-- až, například, jen, asi, ovšem, ne, zejména, spíš, prý, ani -->
+    <tag name="NUM">44153</tag><!-- jeden, dva, 1, tři, 2, oba, tisíc, 3, milión, 4 -->
+    <tag name="PART">11345</tag><!-- až, například, jen, asi, ovšem, ne, zejména, spíš, prý, ani -->
     <tag name="PRON">44747</tag><!-- se, on, jenž, my, co, já, kdo, což, nic, něco -->
     <tag name="PROPN">74578</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
     <tag name="PUNCT">220883</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
-    <tag name="SCONJ">28248</tag><!-- že, jako, aby, než, když, pokud, protože, li, zda, jak -->
+    <tag name="SCONJ">28258</tag><!-- že, jako, aby, než, když, pokud, protože, li, zda, jak -->
     <tag name="SYM">1368</tag><!-- %, x, +, =, §, *, /, >, :, < -->
     <tag name="VERB">130144</tag><!-- mít, moci, muset, stát, chtít, jít, říci, lze, dát, dostat -->
     <tag name="X">8400</tag><!-- New, de, the, of, York, open, play, off, Floyd, Pink -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="96">
+  <feats unique="97">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PROPN,VERB">24584</feat><!-- ČR, Kč, LN, r, m, a, s, ODS, USA, p -->
     <feat name="AdpType" value="Comprep" upos="ADP">286</feat><!-- vzhledem, nehledě, narozdíl -->
     <feat name="AdpType" value="Prep" upos="ADP">134078</feat><!-- v, na, o, z, s, do, k, pro, za, po -->
@@ -58,6 +58,7 @@
     <feat name="ExtPos" value="ADP" upos="X">1</feat><!-- à -->
     <feat name="ExtPos" value="ADV" upos="ADV,NOUN,VERB,X">47</feat><!-- de, nejen, co, a, měsíc, stůj, Týden, neděli -->
     <feat name="ExtPos" value="CCONJ" upos="CCONJ">13</feat><!-- a -->
+    <feat name="ExtPos" value="SCONJ" upos="CCONJ">423</feat><!-- i -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">8402</feat><!-- New, de, the, of, open, York, play, off, and, Floyd -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">247955</feat><!-- která, Praha, které, korun, české, této, své, strany, společnosti, době -->
     <feat name="Gender" value="Fem,Masc" upos="ADJ,AUX,VERB">6962</feat><!-- byly, měly, mohly, nebyly, začaly, objevily, dosáhly, získaly, neměly, staly -->
@@ -89,9 +90,9 @@
     <feat name="Number[psor]" value="Plur" upos="DET">4581</feat><!-- jejich, naše, naší, našich, jejichž, náš, našeho, naši, našem, vaše -->
     <feat name="Number[psor]" value="Sing" upos="DET">4830</feat><!-- jeho, její, jehož, jejím, jejíž, můj, jejího, jejích, mého, moje -->
     <feat name="NumForm" value="Digit" upos="NUM">29483</feat><!-- 1, 2, 3, 4, 6, 5, 1992, 10, 1994, 1993 -->
-    <feat name="NumForm" value="Roman" upos="NUM">360</feat><!-- II, I, III, IV, V, VI, XX, IX, VII, VIII -->
+    <feat name="NumForm" value="Roman" upos="NUM">358</feat><!-- II, I, III, IV, V, VI, XX, IX, VII, VIII -->
     <feat name="NumForm" value="Word" upos="NUM">10839</feat><!-- dva, tři, jeden, dvě, dvou, pět, čtyři, obou, jednoho, jedné -->
-    <feat name="NumType" value="Card" upos="DET,NUM">45938</feat><!-- 1, 2, 3, dva, tři, 4, jeden, tisíc, 6, dvě -->
+    <feat name="NumType" value="Card" upos="DET,NUM">45936</feat><!-- 1, 2, 3, dva, tři, 4, jeden, tisíc, 6, dvě -->
     <feat name="NumType" value="Frac" upos="NUM">14</feat><!-- nejeden, nejedné, nejednoho, nejednomu, nejedno -->
     <feat name="NumType" value="Mult" upos="ADJ,ADV">603</feat><!-- dvakrát, jednou, několikrát, třikrát, pětkrát, dvojí, mnohokrát, obojí, desetkrát, čtyřikrát -->
     <feat name="NumType" value="Ord" upos="ADJ,DET">4955</feat><!-- první, druhé, prvním, třetí, druhý, druhou, prvních, prvního, druhá, druhém -->
@@ -104,7 +105,7 @@
     <feat name="Poss" value="Yes" upos="ADJ,DET">17017</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
     <feat name="PrepCase" value="Npr" upos="PRON">3521</feat><!-- je, ji, jim, jej, jí, jich, jehož, jím, jemuž, jež -->
     <feat name="PrepCase" value="Pre" upos="PRON">3977</feat><!-- nich, ní, něj, nichž, níž, něm, němž, ně, nimi, ním -->
-    <feat name="PronType" value="Dem" upos="ADV,DET">27203</feat><!-- to, tak, tím, tom, této, tomu, tento, toho, nyní, tohoto -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">27040</feat><!-- to, tak, tím, tom, této, tomu, tento, toho, nyní, tohoto -->
     <feat name="PronType" value="Dem,Ind" upos="ADV,DET">237</feat><!-- kolik, pár, nejednou, kolika, nekonečněkrát, párkrát -->
     <feat name="PronType" value="Emp" upos="DET">803</feat><!-- sám, sama, sami, samy, samého, samo, samé, samém, samu, samí -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">5698</feat><!-- několik, některé, něco, některých, několika, mnoho, někteří, někdo, někdy, mnoha -->
@@ -137,18 +138,18 @@
     <dep name="acl">6684</dep>
     <dep name="acl:relcl">16154</dep>
     <dep name="advcl">10686</dep>
-    <dep name="advmod">58391</dep>
-    <dep name="advmod:emph">23479</dep>
+    <dep name="advmod">58381</dep>
+    <dep name="advmod:emph">23473</dep>
     <dep name="amod">155703</dep>
     <dep name="appos">7770</dep>
     <dep name="aux">14805</dep>
     <dep name="aux:pass">5984</dep>
     <dep name="case">145178</dep>
-    <dep name="cc">53673</dep>
+    <dep name="cc">53683</dep>
     <dep name="ccomp">10955</dep>
     <dep name="compound">4014</dep>
-    <dep name="conj">68440</dep>
-    <dep name="cop">24790</dep>
+    <dep name="conj">68437</dep>
+    <dep name="cop">24789</dep>
     <dep name="csubj">5734</dep>
     <dep name="csubj:pass">474</dep>
     <dep name="dep">12635</dep>
@@ -158,18 +159,18 @@
     <dep name="discourse">382</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
-    <dep name="fixed">4921</dep>
+    <dep name="fixed">4903</dep>
     <dep name="flat">18844</dep>
     <dep name="flat:foreign">3863</dep>
     <dep name="iobj">593</dep>
-    <dep name="mark">28233</dep>
+    <dep name="mark">28262</dep>
     <dep name="nmod">147821</dep>
     <dep name="nsubj">86412</dep>
     <dep name="nsubj:pass">7699</dep>
     <dep name="nummod">19188</dep>
     <dep name="nummod:gov">9031</dep>
     <dep name="obj">53625</dep>
-    <dep name="obl">81852</dep>
+    <dep name="obl">81851</dep>
     <dep name="obl:arg">33735</dep>
     <dep name="orphan">2637</dep>
     <dep name="parataxis">1886</dep>
