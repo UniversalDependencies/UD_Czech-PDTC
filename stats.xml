@@ -55,7 +55,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">7299</feat><!-- více, větší, méně, později, vyšší, dříve, víc, nižší, lepší, menší -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">186794</feat><!-- další, české, stále, nové, poslední, státní, dalších, stejně, možné, vlastní -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">4092</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejdříve, největším, nejlépe, nejbližší, nejnižší -->
-    <feat name="ExtPos" value="ADV" upos="ADV,VERB,X">43</feat><!-- de, nejen, co, a, stůj -->
+    <feat name="ExtPos" value="ADV" upos="ADV,NOUN,VERB,X">47</feat><!-- de, nejen, co, a, měsíc, stůj, Týden, neděli -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">8402</feat><!-- New, de, the, of, open, York, play, off, and, Floyd -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">247955</feat><!-- která, Praha, které, korun, české, této, své, strany, společnosti, době -->
     <feat name="Gender" value="Fem,Masc" upos="ADJ,AUX,VERB">6962</feat><!-- byly, měly, mohly, nebyly, začaly, objevily, dosáhly, získaly, neměly, staly -->
@@ -134,8 +134,8 @@
   <deps unique="43">
     <dep name="acl">6684</dep>
     <dep name="acl:relcl">16154</dep>
-    <dep name="advcl">10655</dep>
-    <dep name="advmod">58392</dep>
+    <dep name="advcl">10686</dep>
+    <dep name="advmod">58391</dep>
     <dep name="advmod:emph">23479</dep>
     <dep name="amod">155703</dep>
     <dep name="appos">7770</dep>
@@ -145,29 +145,29 @@
     <dep name="cc">53672</dep>
     <dep name="ccomp">10955</dep>
     <dep name="compound">4014</dep>
-    <dep name="conj">68441</dep>
+    <dep name="conj">68440</dep>
     <dep name="cop">24790</dep>
     <dep name="csubj">5734</dep>
     <dep name="csubj:pass">474</dep>
-    <dep name="dep">12640</dep>
+    <dep name="dep">12635</dep>
     <dep name="det">29280</dep>
     <dep name="det:numgov">988</dep>
     <dep name="det:nummod">572</dep>
     <dep name="discourse">382</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
-    <dep name="fixed">4927</dep>
+    <dep name="fixed">4926</dep>
     <dep name="flat">18844</dep>
     <dep name="flat:foreign">3863</dep>
     <dep name="iobj">593</dep>
-    <dep name="mark">28228</dep>
+    <dep name="mark">28229</dep>
     <dep name="nmod">147821</dep>
     <dep name="nsubj">86412</dep>
     <dep name="nsubj:pass">7699</dep>
     <dep name="nummod">19188</dep>
     <dep name="nummod:gov">9031</dep>
     <dep name="obj">53625</dep>
-    <dep name="obl">81876</dep>
+    <dep name="obl">81852</dep>
     <dep name="obl:arg">33735</dep>
     <dep name="orphan">2637</dep>
     <dep name="parataxis">1886</dep>
