@@ -17,14 +17,14 @@
   <tags unique="17">
     <tag name="ADJ">185209</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, celý, poslední -->
     <tag name="ADP">145511</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
-    <tag name="ADV">75342</tag><!-- tak, už, také, jak, více, včera, ještě, již, jen, dnes -->
+    <tag name="ADV">75341</tag><!-- tak, už, také, jak, více, včera, ještě, již, jen, dnes -->
     <tag name="AUX">46587</tag><!-- být, bývat, bývávat -->
-    <tag name="CCONJ">58250</tag><!-- a, i, ale, však, nebo, či, tedy, ani, proto, totiž -->
+    <tag name="CCONJ">58241</tag><!-- a, i, ale, však, nebo, či, tedy, ani, proto, totiž -->
     <tag name="DET">56178</tag><!-- ten, který, tento, jeho, svůj, všechen, náš, některý, každý, takový -->
     <tag name="INTJ">80</tag><!-- ach, hle, inu, proboha, což, haló, ó, ahoj, běda, cha -->
     <tag name="NOUN">375453</tag><!-- rok, léta, strana, společnost, firma, doba, země, cena, koruna, zákon -->
     <tag name="NUM">44153</tag><!-- jeden, dva, 1, tři, 2, oba, tisíc, 3, milión, 4 -->
-    <tag name="PART">11345</tag><!-- až, například, jen, asi, ovšem, ne, zejména, spíš, prý, ani -->
+    <tag name="PART">11355</tag><!-- až, například, jen, asi, ovšem, ne, zejména, spíš, prý, ani -->
     <tag name="PRON">44747</tag><!-- se, on, jenž, my, co, já, kdo, což, nic, něco -->
     <tag name="PROPN">74578</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
     <tag name="PUNCT">220883</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
@@ -56,8 +56,8 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">186794</feat><!-- další, české, stále, nové, poslední, státní, dalších, stejně, možné, vlastní -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">4092</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejdříve, největším, nejlépe, nejbližší, nejnižší -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PART,X">2983</feat><!-- v, na, ve, vzhledem, spolu, z, s, bez, společně, ze -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,NOUN,VERB,X">49</feat><!-- de, nejen, co, a, m, měsíc, stůj, Týden, neděli -->
-    <feat name="ExtPos" value="CCONJ" upos="CCONJ">13</feat><!-- a -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,NOUN,PART,VERB,X">148</feat><!-- přece, de, nejen, co, a, m, měsíc, stůj, Týden, neděli -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ,DET">364</feat><!-- a, to -->
     <feat name="ExtPos" value="SCONJ" upos="CCONJ">423</feat><!-- i -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">8402</feat><!-- New, de, the, of, open, York, play, off, and, Floyd -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">247955</feat><!-- která, Praha, které, korun, české, této, své, strany, společnosti, době -->
@@ -138,14 +138,14 @@
     <dep name="acl">6684</dep>
     <dep name="acl:relcl">16154</dep>
     <dep name="advcl">10686</dep>
-    <dep name="advmod">58381</dep>
+    <dep name="advmod">58479</dep>
     <dep name="advmod:emph">23473</dep>
     <dep name="amod">155703</dep>
     <dep name="appos">7770</dep>
     <dep name="aux">14805</dep>
     <dep name="aux:pass">5984</dep>
     <dep name="case">145178</dep>
-    <dep name="cc">53683</dep>
+    <dep name="cc">53574</dep>
     <dep name="ccomp">10955</dep>
     <dep name="compound">4014</dep>
     <dep name="conj">68437</dep>
@@ -159,11 +159,11 @@
     <dep name="discourse">382</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
-    <dep name="fixed">4903</dep>
+    <dep name="fixed">4917</dep>
     <dep name="flat">18844</dep>
     <dep name="flat:foreign">3863</dep>
     <dep name="iobj">593</dep>
-    <dep name="mark">28262</dep>
+    <dep name="mark">28259</dep>
     <dep name="nmod">147821</dep>
     <dep name="nsubj">86412</dep>
     <dep name="nsubj:pass">7699</dep>
