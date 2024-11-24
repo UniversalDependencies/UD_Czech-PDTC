@@ -153,7 +153,7 @@
     <dep name="csubj">5734</dep>
     <dep name="csubj:pass">474</dep>
     <dep name="dep">12635</dep>
-    <dep name="det">29280</dep>
+    <dep name="det">28918</dep>
     <dep name="det:numgov">988</dep>
     <dep name="det:nummod">572</dep>
     <dep name="discourse">382</dep>
@@ -164,7 +164,7 @@
     <dep name="flat:foreign">3863</dep>
     <dep name="iobj">593</dep>
     <dep name="mark">28259</dep>
-    <dep name="nmod">147821</dep>
+    <dep name="nmod">148183</dep>
     <dep name="nsubj">86412</dep>
     <dep name="nsubj:pass">7699</dep>
     <dep name="nummod">19188</dep>

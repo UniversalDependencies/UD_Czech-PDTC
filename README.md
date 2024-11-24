@@ -117,6 +117,7 @@ the enhanced dependency graph.
   * Adjectives heading clauses are acl(:relcl) rather than amod.
   * Fixed attachment of bracketed punctuation.
   * Fixed multiword expressions need the ExtPos feature.
+  * Fixed: demonstratives with clauses: det --> nmod.
 * 2024-11-15 v2.15
   * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
   * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).
