@@ -55,9 +55,9 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">7299</feat><!-- více, větší, méně, později, vyšší, dříve, víc, nižší, lepší, menší -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">186794</feat><!-- další, české, stále, nové, poslední, státní, dalších, stejně, možné, vlastní -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">4092</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejdříve, největším, nejlépe, nejbližší, nejnižší -->
-    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PART,X">2983</feat><!-- v, na, ve, vzhledem, spolu, z, s, bez, společně, ze -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,X">2974</feat><!-- v, na, ve, vzhledem, spolu, z, s, bez, společně, ze -->
     <feat name="ExtPos" value="ADV" upos="ADP,ADV,NOUN,PART,VERB,X">148</feat><!-- přece, de, nejen, co, a, m, měsíc, stůj, Týden, neděli -->
-    <feat name="ExtPos" value="CCONJ" upos="CCONJ,DET">364</feat><!-- a, to -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ,DET">374</feat><!-- a, to -->
     <feat name="ExtPos" value="SCONJ" upos="CCONJ">423</feat><!-- i -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">8402</feat><!-- New, de, the, of, open, York, play, off, and, Floyd -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">247955</feat><!-- která, Praha, které, korun, české, této, své, strany, společnosti, době -->
@@ -139,7 +139,7 @@
     <dep name="acl:relcl">16154</dep>
     <dep name="advcl">10686</dep>
     <dep name="advmod">58479</dep>
-    <dep name="advmod:emph">23473</dep>
+    <dep name="advmod:emph">23482</dep>
     <dep name="amod">155703</dep>
     <dep name="appos">7770</dep>
     <dep name="aux">14805</dep>
@@ -159,7 +159,7 @@
     <dep name="discourse">382</dep>
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
-    <dep name="fixed">4917</dep>
+    <dep name="fixed">4908</dep>
     <dep name="flat">18844</dep>
     <dep name="flat:foreign">3863</dep>
     <dep name="iobj">593</dep>
