@@ -119,6 +119,7 @@ the enhanced dependency graph.
   * Fixed multiword expressions need the ExtPos feature.
   * Fixed: demonstratives with clauses: det --> nmod.
   * Fixed: genitive postmodifiers should be nmod (not amod, nummod, det).
+  * No longer distinguishing flat:foreign from flat.
 * 2024-11-15 v2.15
   * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
   * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).

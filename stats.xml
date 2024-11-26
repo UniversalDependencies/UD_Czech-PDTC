@@ -135,7 +135,7 @@
     <feat name="Voice" value="Pass" upos="ADJ">22470</feat><!-- spojených, spojené, řečeno, přesvědčen, připravena, připraven, dané, uvedené, určené, příslušné -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
+  <deps unique="42">
     <dep name="acl">6685</dep>
     <dep name="acl:relcl">16154</dep>
     <dep name="advcl">10685</dep>
@@ -161,8 +161,7 @@
     <dep name="expl:pass">4906</dep>
     <dep name="expl:pv">17180</dep>
     <dep name="fixed">4855</dep>
-    <dep name="flat">18825</dep>
-    <dep name="flat:foreign">3859</dep>
+    <dep name="flat">22684</dep>
     <dep name="iobj">593</dep>
     <dep name="mark">28277</dep>
     <dep name="nmod">151317</dep>
