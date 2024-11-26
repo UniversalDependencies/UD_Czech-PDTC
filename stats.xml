@@ -17,9 +17,9 @@
   <tags unique="17">
     <tag name="ADJ">185209</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, celý, poslední -->
     <tag name="ADP">145511</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
-    <tag name="ADV">75346</tag><!-- tak, už, také, jak, více, včera, ještě, již, jen, dnes -->
+    <tag name="ADV">75509</tag><!-- tak, už, také, jak, více, včera, ještě, již, jen, dnes -->
     <tag name="AUX">46587</tag><!-- být, bývat, bývávat -->
-    <tag name="CCONJ">58249</tag><!-- a, i, ale, však, nebo, či, tedy, ani, proto, totiž -->
+    <tag name="CCONJ">58086</tag><!-- a, i, ale, však, nebo, či, tedy, ani, proto, totiž -->
     <tag name="DET">56178</tag><!-- ten, který, tento, jeho, svůj, všechen, náš, některý, každý, takový -->
     <tag name="INTJ">80</tag><!-- ach, hle, inu, proboha, což, haló, ó, ahoj, běda, cha -->
     <tag name="NOUN">375453</tag><!-- rok, léta, strana, společnost, firma, doba, země, cena, koruna, zákon -->
@@ -106,7 +106,7 @@
     <feat name="Poss" value="Yes" upos="ADJ,DET">17017</feat><!-- jeho, jejich, své, její, svou, svého, svých, svůj, naše, svým -->
     <feat name="PrepCase" value="Npr" upos="PRON">3521</feat><!-- je, ji, jim, jej, jí, jich, jehož, jím, jemuž, jež -->
     <feat name="PrepCase" value="Pre" upos="PRON">3977</feat><!-- nich, ní, něj, nichž, níž, něm, němž, ně, nimi, ním -->
-    <feat name="PronType" value="Dem" upos="ADV,DET">27040</feat><!-- to, tak, tím, tom, této, tomu, tento, toho, nyní, tohoto -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">27203</feat><!-- to, tak, tím, tom, této, tomu, tento, toho, nyní, tohoto -->
     <feat name="PronType" value="Dem,Ind" upos="ADV,DET">237</feat><!-- kolik, pár, nejednou, kolika, nekonečněkrát, párkrát -->
     <feat name="PronType" value="Emp" upos="DET">803</feat><!-- sám, sama, sami, samy, samého, samo, samé, samém, samu, samí -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">5698</feat><!-- několik, některé, něco, některých, několika, mnoho, někteří, někdo, někdy, mnoha -->
@@ -139,22 +139,22 @@
     <dep name="acl">6685</dep>
     <dep name="acl:relcl">16154</dep>
     <dep name="advcl">10685</dep>
-    <dep name="advmod">58479</dep>
+    <dep name="advmod">58552</dep>
     <dep name="advmod:emph">23488</dep>
     <dep name="amod">155703</dep>
     <dep name="appos">7768</dep>
     <dep name="aux">14805</dep>
     <dep name="aux:pass">5984</dep>
-    <dep name="case">145179</dep>
-    <dep name="cc">53600</dep>
+    <dep name="case">145180</dep>
+    <dep name="cc">53522</dep>
     <dep name="ccomp">10955</dep>
     <dep name="compound">4014</dep>
-    <dep name="conj">68437</dep>
-    <dep name="cop">24790</dep>
+    <dep name="conj">68438</dep>
+    <dep name="cop">24791</dep>
     <dep name="csubj">5733</dep>
     <dep name="csubj:pass">474</dep>
     <dep name="dep">12634</dep>
-    <dep name="det">28890</dep>
+    <dep name="det">28853</dep>
     <dep name="det:numgov">988</dep>
     <dep name="det:nummod">572</dep>
     <dep name="discourse">382</dep>
@@ -165,13 +165,13 @@
     <dep name="flat:foreign">3863</dep>
     <dep name="iobj">593</dep>
     <dep name="mark">28277</dep>
-    <dep name="nmod">148207</dep>
+    <dep name="nmod">148245</dep>
     <dep name="nsubj">86412</dep>
     <dep name="nsubj:pass">7699</dep>
-    <dep name="nummod">19188</dep>
+    <dep name="nummod">19187</dep>
     <dep name="nummod:gov">9031</dep>
     <dep name="obj">53625</dep>
-    <dep name="obl">81859</dep>
+    <dep name="obl">81861</dep>
     <dep name="obl:arg">33735</dep>
     <dep name="orphan">2637</dep>
     <dep name="parataxis">1888</dep>
