@@ -1,7 +1,7 @@
 # Summary
 
-The Czech-PDT UD treebank is based on the Prague Dependency Treebank – Consolidated 1.0
-(PDT-C), created at the Charles University in Prague.
+The Czech-PDT UD treebank is based on the Prague Dependency Treebank – Consolidated
+(PDT-C) 2.0, created at the Charles University in Prague.
 
 
 # Introduction
@@ -21,9 +21,9 @@ Dan Zeman and implemented in Treex.
 # Acknowledgments
 
 We wish to thank all of the contributors to the original PDT annotation effort,
-including Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová,
-Václava Kettnerová, Veronika Kolářová, Marie Mikulová, Jiří Mírovský,
-Anna Nedoluzhko, Jarmila Panevová, Lucie Poláková, Magda Ševčíková,
+including Eduard Bejček, Eva Hajičová, Jan Hajič, Václava Kettnerová,
+Veronika Kolářová, Marie Mikulová, Jiří Mírovský, Anna Nedoluzhko,
+Jarmila Panevová, Lucie Poláková, Pavlína Synková, Magda Ševčíková,
 Jan Štěpánek, and Šárka Zikánová.
 
 ## References
@@ -53,13 +53,12 @@ Jan Štěpánek, and Šárka Zikánová.
 
 # Domains and Data Split
 
-NOTE: Earlier releases of the treebank had four training data files. This was
-due to Github restrictions on file size. We have now re-joined the training
-files in the official release package (beginning with UD v1.3), so there is
-just one training file as in all other languages, and it is named
-cs-ud-train.conllu. The four files in previous releases corresponded to the
-four sources of the original texts; the sources may still be distinguished,
-if desirable, by the prefixes of sentence ids. All of them are newspapers, but
+NOTE: While the official release package on Lindat has only one training file
+(like other UD treebanks), in the GitHub repository the file is split to
+smaller parts because of GitHub file size restrictions. The four files
+correspond to the four sources of the original texts; even in the merged file
+the sources may still be distinguished, if desirable, by the prefixes of
+sentence ids. All of them are newspapers, but
 
 * l (ln) and m (mf) are mainstream daily papers (news, commentaries, but also
   sports results and TV programs)
@@ -114,6 +113,7 @@ the enhanced dependency graph.
 # Changelog
 
 * 2025-05-15 v2.16
+  * Source data is now PDT-C 2.0 (previously it was 1.0).
   * Adjectives heading clauses are acl(:relcl) rather than amod.
   * Fixed attachment of bracketed punctuation.
   * Fixed multiword expressions need the ExtPos feature.
