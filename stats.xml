@@ -10,7 +10,7 @@
     <dev><sentences>9267</sentences><tokens>158953</tokens><words>159278</words><fused>325</fused></dev>
     <test><sentences>10139</sentences><tokens>173558</tokens><words>173892</words><fused>334</fused></test>
   </size>
-  <lemmas unique="58637" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
+  <lemmas unique="58636" /><!-- ,, ., být, v, a, se, na, ten, že, z, s, -, který, ", o -->
   <forms unique="128223" /><!-- ,, ., a, v, se, na, je, že, -, o, ", s, z, ), ( -->
   <fusions unique="9" /><!-- aby, kdyby, abychom, abych, kdybychom, kdybych, abyste, kdybyste, Kdybys -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -27,9 +27,9 @@
     <tag name="PART">25159</tag><!-- i, také, jen, až, například, pouze, asi, ani, už, ovšem -->
     <tag name="PRON">44749</tag><!-- se, on, jenž, my, co, já, kdo, což, nic, něco -->
     <tag name="PROPN">74595</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
-    <tag name="PUNCT">220838</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
+    <tag name="PUNCT">220842</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
     <tag name="SCONJ">27982</tag><!-- že, jako, aby, než, když, pokud, protože, jak, li, zda -->
-    <tag name="SYM">1313</tag><!-- %, x, +, =, §, >, *, &cwildcard;, <, $ -->
+    <tag name="SYM">1309</tag><!-- %, x, +, =, §, >, *, <, $, §§ -->
     <tag name="VERB">130049</tag><!-- mít, moci, muset, stát, chtít, jít, říci, lze, dát, dostat -->
     <tag name="X">8387</tag><!-- New, de, the, of, York, open, play, off, Floyd, Pink -->
   </tags>
@@ -140,7 +140,7 @@
     <dep name="acl:relcl">16203</dep>
     <dep name="advcl">9296</dep>
     <dep name="advmod">48940</dep>
-    <dep name="advmod:emph">42791</dep>
+    <dep name="advmod:emph">42790</dep>
     <dep name="amod">156039</dep>
     <dep name="appos">9089</dep>
     <dep name="aux">14816</dep>
@@ -167,7 +167,7 @@
     <dep name="flat">22823</dep>
     <dep name="iobj">858</dep>
     <dep name="mark">28036</dep>
-    <dep name="nmod">149897</dep>
+    <dep name="nmod">149894</dep>
     <dep name="nsubj">87378</dep>
     <dep name="nsubj:pass">8730</dep>
     <dep name="nummod">19029</dep>
@@ -177,7 +177,7 @@
     <dep name="obl:arg">37522</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">1529</dep>
-    <dep name="punct">220835</dep>
+    <dep name="punct">220839</dep>
     <dep name="root">87888</dep>
     <dep name="xcomp">17484</dep>
   </deps>
