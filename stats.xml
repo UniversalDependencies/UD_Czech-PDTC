@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">184907</tag><!-- český, velký, nový, další, první, jiný, druhý, vysoký, celý, poslední -->
     <tag name="ADP">146341</tag><!-- v, na, z, s, o, do, k, pro, za, po -->
-    <tag name="ADV">64850</tag><!-- tak, více, včera, jak, už, dnes, pak, kdy, kde, ještě -->
+    <tag name="ADV">64813</tag><!-- tak, více, včera, jak, už, dnes, pak, kdy, kde, ještě -->
     <tag name="AUX">46590</tag><!-- být, bývat, bývávat, moci -->
     <tag name="CCONJ">54911</tag><!-- a, i, ale, však, nebo, či, proto, totiž, ani, až -->
     <tag name="DET">56198</tag><!-- ten, který, tento, jeho, svůj, všechen, náš, některý, každý, takový -->
@@ -28,7 +28,7 @@
     <tag name="PRON">44749</tag><!-- se, on, jenž, my, co, já, kdo, což, nic, něco -->
     <tag name="PROPN">74595</tag><!-- Praha, ČR, Evropa, LN, Jan, Jiří, Německo, Brno, ODS, USA -->
     <tag name="PUNCT">220842</tag><!-- ,, ., -, ", ), (, :, ?, /, * -->
-    <tag name="SCONJ">27982</tag><!-- že, jako, aby, než, když, pokud, protože, jak, li, zda -->
+    <tag name="SCONJ">28019</tag><!-- že, jako, aby, než, když, pokud, protože, jak, li, zda -->
     <tag name="SYM">1309</tag><!-- %, x, +, =, §, >, *, <, $, §§ -->
     <tag name="VERB">130106</tag><!-- mít, moci, muset, stát, chtít, jít, říci, lze, dát, dostat -->
     <tag name="X">8387</tag><!-- New, de, the, of, York, open, play, off, Floyd, Pink -->
@@ -57,7 +57,7 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV">4091</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejdříve, největším, nejlépe, nejbližší, nejnižší -->
     <feat name="ExtPos" value="ADJ" upos="DET">7</feat><!-- to, ty -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,CCONJ,DET,NOUN,PART,VERB,X">3511</feat><!-- v, na, ve, vzhledem, spolu, z, s, ze, společně, bez -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">158</feat><!-- přece, de, nejen, co, a, chtě, in, m, měsíc, stůj -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">214</feat><!-- přece, více, de, nejen, co, a, chtě, in, m, měsíc -->
     <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ,DET">440</feat><!-- a, to, neřku -->
     <feat name="ExtPos" value="SCONJ" upos="CCONJ,SCONJ">427</feat><!-- i, jestli, než -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">8390</feat><!-- New, de, the, of, open, York, play, off, and, Floyd -->
@@ -146,7 +146,7 @@
     <dep name="aux">14816</dep>
     <dep name="aux:pass">7881</dep>
     <dep name="case">144982</dep>
-    <dep name="cc">44374</dep>
+    <dep name="cc">44318</dep>
     <dep name="ccomp">11118</dep>
     <dep name="compound">4208</dep>
     <dep name="conj">68571</dep>
@@ -160,7 +160,7 @@
     <dep name="discourse">230</dep>
     <dep name="expl:pass">4200</dep>
     <dep name="expl:pv">18586</dep>
-    <dep name="fixed">5583</dep>
+    <dep name="fixed">5639</dep>
     <dep name="flat">22823</dep>
     <dep name="iobj">733</dep>
     <dep name="mark">28036</dep>
