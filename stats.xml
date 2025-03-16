@@ -138,14 +138,14 @@
   <deps unique="42">
     <dep name="acl">6466</dep>
     <dep name="acl:relcl">16159</dep>
-    <dep name="advcl">10646</dep>
+    <dep name="advcl">10645</dep>
     <dep name="advmod">48131</dep>
     <dep name="advmod:emph">32314</dep>
     <dep name="amod">155354</dep>
     <dep name="appos">9088</dep>
     <dep name="aux">14817</dep>
     <dep name="aux:pass">7881</dep>
-    <dep name="case">145153</dep>
+    <dep name="case">145154</dep>
     <dep name="cc">55266</dep>
     <dep name="ccomp">11118</dep>
     <dep name="compound">4208</dep>
@@ -163,7 +163,7 @@
     <dep name="fixed">5476</dep>
     <dep name="flat">22823</dep>
     <dep name="iobj">733</dep>
-    <dep name="mark">27806</dep>
+    <dep name="mark">27805</dep>
     <dep name="nmod">148421</dep>
     <dep name="nsubj">85391</dep>
     <dep name="nsubj:pass">8720</dep>
@@ -173,7 +173,7 @@
     <dep name="obl">78149</dep>
     <dep name="obl:arg">37145</dep>
     <dep name="orphan">2322</dep>
-    <dep name="parataxis">5546</dep>
+    <dep name="parataxis">5547</dep>
     <dep name="punct">220839</dep>
     <dep name="root">87888</dep>
     <dep name="vocative">95</dep>
