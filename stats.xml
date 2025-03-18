@@ -160,10 +160,10 @@
     <dep name="discourse">229</dep>
     <dep name="expl:pass">4200</dep>
     <dep name="expl:pv">18586</dep>
-    <dep name="fixed">5462</dep>
+    <dep name="fixed">5460</dep>
     <dep name="flat">22818</dep>
     <dep name="iobj">733</dep>
-    <dep name="mark">27780</dep>
+    <dep name="mark">27781</dep>
     <dep name="nmod">148421</dep>
     <dep name="nsubj">85402</dep>
     <dep name="nsubj:pass">8720</dep>
@@ -173,7 +173,7 @@
     <dep name="obl">78156</dep>
     <dep name="obl:arg">37145</dep>
     <dep name="orphan">2322</dep>
-    <dep name="parataxis">5548</dep>
+    <dep name="parataxis">5549</dep>
     <dep name="punct">220839</dep>
     <dep name="root">87888</dep>
     <dep name="vocative">95</dep>
