@@ -150,7 +150,7 @@
     <dep name="ccomp">11117</dep>
     <dep name="compound">4208</dep>
     <dep name="conj">68571</dep>
-    <dep name="cop">22551</dep>
+    <dep name="cop">22552</dep>
     <dep name="csubj">5729</dep>
     <dep name="csubj:pass">461</dep>
     <dep name="dep">7780</dep>
@@ -163,14 +163,14 @@
     <dep name="fixed">5458</dep>
     <dep name="flat">22818</dep>
     <dep name="iobj">733</dep>
-    <dep name="mark">27774</dep>
+    <dep name="mark">27772</dep>
     <dep name="nmod">148421</dep>
     <dep name="nsubj">85402</dep>
     <dep name="nsubj:pass">8720</dep>
     <dep name="nummod">18853</dep>
     <dep name="nummod:gov">9358</dep>
     <dep name="obj">54185</dep>
-    <dep name="obl">78162</dep>
+    <dep name="obl">78163</dep>
     <dep name="obl:arg">37145</dep>
     <dep name="orphan">2322</dep>
     <dep name="parataxis">5550</dep>
