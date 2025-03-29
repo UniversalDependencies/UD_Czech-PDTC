@@ -138,7 +138,7 @@
   <deps unique="42">
     <dep name="acl">6562</dep>
     <dep name="acl:relcl">16404</dep>
-    <dep name="advcl">10983</dep>
+    <dep name="advcl">10982</dep>
     <dep name="advmod">49223</dep>
     <dep name="advmod:emph">32673</dep>
     <dep name="amod">158126</dep>
@@ -173,7 +173,7 @@
     <dep name="obl">79410</dep>
     <dep name="obl:arg">37974</dep>
     <dep name="orphan">2330</dep>
-    <dep name="parataxis">6669</dep>
+    <dep name="parataxis">6670</dep>
     <dep name="punct">226396</dep>
     <dep name="root">90887</dep>
     <dep name="vocative">212</dep>
