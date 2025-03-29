@@ -145,7 +145,7 @@
     <dep name="appos">9320</dep>
     <dep name="aux">15329</dep>
     <dep name="aux:pass">8072</dep>
-    <dep name="case">147719</dep>
+    <dep name="case">147718</dep>
     <dep name="cc">56280</dep>
     <dep name="ccomp">11440</dep>
     <dep name="compound">4344</dep>
@@ -170,7 +170,7 @@
     <dep name="nummod">19209</dep>
     <dep name="nummod:gov">9436</dep>
     <dep name="obj">55874</dep>
-    <dep name="obl">79406</dep>
+    <dep name="obl">79407</dep>
     <dep name="obl:arg">37974</dep>
     <dep name="orphan">2330</dep>
     <dep name="parataxis">6669</dep>
