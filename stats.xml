@@ -149,7 +149,7 @@
     <dep name="case">205172</dep>
     <dep name="cc">79493</dep>
     <dep name="ccomp">17174</dep>
-    <dep name="compound">4569</dep>
+    <dep name="compound">4570</dep>
     <dep name="conj">105996</dep>
     <dep name="cop">56442</dep>
     <dep name="csubj">7080</dep>
@@ -173,7 +173,7 @@
     <dep name="obj">88272</dep>
     <dep name="obl">118089</dep>
     <dep name="obl:arg">51500</dep>
-    <dep name="orphan">3469</dep>
+    <dep name="orphan">3468</dep>
     <dep name="parataxis">8189</dep>
     <dep name="punct">357755</dep>
     <dep name="root">164689</dep>
