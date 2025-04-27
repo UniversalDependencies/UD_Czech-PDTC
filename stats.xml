@@ -17,9 +17,9 @@
   <tags unique="17">
     <tag name="ADJ">228066</tag><!-- velký, český, další, první, nový, druhý, jiný, celý, rád, malý -->
     <tag name="ADP">206531</tag><!-- v, na, s, z, do, o, k, za, pro, po -->
-    <tag name="ADV">128541</tag><!-- tam, už, tak, jak, kde, pak, více, ještě, tady, potom -->
-    <tag name="AUX">112137</tag><!-- být, bývat, bývávat, jít, cvičit -->
-    <tag name="CCONJ">79627</tag><!-- a, ale, i, nebo, však, takže, či, proto, totiž, ani -->
+    <tag name="ADV">128540</tag><!-- tam, už, tak, jak, kde, pak, více, ještě, tady, potom -->
+    <tag name="AUX">112136</tag><!-- být, bývat, bývávat, jít, cvičit -->
+    <tag name="CCONJ">79628</tag><!-- a, ale, i, nebo, však, takže, či, proto, totiž, ani -->
     <tag name="DET">110519</tag><!-- ten, který, tento, jeho, svůj, všechen, můj, náš, takový, nějaký -->
     <tag name="INTJ">411</tag><!-- aha, pozor, ahoj, díky, pardon, hele, nashledanou, jé, ach, hej -->
     <tag name="NOUN">487657</tag><!-- rok, léta, fotka, doba, strana, dítě, den, lidé, škola, firma -->
@@ -28,7 +28,7 @@
     <tag name="PRON">94094</tag><!-- se, on, já, my, co, vy, jenž, něco, kdo, nic -->
     <tag name="PROPN">91558</tag><!-- Praha, ČR, Plzeň, Evropa, Německo, Brno, Jiří, Jan, LN, Slovensko -->
     <tag name="PUNCT">357761</tag><!-- ., ,, ", ?, -, ), (, :, /, ! -->
-    <tag name="SCONJ">46558</tag><!-- že, když, jako, aby, protože, než, jak, pokud, li, jestli -->
+    <tag name="SCONJ">46559</tag><!-- že, když, jako, aby, protože, než, jak, pokud, li, jestli -->
     <tag name="SYM">1381</tag><!-- %, x, +, =, §, °, $, >, <, * -->
     <tag name="VERB">220908</tag><!-- mít, moci, muset, jít, říci, chtít, vědět, dělat, vidět, stát -->
     <tag name="X">9480</tag><!-- New, de, the, of, York, open, play, off, and, International -->
@@ -41,23 +41,23 @@
     <feat name="AdpType" value="Voc" upos="ADP">14858</feat><!-- ve, se, ze, ke, ode, beze, ku, přede, skrze, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">156094</feat><!-- byli, měli, kteří, kdo, lidí, všichni, člověk, lidé, ti, ministr -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">253421</feat><!-- co, byly, roce, roku, něco, rok, den, které, roky, případě -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">252557</feat><!-- je, jsem, jsme, by, bylo, byl, byla, jsou, bude, má -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">252556</feat><!-- je, jsem, jsme, by, bylo, byl, byla, jsou, bude, má -->
     <feat name="Aspect" value="Imp,Perf" upos="ADJ,VERB">5050</feat><!-- jmenuje, jmenoval, jmenovala, jmenuji, informoval, věnovat, investovat, jmenovalo, konstatoval, jmenují -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB">90743</feat><!-- řekl, říct, uvedl, podíváme, dostal, přišel, dá, řekla, podívat, začal -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">274921</feat><!-- se, na, pro, to, za, o, co, mě, v, je -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">275040</feat><!-- se, na, pro, to, za, o, co, mě, v, je -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">60357</feat><!-- si, k, mi, nám, tomu, proti, mu, ke, vám, jim -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">275257</feat><!-- z, do, od, u, podle, ze, let, roku, toho, korun -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">90412</feat><!-- s, se, před, tím, mezi, za, nad, pod, nimi, ním -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">186516</feat><!-- v, na, ve, o, po, při, roce, tom, době, fotce -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">300636</feat><!-- to, který, které, která, já, co, Praha, kteří, kdo, ten -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">300489</feat><!-- to, který, které, která, já, co, Praha, kteří, kdo, ten -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">594</feat><!-- pane, paní, ty, Vážený, bože, vážená, pánové, vážení, čtenáři, miláčku -->
     <feat name="ConjType" value="Oper" upos="CCONJ,SYM">229</feat><!-- x, plus, krát, >, <, mínus, -, ., děleno, kráte -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">10429</feat><!-- více, víc, větší, později, starší, méně, dříve, mladší, vyšší, lepší -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">232056</feat><!-- další, české, dobře, dost, často, poslední, ráda, stále, nové, dlouho -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">5442</feat><!-- největší, nejlepší, nejvíce, nejvyšší, nejméně, nejvíc, nejstarší, nejmladší, nejbližší, nejdřív -->
-    <feat name="ExtPos" value="ADJ" upos="DET">498</feat><!-- to, ty, ten, ti, ta -->
+    <feat name="ExtPos" value="ADJ" upos="DET">29</feat><!-- ty, ten, ti, ta -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,CCONJ,NOUN,VERB,X">3874</feat><!-- v, na, ve, vzhledem, spolu, z, s, ze, směrem, společně -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">309</feat><!-- přece, více, de, víc, nejen, co, a, všeho, rok, chtě -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">310</feat><!-- přece, více, de, víc, nejen, co, a, všeho, rok, chtě -->
     <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ,DET">565</feat><!-- a, to, neřku -->
     <feat name="ExtPos" value="SCONJ" upos="ADV,CCONJ,SCONJ">798</feat><!-- i, jestli, než, zatím -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">9483</feat><!-- New, de, the, of, York, open, play, off, and, International -->
@@ -66,13 +66,13 @@
     <feat name="Gender" value="Fem,Neut" upos="ADJ,AUX,DET,NUM,VERB">35045</feat><!-- byla, měla, dvě, moje, ráda, naše, nebyla, mohla, musela, vaše -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">447389</feat><!-- byl, který, byli, měl, roce, měli, roku, ten, kteří, dva -->
     <feat name="Gender" value="Masc,Neut" upos="DET,NUM,PRON">21440</feat><!-- tím, tom, toho, tomu, ho, mu, tohoto, tomto, něj, svého -->
-    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">175213</feat><!-- to, bylo, let, všechno, letech, které, procent, tohle, nebylo, toto -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">175185</feat><!-- to, bylo, let, všechno, letech, které, procent, tohle, nebylo, toto -->
     <feat name="Gender[psor]" value="Fem" upos="ADJ,DET">1950</feat><!-- její, jejím, jejíž, jejího, jejích, jejímž, jejímu, jejími, maminčina, maminčiny -->
     <feat name="Gender[psor]" value="Masc" upos="ADJ">3151</feat><!-- Karlovy, Karlových, Nobelovy, Masarykově, Milíčova, Karlově, tatínkova, Karlova, manželova, manželův -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">3418</feat><!-- jeho, jehož -->
     <feat name="Hyph" value="Yes" upos="ADJ">625</feat><!-- česko, izraelsko, e, německo, ping, Tchaj, rusko, coca, matematicko, srbsko -->
     <feat name="Mood" value="Cnd" upos="AUX">12783</feat><!-- by, bych, bychom, byste, bys, bysme, bysem -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">2145</feat><!-- viz, Začněme, počkejte, řekněte, buď, dejme, řekněme, pojďme, buďte, představte -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">2144</feat><!-- viz, Začněme, počkejte, řekněte, buď, dejme, řekněme, pojďme, buďte, představte -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">155534</feat><!-- je, jsem, jsme, jsou, bude, má, jste, není, může, mají -->
     <feat name="NameType" value="Geo" upos="PROPN">33927</feat><!-- Praha, Praze, ČR, Prahy, USA, Plzni, Brno, Německu, Německa, ČSFR -->
     <feat name="NameType" value="Geo,Giv" upos="ADJ,PROPN">1007</feat><!-- Evropy, Evropě, Evropa, Evropu, Martina, Evropou, Doubravce, Sofia, Černá, Dubé -->
@@ -87,7 +87,7 @@
     <feat name="Number" value="Dual" upos="ADJ,DET,NOUN,NUM">191</feat><!-- očima, rukama, nohama, oběma, dvěma, zavřenýma, čtyřma, mýma, těma, ušima -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SCONJ,SYM,VERB">339908</feat><!-- jsme, jsou, jste, které, byli, let, byly, nás, měli, nám -->
     <feat name="Number" value="Plur,Sing" upos="ADJ,AUX,VERB">31728</feat><!-- byla, měla, ráda, nebyla, mohla, musela, řekla, chodila, dělala, šla -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">847902</feat><!-- je, to, jsem, bylo, byl, který, má, bude, není, která -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">847873</feat><!-- je, to, jsem, bylo, byl, který, má, bude, není, která -->
     <feat name="Number[psor]" value="Plur" upos="DET">6885</feat><!-- jejich, naše, naší, náš, vaše, našich, váš, naši, našeho, jejichž -->
     <feat name="Number[psor]" value="Sing" upos="DET">8888</feat><!-- jeho, její, moje, můj, mého, mé, moji, jehož, mojí, jejím -->
     <feat name="NumForm" value="Digit" upos="NUM">33178</feat><!-- 1, 2, 3, 4, 6, 5, 10, 1992, 1994, 1993 -->
@@ -100,10 +100,10 @@
     <feat name="NumType" value="Ord" upos="ADJ,DET">7089</feat><!-- první, druhé, druhý, prvním, třetí, druhá, druhou, prvního, prvních, druhého -->
     <feat name="NumType" value="Sets" upos="DET,NUM">67</feat><!-- jedny, jedni, jedněch, jedněmi, jedněm, několikerého, několikery, několikerá, několikerý, tolikeré -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,SCONJ,VERB">70770</feat><!-- jsem, jsme, nás, mi, mě, já, nám, bych, mám, nevím -->
-    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">14161</feat><!-- jste, vám, vás, máte, vámi, vaše, váš, vy, byste, tě -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">14160</feat><!-- jste, vám, vás, máte, vámi, vaše, váš, vy, byste, tě -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">122718</feat><!-- je, jsou, jeho, bude, má, není, jejich, ho, může, mají -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">32110</feat><!-- není, nevím, nebylo, nebyl, nebyla, nejsou, nemá, nebude, nelze, nemůže -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,SYM,VERB">540783</feat><!-- je, jsem, jsme, bylo, byl, byla, jsou, bude, má, jste -->
+    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,SYM,VERB">540782</feat><!-- je, jsem, jsme, bylo, byl, byla, jsou, bude, má, jste -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">25065</feat><!-- jeho, jejich, své, její, moje, můj, svou, naše, svého, svých -->
     <feat name="PrepCase" value="Npr" upos="PRON">6113</feat><!-- je, ji, jim, jí, jich, jej, jehož, jím, jemuž, jež -->
     <feat name="PrepCase" value="Pre" upos="PRON">6111</feat><!-- ní, nich, něj, nimi, ním, ně, něm, nichž, níž, ni -->
@@ -128,7 +128,7 @@
     <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,SCONJ,SYM,VERB">220</feat><!-- Reuter, dne, vánoce, cherry, vánocích, Harachova, vánocemi, přívěšek, velikonoce, vizum -->
     <feat name="Variant" value="Short" upos="ADJ,DET,PRON">68899</feat><!-- se, si, mi, mě, ho, mu, ráda, rád, sám, sama -->
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">134</feat><!-- nemluvě, vlastně, říkajíc, Mluvě, konče, soudě, jsouce, počínaje, jsa, jsouc -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">170462</feat><!-- je, jsem, jsme, by, jsou, bude, má, jste, není, bych -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">170461</feat><!-- je, jsem, jsme, by, jsou, bude, má, jste, není, bych -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">37269</feat><!-- být, mít, vidět, říct, dělat, jít, podívat, hrát, stát, získat -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">156966</feat><!-- bylo, byl, byla, byli, byly, měl, měli, měla, řekl, nebylo -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">29284</feat><!-- jednání, vedení, utkání, rozhodnutí, zařízení, řešení, řízení, setkání, opatření, oddělení -->
@@ -140,8 +140,8 @@
     <dep name="acl">8428</dep>
     <dep name="acl:relcl">21630</dep>
     <dep name="advcl">20968</dep>
-    <dep name="advmod">97640</dep>
-    <dep name="advmod:emph">57209</dep>
+    <dep name="advmod">98081</dep>
+    <dep name="advmod:emph">57212</dep>
     <dep name="amod">183698</dep>
     <dep name="appos">12656</dep>
     <dep name="aux">43133</dep>
@@ -151,7 +151,7 @@
     <dep name="ccomp">17174</dep>
     <dep name="compound">4570</dep>
     <dep name="conj">105996</dep>
-    <dep name="cop">56442</dep>
+    <dep name="cop">56459</dep>
     <dep name="csubj">7080</dep>
     <dep name="csubj:pass">654</dep>
     <dep name="dep">12296</dep>
@@ -161,7 +161,7 @@
     <dep name="discourse">1211</dep>
     <dep name="expl:pass">7894</dep>
     <dep name="expl:pv">33616</dep>
-    <dep name="fixed">6934</dep>
+    <dep name="fixed">6465</dep>
     <dep name="flat">25214</dep>
     <dep name="iobj">1587</dep>
     <dep name="mark">46338</dep>
@@ -171,8 +171,8 @@
     <dep name="nummod">24504</dep>
     <dep name="nummod:gov">11722</dep>
     <dep name="obj">88272</dep>
-    <dep name="obl">118089</dep>
-    <dep name="obl:arg">51500</dep>
+    <dep name="obl">118094</dep>
+    <dep name="obl:arg">51503</dep>
     <dep name="orphan">3468</dep>
     <dep name="parataxis">8189</dep>
     <dep name="punct">357755</dep>
