@@ -24,11 +24,11 @@
     <tag name="INTJ">464</tag><!-- aha, pozor, ahoj, díky, pardon, ach, hele, nashledanou, proboha, jé -->
     <tag name="NOUN">782703</tag><!-- společnost, rok, dolar, akcie, léta, firma, cena, trh, doba, den -->
     <tag name="NUM">104456</tag><!-- jeden, milion, dva, 1, tři, miliarda, 2, oba, 3, 4 -->
-    <tag name="PART">66253</tag><!-- i, tak, asi, také, ještě, jen, až, taky, ne, už -->
+    <tag name="PART">66255</tag><!-- i, tak, asi, také, ještě, jen, až, taky, ne, už -->
     <tag name="PRON">118654</tag><!-- se, on, já, co, my, jenž, vy, což, něco, kdo -->
     <tag name="PROPN">130646</tag><!-- Praha, ČR, Evropa, USA, Německo, Plzeň, Brno, Jiří, Jan, LN -->
     <tag name="PUNCT">526543</tag><!-- ,, ., ", -, ?, ), (, :, /, & -->
-    <tag name="SCONJ">78221</tag><!-- že, když, jako, aby, než, protože, jak, pokud, li, zda -->
+    <tag name="SCONJ">78219</tag><!-- že, když, jako, aby, než, protože, jak, pokud, li, zda -->
     <tag name="SYM">7573</tag><!-- %, $, +, x, =, §, °, >, <, * -->
     <tag name="VERB">319942</tag><!-- mít, moci, říci, muset, říkat, uvést, jít, chtít, stát, vědět -->
     <tag name="X">47618</tag><!-- Corp, Inc, co, New, s, Wall, street, San, International, de -->
@@ -147,7 +147,7 @@
     <dep name="aux">54094</dep>
     <dep name="aux:pass">15422</dep>
     <dep name="case">317658</dep>
-    <dep name="cc">112661</dep>
+    <dep name="cc">112660</dep>
     <dep name="ccomp">35050</dep>
     <dep name="compound">10807</dep>
     <dep name="conj">141370</dep>
@@ -158,7 +158,7 @@
     <dep name="det">72968</dep>
     <dep name="det:numgov">2936</dep>
     <dep name="det:nummod">1295</dep>
-    <dep name="discourse">1269</dep>
+    <dep name="discourse">1270</dep>
     <dep name="expl:pass">9809</dep>
     <dep name="expl:pv">45998</dep>
     <dep name="fixed">11238</dep>
