@@ -113,7 +113,9 @@ the enhanced dependency graph.
 # Changelog
 
 * 2025-05-15 v2.16
+  * Repository renamed from UD_Czech-PDT to UD_Czech-PDTC.
   * Source data is now PDT-C 2.0 (previously it was 1.0).
+    * Large amount of data added. Previously only the core PDT part was converted to UD. Now there is also PCEDT, PDTSC, and Faust.
   * Adjectives heading clauses are acl(:relcl) rather than amod.
   * Fixed attachment of bracketed punctuation.
   * Fixed multiword expressions need the ExtPos feature.
@@ -244,7 +246,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Zeman, Daniel; Hajič, Jan
+Contributors: Zeman, Daniel; Hajič, Jan; Mikulová, Marie; Štěpánková, Barbora
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
