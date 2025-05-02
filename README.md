@@ -1,21 +1,94 @@
 # Summary
 
-The Czech-PDT UD treebank is based on the Prague Dependency Treebank – Consolidated
+The Czech-PDTC UD treebank is based on the Prague Dependency Treebank – Consolidated
 (PDT-C) 2.0, created at the Charles University in Prague.
 
 
 # Introduction
 
-The treebank consists of 87,907 sentences (1.5 M tokens) and its domain is
-mainly newswire, reaching also to business and popular scientific articles
-from the 1990s. The treebank is licensed under the terms of
+[PDT-C](https://ufal.mff.cuni.cz/pdt-c)
+is a collection of four treebanks that were previously released independently:
+
+* **PDT:** The original [Prague Dependency Treebank](https://ufal.mff.cuni.cz/pdt3.5),
+  based on texts from daily newspapers, a business weekly, and a popular science magazine, all from 1990s.
+* **PCEDT:** The Czech part of the [Prague Czech-English Dependency Treebank](https://ufal.mff.cuni.cz/pcedt2.0/).
+  The texts are Czech translations of the Wall Street Journal data in the Penn Treebank.
+* **PDTSC:** [Prague Dependency Treebank of Spoken Czech](https://ufal.mff.cuni.cz/pdtsc2.0).
+  It contains transcriptions of spontaneous dialogs from the Malach and Companions projects.
+* **Faust:** A small dataset prepared for the [Faust](https://ufal.mff.cuni.cz/grants/faust) project.
+  It contains user-generated Czech translations of English sentences, created during testing a machine
+  translation system.
+
+The treebank consists of 3.4 M tokens. It is licensed under the terms of
 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 and its original (non-UD) version can be downloaded from
-[http://hdl.handle.net/11234/1-3185](http://hdl.handle.net/11234/1-3185).
+[http://hdl.handle.net/11234/1-5813](http://hdl.handle.net/11234/1-5813).
 
 The morphological and syntactic annotation of the Czech UD treebank is created
-through a conversion of PDT data. The conversion procedure has been designed by
-Dan Zeman and implemented in Treex.
+through a conversion of PDT-C data. The conversion procedure has been designed by
+Daniel Zeman and implemented in Treex.
+
+
+# Domains and Data Split
+
+NOTE: While the official release package on Lindat has only one training file
+(like other UD treebanks), in the GitHub repository the file is split to
+smaller parts because of GitHub file size restrictions. The individual files
+correspond to the sources of the original texts; even in the merged file
+the sources may still be distinguished, if desirable, by the prefixes of
+sentence ids (indicated in parentheses below).
+
+* l (ln) and m (mf) are mainstream daily papers (news, commentaries, but also
+  sports results and TV programs)
+* c (cmpr) is a business weekly
+* v (vesm) contains popular scientific articles (the hardest to parse: long
+  sentences and unusual vocabulary)
+* w (wsj) are the translated texts from the Wall Street Journal.
+* s (pdtsc) are the transcribed dialogs from PDTSC.
+* f (faust) are the segments from the Faust project.
+
+The dev and test sets contain all sources and their size is proportional
+to the sizes of the respective training parts.
+
+
+## Source of annotations
+
+This table summarizes the origins and checking of the various columns of the CoNLL-U data.
+
+| Column | Status |
+| ------ | ------ |
+| ID     | Sentence segmentation and (surface) tokenization was automatically done and then hand-corrected; see [PDT documentation](http://ufal.mff.cuni.cz/pdt2.0/doc/pdt-guide/en/html/ch02.html). Splitting of fused tokens into syntactic words was done automatically during PDT-to-UD conversion. |
+| FORM   | Identical to Prague Dependency Treebank form. |
+| LEMMA  | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. PDT-to-UD conversion stripped from lemmas the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
+| UPOS   | Converted automatically from XPOS (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
+| XPOS   | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. |
+| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
+| HEAD   | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| DEPREL | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| DEPS   | Generated from the basic UD tree and additional annotation from the original PDT. |
+| MISC   | Information about token spacing taken from PDT annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT lemma. Some other annotation from PDT, such as coreference and functors (for parts of the corpus). |
+
+The original PDT has four layers of annotation: word layer, morphological layer,
+analytical (surface-syntactic) layer, and tectogrammatical (deep-syntactic) layer;
+they are also referred to as w-, m-, a-, and t-layer. Until UD release 2.11, the
+conversion was based only on the first three layers. From release 2.12 on, the
+conversion procedure also uses information from the t-layer. Note that this layer
+of annotation is not available for the entire treebank but only for a part of it.
+Sentences for which the t-layer was available can be recognized by the sentence-
+level comment "Tectogrammatical annotation available." Some attributes specific
+to the t-layer are ported to the MISC column of the CoNLL-U file:
+
+* Functor ... The tectogrammatical functor of this node w.r.t. its parent in the
+  t-tree. It often corresponds to the parent in the UD tree but it is not always
+  the case.
+* Entity ... Coreference annotation in the [CorefUD](https://ufal.mff.cuni.cz/corefud)
+  format. While the format could be also used for named entity annotation, named
+  entities are annotated only if it is needed for coreference.
+* Bridging ... Annotation of bridging relations in the CorefUD format.
+
+Furthermore, conversion of syntactic annotation may occasionally differ from what
+it would look like without the tectogrammatical input. This is especially true of
+the enhanced dependency graph.
 
 
 # Acknowledgments
@@ -49,65 +122,6 @@ Jan Štěpánek, and Šárka Zikánová.
   In: Proceedings of the 24th International Conference on Computational
   Linguistics (Coling 2012), Mumbai, India, pp. 231-246.
   http://www.aclweb.org/anthology/C/C12/C12-1015.pdf
-
-
-# Domains and Data Split
-
-NOTE: While the official release package on Lindat has only one training file
-(like other UD treebanks), in the GitHub repository the file is split to
-smaller parts because of GitHub file size restrictions. The four files
-correspond to the four sources of the original texts; even in the merged file
-the sources may still be distinguished, if desirable, by the prefixes of
-sentence ids. All of them are newspapers, but
-
-* l (ln) and m (mf) are mainstream daily papers (news, commentaries, but also
-  sports results and TV programs)
-* c (cmpr) is a business weekly
-* v (vesm) contains popular scientific articles (the hardest to parse: long
-  sentences and unusual vocabulary)
-
-The dev and test sets contain all four sources and their size is proportional
-to the sizes of the respective training parts.
-
-
-## Source of annotations
-
-This table summarizes the origins and checking of the various columns of the CoNLL-U data.
-
-| Column | Status |
-| ------ | ------ |
-| ID     | Sentence segmentation and (surface) tokenization was automatically done and then hand-corrected; see [PDT documentation](http://ufal.mff.cuni.cz/pdt2.0/doc/pdt-guide/en/html/ch02.html). Splitting of fused tokens into syntactic words was done automatically during PDT-to-UD conversion. |
-| FORM   | Identical to Prague Dependency Treebank 3.0 form. |
-| LEMMA  | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. PDT-to-UD conversion stripped from lemmas the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
-| UPOS   | Converted automatically from XPOS (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
-| XPOS   | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. |
-| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
-| HEAD   | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
-| DEPREL | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
-| DEPS   | Generated from the basic UD tree and additional annotation from the original PDT. |
-| MISC   | Information about token spacing taken from PDT annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT lemma. Some other annotation from PDT, such as coreference and functors (for parts of the corpus). |
-
-The original PDT has four layers of annotation: word layer, morphological layer,
-analytical (surface-syntactic) layer, and tectogrammatical (deep-syntactic) layer;
-they are also referred to as w-, m-, a-, and t-layer. Until UD release 2.11, the
-conversion was based only on the first three layers. From release 2.12 on, the
-conversion procedure also uses information from the t-layer. Note that this layer
-of annotation is not available for the entire treebank but only for a part of it.
-Sentences for which the t-layer was available can be recognized by the sentence-
-level comment "Tectogrammatical annotation available." Some attributes specific
-to the t-layer are ported to the MISC column of the CoNLL-U file:
-
-* Functor ... The tectogrammatical functor of this node w.r.t. its parent in the
-  t-tree. It often corresponds to the parent in the UD tree but it is not always
-  the case.
-* Entity ... Coreference annotation in the [CorefUD](https://ufal.mff.cuni.cz/corefud)
-  format. While the format could be also used for named entity annotation, named
-  entities are annotated only if it is needed for coreference.
-* Bridging ... Annotation of bridging relations in the CorefUD format.
-
-Furthermore, conversion of syntactic annotation may occasionally differ from what
-it would look like without the tectogrammatical input. This is especially true of
-the enhanced dependency graph.
 
 
 # Changelog
@@ -240,7 +254,7 @@ the enhanced dependency graph.
 Data available since: UD v1.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: news reviews nonfiction
+Genre: news reviews nonfiction academic spoken social
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
