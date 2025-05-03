@@ -260,7 +260,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Zeman, Daniel; Hajič, Jan; Mikulová, Marie; Štěpánková, Barbora
+Contributors: Zeman, Daniel; Hajič, Jan; Mikulová, Marie; Štěpánková, Barbora; Štěpánek, Jan
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
