@@ -1,4 +1,4 @@
-The Czech UD treebank is derived from the Prague Dependency Treebank – Consolidated 1.0 (PDT-C 1.0) and is distributed under the same license terms as PDT-C 1.0, which is
+The Czech UD treebank is derived from the Prague Dependency Treebank – Consolidated 2.0 (PDT-C 2.0) and is distributed under the same license terms as PDT-C 2.0, which is
 CreativeCommons BY-NC-SA 4.0
 http://creativecommons.org/licenses/by-nc-sa/4.0/
 http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode

@@ -1,99 +1,85 @@
 # Summary
 
-The Czech-PDT UD treebank is based on the Prague Dependency Treebank – Consolidated 1.0
-(PDT-C), created at the Charles University in Prague.
+The Czech-PDTC UD treebank is based on the Prague Dependency Treebank – Consolidated
+(PDT-C) 2.0, created at the Charles University in Prague.
 
 
 # Introduction
 
-The treebank consists of 87,907 sentences (1.5 M tokens) and its domain is
-mainly newswire, reaching also to business and popular scientific articles
-from the 1990s. The treebank is licensed under the terms of
+[PDT-C](https://ufal.mff.cuni.cz/pdt-c)
+is a collection of four treebanks that were previously released independently
+and that are now enhanced with further manual linguistic annotation:
+
+* **PDT:** The original [Prague Dependency Treebank](https://ufal.mff.cuni.cz/pdt3.5),
+  based on texts from daily newspapers, a business weekly, and a popular science magazine, all from 1990s.
+* **PCEDT:** The Czech part of the [Prague Czech-English Dependency Treebank](https://ufal.mff.cuni.cz/pcedt2.0/).
+  The texts are Czech translations of the Wall Street Journal data in the Penn Treebank.
+* **PDTSC:** [Prague Dependency Treebank of Spoken Czech](https://ufal.mff.cuni.cz/pdtsc2.0).
+  It contains transcriptions of spontaneous dialogs from the Malach and Companions projects.
+* **Faust:** A small dataset prepared for the [Faust](https://ufal.mff.cuni.cz/grants/faust) project.
+  It contains user-generated Czech translations of English sentences, created during testing a machine
+  translation system.
+
+The treebank consists of 3.4 M tokens. It is licensed under the terms of
 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 and its original (non-UD) version can be downloaded from
-[http://hdl.handle.net/11234/1-3185](http://hdl.handle.net/11234/1-3185).
+[http://hdl.handle.net/11234/1-5813](http://hdl.handle.net/11234/1-5813).
 
 The morphological and syntactic annotation of the Czech UD treebank is created
-through a conversion of PDT data. The conversion procedure has been designed by
-Dan Zeman and implemented in Treex.
-
-
-# Acknowledgments
-
-We wish to thank all of the contributors to the original PDT annotation effort,
-including Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová,
-Václava Kettnerová, Veronika Kolářová, Marie Mikulová, Jiří Mírovský,
-Anna Nedoluzhko, Jarmila Panevová, Lucie Poláková, Magda Ševčíková,
-Jan Štěpánek, and Šárka Zikánová.
-
-## References
-
-* Jan Hajič, Eduard Bejček, Jaroslava Hlaváčová, Marie Mikulová, Milan Straka,
-  Jan Štěpánek, and Barbora Štěpánková. 2020. Prague Dependency Treebank –
-  Consolidated 1.0.
-  In: Proceedings of the 12th Conference on Language Resources and Evaluation
-  (LREC 2020), Marseille, France, pp. 5208-5218.
-  https://aclanthology.org/2020.lrec-1.641.pdf
-
-* Eduard Bejček, Eva Hajičová, Jan Hajič, Pavlína Jínová, Václava Kettnerová,
-  Veronika Kolářová, Marie Mikulová, Jiří Mírovský, Anna Nedoluzhko,
-  Jarmila Panevová, Lucie Poláková, Magda Ševčíková, Jan Štěpánek,
-  and Šárka Zikánová. 2013. Prague Dependency Treebank 3.0,
-  LINDAT/CLARIN digital library at Institute of Formal and Applied Linguistics,
-  Charles University in Prague,
-  http://hdl.handle.net/11858/00-097C-0000-0023-1AAF-3.
-
-* Eduard Bejček, Jarmila Panevová, Jan Popelka, Pavel Straňák, Magda Ševčíková,
-  Jan Štěpánek, and Zdeněk Žabokrtský. 2012. Prague Dependency Treebank 2.5 –
-  a revisited version of PDT 2.0.
-  In: Proceedings of the 24th International Conference on Computational
-  Linguistics (Coling 2012), Mumbai, India, pp. 231-246.
-  http://www.aclweb.org/anthology/C/C12/C12-1015.pdf
+through a conversion of PDT-C data. The conversion procedure has been designed by
+Daniel Zeman and implemented in Treex.
 
 
 # Domains and Data Split
 
-NOTE: Earlier releases of the treebank had four training data files. This was
-due to Github restrictions on file size. We have now re-joined the training
-files in the official release package (beginning with UD v1.3), so there is
-just one training file as in all other languages, and it is named
-cs-ud-train.conllu. The four files in previous releases corresponded to the
-four sources of the original texts; the sources may still be distinguished,
-if desirable, by the prefixes of sentence ids. All of them are newspapers, but
+NOTE: While the official release package on Lindat has only one training file
+(like other UD treebanks), in the GitHub repository the file is split to
+smaller parts because of GitHub file size restrictions. The individual files
+correspond to the sources of the original texts; even in the merged file
+the sources may still be distinguished, if desirable, by the prefixes of
+sentence ids (indicated in parentheses below).
 
 * l (ln) and m (mf) are mainstream daily papers (news, commentaries, but also
   sports results and TV programs)
 * c (cmpr) is a business weekly
 * v (vesm) contains popular scientific articles (the hardest to parse: long
   sentences and unusual vocabulary)
+* w (wsj) are the translated texts from the Wall Street Journal.
+* s (pdtsc) are the transcribed dialogs from PDTSC.
+* f (faust) are the segments from the Faust project.
 
-The dev and test sets contain all four sources and their size is proportional
+The dev and test sets contain all sources and their size is proportional
 to the sizes of the respective training parts.
 
 
 ## Source of annotations
 
 This table summarizes the origins and checking of the various columns of the CoNLL-U data.
+In the original PDT, manual annotation was done by two annotators and then an arbiter.
+This does not hold for all parts of PDT-C; however, double annotation was performed randomly
+at several places, and the whole dataset underwent numerous automatic quality checks.
+Patterns revealed by automatic consistency tests were checked by human annotators again.
+Additional consistency tests were performed after conversion to UD.
 
 | Column | Status |
 | ------ | ------ |
 | ID     | Sentence segmentation and (surface) tokenization was automatically done and then hand-corrected; see [PDT documentation](http://ufal.mff.cuni.cz/pdt2.0/doc/pdt-guide/en/html/ch02.html). Splitting of fused tokens into syntactic words was done automatically during PDT-to-UD conversion. |
-| FORM   | Identical to Prague Dependency Treebank 3.0 form. |
-| LEMMA  | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. PDT-to-UD conversion stripped from lemmas the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
-| UPOS   | Converted automatically from XPOS (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
-| XPOS   | Manual selection from possibilities provided by morphological analysis: two annotators and then an arbiter. |
-| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank; human checking of patterns revealed by automatic consistency tests. |
-| HEAD   | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
-| DEPREL | Original PDT annotation is manual, done by two independent annotators and then an arbiter. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
-| DEPS   | Generated from the basic UD tree and additional annotation from the original PDT. |
-| MISC   | Information about token spacing taken from PDT annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT lemma. Some other annotation from PDT, such as coreference and functors (for parts of the corpus). |
+| FORM   | Identical to PDT-C form. |
+| LEMMA  | Manual selection from possibilities provided by morphological analysis. In the UD conversion, PDT-C lemmas were stripped of the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
+| UPOS   | Converted automatically from XPOS (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT-C lemma, and occasionally from other information available in the treebank. |
+| XPOS   | Manual selection from possibilities provided by morphological analysis. |
+| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank. |
+| HEAD   | Original PDT-C annotation is manual. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| DEPREL | Original PDT-C annotation is manual. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
+| DEPS   | Generated from the basic UD tree and additional annotation from the original PDT-C. |
+| MISC   | Information about token spacing taken from PDT-C annotation. Lemma / word sense IDs, semantic tags and comments on meaning moved here from the PDT-C lemma. Some other annotation from PDT-C, such as coreference and functors (for parts of the corpus). |
 
-The original PDT has four layers of annotation: word layer, morphological layer,
+The original PDT-C has four layers of annotation: word layer, morphological layer,
 analytical (surface-syntactic) layer, and tectogrammatical (deep-syntactic) layer;
 they are also referred to as w-, m-, a-, and t-layer. Until UD release 2.11, the
 conversion was based only on the first three layers. From release 2.12 on, the
 conversion procedure also uses information from the t-layer. Note that this layer
-of annotation is not available for the entire treebank but only for a part of it.
+of annotation is not available for the entire treebank.
 Sentences for which the t-layer was available can be recognized by the sentence-
 level comment "Tectogrammatical annotation available." Some attributes specific
 to the t-layer are ported to the MISC column of the CoNLL-U file:
@@ -111,8 +97,55 @@ it would look like without the tectogrammatical input. This is especially true o
 the enhanced dependency graph.
 
 
+# Acknowledgments
+
+We wish to thank all of the contributors to the original PDT-C annotation effort,
+including Jan Hajič, Eduard Bejček, Alevtina Bémová, Eva Buráňová, Eva Fučíková,
+Eva Hajičová, Jiří Havelka, Jaroslava Hlaváčová, Petr Homola, Pavel Ircing, Jiří Kárník,
+Václava Kettnerová, Natalia Klyueva, Veronika Kolářová, Lucie Kučová, Markéta Lopatková,
+David Mareček, Marie Mikulová, Jiří Mírovský, Anna Nedoluzhko, Michal Novák, Petr Pajas,
+Jarmila Panevová, Nino Peterek, Lucie Poláková, Martin Popel, Jan Popelka, Jan Romportl,
+Magdaléna Rysová, Jiří Semecký, Petr Sgall, Johanka Spoustová, Milan Straka, Pavel Straňák,
+Pavlína Synková, Magda Ševčíková, Jana Šindlerová, Jan Štěpánek, Barbora Štěpánková,
+Josef Toman, Zdeňka Urešová, Barbora Vidová Hladká, Daniel Zeman, Šárka Zikánová,
+Zdeněk Žabokrtský, and many other contributors (technical support, guidelines, annotators)
+– they are listed in the [Credits](https://ufal.mff.cuni.cz/pdt-c/credits)
+page of the project website.
+
+## References
+
+* Jan Hajič, Eduard Bejček, Jaroslava Hlaváčová, Marie Mikulová, Milan Straka,
+  Jan Štěpánek, and Barbora Štěpánková. 2020. Prague Dependency Treebank –
+  Consolidated 1.0.
+  In: Proceedings of the 12th Conference on Language Resources and Evaluation
+  (LREC 2020), Marseille, France, pp. 5208-5218.
+  https://aclanthology.org/2020.lrec-1.641.pdf
+* Jan Hajič, Eduard Bejček, Alevtina Bémová, Eva Buráňová, Eva Fučíková,
+  Eva Hajičová, Jiří Havelka, Jaroslava Hlaváčová, Petr Homola, Pavel Ircing,
+  Jiří Kárník, Václava Kettnerová, Natalia Klyueva, Veronika Kolářová, Petr Pajas,
+  Jarmila Panevová, Nino Peterek, Lucie Poláková, Martin Popel, Jan Popelka,
+  Jan Romportl, Magdaléna Rysová, Jiří Semecký, Petr Sgall, Johanka Spoustová,
+  Milan Straka, Pavel Straňák, Pavlína Synková, Magda Ševčíková, Jana Šindlerová,
+  Jan Štěpánek, Barbora Štěpánková, Josef Toman, Zdeňka Urešová, Barbora Vidová Hladká,
+  Daniel Zeman, Šárka Zikánová, Zdeněk Žabokrtský. 2024.
+  Prague Dependency Treebank – Consolidated 2.0 (PDT-C 2.0).
+  Data/software, LINDAT/CLARIAH-CZ digital library, Praha, Czechia,
+  [http://hdl.handle.net/11234/1-5813](http://hdl.handle.net/11234/1-5813).
+
+
 # Changelog
 
+* 2025-05-15 v2.16
+  * Repository renamed from UD_Czech-PDT to UD_Czech-PDTC.
+  * Source data is now PDT-C 2.0 (previously it was 1.0).
+    * Large amount of data added. Previously only the core PDT part was converted to UD. Now there is also PCEDT, PDTSC, and Faust.
+  * Adjectives heading clauses are acl(:relcl) rather than amod.
+  * Fixed attachment of bracketed punctuation.
+  * Fixed multiword expressions need the ExtPos feature.
+  * Fixed: demonstratives with clauses: det --> nmod.
+  * Fixed: genitive postmodifiers should be nmod (not amod, nummod, det).
+  * More generally, non-agreeing postponed determiners are now mostly nmod.
+  * No longer distinguishing flat:foreign from flat.
 * 2024-11-15 v2.15
   * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
   * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).
@@ -230,13 +263,13 @@ the enhanced dependency graph.
 Data available since: UD v1.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: news reviews nonfiction
+Genre: news reviews nonfiction academic spoken social
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Zeman, Daniel; Hajič, Jan
+Contributors: Zeman, Daniel; Hajič, Jan; Bémová, Alevtina; Buráňová, Eva; Hajičová, Eva; Havelka, Jiří; Hlaváčová, Jaroslava; Kárník, Jiří; Kolářová, Veronika; Kučová, Lucie; Lopatková, Markéta; Mikulová, Marie; Mírovský, Jiří; Nedoluzhko, Anna; Novák, Michal; Pajas, Petr; Panevová, Jarmila; Sgall, Petr; Straka, Milan; Ševčíková, Magda; Štěpánek, Jan; Štěpánková, Barbora; Urešová, Zdeňka; Vidová Hladká, Barbora; Žabokrtský, Zdeněk
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
