@@ -68,7 +68,7 @@ Additional consistency tests were performed after conversion to UD.
 | LEMMA  | Manual selection from possibilities provided by morphological analysis. In the UD conversion, PDT-C lemmas were stripped of the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
 | UPOS   | Converted automatically from XPOS (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT-C lemma, and occasionally from other information available in the treebank. |
 | XPOS   | Manual selection from possibilities provided by morphological analysis. |
-| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank. |
+| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT-C lemma, and occasionally from other information available in the treebank. |
 | HEAD   | Original PDT-C annotation is manual. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
 | DEPREL | Original PDT-C annotation is manual. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
 | DEPS   | Generated from the basic UD tree and additional annotation from the original PDT-C. |
