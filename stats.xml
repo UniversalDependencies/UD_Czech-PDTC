@@ -41,7 +41,7 @@
     <feat name="AdpType" value="Voc" upos="ADP">25641</feat><!-- ve, se, ze, ke, beze, ode, ku, skrze, přede, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">229116</feat><!-- byli, kteří, měli, kdo, lidí, pan, prezident, ředitel, lidé, předseda -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">429883</feat><!-- dolarů, co, roce, byly, roku, milionů, trhu, milionu, rok, něco -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">340651</feat><!-- je, by, jsem, jsme, byl, jsou, bylo, byla, bude, má -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">341048</feat><!-- je, by, jsem, jsme, byl, jsou, bylo, byla, bude, má -->
     <feat name="Aspect" value="Imp,Perf" upos="ADJ,VERB">7094</feat><!-- jmenuje, jmenován, jmenoval, jmenovala, jmenuji, investovat, informoval, věnovat, komentovat, konstatoval -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB">144881</feat><!-- řekl, uvedla, uvedl, oznámila, říct, řekla, dostal, získat, podíváme, přišel -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">421457</feat><!-- se, na, pro, za, o, to, co, v, je, které -->
@@ -122,7 +122,7 @@
     <feat name="Style" value="Slng" upos="ADJ,NOUN,PROPN,VERB">244</feat><!-- developer, developeři, KEG, developery, kšefty, parničkách, developera, křídlovák, putu, blokového -->
     <feat name="Style" value="Vrnc" upos="ADJ,AUX,INTJ,NOUN,PROPN,VERB">42</feat><!-- žebř, kilometrovkou, hrozna, Čehúny, Gatě, Husličky, danaj, děvčice, hadrou, kilometrovce -->
     <feat name="Style" value="Vulg" upos="ADJ,NOUN,PART,VERB">37</feat><!-- hajzl, kundičku, kurva, kundy, vymrdal, čuráka, VOŠUKAT, Zmrd, bordelové, bordelář -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">10519</feat><!-- bude, budou, nebude, budeme, budu, nebudou, půjde, budete, nebudu, nebudeme -->
+    <feat name="Tense" value="Fut" upos="ADJ,AUX,VERB">10916</feat><!-- bude, budou, nebude, budeme, budu, nebudou, budoucí, půjde, budete, budoucích -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">177652</feat><!-- byl, bylo, byla, řekl, byly, byli, měl, měli, měla, uvedla -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">210086</feat><!-- je, jsem, jsme, jsou, má, není, jste, říká, může, mají -->
     <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,PROPN,SCONJ,SYM,VERB">305</feat><!-- Reuter, ní, dne, vánoce, cherry, vánocích, ního, Harachova, ním, přívěšek -->
@@ -130,9 +130,9 @@
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">195</feat><!-- nemluvě, vlastně, soudě, nepočítaje, říkajíc, počínaje, Mluvě, konče, maje, jsouce -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">233802</feat><!-- je, by, jsem, jsme, jsou, bude, má, není, jste, říká -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">53304</feat><!-- být, mít, vidět, říct, získat, dělat, stát, jít, hrát, podívat -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">232842</feat><!-- byl, bylo, byla, řekl, byly, byli, měl, měli, měla, uvedla -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">233239</feat><!-- byl, bylo, byla, řekl, byly, byli, měl, měli, měla, uvedla -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">49615</feat><!-- obchodování, jednání, zvýšení, vedení, rozhodnutí, zařízení, snížení, řízení, opatření, řešení -->
-    <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">398257</feat><!-- je, jsem, jsme, byl, jsou, bylo, byla, bude, má, řekl -->
+    <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">398654</feat><!-- je, jsem, jsme, byl, jsou, bylo, byla, bude, má, řekl -->
     <feat name="Voice" value="Pass" upos="ADJ">45474</feat><!-- spojených, spojené, jmenován, řečeno, vyfocené, dané, uvedené, přesvědčen, připravena, připraven -->
   </feats>
   <!-- Statistics of universal dependency relations. -->

@@ -11060,7 +11060,7 @@
 9	dědictví	dědictví	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	7	nmod	7:nmod:gen	Entity=faust_2010_07_es_15e37)|Functor=7:RSTR
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1|Functor=11:CONJ
 11	vychovat	vychovat	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	conj	1:xcomp|3:conj	Functor=3:ACT
-12	budoucí	budoucí	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	13	amod	13:amod	Entity=(faust_2010_07_es_15e41--2-gstype:spec|Functor=13:RSTR
+12	budoucí	budoucí	ADJ	AAFP4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	13	amod	13:amod	Entity=(faust_2010_07_es_15e41--2-gstype:spec|Functor=13:RSTR
 13	generace	generace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	11	obj	11:obj	Entity=faust_2010_07_es_15e41)|Functor=11:PAT
 14	tak	tak	ADV	Db-------------	PronType=Dem	11	advmod	11:advmod	LId=tak-3|Functor=11:EXT
 15	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
@@ -25353,7 +25353,7 @@
 9	dědictví	dědictví	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	7	nmod	7:nmod:gen	Functor=7:RSTR
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1|Functor=11:CONJ
 11	vzdělávat	vzdělávat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	conj	1:csubj|3:conj	LDeriv=vzdělat|Functor=3:ACT
-12	budoucí	budoucí	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	13	amod	13:amod	Entity=(faust_2010_07_jh_15e33--2-gstype:spec|Functor=13:RSTR
+12	budoucí	budoucí	ADJ	AAFP4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	13	amod	13:amod	Entity=(faust_2010_07_jh_15e33--2-gstype:spec|Functor=13:RSTR
 13	generace	generace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	11	obj	11:obj	Entity=faust_2010_07_jh_15e33)|Functor=11:PAT
 14	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 15-16	aby	_	_	_	_	_	_	_	_
@@ -39628,7 +39628,7 @@
 9	Hongkongu	Hongkong	PROPN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|NameType=Geo|Number=Sing	8	nmod	8:nmod:gen	Functor=8:RSTR
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1|Functor=11:CONJ
 11	vychovávat	vychovávat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	conj	1:xcomp|3:conj	LDeriv=vychovat|Functor=3:ACT
-12	budoucí	budoucí	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	13	amod	13:amod	Entity=(faust_2010_07_mu_15e47--2-gstype:spec|Functor=13:RSTR
+12	budoucí	budoucí	ADJ	AAFP4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	13	amod	13:amod	Entity=(faust_2010_07_mu_15e47--2-gstype:spec|Functor=13:RSTR
 13	generace	generace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	11	obj	11:obj	Entity=faust_2010_07_mu_15e47)|Functor=11:PAT
 14	tak	tak	ADV	Db-------------	PronType=Dem	11	advmod	11:advmod	LId=tak-3|Functor=11:MANN
 15	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_

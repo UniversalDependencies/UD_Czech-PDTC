@@ -16243,7 +16243,7 @@
 14	již	již	ADV	Db-------------	_	16	advmod:emph	16:advmod:emph	LId=již-1
 15	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	16	case	16:case	LId=v-1
 16	přípravě	příprava	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	13	obl	13:obl:v:loc	_
-17	budoucích	budoucí	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	18	amod	18:amod	_
+17	budoucích	budoucí	ADJ	AAMP2----1A----	Animacy=Anim|Aspect=Imp|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	18	amod	18:amod	_
 18	manažerů	manažer	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	16:nmod:gen	LId=manažer-1
 19	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	21	case	21:case	LId=na-1
 20	vysoké	vysoký	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	21:amod	_
@@ -33907,7 +33907,7 @@
 # text = V budoucích letech budou investiční prostředky v elektroenergetice určeny především pro řešení ekologie (rekonstrukce, resp. odsíření energetických bloků) a posílení spolehlivosti a plynulosti dodávky elektřiny z distribučních sítí.
 # orig_file_sentence cmpr9406_065#21
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	3:case	LId=v-1
-2	budoucích	budoucí	ADJ	AANP6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	3	amod	3:amod	_
+2	budoucích	budoucí	ADJ	AANP6----1A----	Aspect=Imp|Case=Loc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	3	amod	3:amod	_
 3	letech	léta	NOUN	NNNP6-----A----	Case=Loc|Gender=Neut|Number=Plur	9	obl	9:obl:v:loc	_
 4	budou	být	AUX	VB-P---3F-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	9	aux:pass	9:aux:pass	_
 5	investiční	investiční	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	6:amod	_
@@ -46515,7 +46515,7 @@
 33	by	být	AUX	Vc----------I--	Aspect=Imp|Mood=Cnd|VerbForm=Fin	34	aux	34:aux	_
 34	mohly	moci	VERB	VpTP----R-AAI--	Animacy=Inan|Aspect=Imp|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	30	acl:relcl	30:acl:relcl	_
 35	zajímat	zajímat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	34	xcomp	34:xcomp	_
-36	budoucího	budoucí	ADJ	AAMS4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	37	amod	37:amod	_
+36	budoucího	budoucí	ADJ	AAMS4----1A----	Animacy=Anim|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	37	amod	37:amod	_
 37	klienta	klient	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	35	obj	35:obj	_
 38	realitní	realitní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	39	amod	39:amod	_
 39	kanceláře	kancelář	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	37	nmod	37:nmod:gen	SpaceAfter=No
@@ -53730,7 +53730,7 @@
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	5:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	musí	muset	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	obrátit	obrátit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	_
-6	budoucí	budoucí	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	8:amod	_
+6	budoucí	budoucí	ADJ	AAMS1----1A----	Animacy=Anim|Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	8	amod	8:amod	_
 7	rakouský	rakouský	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 8	zaměstnavatel	zaměstnavatel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj|5:nsubj:xsubj|11:nsubj	SpaceAfter=No
 9	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
@@ -55090,7 +55090,7 @@
 18	majetek	majetek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	16:nsubj	_
 19	jako	jako	SCONJ	J,-------------	_	20	mark	20:mark	LId=jako-1
 20	zdroj	zdroj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	xcomp	16:xcomp	_
-21	budoucích	budoucí	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	22	amod	22:amod	_
+21	budoucích	budoucí	ADJ	AAIP2----1A----	Animacy=Inan|Aspect=Imp|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	22	amod	22:amod	_
 22	zisků	zisk	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	20:nmod:gen	SpaceAfter=No
 23	.	.	PUNCT	Z:-------------	_	10	punct	10:punct	_
 
@@ -55637,7 +55637,7 @@
 41	podnikatelský	podnikatelský	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	42	amod	42:amod	_
 42	záměr	záměr	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obj	38:obj	_
 43	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	45	case	45:case	LId=pro-1
-44	budoucí	budoucí	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	45	amod	45:amod	_
+44	budoucí	budoucí	ADJ	AAIP4----1A----	Animacy=Inan|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	45	amod	45:amod	_
 45	roky	rok	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	38	obl	38:obl:pro:acc	SpaceAfter=No
 46	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
@@ -88618,7 +88618,7 @@
 12	své	svůj	DET	P8YP4---------1	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	13:det	LId=svůj-1
 13	požadavky	požadavek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	11:obj	_
 14	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	16:case	LId=na-1
-15	budoucího	budoucí	ADJ	AAMS4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	16	amod	16:amod	_
+15	budoucího	budoucí	ADJ	AAMS4----1A----	Animacy=Anim|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	16	amod	16:amod	_
 16	zaměstnavatele	zaměstnavatel	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	nmod	13:nmod:na:acc	_
 17	-	-	PUNCT	Z:-------------	_	22	punct	22:punct	_
 18	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	20	case	20:case	LId=o-1
@@ -96026,7 +96026,7 @@
 50	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	51	obj	51:obj	LGloss=(zvr._zájmeno/částice)
 51	vyzbrojí	vyzbrojit	VERB	VB-S---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	47	ccomp	47:ccomp	_
 52	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	54	case	54:case	LId=pro-1
-53	budoucí	budoucí	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	54	amod	54:amod	_
+53	budoucí	budoucí	ADJ	AAIP4----1A----	Animacy=Inan|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	54	amod	54:amod	_
 54	souboje	souboj	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	51	obl	51:obl:pro:acc	_
 55	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	56	case	56:case	LId=s-1
 56	rybami	ryba	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	54	nmod	54:nmod:s:ins	SpaceAfter=No
@@ -98893,7 +98893,7 @@
 8	podat	podat	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	5:xcomp	LGloss=(něco_[někomu]_[někam])
 9	žádost	žádost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	8	obj	8:obj	_
 10	prostřednictvím	prostřednictvím	ADP	RR--2----------	AdpType=Prep|Case=Gen	13	case	13:case	_
-11	budoucího	budoucí	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	_
+11	budoucího	budoucí	ADJ	AAMS2----1A----	Animacy=Anim|Aspect=Imp|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	13	amod	13:amod	_
 12	tchajwanského	tchajwanský	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	_
 13	zaměstnavatele	zaměstnavatel	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	obl	8:obl:prostřednictvím:gen	_
 14	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	17	case	17:case	LId=u-1

@@ -2738,7 +2738,7 @@
 27	slibnými	slibný	ADJ	AAMP7----1A----	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	28	amod	28:amod	_
 28	kandidáty	kandidát	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	22	acl:relcl	22:acl:relcl	_
 29	jako	jako	SCONJ	J,-------------	_	31	mark	31:mark	LId=jako-1
-30	budoucí	budoucí	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	31	amod	31:amod	_
+30	budoucí	budoucí	ADJ	AANP1----1A----	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	31	amod	31:amod	_
 31	léčiva	léčivo	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur	28	xcomp	28:xcomp	SpaceAfter=No
 32	"	"	PUNCT	Z:-------------	_	31	punct	31:punct	SpaceAfter=No
 33	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -21246,7 +21246,7 @@
 7	obava	obava	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	_
 8	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	9:case	LId=z-1
 9	postižení	postižení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	7	nmod	7:nmod:z:gen	_
-10	budoucích	budoucí	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	11	amod	11:amod	_
+10	budoucích	budoucí	ADJ	AAFP2----1A----	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	11	amod	11:amod	_
 11	generací	generace	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	9	nmod	9:nmod:gen	_
 12	radioaktivními	radioaktivní	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	13	amod	13:amod	_
 13	odpady	odpad	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	9:nmod:ins	_
@@ -23414,7 +23414,7 @@
 23	zapojených	zapojený	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	24	amod	24:amod	LDeriv=zapojit
 24	odborníků	odborník	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	22:nmod:gen	_
 25	vůči	vůči	ADP	RR--3----------	AdpType=Prep|Case=Dat	27	case	27:case	_
-26	budoucím	budoucí	ADJ	AAFP3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	27	amod	27:amod	_
+26	budoucím	budoucí	ADJ	AAFP3----1A----	Aspect=Imp|Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	27	amod	27:amod	_
 27	generacím	generace	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur	22	nmod	22:nmod:vůči:dat	SpaceAfter=No
 28	.	.	PUNCT	Z:-------------	_	17	punct	17:punct	_
 
@@ -23632,7 +23632,7 @@
 11	ty	ten	DET	PDIP1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	5	conj	0:root|5:conj|16:nsubj	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 13	které	který	DET	P4IP1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	16	nsubj	11:ref	_
-14	budoucí	budoucí	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	15	amod	15:amod	_
+14	budoucí	budoucí	ADJ	AAFP4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	15	amod	15:amod	_
 15	generace	generace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	16	obj	16:obj	_
 16	ohrožují	ohrožovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	11:acl:relcl	_
 17	nejvíce	více	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	16	advmod	16:advmod	SpaceAfter=No
@@ -28506,7 +28506,7 @@
 21	nejslibnější	slibný	ADJ	AANP4----3A----	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur|Polarity=Pos	22	amod	22:amod	_
 22	témata	téma	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur	18	obj	18:obj	_
 23	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	25	case	25:case	LId=pro-1
-24	budoucí	budoucí	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	25	amod	25:amod	_
+24	budoucí	budoucí	ADJ	AAFP4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	25	amod	25:amod	_
 25	konference	konference	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	22	nmod	22:nmod:pro:acc	_
 26	a	a	CCONJ	J^-------------	_	27	cc	27:cc	LId=a-1
 27	doporučovat	doporučovat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	18	conj	1:csubj|18:conj	_
@@ -28860,7 +28860,7 @@
 10	důraz	důraz	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	9:nsubj:pass	_
 11	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	12	case	12:case	LId=na-1
 12	formulaci	formulace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	10	nmod	10:nmod:na:acc	_
-13	budoucích	budoucí	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	14	amod	14:amod	_
+13	budoucích	budoucí	ADJ	AAIP2----1A----	Animacy=Inan|Aspect=Imp|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	14	amod	14:amod	_
 14	problémů	problém	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	12:nmod:gen	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 16	návrhu	návrh	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	12:nmod:gen|14:conj	_
@@ -39499,7 +39499,7 @@
 24	styku	styk	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	25:obl:do:gen	_
 25	nepřijde	přijít	VERB	VB-S---3P-NAP--	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	16:acl:relcl	SpaceAfter=No
 26	:	:	PUNCT	Z:-------------	_	28	punct	28:punct	_
-27	budoucího	budoucí	ADJ	AAMS4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	28	amod	28:amod	_
+27	budoucího	budoucí	ADJ	AAMS4----1A----	Animacy=Anim|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	28	amod	28:amod	_
 28	ekonoma	ekonom	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	appos	16:appos	SpaceAfter=No
 29	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
 30	právníka	právník	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	28	conj	16:appos|28:conj	SpaceAfter=No
@@ -41511,7 +41511,7 @@
 46	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	50	case	50:case	LId=k-1
 47	minulým	minulý	ADJ	AAFP3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	50	amod	50:amod	_
 48	a	a	CCONJ	J^-------------	_	49	cc	49:cc	LId=a-1
-49	budoucím	budoucí	ADJ	AAFP3----1A----	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	47	conj	47:conj|50:amod	_
+49	budoucím	budoucí	ADJ	AAFP3----1A----	Aspect=Imp|Case=Dat|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	47	conj	47:conj|50:amod	_
 50	inkarnacím	inkarnace	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur	45	obl:arg	45:obl:arg:k:dat	SpaceAfter=No
 51	,	,	PUNCT	Z:-------------	_	45	punct	45:punct	_
 52	nesoustřeďujeme	soustřeďovat	VERB	VB-P---1P-NAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	0:root|27:conj	_
@@ -102990,7 +102990,7 @@
 24	společenských	společenský	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	25	amod	25:amod	_
 25	faktorů	faktor	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	22:nmod:gen	LId=faktor-1
 26	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	28	case	28:case	LId=v-1
-27	budoucích	budoucí	ADJ	AANP6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	28	amod	28:amod	_
+27	budoucích	budoucí	ADJ	AANP6----1A----	Aspect=Imp|Case=Loc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	28	amod	28:amod	_
 28	letech	léta	NOUN	NNNP6-----A----	Case=Loc|Gender=Neut|Number=Plur	22	nmod	22:nmod:v:loc	SpaceAfter=No
 29	,	,	PUNCT	Z:-------------	_	32	punct	32:punct	_
 30	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	32	nsubj	21:ref	_
@@ -147238,7 +147238,7 @@
 21	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	22	expl:pv	22:expl:pv	LGloss=(zvr._zájmeno/částice)
 22	ptát	ptát	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	19	xcomp	19:xcomp	_
 23	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	25	case	25:case	LId=na-1
-24	budoucí	budoucí	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	25	amod	25:amod	_
+24	budoucí	budoucí	ADJ	AAIS4----1A----	Animacy=Inan|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	25	amod	25:amod	_
 25	charakter	charakter	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl:arg	22:obl:arg:na:acc	_
 26	evropského	evropský	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	27	amod	27:amod	_
 27	prostoru	prostor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	25:nmod:gen	SpaceAfter=No
@@ -148838,7 +148838,7 @@
 3	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	asi	asi	PART	TT-------------	_	5	advmod:emph	5:advmod:emph	_
 5	zrod	zrod	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	_
-6	budoucího	budoucí	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	7	amod	7:amod	_
+6	budoucího	budoucí	ADJ	AANS2----1A----	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	7	amod	7:amod	_
 7	označování	označování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	5	nmod	5:nmod:gen	LDeriv=označovat
 8	Jana	Jan	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	7	nmod	7:nmod:gen	_
 9	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	10:case	LId=z-1

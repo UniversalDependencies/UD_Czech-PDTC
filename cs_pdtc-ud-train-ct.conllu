@@ -10920,7 +10920,7 @@
 3	jakýmsi	jakýsi	DET	PZZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Ind	4	det	4:det	Functor=4:RSTR
 4	slabikářem	slabikář	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	0:root	Functor=0:PAT
 5	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	LId=pro-1
-6	budoucí	budoucí	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
+6	budoucí	budoucí	ADJ	AAMP4----1A----	Animacy=Anim|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	7	amod	7:amod	Functor=7:RSTR
 7	podnikatele	podnikatel	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	nmod	4:nmod:pro:acc	SpaceAfter=No|Functor=4:BEN
 8	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -18711,7 +18711,7 @@
 4	stát	stát	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	1:xcomp	SpaceAfter=No|LId=stát-2|LGloss=(stanu_staneš)|Functor=1:PRED
 5	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 6	že	že	SCONJ	J,-------------	_	11	mark	11:mark	LId=že-1
-7	budoucí	budoucí	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	8:amod	Bridge=cmpr9410033e83<cmpr9410033e82:subset|Entity=(cmpr9410033e82--2-gstype:gen|Functor=8:RSTR
+7	budoucí	budoucí	ADJ	AAMS1----1A----	Animacy=Anim|Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	8	amod	8:amod	Bridge=cmpr9410033e83<cmpr9410033e82:subset|Entity=(cmpr9410033e82--2-gstype:gen|Functor=8:RSTR
 8	vlastník	vlastník	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	11:nsubj|12:nsubj:xsubj	Entity=cmpr9410033e82)|Functor=11:ACT
 9	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	12	obl:arg	12:obl:arg:dat	Entity=(cmpr9410033e82--1-gstype:gen)|Functor=12:ADDR|LGloss=(zvr._zájmeno/částice)
 10	nebude	být	AUX	VB-S---3F-NAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
@@ -24765,7 +24765,7 @@
 16	mapuje	mapovat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	13:acl:relcl	Functor=13:RSTR
 17	dosavadní	dosavadní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	20:amod	Functor=20:RSTR
 18	i	i	CCONJ	J^-------------	_	19	cc	19:cc	LId=i-1|Functor=19:CONJ
-19	budoucí	budoucí	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	conj	17:conj|20:amod	Functor=17:RSTR
+19	budoucí	budoucí	ADJ	AAFS4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	17	conj	17:conj|20:amod	Functor=17:RSTR
 20	mozaiku	mozaika	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	16	obj	16:obj	Functor=16:PAT
 21	zájmu	zájem	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	20:nmod:gen	Functor=20:APP
 22	domácností	domácnost	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	21	nmod	21:nmod:gen	Functor=21:ACT
@@ -25781,7 +25781,7 @@
 # text = Budoucí majitelé akcií Telecomu ale musí také počítat s tím, že podnik nehodlá po dobu pěti let vyplácet dividendy a veškerý zisk chce reinvestovat.
 # orig_file_sentence cmpr9410_046#15
 # Tectogrammatical annotation available.
-1	Budoucí	budoucí	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	2	amod	2:amod	Bridge=cmpr9410046e38<cmpr9410046e39:subset|Entity=(cmpr9410046e39--2-gstype:gen|Functor=2:RSTR
+1	Budoucí	budoucí	ADJ	AAMP1----1A----	Animacy=Anim|Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	2	amod	2:amod	Bridge=cmpr9410046e38<cmpr9410046e39:subset|Entity=(cmpr9410046e39--2-gstype:gen|Functor=2:RSTR
 2	majitelé	majitel	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	6:nsubj|8:nsubj:xsubj	Functor=6:ACT
 3	akcií	akcie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	2	nmod	2:nmod:gen	Entity=(cmpr9410046e29--1-gstype:gen|Functor=2:PAT
 4	Telecomu	Telecom	PROPN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|NameType=Oth|Number=Sing	3	nmod	3:nmod:gen	Entity=(cmpr9410046e2--1-gstype:spec)cmpr9410046e29)cmpr9410046e39)|Functor=3:APP
@@ -25972,7 +25972,7 @@
 2	těmito	tento	DET	PDXP7----------	Case=Ins|Number=Plur|PronType=Dem	3	det	3:det	Functor=3:RSTR
 3	faktory	faktor	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl:arg	9:obl:arg:s:ins	LId=faktor-1|Functor=9:PAT
 4	mohou	moci	VERB	VB-P---3P-AAI-1	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-5	budoucí	budoucí	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	6:amod	Entity=(cmpr9410046e39--2-gstype:gen|Functor=6:RSTR
+5	budoucí	budoucí	ADJ	AAMP1----1A----	Animacy=Anim|Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	6	amod	6:amod	Entity=(cmpr9410046e39--2-gstype:gen|Functor=6:RSTR
 6	akcionáři	akcionář	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj|9:nsubj:xsubj	Entity=cmpr9410046e39)|Functor=4:ACT
 7	poměrně	poměrně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	8	advmod	8:advmod	LDeriv=poměrný|Functor=8:EXT
 8	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	9	advmod	9:advmod	Functor=9:MANN
@@ -36345,7 +36345,7 @@
 24	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	25:cop	Functor=25:PRED
 25	schopna	schopný	ADJ	ACQW------A----	Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	20	conj	0:root|20:conj	Functor=20:PAT
 26	prověřit	prověřit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	25	xcomp	25:xcomp	Functor=25:PAT
-27	budoucího	budoucí	ADJ	AAMS4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	28	amod	28:amod	Entity=(cmpr9413013e98--2-gstype:spec|Functor=28:RSTR
+27	budoucího	budoucí	ADJ	AAMS4----1A----	Animacy=Anim|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	28	amod	28:amod	Entity=(cmpr9413013e98--2-gstype:spec|Functor=28:RSTR
 28	partnera	partner	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	26	obj	26:obj	Entity=cmpr9413013e98)|Functor=26:PAT
 29	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen|ExtPos=ADP	33	case	33:case	LId=z-1
 30	hlediska	hledisko	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	29	fixed	29:fixed	_
@@ -75934,7 +75934,7 @@
 19	jako	jako	SCONJ	J,-------------	_	21	mark	21:mark	LId=jako-1
 20	čelný	čelný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	21	amod	21:amod	Functor=21:RSTR
 21	člen	člen	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	xcomp	31:xcomp	LId=člen-2|Functor=31:COMPL
-22	budoucího	budoucí	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	23	amod	23:amod	Bridge=cmpr9415044e118<cmpr9415044e131:funct|Entity=(cmpr9415044e131--2|Functor=23:RSTR
+22	budoucího	budoucí	ADJ	AANS2----1A----	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	23	amod	23:amod	Bridge=cmpr9415044e118<cmpr9415044e131:funct|Entity=(cmpr9415044e131--2|Functor=23:RSTR
 23	představenstva	představenstvo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	21	nmod	21:nmod:gen	Entity=cmpr9415044e131)|Functor=21:APP
 24	-	-	PUNCT	Z:-------------	_	21	punct	21:punct	_
 25	bude	být	AUX	VB-S---3F-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	31	aux	31:aux	_
@@ -77423,7 +77423,7 @@
 # text = Budoucí rozvoj vidí firma především v poskytování radiotelefonických služeb.
 # orig_file_sentence cmpr9415_047#26
 # Tectogrammatical annotation available.
-1	Budoucí	budoucí	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	2:amod	Functor=2:RSTR
+1	Budoucí	budoucí	ADJ	AAIS4----1A----	Animacy=Inan|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	2	amod	2:amod	Functor=2:RSTR
 2	rozvoj	rozvoj	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj	Functor=3:PAT
 3	vidí	vidět	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	firma	firma	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	Entity=(cmpr9415047e3--1-gstype:spec)|Functor=3:ACT
