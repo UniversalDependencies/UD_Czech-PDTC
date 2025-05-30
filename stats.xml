@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">361037</tag><!-- velký, další, nový, první, český, jiný, vysoký, druhý, celý, malý -->
     <tag name="ADP">320013</tag><!-- v, na, z, s, o, do, za, k, pro, po -->
-    <tag name="ADV">163705</tag><!-- tam, už, tak, jak, více, kde, pak, kdy, ještě, včera -->
+    <tag name="ADV">163707</tag><!-- tam, už, tak, jak, více, kde, pak, kdy, ještě, včera -->
     <tag name="AUX">144986</tag><!-- být, bývat, bývávat -->
     <tag name="CCONJ">112632</tag><!-- a, ale, i, nebo, však, takže, či, až, proto, ani -->
     <tag name="DET">154606</tag><!-- ten, který, tento, jeho, svůj, všechen, můj, náš, takový, nějaký -->
@@ -28,7 +28,7 @@
     <tag name="PRON">118654</tag><!-- se, on, já, co, my, jenž, vy, což, něco, kdo -->
     <tag name="PROPN">130646</tag><!-- Praha, ČR, Evropa, USA, Německo, Plzeň, Brno, Jiří, Jan, LN -->
     <tag name="PUNCT">526543</tag><!-- ,, ., ", -, ?, ), (, :, /, & -->
-    <tag name="SCONJ">78219</tag><!-- že, když, jako, aby, než, protože, jak, pokud, li, zda -->
+    <tag name="SCONJ">78217</tag><!-- že, když, jako, aby, než, protože, jak, pokud, li, zda -->
     <tag name="SYM">7573</tag><!-- %, $, +, x, =, §, °, >, <, * -->
     <tag name="VERB">319942</tag><!-- mít, moci, říci, muset, říkat, uvést, jít, chtít, stát, vědět -->
     <tag name="X">47618</tag><!-- Corp, Inc, co, New, s, Wall, street, San, International, de -->
@@ -56,7 +56,7 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">361676</feat><!-- další, stále, nové, dobře, poslední, české, často, velké, dost, dalších -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">7879</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejvíc, největším, největších, nejstarší, nejdříve -->
     <feat name="ExtPos" value="ADJ" upos="DET">29</feat><!-- ty, ten, ti, ta -->
-    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,VERB,X">7284</feat><!-- v, na, ve, vzhledem, spolu, ze, z, s, za, společně -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,SCONJ,VERB,X">7285</feat><!-- v, na, ve, vzhledem, spolu, ze, z, s, za, společně -->
     <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">411</feat><!-- přece, více, de, víc, nejen, co, a, méně, rok, všeho -->
     <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ,DET">764</feat><!-- a, to, neřku -->
     <feat name="ExtPos" value="SCONJ" upos="ADV,CCONJ,SCONJ">1123</feat><!-- i, jestli, než, poté, zatím, zda -->
@@ -114,7 +114,7 @@
     <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">49527</feat><!-- které, který, co, která, jak, kde, kdy, kteří, což, kdo -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">5683</feat><!-- nic, žádné, nikdy, nikdo, žádný, žádná, žádnou, nijak, nikoho, žádném -->
     <feat name="PronType" value="Prs" upos="DET,PRON">128074</feat><!-- se, si, jeho, své, jejich, nás, mi, mě, její, já -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">4712</feat><!-- jehož, nichž, přičemž, jež, níž, jejichž, němž, jejíž, jenž, něhož -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">4152</feat><!-- jehož, nichž, jež, níž, jejichž, němž, jejíž, jenž, něhož, něž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">10484</feat><!-- všechno, všechny, každý, všech, všichni, vždy, vše, každé, všude, každého -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">73300</feat><!-- se, si, své, svých, svého, svou, svůj, svým, svém, sebe -->
     <feat name="Style" value="Coll" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">3330</feat><!-- dneska, akorát, teďka, teda, které, přeci, furt, průmyslovku, holt, mami -->
@@ -139,39 +139,39 @@
   <deps unique="43">
     <dep name="acl">13795</dep>
     <dep name="acl:relcl">35309</dep>
-    <dep name="advcl">31921</dep>
-    <dep name="advmod">128233</dep>
-    <dep name="advmod:emph">70262</dep>
+    <dep name="advcl">31920</dep>
+    <dep name="advmod">128235</dep>
+    <dep name="advmod:emph">73021</dep>
     <dep name="amod">298771</dep>
-    <dep name="appos">23566</dep>
+    <dep name="appos">23568</dep>
     <dep name="aux">54094</dep>
     <dep name="aux:pass">15422</dep>
     <dep name="case">317658</dep>
-    <dep name="cc">112660</dep>
+    <dep name="cc">109128</dep>
     <dep name="ccomp">35050</dep>
     <dep name="compound">10807</dep>
-    <dep name="conj">141370</dep>
+    <dep name="conj">141366</dep>
     <dep name="cop">71019</dep>
     <dep name="csubj">9228</dep>
     <dep name="csubj:pass">1179</dep>
-    <dep name="dep">14165</dep>
+    <dep name="dep">14166</dep>
     <dep name="det">72968</dep>
     <dep name="det:numgov">2936</dep>
     <dep name="det:nummod">1295</dep>
     <dep name="discourse">1270</dep>
     <dep name="expl:pass">9809</dep>
     <dep name="expl:pv">45998</dep>
-    <dep name="fixed">11237</dep>
-    <dep name="flat">57413</dep>
+    <dep name="fixed">11239</dep>
+    <dep name="flat">57411</dep>
     <dep name="iobj">2118</dep>
-    <dep name="mark">77835</dep>
+    <dep name="mark">78604</dep>
     <dep name="nmod">309452</dep>
-    <dep name="nsubj">204317</dep>
+    <dep name="nsubj">204319</dep>
     <dep name="nsubj:pass">17131</dep>
     <dep name="nummod">38403</dep>
     <dep name="nummod:gov">31918</dep>
     <dep name="obj">130651</dep>
-    <dep name="obl">168393</dep>
+    <dep name="obl">168395</dep>
     <dep name="obl:arg">79432</dep>
     <dep name="orphan">4132</dep>
     <dep name="parataxis">9183</dep>

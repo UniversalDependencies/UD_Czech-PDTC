@@ -4215,7 +4215,7 @@
 19	takové	takový	DET	PDFP4----------	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	20	det	20:det	Functor=20:RSTR
 20	činnosti	činnost	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	18	obj	18:obj	LDeriv=činný|Functor=18:PAT
 21	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
-22	jako	jako	CCONJ	J^-------------	_	23	cc	23:cc	LId=jako-2|Functor=23:APPS
+22	jako	jako	CCONJ	J^-------------	_	23	mark	23:mark	LId=jako-2|Functor=23:APPS
 23	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	appos	20:appos	Functor=20:PAT
 23.1	někoho	#PersPron	PRON	_	Case=Gen|PronType=Prs	_	_	24:nmod:gen	Entity=(faust_2010_07_es_05e40--1-gstype:spec)|Functor=24:PAT
 24	vytváření	vytváření	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	23	nsubj	23:nsubj	LDeriv=vytvářit|Functor=23:ACT
@@ -9175,7 +9175,7 @@
 7	výrobky	výrobek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	5:obj	Functor=5:PAT
 8	vaší	váš	DET	PSFS2-P2-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	9	det	9:det	Functor=9:RSTR
 9	firmy	firma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod:gen	Functor=7:RSTR
-10	jako	jako	CCONJ	J^-------------	_	12	cc	12:cc	LId=jako-2|Functor=12:APPS
+10	jako	jako	CCONJ	J^-------------	_	12	mark	12:mark	LId=jako-2|Functor=12:APPS
 11	kontingenční	kontingenční	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	12:amod	Functor=12:RSTR
 12	tabulku	tabulka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	appos	7:appos	Functor=7:PAT
 13	X	X	NOUN	Q3-------------	Abbr=Yes	12	nmod	12:nmod	LId=X-33|Functor=12:RSTR
@@ -16771,11 +16771,11 @@
 13	jako	jako	SCONJ	J,-------------	_	15	mark	15:mark	LId=jako-1
 14	by	být	AUX	Vc----------I--	Aspect=Imp|Mood=Cnd|VerbForm=Fin	15	aux	15:aux	_
 15	nic	nic	PRON	PY--1----------	Case=Nom|PronType=Neg	11	advcl	11:advcl:jako	Functor=11:ACT
-16	/	/	PUNCT	Z:-------------	_	19	punct	19:punct	Functor=19:CONJ
+16	/	/	PUNCT	Z:-------------	_	15	punct	15:punct	Functor=15:CONJ
 17	jako	jako	SCONJ	J,-------------	_	19	mark	19:mark	LId=jako-1
 18	že	že	SCONJ	J,-------------	_	19	mark	19:mark	LId=že-1
 18.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	19:nsubj	Entity=(faust_2010_07_jh_04e1--1-gstype:spec)|Functor=19:ACT
-19	jdeš	jít	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	11:advcl:jako|15:conj	Functor=15:PAT
+19	jdeš	jít	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	dep	15:dep	Functor=15:PAT
 20	někam	někam	ADV	Db-------------	PronType=Ind	19	advmod	19:advmod	Functor=19:DIR3
 21	pryč	pryč	ADV	Db-------------	_	20	advmod	20:advmod	LId=pryč-1|Functor=20:DIR3
 22	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -18389,7 +18389,7 @@
 18	pomohlo	pomoci	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	ccomp	7:ccomp	Functor=7:PAT
 19	omezit	omezit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	18	xcomp	18:xcomp	Functor=18:PAT
 20	aktivity	aktivita	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	19	obj	19:obj	Functor=19:PAT
-21	jako	jako	CCONJ	J^-------------	_	22	cc	22:cc	LId=jako-2|Functor=22:APPS
+21	jako	jako	CCONJ	J^-------------	_	22	mark	22:mark	LId=jako-2|Functor=22:APPS
 22	tvorbu	tvorba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	20	appos	20:appos	Functor=20:PAT
 23	a	a	CCONJ	J^-------------	_	24	cc	24:cc	LId=a-1|Functor=24:CONJ
 24	distribuci	distribuce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	22	conj	20:appos|22:conj	Functor=22:PAT
@@ -18415,7 +18415,7 @@
 43	pomohlo	pomoci	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	32	ccomp	32:ccomp	Functor=32:PAT
 44	omezit	omezit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	43	xcomp	43:xcomp	Functor=43:PAT
 45	aktivity	aktivita	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	44	obj	44:obj	Functor=44:PAT
-46	jako	jako	CCONJ	J^-------------	_	47	cc	47:cc	LId=jako-2|Functor=47:APPS
+46	jako	jako	CCONJ	J^-------------	_	47	mark	47:mark	LId=jako-2|Functor=47:APPS
 47	tvorbu	tvorba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	45	appos	45:appos	Functor=45:PAT
 48	a	a	CCONJ	J^-------------	_	49	cc	49:cc	LId=a-1|Functor=49:CONJ
 49	distribuci	distribuce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	47	conj	45:appos|47:conj	Functor=47:PAT
@@ -23414,7 +23414,7 @@
 9	produkce	produkce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod:z:gen	Functor=7:DIR1
 10	Vaší	váš	DET	PSFS2-P2-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	11	det	11:det	Functor=11:RSTR
 11	firmy	firma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod:gen	Functor=9:RSTR
-12	jako	jako	CCONJ	J^-------------	_	18	cc	18:cc	LId=jako-2|Functor=18:APPS
+12	jako	jako	CCONJ	J^-------------	_	18	mark	18:mark	LId=jako-2|Functor=18:APPS
 13	MLPS	MLPS	NOUN	BNXXX-----A----	Abbr=Yes	18	nmod	18:nmod	LId=MLPS-88|Functor=18:ID
 14	X	X	NOUN	Q3-------------	Abbr=Yes	18	nmod	18:nmod	LId=X-33|Functor=18:RSTR
 15	-	-	PUNCT	Z:-------------	_	16	punct	16:punct	Functor=16:CONJ
@@ -24060,7 +24060,7 @@
 # Tectogrammatical annotation available.
 1	Jiná	jiný	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	2	amod	2:amod	Functor=2:RSTR
 2	oddělení	oddělení	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Vnoun	13	nsubj	13:nsubj	LDeriv=oddělit|Functor=13:ACT
-3	jako	jako	CCONJ	J^-------------	_	5	cc	5:cc	LId=jako-2|Functor=5:APPS
+3	jako	jako	CCONJ	J^-------------	_	5	mark	5:mark	LId=jako-2|Functor=5:APPS
 4	celní	celní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	Functor=5:RSTR
 5	správa	správa	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	appos	2:appos	Functor=2:ACT
 6	a	a	CCONJ	J^-------------	_	7	cc	7:cc	LId=a-1|Functor=7:CONJ
@@ -27034,7 +27034,7 @@
 26	vyloučení	vyloučení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	22	obl	22:obl:pro:acc	LDeriv=vyloučit|Functor=22:AIM
 27	plicní	plicní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	28	amod	28:amod	Functor=28:RSTR
 28	léze	léze	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	26	nmod	26:nmod:gen	Functor=26:PAT
-29	jako	jako	CCONJ	J^-------------	_	31	cc	31:cc	LId=jako-2|Functor=31:APPS
+29	jako	jako	CCONJ	J^-------------	_	31	mark	31:mark	LId=jako-2|Functor=31:APPS
 30	plicní	plicní	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	31	amod	31:amod	Functor=31:RSTR
 31	TB	TB	NOUN	BNXXX-----A----	Abbr=Yes	28	appos	28:appos	LId=TB-88|Functor=28:ID
 32	nebo	nebo	CCONJ	J^-------------	_	33	cc	33:cc	Functor=33:DISJ
@@ -29610,7 +29610,7 @@
 10	nejdříve	dříve	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	9	advmod	9:advmod	Functor=9:TWHEN
 11	zítra	zítra	ADV	Db-------------	_	9	advmod	9:advmod	Entity=faust_2010_07_mu_02e45)|Functor=9:TWHEN
 12	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
-13	I	i	CCONJ	J^-------------	_	17	cc	17:cc	LId=i-1|Functor=17:PREC
+13	I	i	CCONJ	J^-------------	_	17	advmod:emph	17:advmod:emph	LId=i-1|Functor=17:PREC
 14	přesto	přesto	CCONJ	J^-------------	_	17	cc	17:cc	LId=přesto-2|Functor=17:PREC
 15	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	17	expl:pv	17:expl:pv	LGloss=(zvr._zájmeno/částice)
 16	budeme	být	AUX	VB-P---1F-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
@@ -31734,7 +31734,7 @@
 22	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
 23	nebo	nebo	CCONJ	J^-------------	_	27	cc	27:cc	Functor=27:APPS
 24	-	-	PUNCT	Z:-------------	_	27	punct	27:punct	_
-25	li	li	SCONJ	J,-------------	_	27	cc	27:cc	LId=li-2
+25	li	li	SCONJ	J,-------------	_	27	mark	27:mark	LId=li-2
 26	Zákazníkova	zákazníkův	ADJ	AUFS1M---------	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Poss=Yes	27	amod	27:amod	Entity=(faust_2010_07_mu_04e93--1-gstype:spec)|Functor=27:RSTR|LDeriv=zákazník
 27	cesta	cesta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	19	appos	19:appos	Entity=faust_2010_07_mu_04e91)|Functor=19:PAT
 28	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
@@ -32706,7 +32706,7 @@
 20	omezit	omezit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	19	xcomp	19:xcomp	Functor=19:PAT
 21	takové	takový	DET	PDFP4----------	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	22	det	22:det	Functor=22:RSTR
 22	aktivity	aktivita	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	20	obj	20:obj	Functor=20:PAT
-23	jako	jako	CCONJ	J^-------------	_	24	cc	24:cc	LId=jako-2|Functor=24:APPS
+23	jako	jako	CCONJ	J^-------------	_	24	mark	24:mark	LId=jako-2|Functor=24:APPS
 24	produkci	produkce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	22	appos	22:appos	Functor=22:PAT
 25	a	a	CCONJ	J^-------------	_	26	cc	26:cc	LId=a-1|Functor=26:CONJ
 26	distribuci	distribuce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	24	conj	22:appos|24:conj	Functor=24:PAT
@@ -38338,7 +38338,7 @@
 # Tectogrammatical annotation available.
 1	Jiná	jiný	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	2	amod	2:amod	Functor=2:RSTR
 2	oddělení	oddělení	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Vnoun	11	nsubj	11:nsubj	LDeriv=oddělit|Functor=11:ACT
-3	jako	jako	CCONJ	J^-------------	_	4	cc	4:cc	LId=jako-2|Functor=4:APPS
+3	jako	jako	CCONJ	J^-------------	_	4	mark	4:mark	LId=jako-2|Functor=4:APPS
 4	celnice	celnice	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	appos	2:appos	LDeriv=celník|Functor=2:ACT
 5	a	a	CCONJ	J^-------------	_	6	cc	6:cc	LId=a-1|Functor=6:CONJ
 6	imigrace	imigrace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	conj	2:appos|4:conj	Functor=4:ACT
