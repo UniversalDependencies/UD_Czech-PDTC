@@ -31732,9 +31732,9 @@
 20	zapojení	zapojení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	19	nmod	19:nmod:gen	LDeriv=zapojit|Functor=19:RSTR
 21	zákazníka	zákazník	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	20:nmod:gen	Entity=(faust_2010_07_mu_04e93--1-gstype:spec)|Functor=20:ACT
 22	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
-23	nebo	nebo	CCONJ	J^-------------	_	27	cc	27:cc	Functor=27:APPS
-24	-	-	PUNCT	Z:-------------	_	27	punct	27:punct	_
-25	li	li	SCONJ	J,-------------	_	27	mark	27:mark	LId=li-2
+23	nebo	nebo	CCONJ	J^-------------	ExtPos=CCONJ	27	cc	27:cc	Functor=27:APPS
+24	-	-	PUNCT	Z:-------------	_	25	punct	25:punct	_
+25	li	li	SCONJ	J,-------------	_	23	fixed	23:fixed	LId=li-2
 26	Zákazníkova	zákazníkův	ADJ	AUFS1M---------	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Poss=Yes	27	amod	27:amod	Entity=(faust_2010_07_mu_04e93--1-gstype:spec)|Functor=27:RSTR|LDeriv=zákazník
 27	cesta	cesta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	19	appos	19:appos	Entity=faust_2010_07_mu_04e91)|Functor=19:PAT
 28	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_

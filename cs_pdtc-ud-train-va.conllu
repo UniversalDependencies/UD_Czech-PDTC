@@ -25064,9 +25064,9 @@
 2	lístky	lístek	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj:pass	13:nsubj:pass|17:nsubj:pass	_
 3	šafránu	šafrán	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	2:nmod:gen	_
 4	planého	planý	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	3:amod	_
-5	nebo	nebo	CCONJ	J^-------------	_	8	cc	8:cc	SpaceAfter=No
-6	-	-	PUNCT	Z:-------------	_	8	punct	8:punct	SpaceAfter=No
-7	li	li	SCONJ	J,-------------	_	8	mark	8:mark	LId=li-2
+5	nebo	nebo	CCONJ	J^-------------	ExtPos=CCONJ	8	cc	8:cc	SpaceAfter=No
+6	-	-	PUNCT	Z:-------------	_	7	punct	7:punct	SpaceAfter=No
+7	li	li	SCONJ	J,-------------	_	5	fixed	5:fixed	LId=li-2
 8	safloru	saflor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	appos	3:appos	_
 9	(	(	PUNCT	Z:-------------	_	10	punct	10:punct	SpaceAfter=No
 10	Carthamus	Carthamus	X	F%-------------	Foreign=Yes	3	parataxis	3:parataxis	LId=Carthamus-77

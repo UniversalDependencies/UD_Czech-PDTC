@@ -24,11 +24,11 @@
     <tag name="INTJ">464</tag><!-- aha, pozor, ahoj, díky, pardon, ach, hele, nashledanou, proboha, jé -->
     <tag name="NOUN">782703</tag><!-- společnost, rok, dolar, akcie, léta, firma, cena, trh, doba, den -->
     <tag name="NUM">104456</tag><!-- jeden, milion, dva, 1, tři, miliarda, 2, oba, 3, 4 -->
-    <tag name="PART">66255</tag><!-- i, tak, asi, také, ještě, jen, až, taky, ne, už -->
+    <tag name="PART">66254</tag><!-- i, tak, asi, také, ještě, jen, až, taky, ne, už -->
     <tag name="PRON">118654</tag><!-- se, on, já, co, my, jenž, vy, což, něco, kdo -->
     <tag name="PROPN">130646</tag><!-- Praha, ČR, Evropa, USA, Německo, Plzeň, Brno, Jiří, Jan, LN -->
     <tag name="PUNCT">526543</tag><!-- ,, ., ", -, ?, ), (, :, /, & -->
-    <tag name="SCONJ">78217</tag><!-- že, když, jako, aby, než, protože, jak, pokud, li, zda -->
+    <tag name="SCONJ">78218</tag><!-- že, když, jako, aby, než, protože, jak, pokud, li, zda -->
     <tag name="SYM">7573</tag><!-- %, $, +, x, =, §, °, >, <, * -->
     <tag name="VERB">319942</tag><!-- mít, moci, říci, muset, říkat, uvést, jít, chtít, stát, vědět -->
     <tag name="X">47618</tag><!-- Corp, Inc, co, New, s, Wall, street, San, International, de -->
@@ -56,9 +56,9 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">361676</feat><!-- další, stále, nové, dobře, poslední, české, často, velké, dost, dalších -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">7879</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejvíc, největším, největších, nejstarší, nejdříve -->
     <feat name="ExtPos" value="ADJ" upos="DET">29</feat><!-- ty, ten, ti, ta -->
-    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,SCONJ,VERB,X">7285</feat><!-- v, na, ve, vzhledem, spolu, ze, z, s, za, společně -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,VERB,X">7284</feat><!-- v, na, ve, vzhledem, spolu, ze, z, s, za, společně -->
     <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">411</feat><!-- přece, více, de, víc, nejen, co, a, méně, rok, všeho -->
-    <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ,DET">764</feat><!-- a, to, neřku -->
+    <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ,DET">782</feat><!-- a, to, nebo, neřku -->
     <feat name="ExtPos" value="SCONJ" upos="ADV,CCONJ,SCONJ">1123</feat><!-- i, jestli, než, poté, zatím, zda -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">47621</feat><!-- Corp, Inc, co, New, s, Wall, street, San, International, de -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">518072</feat><!-- společnosti, společnost, která, které, této, akcií, firmy, společností, době, té -->
@@ -147,7 +147,7 @@
     <dep name="aux">54094</dep>
     <dep name="aux:pass">15422</dep>
     <dep name="case">317658</dep>
-    <dep name="cc">109128</dep>
+    <dep name="cc">109127</dep>
     <dep name="ccomp">35050</dep>
     <dep name="compound">10807</dep>
     <dep name="conj">141366</dep>
@@ -161,10 +161,10 @@
     <dep name="discourse">1270</dep>
     <dep name="expl:pass">9809</dep>
     <dep name="expl:pv">45998</dep>
-    <dep name="fixed">11239</dep>
+    <dep name="fixed">11256</dep>
     <dep name="flat">57411</dep>
     <dep name="iobj">2118</dep>
-    <dep name="mark">78604</dep>
+    <dep name="mark">78588</dep>
     <dep name="nmod">309452</dep>
     <dep name="nsubj">204319</dep>
     <dep name="nsubj:pass">17131</dep>
