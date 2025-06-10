@@ -3,52 +3,87 @@ commit 010fa22abfc9a6374b5ccba60808f06eb23dcdae
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Tue Jun 10 17:39:59 2025 +0200
 Evaluating the following revision of UD_Czech-PDTC:
-commit efbe416980c554f75a0da62822af0de99562c04f
+commit 47271e66e1f8437ec5470d82c4d95056b8861693
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Jun 10 17:51:30 2025 +0200
-Language code (from CoNLL-U file name) = ''
-Found the following data files: cs_pdtc-ud-dev.conllu, cs_pdtc-ud-test.conllu
-Size: counted 690239 of 690239 words (nodes).
-Size: min(0, log((N/1000)**2)) = 13.0740758288566.
+Date:   Tue Jun 10 18:07:19 2025 +0200
+CoNLL-U data file regular expression = '(?:(cs_pdtc)-ud-train-[clmvfsw](a|t[012]?)\.conllu|(.+)-ud-(dev|test)\.conllu)'
+Language-treebank code (from CoNLL-U file name) = 'cs_pdtc'
+Language code (from CoNLL-U file name) = 'cs'
+Found the following data files: cs_pdtc-ud-dev.conllu, cs_pdtc-ud-test.conllu, cs_pdtc-ud-train-ca.conllu, cs_pdtc-ud-train-ct.conllu, cs_pdtc-ud-train-ft.conllu, cs_pdtc-ud-train-la.conllu, cs_pdtc-ud-train-lt.conllu, cs_pdtc-ud-train-ma.conllu, cs_pdtc-ud-train-mt.conllu, cs_pdtc-ud-train-st.conllu, cs_pdtc-ud-train-va.conllu, cs_pdtc-ud-train-wt0.conllu, cs_pdtc-ud-train-wt1.conllu, cs_pdtc-ud-train-wt2.conllu
+Size: counted 1000000 of 3440052 words (nodes).
+Size: min(0, log((N/1000)**2)) = 13.8155105579643.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
+Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 519121 out of 690239 total words have one or more features.
+Features: 2584450 out of 3440052 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
                TOTAL       1192
 Udapi: found 1192 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 690239 words.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 3440052 words.
 Genres: found 6 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-dev.conllu
-usage: validate.py [-h] [--quiet] [--max-err MAX_ERR] --lang LANG
-                   [--level LEVEL] [--multiple-roots] [--no-tree-text]
-                   [--no-space-after] [--coref]
-                   [input ...]
-validate.py: error: argument --lang: expected one argument
-Exit code: 2
-/net/work/people/zeman/unidep/tools/validate.py --lang --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-test.conllu
-usage: validate.py [-h] [--quiet] [--max-err MAX_ERR] --lang LANG
-                   [--level LEVEL] [--multiple-roots] [--no-tree-text]
-                   [--no-space-after] [--coref]
-                   [input ...]
-validate.py: error: argument --lang: expected one argument
-Exit code: 2
-Validity: 0.01
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-dev.conllu
+[Line 35777 Sent ln94203-145-p4s1 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 27] 'v * prospěch'
+[Line 403347 Sent wsj2428-001-p1s21 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 20] 'o * * * * * * * * o'
+Warnings: 2
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-test.conllu
+[Line 24034 Sent ln94200-73-p2s5 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18] 'z * strany'
+[Line 69018 Sent ln94209-59-p7s1 Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 15] 'současně * s'
+[Line 116541 Sent mf920925-005-p5s2 Node 15]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 19, 20] 's * * * v rozporu'
+[Line 207343 Sent pdtsc_ep_107.10-p1s39 Node 19]: [L3 Warning fixed-gap] Gaps in fixed expression [19, 21] 'směrem * k'
+Warnings: 4
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-ca.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-ct.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-ft.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-la.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-lt.conllu
+[Line 56344 Sent ln94200-155-p4s1 Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 24] 've * prospěch'
+[Line 461829 Sent ln94211-127-p3s2 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'V * rámci'
+Warnings: 2
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-ma.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-mt.conllu
+[Line 73526 Sent mf930709-085-p1s5 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'v * rámci'
+Warnings: 1
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-st.conllu
+[Line 485275 Sent pdtsc_lk_109.01-p1s34 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5] 'od * počínaje'
+[Line 632795 Sent pdtsc_lk_059.04-p1s26 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5] 'společně * s'
+[Line 800449 Sent pdtsc_ml_014.06-p1s28 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Z * strany'
+Warnings: 3
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-va.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-wt0.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-wt1.conllu
+[Line 474479 Sent wsj1723-001-p1s13 Node 29]: [L3 Warning fixed-gap] Gaps in fixed expression [29, 31] 'v * blízkosti'
+Warnings: 1
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-train-wt2.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.333333333333333) = 0.0256410256410256
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.946333164742851) = 0.242649529421244
-(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.256410256410256) * (score{size}=1) = 0.256410256410256
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.982730619394152) = 0.302378652121278
+(weight=0.307692307692308) * (score{udapi}=0.996534936099803) = 0.306626134184555
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.844529221043561) * (availability=1) * (validity=0.01) = 0.00844529221043561
-STARS = 0
-UD_Czech-PDTC	0.00844529221043561	0
+(TOTAL score=0.879460507018928) * (availability=1) * (validity=1) = 0.879460507018928
+STARS = 4.5
+UD_Czech-PDTC	0.879460507018928	4.5
