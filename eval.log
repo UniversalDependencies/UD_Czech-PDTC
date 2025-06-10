@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 010fa22abfc9a6374b5ccba60808f06eb23dcdae
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Tue Jun 10 17:39:59 2025 +0200
 Evaluating the following revision of UD_Czech-PDTC:
-commit d07b1dbb01af368e115e66bc4d7fa0d66330e3a4
-Merge: 5452756 92c8564
+commit 81b07d6410ff2c258d60538017f6e9c98999b880
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 10 00:06:35 2025 +0200
 Size: counted 690239 of 690239 words (nodes).
 Size: min(0, log((N/1000)**2)) = 13.0740758288566.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,19 +24,21 @@ Udapi:
 Udapi: found 1192 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 690239 words.
 Genres: found 6 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-dev.conllu
-[Line 35777 Sent ln94203-145-p4s1 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 27] 'v * prospěch'
-[Line 403347 Sent wsj2428-001-p1s21 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 20] 'o * * * * * * * * o'
-Warnings: 2
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-test.conllu
-[Line 24034 Sent ln94200-73-p2s5 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18] 'z * strany'
-[Line 69018 Sent ln94209-59-p7s1 Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 15] 'současně * s'
-[Line 116541 Sent mf920925-005-p5s2 Node 15]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 19, 20] 's * * * v rozporu'
-[Line 207343 Sent pdtsc_ep_107.10-p1s39 Node 19]: [L3 Warning fixed-gap] Gaps in fixed expression [19, 21] 'směrem * k'
-Warnings: 4
-*** PASSED ***
-Validity: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-dev.conllu
+usage: validate.py [-h] [--quiet] [--max-err MAX_ERR] --lang LANG
+                   [--level LEVEL] [--multiple-roots] [--no-tree-text]
+                   [--no-space-after] [--coref]
+                   [input ...]
+validate.py: error: argument --lang: expected one argument
+Exit code: 2
+/net/work/people/zeman/unidep/tools/validate.py --lang --max-err=10 UD_Czech-PDTC/cs_pdtc-ud-test.conllu
+usage: validate.py [-h] [--quiet] [--max-err MAX_ERR] --lang LANG
+                   [--level LEVEL] [--multiple-roots] [--no-tree-text]
+                   [--no-space-after] [--coref]
+                   [input ...]
+validate.py: error: argument --lang: expected one argument
+Exit code: 2
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.333333333333333) = 0.0256410256410256
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -45,6 +47,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.982730619394152) = 0.302378652121278
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.844529221043561) * (availability=1) * (validity=1) = 0.844529221043561
-STARS = 4
-UD_Czech-PDTC	0.844529221043561	4
+(TOTAL score=0.844529221043561) * (availability=1) * (validity=0.01) = 0.00844529221043561
+STARS = 0
+UD_Czech-PDTC	0.00844529221043561	0
