@@ -3,9 +3,11 @@ commit 010fa22abfc9a6374b5ccba60808f06eb23dcdae
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Tue Jun 10 17:39:59 2025 +0200
 Evaluating the following revision of UD_Czech-PDTC:
-commit 81b07d6410ff2c258d60538017f6e9c98999b880
+commit efbe416980c554f75a0da62822af0de99562c04f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 10 00:06:35 2025 +0200
+Date:   Tue Jun 10 17:51:30 2025 +0200
+Language code (from CoNLL-U file name) = ''
+Found the following data files: cs_pdtc-ud-dev.conllu, cs_pdtc-ud-test.conllu
 Size: counted 690239 of 690239 words (nodes).
 Size: min(0, log((N/1000)**2)) = 13.0740758288566.
 Size: maximum value 13.815511 is for 1000000 words or more.
