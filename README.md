@@ -267,11 +267,11 @@ Data available since: UD v1.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: news reviews nonfiction academic spoken social
-Lemmas: converted from manual
-UPOS: converted from manual
+Lemmas: converted with corrections
+UPOS: converted with corrections
 XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Features: converted with corrections
+Relations: converted with corrections
 Contributors: Zeman, Daniel; Hajič, Jan; Bémová, Alevtina; Buráňová, Eva; Hajičová, Eva; Havelka, Jiří; Hlaváčová, Jaroslava; Kárník, Jiří; Kolářová, Veronika; Kučová, Lucie; Lopatková, Markéta; Mikulová, Marie; Mírovský, Jiří; Nedoluzhko, Anna; Novák, Michal; Pajas, Petr; Panevová, Jarmila; Sgall, Petr; Straka, Milan; Ševčíková, Magda; Štěpánek, Jan; Štěpánková, Barbora; Urešová, Zdeňka; Vidová Hladká, Barbora; Žabokrtský, Zdeněk
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
