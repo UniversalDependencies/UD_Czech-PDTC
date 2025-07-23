@@ -137,6 +137,7 @@ page of the project website.
 
 * 2025-11-15 v2.17
   * Changed annotation of "budoucí": VerbForm=Part, Voice=Act, Tense=Fut.
+  * Optional depictives are now annotated with "advcl:pred" (previously "xcomp").
 * 2025-05-15 v2.16
   * Repository renamed from UD_Czech-PDT to UD_Czech-PDTC.
   * Source data is now PDT-C 2.0 (previously it was 1.0).

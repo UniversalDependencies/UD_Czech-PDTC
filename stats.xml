@@ -136,10 +136,11 @@
     <feat name="Voice" value="Pass" upos="ADJ">45474</feat><!-- spojených, spojené, jmenován, řečeno, vyfocené, dané, uvedené, přesvědčen, připravena, připraven -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
+  <deps unique="44">
     <dep name="acl">13795</dep>
     <dep name="acl:relcl">35309</dep>
     <dep name="advcl">31920</dep>
+    <dep name="advcl:pred">6958</dep>
     <dep name="advmod">128235</dep>
     <dep name="advmod:emph">73021</dep>
     <dep name="amod">298771</dep>
@@ -179,6 +180,6 @@
     <dep name="reparandum">3</dep>
     <dep name="root">213897</dep>
     <dep name="vocative">416</dep>
-    <dep name="xcomp">38801</dep>
+    <dep name="xcomp">31843</dep>
   </deps>
 </treebank>
