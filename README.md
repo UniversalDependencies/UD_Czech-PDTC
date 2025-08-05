@@ -258,6 +258,8 @@ page of the project website.
   * Improved heuristics to distinguish DET and PRON
   * Improved treatment of comparative complements (conjunctions “než” and “jako”)
   * Remaining lemma extensions moved from LEMMA to MISC
+* 2015-01-15 v1.0
+  * Initial release in Universal Dependencies.
 
 
 
