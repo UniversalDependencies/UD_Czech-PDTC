@@ -268,6 +268,7 @@ page of the project website.
 Data available since: UD v1.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news reviews nonfiction academic spoken social
 Lemmas: converted with corrections
 UPOS: converted with corrections
