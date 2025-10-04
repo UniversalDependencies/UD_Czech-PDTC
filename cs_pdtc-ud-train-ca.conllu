@@ -8142,7 +8142,7 @@
 # text = Co tedy?
 # orig_file_sentence cmpr9406_006#20
 1	Co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	0	root	0:root	LId=co-1
-2	tedy	tedy	PART	TT-------------	_	1	advmod:emph	1:advmod:emph	SpaceAfter=No|LId=tedy-1
+2	tedy	tedy	ADV	TT-------------	_	1	advmod:emph	1:advmod:emph	SpaceAfter=No|LId=tedy-1
 3	?	?	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = cmpr9406-006-p11s3
@@ -12089,7 +12089,7 @@
 # sent_id = cmpr9406-015-p21s3
 # text = Stejně tak může zabavit dopravcům automobily a obchodníkům s potravinami mouku ze skladů a zaplatit jim za to cenu uvedenou ve svých nařízeních, nikoli cenu tržní.
 # orig_file_sentence cmpr9406_015#58
-1	Stejně	stejně	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=stejně-2
+1	Stejně	stejně	ADV	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=stejně-2
 2	tak	tak	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=tak-1
 3	může	moci	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	zabavit	zabavit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	3:xcomp	_
@@ -21294,7 +21294,7 @@
 # sent_id = cmpr9406-038-p14s3
 # text = Stejně tak výpočetní technika přejde do majetku okresních úřadů.
 # orig_file_sentence cmpr9406_038#32
-1	Stejně	stejně	PART	TT-------------	_	5	advmod:emph	5:advmod:emph	LId=stejně-2
+1	Stejně	stejně	ADV	TT-------------	_	5	advmod:emph	5:advmod:emph	LId=stejně-2
 2	tak	tak	PART	TT-------------	_	5	advmod:emph	5:advmod:emph	LId=tak-1
 3	výpočetní	výpočetní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	technika	technika	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	5:nsubj	_
@@ -46021,7 +46021,7 @@
 # sent_id = cmpr9407-024-p15s4
 # text = Stejně vypomůže i zapůjčením auta a podobně.
 # orig_file_sentence cmpr9407_024#36
-1	Stejně	stejně	PART	TT-------------	_	2	advmod:emph	2:advmod:emph	LId=stejně-2
+1	Stejně	stejně	ADV	TT-------------	_	2	advmod:emph	2:advmod:emph	LId=stejně-2
 2	vypomůže	vypomoci	VERB	VB-S---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	i	i	CCONJ	J^-------------	_	4	advmod:emph	4:advmod:emph	LId=i-1
 4	zapůjčením	zapůjčení	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|VerbForm=Vnoun	2	obl	2:obl:ins	LDeriv=zapůjčit
@@ -58631,7 +58631,7 @@
 10	pracovní	pracovní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	amod	11:amod	_
 11	dobu	doba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	8	obj	8:obj	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
-13	tedy	tedy	PART	TT-------------	_	14	advmod:emph	14:advmod:emph	LId=tedy-1
+13	tedy	tedy	ADV	TT-------------	_	14	advmod:emph	14:advmod:emph	LId=tedy-1
 14	práci	práce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	11	appos	11:appos	LGloss=(jako_činnost_i_místo)
 15	přesčas	přesčas	ADV	Db-------------	_	14	advmod	14:advmod	LId=přesčas-2
 16	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc|ExtPos=ADP	21	case	21:case	LId=v-1
@@ -69626,7 +69626,7 @@
 11	veřejné	veřejný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	12:amod	_
 12	správy	správa	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod:gen	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
-14	tedy	tedy	PART	TT-------------	_	16	advmod:emph	16:advmod:emph	LId=tedy-1
+14	tedy	tedy	ADV	TT-------------	_	16	advmod:emph	16:advmod:emph	LId=tedy-1
 15	například	například	PART	TT-------------	_	16	advmod:emph	16:advmod:emph	_
 16	údaje	údaj	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	appos	7:appos	_
 17	vztahující	vztahující	ADJ	AGIP4-----A----	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	16:amod	LDeriv=vztahovat

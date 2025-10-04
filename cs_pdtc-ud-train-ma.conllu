@@ -3310,7 +3310,7 @@
 21	upravováním	upravování	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|VerbForm=Vnoun	17	conj	4:appos|17:conj	LDeriv=upravovat
 22	ceny	cena	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	21	nmod	21:nmod:gen	_
 23	(	(	PUNCT	Z:-------------	_	26	punct	26:punct	SpaceAfter=No
-24	tedy	tedy	PART	TT-------------	_	26	advmod:emph	26:advmod:emph	LId=tedy-1
+24	tedy	tedy	ADV	TT-------------	_	26	advmod:emph	26:advmod:emph	LId=tedy-1
 25	jejím	jeho	DET	P9ZS7FS3-------	Case=Ins|Gender=Masc,Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	26:det	_
 26	zvyšováním	zvyšování	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|VerbForm=Vnoun	21	appos	21:appos	SpaceAfter=No|LDeriv=zvyšovat
 27	)	)	PUNCT	Z:-------------	_	26	punct	26:punct	_
@@ -3416,7 +3416,7 @@
 7	přímý	přímý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 8	spotřebitel	spotřebitel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj	SpaceAfter=No
 9	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
-10	tedy	tedy	PART	TT-------------	_	11	advmod:emph	11:advmod:emph	LId=tedy-1
+10	tedy	tedy	ADV	TT-------------	_	11	advmod:emph	11:advmod:emph	LId=tedy-1
 11	občan	občan	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	8:appos	_
 12	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	13:case	LId=při-1
 13	nákupu	nákup	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	5:obl:při:loc	_
@@ -6048,7 +6048,7 @@
 5	čtrnáct	čtrnáct	NUM	Cl-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	6	nummod:gov	6:nummod:gov	LNumValue=14
 6	minut	minuta	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	3	obl	3:obl:acc	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
-8	tedy	tedy	PART	TT-------------	_	11	advmod:emph	11:advmod:emph	LId=tedy-1
+8	tedy	tedy	ADV	TT-------------	_	11	advmod:emph	11:advmod:emph	LId=tedy-1
 9	-	-	PUNCT	Z:-------------	_	11	punct	11:punct	_
 10	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	11	case	11:case	LId=podle-2
 11	výzkumů	výzkum	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	appos	3:appos	_
@@ -107311,7 +107311,7 @@
 15	proud	proud	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	16:obj	_
 16	dodávaly	dodávat	VERB	VpTP----R-AAI--	Animacy=Inan|Aspect=Imp|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	10	acl:relcl	10:acl:relcl	SpaceAfter=No|LDeriv=dodat
 17	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
-18	tedy	tedy	PART	TT-------------	_	23	advmod:emph	23:advmod:emph	LId=tedy-1
+18	tedy	tedy	ADV	TT-------------	_	23	advmod:emph	23:advmod:emph	LId=tedy-1
 19	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	20	case	20:case	LId=před-1
 20	referátem	referát	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	23:obl:před:ins	_
 21	životního	životní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	22	amod	22:amod	LGloss=(souvisí_se_životem;_prostředí,...)

@@ -7807,7 +7807,7 @@
 28	hotové	hotový	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	11	parataxis	11:parataxis	Functor=11:PAT
 29	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	Functor=30:CSQ
 30	zůstanou	zůstat	VERB	VB-P---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	28	conj	11:parataxis|28:conj	Functor=28:PRED
-31	tedy	tedy	PART	TT-------------	_	28	advmod:emph	28:advmod:emph|30:advmod:emph	LId=tedy-1|Functor=28:CM
+31	tedy	tedy	ADV	TT-------------	_	28	advmod:emph	28:advmod:emph|30:advmod:emph	LId=tedy-1|Functor=28:CM
 32	zatím	zatím	ADV	Db-------------	_	30	advmod	30:advmod	Functor=30:TWHEN
 33	obě	oba	NUM	CnHP1----------	Case=Nom|Gender=Fem,Neut|Number=Plur|NumForm=Word|NumType=Card	35	nummod	35:nummod	Bridge=faust_2010_07_es_11e45<faust_2010_07_es_11e43:subset,faust_2010_07_es_11e44<faust_2010_07_es_11e43:subset|Entity=(faust_2010_07_es_11e43--3|Functor=35:RSTR|LNumValue=2
 34	webová	webový	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	35	amod	35:amod	Functor=35:RSTR
@@ -26786,7 +26786,7 @@
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	jí	on	PRON	PEFS3--3------1	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	1	obl:arg	1:obl:arg:dat	Entity=(faust_2010_07_jh_19e36--1-gstype:spec)|Functor=1:ACT|LId=on-1
 4	tohle	tenhle	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	7:det	Functor=7:RSTR
-5	jakoby	jakoby	PART	TT-------------	_	6	advmod:emph	6:advmod:emph	LId=jakoby-2|Functor=6:ATT
+5	jakoby	jakoby	ADV	TT-------------	_	6	advmod:emph	6:advmod:emph	LId=jakoby-2|Functor=6:ATT
 6	myší	myší	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 7	rozpoložení	rozpoložení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	1	nsubj	1:nsubj	LDeriv=rozpoložit|Functor=1:PAT
 8	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -30291,7 +30291,7 @@
 6	vždy	vždy	ADV	Db-------------	PronType=Tot	5	advmod	5:advmod	Functor=5:TWHEN
 7	novinkám	novinka	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur	5	obl:arg	5:obl:arg:dat	Entity=(faust_2010_07_mu_03e13--1-gstype:spec)faust_2010_07_mu_03e9[2/2])|Functor=5:PAT
 8	-	-	PUNCT	Z:-------------	_	10	punct	10:punct	Functor=10:APPS
-9	tedy	tedy	PART	TT-------------	_	10	advmod:emph	10:advmod:emph	LId=tedy-1|Functor=10:CM
+9	tedy	tedy	ADV	TT-------------	_	10	advmod:emph	10:advmod:emph	LId=tedy-1|Functor=10:CM
 10	alespoň	alespoň	ADV	Db-------------	_	5	appos	5:appos	LId=alespoň-1|Functor=5:EXT
 11	ne	ne	PART	TT-------------	_	14	advmod:emph	14:advmod:emph	LId=ne-1|Functor=14:RHEM
 12	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	14	case	14:case	LId=do-1
