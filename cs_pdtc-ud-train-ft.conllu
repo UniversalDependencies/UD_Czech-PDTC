@@ -37375,7 +37375,7 @@
 7	odstranit	odstranit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	acl	6:acl	Functor=6:RSTR
 8	muže	muž	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	7:obj	Functor=7:PAT
 9	jakožto	jakožto	SCONJ	J,-------------	_	10	mark	10:mark	Entity=(faust_2010_07_mu_13e3--2
-10	normu	norma	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	advcl:pred	7:advcl:pred:jakožto|16:obl:podle:gen|23:nmod	Functor=7:COMPL
+10	normu	norma	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	advcl:pred	7:advcl:pred:jako|16:obl:podle:gen|23:nmod	Functor=7:COMPL
 11	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 12	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	13	case	13:case	Entity=(faust_2010_07_mu_13e3--2|LId=podle-2
 13	které	který	DET	P4FS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	16	obl	10:ref	Entity=faust_2010_07_mu_13e3)|Functor=16:CRIT

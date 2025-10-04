@@ -4595,14 +4595,14 @@
 12	-	-	PUNCT	Z:-------------	_	11	punct	11:punct	SpaceAfter=No
 13	jmenné	jmenný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	10	amod	10:amod	_
 14	typu	typ	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	10:nmod:gen	_
-15	dochází	docházet	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	14:acl	_
+15	dochází	docházet	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	14:nmod:k:dat	_
 16	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	15	mark	15:mark	LId=k-1
 17	+	+	SYM	Z:-------------	_	22	cc	22:cc	_
 18	abstraktní	abstraktní	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	22	amod	22:amod	_
 19	(	(	PUNCT	Z:-------------	_	20	punct	20:punct	SpaceAfter=No
 20	dějové	dějový	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	18	appos	18:appos	SpaceAfter=No
 21	)	)	PUNCT	Z:-------------	_	20	punct	20:punct	_
-22	substantivum	substantivum	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	15	conj	14:acl|15:conj	_
+22	substantivum	substantivum	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	15	conj	14:nmod:k:dat|15:conj	_
 23	a	a	CCONJ	J^-------------	_	24	cc	24:cc	LId=a-1
 24	typu	typ	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	10:nmod:gen|14:conj	_
 25	provádět	provádět	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	24	acl	24:acl	SpaceAfter=No
@@ -7894,7 +7894,7 @@
 30	teorií	teorie	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	26	obl	26:obl:spolu_s:ins	_
 31	jakožto	jakožto	SCONJ	J,-------------	_	33	mark	33:mark	_
 32	vědecká	vědecký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	33	amod	33:amod	_
-33	teorie	teorie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	26	advcl:pred	26:advcl:pred:jakožto	_
+33	teorie	teorie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	26	advcl:pred	26:advcl:pred:jako	_
 34	původu	původ	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	33:nmod:gen	_
 35	života	život	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	34:nmod:gen	SpaceAfter=No
 36	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -69342,7 +69342,7 @@
 11	církvotvará	církvotvarý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	appos	7:appos	SpaceAfter=No
 12	"	"	PUNCT	Z:-------------	_	11	punct	11:punct	SpaceAfter=No
 13	)	)	PUNCT	Z:-------------	_	11	punct	11:punct	_
-14	struktura	struktura	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	15	advcl:pred	15:advcl:pred:jakožto	_
+14	struktura	struktura	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	15	advcl:pred	15:advcl:pred:jako	_
 15	posuzovala	posuzovat	VERB	VpQW----R-AAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 17	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	20	advmod:emph	20:advmod:emph	LDeriv=stejný
@@ -80331,7 +80331,7 @@
 33	jako	jako	SCONJ	J,-------------	_	36	mark	36:mark	LId=jako-1
 34	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	36	case	36:case	LId=o-1
 35	konečné	konečný	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	36	amod	36:amod	_
-36	Pravdě	pravda	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	24	advcl:pred	24:advcl:pred:než_jako	SpaceAfter=No|LId=pravda-1
+36	Pravdě	pravda	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	24	advcl:pred	24:advcl:pred:než	SpaceAfter=No|LId=pravda-1
 37	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = vesm9212-045-p1s10
@@ -145541,7 +145541,7 @@
 # orig_file_sentence vesm9303_039#9
 1	Ďábel	ďábel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	9:nsubj	_
 2	jakožto	jakožto	SCONJ	J,-------------	_	3	mark	3:mark	_
-3	otec	otec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	advcl:pred	9:advcl:pred:jakožto	_
+3	otec	otec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	advcl:pred	9:advcl:pred:jako	_
 4	klamu	klam	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:gen	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 6	mámení	mámení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	4	conj	3:nmod:gen|4:conj	LDeriv=mámit
