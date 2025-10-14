@@ -112048,7 +112048,7 @@
 7	nádob	nádoba	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	6	nmod	6:nmod:gen	_
 8	(	(	PUNCT	Z:-------------	_	1	punct	1:punct	SpaceAfter=No
 9	a	a	CCONJ	J^-------------	_	1	cc	1:cc	LId=a-1
-10	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	1	obl	1:obl:ins	_
+10	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	1	nmod	1:nmod:ins	_
 11	snad	snad	PART	TT-------------	_	1	advmod:emph	1:advmod:emph	_
 12	naopak	naopak	ADV	Db-------------	_	1	advmod:emph	1:advmod:emph	LId=naopak-1
 13	"	"	PUNCT	Z:-------------	_	14	punct	14:punct	SpaceAfter=No
