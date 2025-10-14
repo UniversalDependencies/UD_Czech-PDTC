@@ -1076,7 +1076,7 @@
 2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	3:case	LId=na-1
 3	otočení	otočení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	1	obl:arg	1:obl:arg:na:acc	LDeriv=otočit|Functor=1:PAT
 4	rotoru	rotor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:gen	Functor=3:PAT
-5	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	3	obl	3:obl:dat	LId=proti-1
+5	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	3	nmod	3:nmod:dat	LId=proti-1
 
 # newpar id = faust_2010_07_es_02-p0118
 # sent_id = faust_2010_07_es_02-p0118s1
@@ -10718,7 +10718,7 @@
 5	člena	člen	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	advcl:pred	1:advcl:pred:jako	LId=člen-2|Functor=1:COMPL
 6	Mezinárodní	mezinárodní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 7	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod:gen	LDeriv=společný|Functor=5:RSTR
-8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	obl	7:obl:acc	LId=pro-1
+8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	nmod	7:nmod:acc	LId=pro-1
 
 # newpar id = faust_2010_07_es_15-p1574
 # sent_id = faust_2010_07_es_15-p1574s1
@@ -15562,7 +15562,7 @@
 # Tectogrammatical annotation available.
 1	Všichni	všechen	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	nsubj	4:nsubj	Functor=4:ACT
 2	kromě	kromě	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	3:case	_
-3	mě	já	PRON	PH-S2--1-------	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obl	1:obl:kromě:gen	Functor=1:RESTR
+3	mě	já	PRON	PH-S2--1-------	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	nmod	1:nmod:kromě:gen	Functor=1:RESTR
 4	hrajou	hrát	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 5	fotbal	fotbal	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj	Functor=4:PAT
 6	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -25004,7 +25004,7 @@
 5	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	7:case	LId=do-1
 6	Mezinárodní	mezinárodní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 7	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	1	obl	1:obl:do:gen	LDeriv=společný|Functor=1:DIR3
-8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	obl	7:obl:acc	LId=pro-1
+8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	nmod	7:nmod:acc	LId=pro-1
 
 # newpar id = faust_2010_07_jh_15-p1574
 # sent_id = faust_2010_07_jh_15-p1574s1
@@ -31406,7 +31406,7 @@
 17	Měl	mít	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	parataxis	1:parataxis	_
 18	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	17	aux	17:aux	_
 19	platit	platit	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	xcomp	17:xcomp	Functor=17:PRED
-20	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	21	obl	21:obl	LNumValue=2|Functor=21:EXT
+20	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	21	nmod	21:nmod	LNumValue=2|Functor=21:EXT
 21	tolik	tolik	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Dem	19	obl	19:obl:acc	LId=tolik-1|Functor=19:EXT
 22	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	23	case	23:case	_
 23	měsíční	měsíční	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	19	dep	19:dep	Functor=19:RSTR
@@ -37712,7 +37712,7 @@
 6	koupil	koupit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	parataxis	2:parataxis	Functor=2:PRED
 7	některé	některý	DET	PZYP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	6	obj	6:obj	Functor=6:PAT
 8	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	9:case	LId=z-1
-9	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	7:obl:z:gen	Functor=7:DIR1
+9	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod:z:gen	Functor=7:DIR1
 10	Vaší	váš	DET	PSFS2-P2-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	11	det	11:det	Functor=11:RSTR
 11	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod:gen	LDeriv=společný|Functor=9:RSTR
 12	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	Functor=15:APPS
@@ -37955,7 +37955,7 @@
 4	domů	domů	ADV	Db-------------	_	3	advmod	3:advmod	Functor=3:DIR3
 5	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	3	obl	3:obl	LNumValue=2|Functor=3:THO
 6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	_
-7	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	5:obl:za:acc	Functor=5:THL
+7	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	5:nmod:za:acc	Functor=5:THL
 8	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # newpar id = faust_2010_07_mu_13-p1388
@@ -39284,7 +39284,7 @@
 6	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	8:case	LId=u-1
 7	Mezinárodní	mezinárodní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	Functor=8:RSTR
 8	Společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod:u:gen	LDeriv=společný|Functor=5:LOC
-9	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	obl	8:obl:acc	LId=pro-1
+9	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	nmod	8:nmod:acc	LId=pro-1
 
 # newpar id = faust_2010_07_mu_15-p1574
 # sent_id = faust_2010_07_mu_15-p1574s1

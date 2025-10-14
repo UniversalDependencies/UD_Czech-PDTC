@@ -26721,7 +26721,7 @@
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 9	včetně	včetně	ADP	RR--2----------	AdpType=Prep|Case=Gen	11	case	11:case	LId=včetně-2
 10	86500	86500	NUM	C=-------------	NumForm=Digit|NumType=Card	11	nummod:gov	11:nummod:gov	Functor=11:RSTR
-11	akcií	akcie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	5	obl	5:obl:včetně:gen	Functor=5:ACMP
+11	akcií	akcie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	5	nmod	5:nmod:včetně:gen	Functor=5:ACMP
 12	nakoupených	nakoupený	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	nmod	10:nmod:gen	LDeriv=nakoupit|Functor=10:RSTR
 13	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	16	case	16:case	LId=v-1
 14	uplynulých	uplynulý	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	16:amod	LDeriv=uplynout|Functor=16:RSTR
@@ -52695,7 +52695,7 @@
 40	)	)	PUNCT	Z:-------------	_	34	punct	34:punct	_
 41	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	43	case	43:case	LId=v-1
 42	odpovídajícím	odpovídající	ADJ	AGNS6-----A----	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	43	amod	43:amod	LDeriv=odpovídat|Functor=43:RSTR
-43	období	období	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	34	obl	34:obl:v:loc	Functor=34:TWHEN
+43	období	období	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	34	nmod	34:nmod:v:loc	Functor=34:TWHEN
 
 # sent_id = wsj2081-001-p1s2
 # text = Provozní zisk vzrostl od první poloviny roku 1988 o 51 % z 378 milionů na 572 milionů franků.
@@ -56722,12 +56722,12 @@
 5	byla	být	AUX	VpQW----R-AAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	aux:pass	9:aux:pass	_
 6	jedním	jeden	NUM	CnZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|NumForm=Word|NumType=Card	9	obl:arg	9:obl:arg:ins	LNumValue=1|Functor=9:ACT
 7	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	8:case	LId=z-1
-8	analytiků	analytik	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	6:obl:z:gen	Functor=6:DIR1
+8	analytiků	analytik	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	6:nmod:z:gen	Functor=6:DIR1
 9	označena	označený	ADJ	VsQW----X-APP--	Aspect=Perf|Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=označit|Functor=0:PRED
 10	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	_
 11	jednu	jeden	NUM	CnFS4----------	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	9	obl:arg	9:obl:arg:za:acc	LNumValue=1|Functor=9:EFF
 12	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	13	case	13:case	LId=z-1
-13	nejhorších	horší	ADJ	AAFP2----3A----	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur|Polarity=Pos	11	obl	11:obl:z:gen	Functor=11:RSTR
+13	nejhorších	horší	ADJ	AAFP2----3A----	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur|Polarity=Pos	11	nmod	11:nmod:z:gen	Functor=11:RSTR
 14	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	15	case	15:case	Entity=(wsj2093001e18--2|LId=od-1
 15	doby	doba	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	13	obl	13:obl:od:gen|19:obl	Functor=13:TSIN|SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
@@ -56767,7 +56767,7 @@
 # Tectogrammatical annotation available.
 1	Jeden	jeden	NUM	CnYS1----------	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	4	nsubj	4:nsubj	LNumValue=1|Functor=4:ACT
 2	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	3:case	LId=z-1
-3	analytiků	analytik	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	obl	1:obl:z:gen	Functor=1:DIR1
+3	analytiků	analytik	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	1:nmod:z:gen	Functor=1:DIR1
 4	uvedl	uvést	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
 5	nižší	nízký	ADJ	AAIP4----2A----	Animacy=Inan|Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 6	kapitálové	kapitálový	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
@@ -78503,7 +78503,7 @@
 22	12	12	NUM	C=-------------	NumForm=Digit|NumType=Card	23	nummod:gov	23:nummod:gov	Functor=23:RSTR
 23	měsíců	měsíc	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	conj	19:conj|27:acl:jestli	Functor=19:THL
 24	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	25	case	25:case	LId=od-1
-25	nynějška	nynějšek	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	19:obl:od:gen|23:obl:od:gen	SpaceAfter=No|Functor=19:TSIN
+25	nynějška	nynějšek	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	19:nmod:od:gen|23:nmod:od:gen	SpaceAfter=No|Functor=19:TSIN
 26	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 27	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	28	obj	28:obj	_
 27.1	já	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	28:nsubj	Entity=(wsj2124001e84--1-gstype:spec)|Functor=28:ACT
@@ -91435,7 +91435,7 @@
 14	milion	milion	NUM	CzIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Card	15	nummod:gov	15:nummod:gov	Entity=(wsj2153001e82--2-gstype:spec|Functor=15:PAT|LGloss=(^DD**milión)|LNumValue=1000000
 15	tun	tuna	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	13	obj	13:obj	Functor=13:RSTR
 16	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	17	case	17:case	_
-17	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	14:obl:za:acc	SpaceAfter=No|Functor=14:THL
+17	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	14:nmod:za:acc	SpaceAfter=No|Functor=14:THL
 18	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	Functor=19:APPS
 19	kapku	kapka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	14	appos	14:appos	Functor=14:PAT
 20	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	21	case	21:case	LId=v-1
@@ -98096,7 +98096,7 @@
 7	dva	dva	NUM	CnYP4----------	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	10	nummod	10:nummod	LNumValue=2|Functor=10:RSTR
 8	nebo	nebo	CCONJ	J^-------------	_	9	cc	9:cc	Functor=9:DISJ
 9	tři	tři	NUM	Cl-P4----------	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	7	conj	7:conj|10:nummod	LNumValue=3|Functor=7:RSTR
-10	týdny	týden	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obl	5:obl:za:acc	SpaceAfter=No|LGloss=(jednotka_času)|Functor=5:THL
+10	týdny	týden	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	nmod	5:nmod:za:acc	SpaceAfter=No|LGloss=(jednotka_času)|Functor=5:THL
 11	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = wsj2161-001-p1s39
@@ -105529,11 +105529,11 @@
 20	indexu	index	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	16:nmod:gen	SpaceAfter=No|Functor=16:RSTR
 21	,	,	PUNCT	Z:-------------	_	25	punct	25:punct	_
 22	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	23	case	23:case	LId=podle-2
-23	velikosti	velikost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	25	obl	25:obl:podle:gen	LDeriv=veliký|Functor=25:CRIT
+23	velikosti	velikost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	25	nmod	25:nmod:podle:gen	LDeriv=veliký|Functor=25:CRIT
 24	jen	jen	PART	TT-------------	_	25	advmod:emph	25:advmod:emph	LId=jen-1|Functor=25:RHEM
 25	druhého	druhý	ADJ	CrIS2----------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	16	nmod	16:nmod:gen	LNumValue=2|Functor=16:RSTR
 26	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	27	case	27:case	LId=po-1
-27	krachu	krach	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	25:obl:po:loc	Functor=25:TWHEN
+27	krachu	krach	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	25:nmod:po:loc	Functor=25:TWHEN
 28	akciového	akciový	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	29	amod	29:amod	Functor=29:RSTR
 29	trhu	trh	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	27:nmod:gen	Functor=27:RSTR
 30	19	19	NUM	C=-------------	NumForm=Digit|NumType=Card	32	nummod	32:nummod	SpaceAfter=No|Functor=32:RSTR

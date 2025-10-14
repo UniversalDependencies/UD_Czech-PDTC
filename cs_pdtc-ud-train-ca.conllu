@@ -52749,7 +52749,7 @@
 6	jednou	jeden	NUM	CnFS7----------	Case=Ins|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	4	obl	4:obl:ins	LNumValue=1
 7	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	9:case	_
 8	tři	tři	NUM	Cl-P4----------	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	9	nummod	9:nummod	LNumValue=3
-9	měsíce	měsíc	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	6:obl:za:acc	SpaceAfter=No
+9	měsíce	měsíc	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	nmod	6:nmod:za:acc	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = cmpr9407-040-p10s4
@@ -55317,7 +55317,7 @@
 23	že	že	SCONJ	J,-------------	_	30	mark	30:mark	LId=že-1
 24	zhruba	zhruba	ADV	Db-------------	_	26	advmod	26:advmod	_
 25	ještě	ještě	ADV	Db-------------	_	26	advmod:emph	26:advmod:emph	LId=ještě-1
-26	osmkrát	osmkrát	ADV	Cv-------------	NumType=Mult	27	obl	27:obl	LNumValue=8|LDeriv=osmkr
+26	osmkrát	osmkrát	ADV	Cv-------------	NumType=Mult	27	nmod	27:nmod	LNumValue=8|LDeriv=osmkr
 27	tolik	tolik	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Dem	30	obj	30:obj	LId=tolik-1
 28	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	29	case	29:case	LId=do-1
 29	něj	on	PRON	PEZS2--3-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	30	obl:arg	30:obl:arg:do:gen	LId=on-1
@@ -67286,12 +67286,12 @@
 8	pocity	pocit	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	6:obj	_
 9	všech	všechen	DET	PLXP2----------	Case=Gen|Number=Plur|PronType=Tot	8	nmod	8:nmod:gen|20:nsubj	_
 10	-	-	PUNCT	Z:-------------	_	11	punct	11:punct	_
-11	obyvateli	obyvatel	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	obl:arg	9:obl:arg:počínaje:ins	_
+11	obyvateli	obyvatel	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	nmod	9:nmod:počínaje:ins	_
 12	Prahy	Praha	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	11	nmod	11:nmod:gen	_
 13	počínaje	počínaje	ADP	RR--7----------	AdpType=Prep|Case=Ins	11	case	11:case	_
 14	a	a	CCONJ	J^-------------	_	16	cc	16:cc	LId=a-1
 15	zahraničními	zahraniční	ADJ	AAMP7----1A----	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	16:amod	_
-16	turisty	turista	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	conj	9:obl:arg:počínaje:ins|11:conj	_
+16	turisty	turista	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	conj	9:nmod:počínaje:ins|11:conj	_
 17	konče	končit	VERB	VeYS------A-I--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Act	16	case	16:case	SpaceAfter=No
 18	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 19	kteří	který	DET	P4MP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	20	nsubj	9:ref	_
@@ -75788,7 +75788,7 @@
 7	jenom	jenom	ADV	Db-------------	_	8	advmod:emph	8:advmod:emph	LId=jenom-2|LGloss=(pouze)
 8	jedenkrát	jedenkrát	ADV	Cv-------------	NumType=Mult	5	obl	5:obl	LId=jedenkrát-1|LNumValue=1
 9	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	10:case	LId=v-1
-10	životě	život	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	8:obl:v:loc	SpaceAfter=No
+10	životě	život	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	8:nmod:v:loc	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
 12	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
 13	jasný	jasný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
@@ -87647,7 +87647,7 @@
 # orig_file_sentence cmpr9417_016#46
 1	Dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	4	obl	4:obl	LNumValue=2
 2	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	3:case	LId=do-1
-3	roka	rok	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	1:obl:do:gen	_
+3	roka	rok	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	1:nmod:do:gen	_
 4	kontrolují	kontrolovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	6:case	LId=v-1
 6	drogerii	drogerie	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	4	obl	4:obl:v:loc	_
@@ -94242,7 +94242,7 @@
 # orig_file_sentence cmpr9417_031#7
 1	Podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	7:case	LId=podle-2
 2	2	2	NUM	C=-------------	NumForm=Digit|NumType=Card	7	nummod:gov	7:nummod:gov	_
-3	odst	odstavec	NOUN	NNIXX-----A---b	Abbr=Yes|Animacy=Inan|Gender=Masc	2	obl	2:obl	SpaceAfter=No
+3	odst	odstavec	NOUN	NNIXX-----A---b	Abbr=Yes|Animacy=Inan|Gender=Masc	2	nmod	2:nmod	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 5	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	3	nummod	3:nummod	_
 6	obchodního	obchodní	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	7:amod	_

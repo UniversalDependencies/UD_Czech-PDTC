@@ -11640,7 +11640,7 @@
 17	transparent	transparent	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	11:nsubj|14:nsubj	Entity=(mf920922049e13--1|Functor=14:ACT.cop
 18	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	19	case	19:case	LId=o-1
 19	rozměru	rozměr	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	17:nmod:o:loc	Functor=17:RSTR
-20	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	21	obl	21:obl	LNumValue=2|Functor=21:EXT
+20	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	21	nmod	21:nmod	LNumValue=2|Functor=21:EXT
 21	čtyři	čtyři	NUM	Cl-P4----------	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	22	nummod	22:nummod	LNumValue=4|Functor=22:RSTR
 22	metry	metr	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	nmod	19:nmod:acc	Functor=19:RSTR
 23	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	24	case	24:case	Bridge=mf920922049e13<mf920922049e12:part|Entity=(mf920922049e12--2|LId=s-1
@@ -77798,7 +77798,7 @@
 18	továrně	továrna	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	16	obl	16:obl:v:loc	Functor=16:LOC
 19	Preciosa	Preciosa	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Oth|Number=Sing	18	nmod	18:nmod:nom	Functor=18:ID
 20	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	21	case	21:case	Bridge=mf930709109e28<mf930709109e30:part|Entity=(mf930709109e30--2|LId=v-1
-21	Jablonném	Jablonné	PROPN	NNNS6-----A----	Case=Loc|Gender=Neut|NameType=Geo|Number=Sing	18	obl	18:obl:v:loc	Functor=18:LOC
+21	Jablonném	Jablonné	PROPN	NNNS6-----A----	Case=Loc|Gender=Neut|NameType=Geo|Number=Sing	18	nmod	18:nmod:v:loc	Functor=18:LOC
 22	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	23	case	23:case	LId=v-1
 23	Podještědí	Podještědí	PROPN	NNNS6-----A----	Case=Loc|Gender=Neut|NameType=Geo|Number=Sing	21	nmod	21:nmod:v:loc	Entity=mf930709109e30)mf930709109e13)mf930709109e5)|Functor=21:RSTR|SpaceAfter=No
 24	.	.	PUNCT	Z:-------------	_	16	punct	16:punct	_
@@ -78325,7 +78325,7 @@
 4	přibližně	přibližně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	5:advmod	LDeriv=přibližný|Functor=5:EXT
 5	jednou	jednou	ADV	Cv-------------	NumType=Mult	3	obl	3:obl	LId=jednou-1|Functor=3:THO
 6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	_
-7	měsíc	měsíc	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	5:obl:za:acc	Functor=5:THL
+7	měsíc	měsíc	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	5:nmod:za:acc	Functor=5:THL
 8	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	10:case	LId=na-1
 9	pár	pár	DET	Ca--X----------	NumType=Card|PronType=Dem,Ind	10	det:numgov	10:det:numgov	LId=pár-1|Functor=10:TFHL
 10	dní	den	NOUN	NNIP2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	3:obl:na:acc	LId=den-1|LGloss=(jednotka_času)|Functor=3:MAT
@@ -80009,7 +80009,7 @@
 7	neslyšel	slyšet	VERB	VpYS----R-NAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No|Functor=0:PRED
 8	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 9	kromě	kromě	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	10:case	Entity=(mf930709119e51--2-gstype:spec
-10	těch	ten	DET	PDXP2----------	Case=Gen|Number=Plur|PronType=Dem	6	obl	6:obl:kromě:gen|14:obl:arg:dat	Functor=6:RESTR|SpaceAfter=No
+10	těch	ten	DET	PDXP2----------	Case=Gen|Number=Plur|PronType=Dem	6	nmod	6:nmod:kromě:gen|14:obl:arg:dat	Functor=6:RESTR|SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 12	kterým	který	DET	P4XP3----------	Case=Dat|Number=Plur|PronType=Int,Rel	14	obl:arg	10:ref	Entity=(mf930709119e51--1-gstype:spec)|Functor=14:BEN
 13	prý	prý	PART	TT-------------	_	14	advmod:emph	14:advmod:emph	Functor=14:MOD
@@ -94168,7 +94168,7 @@
 16	jen	jen	PART	TT-------------	_	17	advmod:emph	17:advmod:emph	LId=jen-1|Functor=17:RHEM
 17	jednou	jednou	ADV	Cv-------------	NumType=Mult	12	obl	12:obl	LId=jednou-1|Functor=12:THO
 18	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	_
-19	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	17:obl:za:acc	SpaceAfter=No|Functor=17:THL
+19	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	17:nmod:za:acc	SpaceAfter=No|Functor=17:THL
 20	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = mf930713-020-p3s5

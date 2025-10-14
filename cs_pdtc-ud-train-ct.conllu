@@ -76363,7 +76363,7 @@
 20	ho	on	PRON	P5ZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	19	obj	19:obj	Entity=(cmpr9415044e181--1-gstype:spec)|Functor=19:PAT|LId=on-1
 21	druhému	druhý	ADJ	CrMS3----------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|NumType=Ord	19	obl:arg	19:obl:arg:dat	LNumValue=2|Functor=19:ADDR
 22	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	23	case	23:case	LId=v-1
-23	pořadí	pořadí	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	21	obl	21:obl:v:loc	SpaceAfter=No|Functor=21:LOC
+23	pořadí	pořadí	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	21	nmod	21:nmod:v:loc	SpaceAfter=No|Functor=21:LOC
 24	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # newpar id = cmpr9415-044-p26
