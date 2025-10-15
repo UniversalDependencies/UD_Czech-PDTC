@@ -4758,7 +4758,7 @@
 # orig_file_sentence faust_2010_07_es_08#17
 # Tectogrammatical annotation available.
 1	Kid	Kid	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	nsubj	5:nsubj	Functor=5:ACT
-2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	obj	5:obj	Functor=5:ADDR
+2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	iobj	5:iobj	Functor=5:ADDR
 3	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	4	case	4:case	LId=před-1
 4	minutou	minuta	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	5	obl	5:obl:před:ins	Functor=5:TWHEN
 5	naučil	naučit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
@@ -10268,7 +10268,7 @@
 25	.	.	PUNCT	Z:-------------	_	22	punct	22:punct	_
 26	zahříváš	zahřívat	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	10:ccomp|17:conj	LDeriv=zahřát|Functor=17:PAT
 27	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	26	obl	26:obl:dat	Entity=(faust_2010_07_es_14e44--1-gstype:spec)|Functor=26:BEN
-28	nohy	noha	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	26	obj	26:obj	Functor=26:PAT
+28	nohy	noha	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	26	iobj	26:iobj	Functor=26:PAT
 29	celou	celý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	30	amod	30:amod	Functor=30:RSTR
 30	noc	noc	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	26	obj	26:obj	Functor=26:THL
 31	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
@@ -26224,10 +26224,10 @@
 27	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	28	expl:pv	28:expl:pv	LGloss=(zvr._zájmeno/částice)
 28	prokázalo	prokázat	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	parataxis	4:parataxis	Functor=4:PRED
 29	jako	jako	SCONJ	J,-------------	_	30	mark	30:mark	LId=jako-1
-30	spolehlivé	spolehlivý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	28	obj	28:obj	Functor=28:PAT
+30	spolehlivé	spolehlivý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	28	advcl:pred	28:advcl:pred:jako	Functor=28:PAT
 31	a	a	CCONJ	J^-------------	_	33	cc	33:cc	LId=a-1|Functor=33:CONJ
 32	zároveň	zároveň	ADV	Db-------------	_	30	advmod:emph	30:advmod:emph|33:advmod:emph	Functor=30:CM
-33	dostupné	dostupný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	30	conj	28:obj|30:conj	Functor=30:PAT
+33	dostupné	dostupný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	30	conj	28:advcl:pred:jako|30:conj	Functor=30:PAT
 34	.	.	PUNCT	Z:-------------	_	28	punct	28:punct	_
 35	Naše	náš	DET	PSHS1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	36	det	36:det	Entity=(faust_2010_07_jh_18e96--1-gstype:spec)|Functor=36:RSTR
 36	místo	místo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	41	nsubj	41:nsubj|43:nsubj	LId=místo-1|LGloss=(fyzické_umístění)|Functor=41:ACT
@@ -33241,7 +33241,7 @@
 # orig_file_sentence faust_2010_07_mu_08#17
 # Tectogrammatical annotation available.
 1	Dítě	dítě	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	LId=dítě-1|Functor=4:ACT
-2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	obj	4:obj	Functor=4:ADDR
+2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	iobj	4:iobj	Functor=4:ADDR
 3	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	4:obj	Functor=4:PAT
 4	naučilo	naučit	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
 5	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	6	case	6:case	LId=před-1
@@ -33463,7 +33463,7 @@
 # orig_file_sentence faust_2010_07_mu_08#33
 # Tectogrammatical annotation available.
 1	Jak	jak	ADV	Db-------------	PronType=Int,Rel	2	advmod	2:advmod	LId=jak-3|Functor=2:EXT
-2	vysoké	vysoký	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	obj	3:obj	Functor=3:EFF
+2	vysoké	vysoký	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	advcl:pred	3:advcl:pred	Functor=3:EFF
 3	máš	mít	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	stipendium	stipendium	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	3	obj	3:obj	Functor=3:PAT
 5	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -36271,7 +36271,7 @@
 18	couvání	couvání	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	17	nmod	17:nmod:gen	LDeriv=couvat|Functor=17:RSTR
 18.1	vy	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	_	_	19:nsubj	Entity=(faust_2010_07_mu_11e32--1-gstype:spec)|Functor=19:ACT
 19	mějte	mít	VERB	Vi-P---2--A-I--	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	1	conj	0:root|1:conj	Functor=1:PRED
-20	otočenou	otočený	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	obj	19:obj	LDeriv=otočit|Functor=19:EFF
+20	otočenou	otočený	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	advcl:pred	19:advcl:pred	LDeriv=otočit|Functor=19:EFF
 21	hlavu	hlava	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	19	obj	19:obj	Functor=19:PAT
 22	a	a	CCONJ	J^-------------	_	23	cc	23:cc	LId=a-1|Functor=23:CONJ
 23	dívejte	dívat	VERB	Vi-P---2--A-I--	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	19	conj	0:root|19:conj	Functor=19:PRED
