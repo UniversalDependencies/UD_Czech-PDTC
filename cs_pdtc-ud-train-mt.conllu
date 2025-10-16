@@ -73525,7 +73525,7 @@
 11	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	Functor=19:CONJ
 12	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc|ExtPos=ADP	14	case	14:case	Entity=(mf930709085e37--3-gstype:spec|LId=v-1
 13	jeho	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	14:det	Functor=14:REG
-14	rámci	rámec	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	19:obl:v:loc	Entity=mf930709085e37)
+14	rámci	rámec	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	19:nmod:v:loc	Entity=mf930709085e37)
 15	pak	pak	ADV	Db-------------	_	19	advmod	19:advmod	Functor=19:TWHEN
 16	14	14	NUM	C=-------------	NumForm=Digit|NumType=Card	18	nummod	18:nummod	SpaceAfter=No|Functor=18:RSTR
 17	.	.	PUNCT	Z:-------------	_	16	punct	16:punct	_
