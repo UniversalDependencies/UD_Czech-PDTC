@@ -353,7 +353,7 @@
 # text = Rád bych se procházel a těšil se z nádherné lásky s někým , kdo objevuje veškerou krásu stvoření přírody a boží radost
 # orig_file_sentence faust_2010_07_es_01#26
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	4	xcomp	4:xcomp|6:xcomp	LId=rád-1|Functor=4:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	4	advcl:pred	4:advcl:pred|6:advcl:pred	LId=rád-1|Functor=4:COMPL
 2	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	4	aux	4:aux|6:aux	_
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	procházel	procházet	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
@@ -1076,7 +1076,7 @@
 2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	3:case	LId=na-1
 3	otočení	otočení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	1	obl:arg	1:obl:arg:na:acc	LDeriv=otočit|Functor=1:PAT
 4	rotoru	rotor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:gen	Functor=3:PAT
-5	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	3	obl	3:obl:dat	LId=proti-1
+5	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	3	nmod	3:nmod:dat	LId=proti-1
 
 # newpar id = faust_2010_07_es_02-p0118
 # sent_id = faust_2010_07_es_02-p0118s1
@@ -1106,7 +1106,7 @@
 # Tectogrammatical annotation available.
 1	použito	použitý	ADJ	VsNS----X-APP--	Aspect=Perf|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=použít|Functor=0:PRED
 2	jako	jako	SCONJ	J,-------------	_	3	mark	3:mark	LId=jako-1
-3	metoda	metoda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	xcomp	1:xcomp	Functor=1:COMPL
+3	metoda	metoda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	advcl:pred	1:advcl:pred:jako	Functor=1:COMPL
 4	výběru	výběr	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:gen	Functor=3:RSTR
 5	typů	typ	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod:gen|10:obj	Entity=(faust_2010_07_es_02e43--1|Functor=4:RSTR
 6	souborů	soubor	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:gen	Functor=5:RSTR
@@ -2032,7 +2032,7 @@
 5	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 6	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 7	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
-8	kachna	kachna	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	xcomp	1:xcomp	Functor=1:COMPL
+8	kachna	kachna	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	advcl:pred	1:advcl:pred:jako	Functor=1:COMPL
 9	!	!	PUNCT	Z:-------------	_	1	punct	1:punct	_
 10	Zmáčený	zmáčený	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	dep	1:dep	LDeriv=zmáčet|Functor=1:COMPL
 
@@ -2625,8 +2625,8 @@
 29	Ale	ale	CCONJ	J^-------------	_	31	cc	31:cc	Functor=31:ADVS
 30	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	31:nsubj|34:nsubj:xsubj|35:nsubj|37:nsubj:xsubj|42:nsubj|43:nsubj:xsubj|48:nsubj:xsubj|50:nsubj:xsubj	Entity=(faust_2010_07_es_04e5--1-gstype:spec)|Functor=31:ACT,35:ACT,42:ACT
 31	nemohu	moci	VERB	VB-S---1P-NAI-1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	0:root|8:conj	_
-32	samu	samý	DET	PLFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Emp|Variant=Short	34	xcomp	34:xcomp	LGloss=(samotný)|Functor=34:COMPL
-33	sebe	se	PRON	P6--4----------	Case=Acc|PronType=Prs|Reflex=Yes	34	obj	32:nsubj:xsubj|34:obj	Entity=(faust_2010_07_es_04e5--1-gstype:spec)|Functor=34:ADDR|LGloss=(zvr._zájmeno/částice)
+32	samu	samý	DET	PLFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Emp|Variant=Short	34	advcl:pred	34:advcl:pred	LGloss=(samotný)|Functor=34:COMPL
+33	sebe	se	PRON	P6--4----------	Case=Acc|PronType=Prs|Reflex=Yes	34	obj	34:obj	Entity=(faust_2010_07_es_04e5--1-gstype:spec)|Functor=34:ADDR|LGloss=(zvr._zájmeno/částice)
 34	přesvědčit	přesvědčit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	31	xcomp	31:xcomp	Functor=31:PRED
 35	Nemohla	moci	VERB	VpQW----R-NAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	31	conj	0:root|31:conj	_
 36	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	35	aux	35:aux	_
@@ -3182,7 +3182,7 @@
 34	tu	ten	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	35	det	35:det	Functor=35:RSTR
 35	situaci	situace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	36	obj	36:obj	Functor=36:PAT
 36	zavinil	zavinit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	parataxis	3:parataxis	Functor=3:PRED
-37	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	36	xcomp	36:xcomp	LGloss=(samotný)|Functor=36:COMPL
+37	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	36	advcl:pred	36:advcl:pred	LGloss=(samotný)|Functor=36:COMPL
 38	,	,	PUNCT	Z:-------------	_	41	punct	41:punct	_
 39	protože	protože	SCONJ	J,-------------	_	41	mark	41:mark	_
 40	šance	šance	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	41	nsubj	41:nsubj	Functor=41:ACT
@@ -3444,7 +3444,7 @@
 30	budete	být	AUX	VB-P---2F-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	28	conj	23:ccomp|28:conj	_
 31	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	32	case	32:case	Entity=(faust_2010_07_es_04e102--2-gstype:spec|LId=na-1
 32	ni	on	PRON	PEFS4--3------1	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	34	obl	34:obl:na:acc	Entity=faust_2010_07_es_04e102)|Functor=34:PAT|LId=on-1
-33	rádi	rád	ADJ	ACMP------A----	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short	34	xcomp	34:xcomp	LId=rád-1|Functor=34:COMPL
+33	rádi	rád	ADJ	ACMP------A----	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short	34	advcl:pred	34:advcl:pred	LId=rád-1|Functor=34:COMPL
 34	vzpomínat	vzpomínat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	30	xcomp	30:xcomp	Functor=30:PAT
 35	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
@@ -4215,7 +4215,7 @@
 19	takové	takový	DET	PDFP4----------	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	20	det	20:det	Functor=20:RSTR
 20	činnosti	činnost	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	18	obj	18:obj	LDeriv=činný|Functor=18:PAT
 21	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
-22	jako	jako	CCONJ	J^-------------	_	23	cc	23:cc	LId=jako-2|Functor=23:APPS
+22	jako	jako	CCONJ	J^-------------	_	23	mark	23:mark	LId=jako-2|Functor=23:APPS
 23	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	appos	20:appos	Functor=20:PAT
 23.1	někoho	#PersPron	PRON	_	Case=Gen|PronType=Prs	_	_	24:nmod:gen	Entity=(faust_2010_07_es_05e40--1-gstype:spec)|Functor=24:PAT
 24	vytváření	vytváření	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	23	nsubj	23:nsubj	LDeriv=vytvářit|Functor=23:ACT
@@ -4758,7 +4758,7 @@
 # orig_file_sentence faust_2010_07_es_08#17
 # Tectogrammatical annotation available.
 1	Kid	Kid	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	nsubj	5:nsubj	Functor=5:ACT
-2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	obj	5:obj	Functor=5:ADDR
+2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	iobj	5:iobj	Functor=5:ADDR
 3	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	4	case	4:case	LId=před-1
 4	minutou	minuta	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	5	obl	5:obl:před:ins	Functor=5:TWHEN
 5	naučil	naučit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
@@ -5096,7 +5096,7 @@
 # text = Rád bych dostal nabídky od našich partnerů
 # orig_file_sentence faust_2010_07_es_08#39
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	3	xcomp	3:xcomp	LId=rád-1|Functor=3:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	3	advcl:pred	3:advcl:pred	LId=rád-1|Functor=3:COMPL
 2	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	3	aux	3:aux	_
 2.1	já	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	_	_	3:nsubj	Entity=(faust_2010_07_es_08e46--1)|Functor=3:ACT
 3	dostal	dostat	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
@@ -6140,7 +6140,7 @@
 5.1	někomu	#PersPron	PRON	_	Case=Dat|PronType=Prs	_	_	6:obl:arg:dat	Entity=(faust_2010_07_es_09e52--1-gstype:spec)|Functor=6:ADDR
 6	zaslán	zaslaný	ADJ	VsYS----X-APP--	Aspect=Perf|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=zaslat|Functor=0:PRED
 7	jako	jako	SCONJ	J,-------------	_	8	mark	8:mark	LId=jako-1
-8	odpověď	odpověď	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	xcomp	6:xcomp	Functor=6:COMPL
+8	odpověď	odpověď	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	advcl:pred	6:advcl:pred:jako	Functor=6:COMPL
 9	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	LId=na-1
 10	váš	váš	DET	PSIS4-P2-------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	11	det	11:det	Entity=(faust_2010_07_es_09e52--1-gstype:spec)|Functor=11:RSTR
 11	požadavek	požadavek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	8:nmod:na:acc	Functor=8:RSTR
@@ -6261,7 +6261,7 @@
 4	pečujte	pečovat	VERB	Vi-P---2--A-I--	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	1	conj	0:root|1:conj	Functor=1:PRED
 5	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	6:case	Entity=(faust_2010_07_es_10e5--2|LId=o-1
 6	sebe	se	PRON	P6--4----------	Case=Acc|PronType=Prs|Reflex=Yes	4	obl:arg	4:obl:arg:o:acc	Entity=faust_2010_07_es_10e5)|Functor=4:PAT|LGloss=(zvr._zájmeno/částice)
-7	sami	samý	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp|Variant=Short	4	xcomp	4:xcomp	LGloss=(samotný)|Functor=4:COMPL
+7	sami	samý	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp|Variant=Short	4	advcl:pred	4:advcl:pred	LGloss=(samotný)|Functor=4:COMPL
 
 # newpar id = faust_2010_07_es_10-p0988
 # sent_id = faust_2010_07_es_10-p0988s1
@@ -6556,7 +6556,7 @@
 8	USA	USA	PROPN	BNXXX-----A----	Abbr=Yes|NameType=Geo	4	parataxis	4:parataxis	LGloss=(United_States_of_America)|Functor=4:ID
 9	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1|Functor=15:CONJ
 10	velmi	velmi	ADV	Db-------------	_	11	advmod	11:advmod	Functor=11:EXT
-11	rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	15	xcomp	15:xcomp|18:xcomp	LId=rád-1|Functor=15:COMPL
+11	rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	15	advcl:pred	15:advcl:pred|18:advcl:pred	LId=rád-1|Functor=15:COMPL
 12	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	15	aux	15:aux	_
 13	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	14	case	14:case	Entity=(faust_2010_07_es_10e32--2-gstype:spec|LId=s-1
 14	vámi	vy	PRON	PP-P7--2-------	Case=Ins|Number=Plur|Person=2|PronType=Prs	15	obl	15:obl:s:ins|18:obl:s:ins	Entity=faust_2010_07_es_10e32)|Functor=15:ACMP
@@ -7316,7 +7316,7 @@
 # text = Rád slyším , že jste měli hezké počasí , určitě vám to trochu zpříjemnilo práci . Rybaření v Minnesotě bývá lepší , je - li oblačné a vlhké počasí
 # orig_file_sentence faust_2010_07_es_11#12
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	2	xcomp	2:xcomp	LId=rád-1|Functor=2:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	2	advcl:pred	2:advcl:pred	LId=rád-1|Functor=2:COMPL
 2	slyším	slyšet	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 3	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 4	že	že	SCONJ	J,-------------	_	6	mark	6:mark	LId=že-1
@@ -7807,7 +7807,7 @@
 28	hotové	hotový	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	11	parataxis	11:parataxis	Functor=11:PAT
 29	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	Functor=30:CSQ
 30	zůstanou	zůstat	VERB	VB-P---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	28	conj	11:parataxis|28:conj	Functor=28:PRED
-31	tedy	tedy	PART	TT-------------	_	28	advmod:emph	28:advmod:emph|30:advmod:emph	LId=tedy-1|Functor=28:CM
+31	tedy	tedy	ADV	TT-------------	_	28	advmod:emph	28:advmod:emph|30:advmod:emph	LId=tedy-1|Functor=28:CM
 32	zatím	zatím	ADV	Db-------------	_	30	advmod	30:advmod	Functor=30:TWHEN
 33	obě	oba	NUM	CnHP1----------	Case=Nom|Gender=Fem,Neut|Number=Plur|NumForm=Word|NumType=Card	35	nummod	35:nummod	Bridge=faust_2010_07_es_11e45<faust_2010_07_es_11e43:subset,faust_2010_07_es_11e44<faust_2010_07_es_11e43:subset|Entity=(faust_2010_07_es_11e43--3|Functor=35:RSTR|LNumValue=2
 34	webová	webový	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	35	amod	35:amod	Functor=35:RSTR
@@ -7933,7 +7933,7 @@
 # orig_file_sentence faust_2010_07_es_11#49
 # Tectogrammatical annotation available.
 1	Jsi	být	AUX	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	Functor=3:PRED
-2	celý	celý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	xcomp	3:xcomp	Functor=3:COMPL
+2	celý	celý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	advcl:pred	3:advcl:pred	Functor=3:COMPL
 3	špinavý	špinavý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	Functor=0:PAT
 
 # newpar id = faust_2010_07_es_11-p1192
@@ -8520,7 +8520,7 @@
 32.2	ono	#PersPron	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	_	_	33:nsubj:pass	Entity=(faust_2010_07_es_12e25--1-gstype:spec)|Functor=33:PAT
 33	pronajímáno	pronajímaný	ADJ	VsNS----X-API--	Aspect=Imp|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	25	conj	10:parataxis|25:conj	LDeriv=pronajímat|Functor=25:PRED
 34	jako	jako	SCONJ	J,-------------	_	35	mark	35:mark	LId=jako-1
-35	restaurace	restaurace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	33	xcomp	33:xcomp	Functor=33:COMPL
+35	restaurace	restaurace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	33	advcl:pred	33:advcl:pred:jako	Functor=33:COMPL
 36	.	.	PUNCT	Z:-------------	_	25	punct	25:punct	_
 37	Nájemníci	nájemník	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	38	nsubj	38:nsubj	Entity=(faust_2010_07_es_12e27--1-gstype:spec)|Functor=38:ACT
 38	platí	platit	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	10:parataxis	Functor=10:PRED
@@ -8853,7 +8853,7 @@
 7	nahradit	nahradit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	acl	6:acl	Functor=6:RSTR
 8	muže	muž	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	7:obj	Functor=7:PAT
 9	jako	jako	SCONJ	J,-------------	_	10	mark	10:mark	Entity=(faust_2010_07_es_13e1--2|LId=jako-1
-10	normu	norma	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	xcomp	7:xcomp|15:obl:arg:s:ins|21:obl:podle:gen	Functor=7:COMPL
+10	normu	norma	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	advcl:pred	7:advcl:pred:jako|15:obl:arg:s:ins|21:obl:podle:gen	Functor=7:COMPL
 11	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
 12	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	13	case	13:case	Entity=(faust_2010_07_es_13e1--2|LId=s-1
 13	kterou	který	DET	P4FS7----------	Case=Ins|Gender=Fem|Number=Sing|PronType=Int,Rel	15	obl:arg	10:ref	Entity=faust_2010_07_es_13e1)|Functor=15:EFF
@@ -9175,7 +9175,7 @@
 7	výrobky	výrobek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	5:obj	Functor=5:PAT
 8	vaší	váš	DET	PSFS2-P2-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	9	det	9:det	Functor=9:RSTR
 9	firmy	firma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod:gen	Functor=7:RSTR
-10	jako	jako	CCONJ	J^-------------	_	12	cc	12:cc	LId=jako-2|Functor=12:APPS
+10	jako	jako	CCONJ	J^-------------	_	12	mark	12:mark	LId=jako-2|Functor=12:APPS
 11	kontingenční	kontingenční	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	12:amod	Functor=12:RSTR
 12	tabulku	tabulka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	appos	7:appos	Functor=7:PAT
 13	X	X	NOUN	Q3-------------	Abbr=Yes	12	nmod	12:nmod	LId=X-33|Functor=12:RSTR
@@ -9549,7 +9549,7 @@
 19	agentury	agentura	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	27	nsubj	27:nsubj	Functor=27:ACT
 20	budou	být	AUX	VB-P---3F-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	27	aux	27:aux	_
 21	jako	jako	SCONJ	J,-------------	_	22	mark	22:mark	LId=jako-1
-22	centrum	centrum	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	27	xcomp	27:xcomp	Functor=27:COMPL
+22	centrum	centrum	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	27	advcl:pred	27:advcl:pred:jako	Functor=27:COMPL
 23	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	24	case	24:case	LId=pro-1
 24	dodávání	dodávání	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	22	nmod	22:nmod:pro:acc	LDeriv=dodávat|Functor=22:AIM
 25	pomoci	pomoc	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	24	nmod	24:nmod:gen	Functor=24:PAT
@@ -10268,7 +10268,7 @@
 25	.	.	PUNCT	Z:-------------	_	22	punct	22:punct	_
 26	zahříváš	zahřívat	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	10:ccomp|17:conj	LDeriv=zahřát|Functor=17:PAT
 27	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	26	obl	26:obl:dat	Entity=(faust_2010_07_es_14e44--1-gstype:spec)|Functor=26:BEN
-28	nohy	noha	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	26	obj	26:obj	Functor=26:PAT
+28	nohy	noha	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	26	iobj	26:iobj	Functor=26:PAT
 29	celou	celý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	30	amod	30:amod	Functor=30:RSTR
 30	noc	noc	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	26	obj	26:obj	Functor=26:THL
 31	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
@@ -10658,7 +10658,7 @@
 # text = rád ti lížu kundičku
 # orig_file_sentence faust_2010_07_es_15#19
 # Tectogrammatical annotation available.
-1	rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	3	xcomp	3:xcomp	LId=rád-1|Functor=3:COMPL
+1	rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	3	advcl:pred	3:advcl:pred	LId=rád-1|Functor=3:COMPL
 2	ti	ty	PRON	PH-S3--2-------	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short	3	obl	3:obl:dat	Functor=3:BEN
 3	lížu	lízat	VERB	VB-S---1P-AAI-1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	kundičku	kundička	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Style=Vulg	3	obj	3:obj	Functor=3:PAT
@@ -10715,10 +10715,10 @@
 2	vás	vy	PRON	PP-P4--2-------	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obj	1:obj	Functor=1:PAT
 3	jako	jako	SCONJ	J,-------------	_	5	mark	5:mark	LId=jako-1
 4	řádného	řádný	ADJ	AAMS4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	5:amod	Functor=5:RSTR
-5	člena	člen	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	xcomp	1:xcomp	LId=člen-2|Functor=1:COMPL
+5	člena	člen	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	advcl:pred	1:advcl:pred:jako	LId=člen-2|Functor=1:COMPL
 6	Mezinárodní	mezinárodní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 7	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod:gen	LDeriv=společný|Functor=5:RSTR
-8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	obl	7:obl:acc	LId=pro-1
+8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	nmod	7:nmod:acc	LId=pro-1
 
 # newpar id = faust_2010_07_es_15-p1574
 # sent_id = faust_2010_07_es_15-p1574s1
@@ -11060,7 +11060,7 @@
 9	dědictví	dědictví	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	7	nmod	7:nmod:gen	Entity=faust_2010_07_es_15e37)|Functor=7:RSTR
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1|Functor=11:CONJ
 11	vychovat	vychovat	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	conj	1:xcomp|3:conj	Functor=3:ACT
-12	budoucí	budoucí	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	13	amod	13:amod	Entity=(faust_2010_07_es_15e41--2-gstype:spec|Functor=13:RSTR
+12	budoucí	budoucí	ADJ	AAFP4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	13	amod	13:amod	Entity=(faust_2010_07_es_15e41--2-gstype:spec|Functor=13:RSTR
 13	generace	generace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	11	obj	11:obj	Entity=faust_2010_07_es_15e41)|Functor=11:PAT
 14	tak	tak	ADV	Db-------------	PronType=Dem	11	advmod	11:advmod	LId=tak-3|Functor=11:EXT
 15	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
@@ -11450,7 +11450,7 @@
 38	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	39	case	39:case	Entity=(faust_2010_07_es_18e43--2-gstype:spec|LId=na-1
 39	vás	vy	PRON	PP-P4--2-------	Case=Acc|Number=Plur|Person=2|PronType=Prs	42	obl:arg	42:obl:arg:na:acc	Entity=faust_2010_07_es_18e43)|Functor=42:PAT
 40	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	41	case	41:case	LId=na-1
-41	všechny	všechen	DET	PLFP4----------	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	42	xcomp	42:xcomp	Functor=42:COMPL
+41	všechny	všechen	DET	PLFP4----------	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	42	advcl:pred	42:advcl:pred	Functor=42:COMPL
 42	pyšný	pyšný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	31	conj	2:parataxis|31:conj	Functor=31:PAT
 43	.	.	PUNCT	Z:-------------	_	31	punct	31:punct	_
 44	Chtěl	chtít	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	parataxis	2:parataxis	_
@@ -11546,7 +11546,7 @@
 35	RECH	RECH	NOUN	BNXXX-----A----	Abbr=Yes	33	obl	33:obl:v:loc	LId=RECH-88|Functor=33:ID
 36	3	3	NUM	C=-------------	NumForm=Digit|NumType=Card	35	nummod	35:nummod	Functor=35:RSTR
 37	jako	jako	SCONJ	J,-------------	_	38	mark	38:mark	LId=jako-1
-38	proměnné	proměnná	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	33	xcomp	33:xcomp	LId=proměnná-2|Functor=33:COMPL
+38	proměnné	proměnná	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	33	advcl:pred	33:advcl:pred:jako	LId=proměnná-2|Functor=33:COMPL
 39	specifické	specifický	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	38	amod	38:amod	Functor=38:RSTR
 40	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	42	case	42:case	LId=pro-1
 41	jednotlivé	jednotlivý	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	42	amod	42:amod	Functor=42:RSTR
@@ -13387,7 +13387,7 @@
 # text = Rád bych si ověřil , zda platby budou provedeny telegrafickým převodem na firmu Impulse International Pvt . Ltd . , číslo účtu 0005302285 v bance Citibank N . A . , Noida Branch , India I
 # orig_file_sentence faust_2010_07_es_20#21
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	4	xcomp	4:xcomp	LId=rád-1|Functor=4:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	4	advcl:pred	4:advcl:pred	LId=rád-1|Functor=4:COMPL
 2	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	4	aux	4:aux	_
 3	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	4	obl	4:obl:dat	Entity=(faust_2010_07_es_20e25--1)|Functor=4:BEN|LGloss=(zvr._zájmeno/částice)
 3.1	já	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	_	_	4:nsubj	Entity=(faust_2010_07_es_20e25--1)|Functor=4:ACT
@@ -14910,7 +14910,7 @@
 21	a	a	CCONJ	J^-------------	_	26	cc	26:cc	LId=a-1|Functor=26:CONJ
 22	které	který	DET	P4FP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	26	nsubj	14:ref	Entity=(faust_2010_07_jh_01e47--1)|Functor=26:ACT.cop
 23	jsou	být	AUX	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	26:cop	Functor=26:RSTR
-24	všechny	všechen	DET	PLFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	26	xcomp	26:xcomp	Functor=26:COMPL
+24	všechny	všechen	DET	PLFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	26	advcl:pred	26:advcl:pred	Functor=26:COMPL
 25	naráz	naráz	ADV	Db-------------	_	26	advmod	26:advmod	Functor=26:TWHEN
 26	živé	živý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	20	conj	14:acl:relcl|20:conj	Entity=faust_2010_07_jh_01e47)faust_2010_07_jh_01e52)|Functor=20:PAT
 27	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
@@ -15261,7 +15261,7 @@
 # Tectogrammatical annotation available.
 1	použity	použitý	ADJ	VsTP----X-APP--	Animacy=Inan|Aspect=Perf|Degree=Pos|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=použít|Functor=0:PRED
 2	jako	jako	SCONJ	J,-------------	_	3	mark	3:mark	LId=jako-1
-3	metoda	metoda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	xcomp	1:xcomp	Functor=1:COMPL
+3	metoda	metoda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	advcl:pred	1:advcl:pred:jako	Functor=1:COMPL
 4	výběru	výběr	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:gen	Functor=3:RSTR
 5	typů	typ	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod:gen|9:obj	Entity=(faust_2010_07_jh_02e36--1|Functor=4:RSTR
 6	souborů	soubor	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:gen	Functor=5:RSTR
@@ -15428,7 +15428,7 @@
 21	bluesový	bluesový	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	22	amod	22:amod	Entity=(faust_2010_07_jh_02e52--2-gstype:spec|Functor=22:RSTR
 22	zpěvák	zpěvák	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	24:nsubj:xsubj|35:nsubj	Entity=faust_2010_07_jh_02e52)|Functor=24:ACT,35:ACT
 23	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
-24	doprovázeje	doprovázet	VERB	VeYS------A-I--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Act	35	xcomp	35:xcomp	Functor=35:COMPL
+24	doprovázeje	doprovázet	VERB	VeYS------A-I--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Act	35	advcl:pred	35:advcl:pred	Functor=35:COMPL
 25	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	24	obj	24:obj	Entity=(faust_2010_07_jh_02e52--1-gstype:spec)|Functor=24:PAT|LGloss=(zvr._zájmeno/částice)
 26	případně	případně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	24	advmod	24:advmod	LDeriv=případný|Functor=24:COND
 27	akordy	akord	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	24	obl	24:obl:ins	Functor=24:MEANS
@@ -15562,7 +15562,7 @@
 # Tectogrammatical annotation available.
 1	Všichni	všechen	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	nsubj	4:nsubj	Functor=4:ACT
 2	kromě	kromě	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	3:case	_
-3	mě	já	PRON	PH-S2--1-------	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obl	1:obl:kromě:gen	Functor=1:RESTR
+3	mě	já	PRON	PH-S2--1-------	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	nmod	1:nmod:kromě:gen	Functor=1:RESTR
 4	hrajou	hrát	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 5	fotbal	fotbal	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj	Functor=4:PAT
 6	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -16771,11 +16771,11 @@
 13	jako	jako	SCONJ	J,-------------	_	15	mark	15:mark	LId=jako-1
 14	by	být	AUX	Vc----------I--	Aspect=Imp|Mood=Cnd|VerbForm=Fin	15	aux	15:aux	_
 15	nic	nic	PRON	PY--1----------	Case=Nom|PronType=Neg	11	advcl	11:advcl:jako	Functor=11:ACT
-16	/	/	PUNCT	Z:-------------	_	19	punct	19:punct	Functor=19:CONJ
+16	/	/	PUNCT	Z:-------------	_	15	punct	15:punct	Functor=15:CONJ
 17	jako	jako	SCONJ	J,-------------	_	19	mark	19:mark	LId=jako-1
 18	že	že	SCONJ	J,-------------	_	19	mark	19:mark	LId=že-1
 18.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	19:nsubj	Entity=(faust_2010_07_jh_04e1--1-gstype:spec)|Functor=19:ACT
-19	jdeš	jít	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	11:advcl:jako|15:conj	Functor=15:PAT
+19	jdeš	jít	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	dep	15:dep	Functor=15:PAT
 20	někam	někam	ADV	Db-------------	PronType=Ind	19	advmod	19:advmod	Functor=19:DIR3
 21	pryč	pryč	ADV	Db-------------	_	20	advmod	20:advmod	LId=pryč-1|Functor=20:DIR3
 22	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -17331,7 +17331,7 @@
 33	mohl	moci	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	parataxis	3:parataxis	_
 34	zlobit	zlobit	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	33	xcomp	33:xcomp	Functor=33:PRED
 35	jenom	jenom	PART	TT-------------	_	36	advmod:emph	36:advmod:emph	LId=jenom-1|Functor=36:RHEM
-36	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	34	xcomp	34:xcomp	LGloss=(samotný)|Functor=34:COMPL
+36	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	34	advcl:pred	34:advcl:pred	LGloss=(samotný)|Functor=34:COMPL
 37	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	38	case	38:case	Entity=(faust_2010_07_jh_04e70--2-gstype:spec|LId=na-1
 38	sebe	se	PRON	P6--4----------	Case=Acc|PronType=Prs|Reflex=Yes	34	obl:arg	34:obl:arg:na:acc	Entity=faust_2010_07_jh_04e70)|Functor=34:PAT|LGloss=(zvr._zájmeno/částice)
 39	,	,	PUNCT	Z:-------------	_	42	punct	42:punct	_
@@ -17370,7 +17370,7 @@
 10.1	vy	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	_	_	11:nsubj	Entity=(faust_2010_07_jh_04e81--1-gstype:spec)|Functor=11:ACT
 11	Pošlete	poslat	VERB	Vi-P---2--A-P--	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	1	parataxis	1:parataxis	Functor=1:PRED
 12	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	11	obl:arg	11:obl:arg:dat	Entity=(faust_2010_07_jh_04e76--1-gstype:spec)|Functor=11:ADDR
-13	prosím	prosit	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	xcomp	11:xcomp	Functor=11:ATT
+13	prosím	prosit	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl:pred	11:advcl:pred	Functor=11:ATT
 14	účet	účet	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	11:obj	Functor=11:PAT
 15	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	17	case	17:case	Entity=(faust_2010_07_jh_04e79--3|LId=s-1
 16	celkovou	celkový	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	Functor=17:RSTR
@@ -18389,7 +18389,7 @@
 18	pomohlo	pomoci	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	ccomp	7:ccomp	Functor=7:PAT
 19	omezit	omezit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	18	xcomp	18:xcomp	Functor=18:PAT
 20	aktivity	aktivita	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	19	obj	19:obj	Functor=19:PAT
-21	jako	jako	CCONJ	J^-------------	_	22	cc	22:cc	LId=jako-2|Functor=22:APPS
+21	jako	jako	CCONJ	J^-------------	_	22	mark	22:mark	LId=jako-2|Functor=22:APPS
 22	tvorbu	tvorba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	20	appos	20:appos	Functor=20:PAT
 23	a	a	CCONJ	J^-------------	_	24	cc	24:cc	LId=a-1|Functor=24:CONJ
 24	distribuci	distribuce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	22	conj	20:appos|22:conj	Functor=22:PAT
@@ -18415,7 +18415,7 @@
 43	pomohlo	pomoci	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	32	ccomp	32:ccomp	Functor=32:PAT
 44	omezit	omezit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	43	xcomp	43:xcomp	Functor=43:PAT
 45	aktivity	aktivita	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	44	obj	44:obj	Functor=44:PAT
-46	jako	jako	CCONJ	J^-------------	_	47	cc	47:cc	LId=jako-2|Functor=47:APPS
+46	jako	jako	CCONJ	J^-------------	_	47	mark	47:mark	LId=jako-2|Functor=47:APPS
 47	tvorbu	tvorba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	45	appos	45:appos	Functor=45:PAT
 48	a	a	CCONJ	J^-------------	_	49	cc	49:cc	LId=a-1|Functor=49:CONJ
 49	distribuci	distribuce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	47	conj	45:appos|47:conj	Functor=47:PAT
@@ -19302,7 +19302,7 @@
 # text = Rád bych obdržel nabídky od našich partnerů .
 # orig_file_sentence faust_2010_07_jh_08#39
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	3	xcomp	3:xcomp	LId=rád-1|Functor=3:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	3	advcl:pred	3:advcl:pred	LId=rád-1|Functor=3:COMPL
 2	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	3	aux	3:aux	_
 3	obdržel	obdržet	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
 4	nabídky	nabídka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	3	obj	3:obj	Functor=3:PAT
@@ -20467,7 +20467,7 @@
 3	a	a	CCONJ	J^-------------	_	4	cc	4:cc	LId=a-1|Functor=4:CONJ
 4	začněte	začít	VERB	Vi-P---2--A-P--	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	1	conj	0:root|1:conj	LId=začít-1|LGloss=(začnout)|Functor=1:PRED
 5	pečovat	pečovat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	Functor=4:PAT
-6	sami	samý	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp|Variant=Short	5	xcomp	5:xcomp	LGloss=(samotný)|Functor=5:COMPL
+6	sami	samý	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp|Variant=Short	5	advcl:pred	5:advcl:pred	LGloss=(samotný)|Functor=5:COMPL
 7	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	8:case	Entity=(faust_2010_07_jh_10e5--2|LId=o-1
 8	sebe	se	PRON	P6--4----------	Case=Acc|PronType=Prs|Reflex=Yes	5	obl:arg	5:nsubj:xsubj|5:obl:arg:o:acc	Entity=faust_2010_07_jh_10e5)|Functor=5:ACT,5:PAT|LGloss=(zvr._zájmeno/částice)
 
@@ -20749,7 +20749,7 @@
 7	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	8:case	LId=z-1
 8	USA	USA	PROPN	BNXXX-----A----	Abbr=Yes|NameType=Geo	0	root	0:root	LGloss=(United_States_of_America)|Functor=0:ID
 9	a	a	CCONJ	J^-------------	_	14	cc	14:cc	LId=a-1
-10	ráda	rád	ADJ	ACQW------A----	Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	14	xcomp	14:xcomp	LId=rád-1|Functor=14:COMPL
+10	ráda	rád	ADJ	ACQW------A----	Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	14	advcl:pred	14:advcl:pred	LId=rád-1|Functor=14:COMPL
 11	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	14	aux	14:aux	_
 12	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	13	case	13:case	Entity=(faust_2010_07_jh_10e32--2-gstype:spec|LId=s-1
 13	tebou	ty	PRON	PP-S7--2-------	Case=Ins|Number=Sing|Person=2|PronType=Prs	14	obl:arg	14:obl:arg:s:ins	Entity=faust_2010_07_jh_10e32)|Functor=14:ACMP
@@ -21077,7 +21077,7 @@
 3	/	/	PUNCT	Z:-------------	_	4	punct	4:punct	Functor=4:DISJ
 4	paní	paní	NOUN	NNFS5-----A----	Case=Voc|Gender=Fem|Number=Sing	2	conj	2:conj|9:vocative	Entity=faust_2010_07_jh_10e55)|Functor=2:VOCAT
 5	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	_
-6	rádi	rád	ADJ	ACMP------A----	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short	9	xcomp	9:xcomp	LId=rád-1|Functor=9:COMPL
+6	rádi	rád	ADJ	ACMP------A----	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short	9	advcl:pred	9:advcl:pred	LId=rád-1|Functor=9:COMPL
 7	bychom	být	AUX	Vc----------Im-	Aspect=Imp|Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	9	aux	9:aux	_
 8	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	9	expl:pv	9:expl:pv	LGloss=(zvr._zájmeno/částice)
 8.1	někoho	#PersPron	PRON	_	Case=Acc|PronType=Prs	_	_	9:obj	Entity=(faust_2010_07_jh_10e55--1-gstype:spec)|Functor=9:PAT
@@ -22142,7 +22142,7 @@
 # orig_file_sentence faust_2010_07_jh_11#49
 # Tectogrammatical annotation available.
 1	Jsi	být	AUX	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	Functor=3:PRED
-2	celý	celý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	xcomp	3:xcomp	Functor=3:COMPL
+2	celý	celý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	advcl:pred	3:advcl:pred	Functor=3:COMPL
 3	špinavý	špinavý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	Functor=0:PAT
 4	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
@@ -22734,7 +22734,7 @@
 27.1	někomu	#PersPron	PRON	_	Case=Dat|PronType=Prs	_	_	28:obl:arg:dat	Entity=(faust_2010_07_jh_12e25--1-gstype:spec)|Functor=28:ADDR
 28	pronajímáno	pronajímaný	ADJ	VsNS----X-API--	Aspect=Imp|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	23	conj	5:parataxis|23:conj	LDeriv=pronajímat|Functor=23:PRED
 29	jako	jako	SCONJ	J,-------------	_	30	mark	30:mark	LId=jako-1
-30	restaurace	restaurace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	28	xcomp	28:xcomp	Functor=28:COMPL
+30	restaurace	restaurace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	28	advcl:pred	28:advcl:pred:jako	Functor=28:COMPL
 31	.	.	PUNCT	Z:-------------	_	23	punct	23:punct	_
 32	Nájemci	nájemce	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	33:nsubj	Entity=(faust_2010_07_jh_12e27--2(faust_2010_07_jh_12e25--1-gstype:spec)|Functor=33:ACT
 33	platí	platit	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	5:parataxis	Functor=5:PRED
@@ -23414,7 +23414,7 @@
 9	produkce	produkce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod:z:gen	Functor=7:DIR1
 10	Vaší	váš	DET	PSFS2-P2-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	11	det	11:det	Functor=11:RSTR
 11	firmy	firma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod:gen	Functor=9:RSTR
-12	jako	jako	CCONJ	J^-------------	_	18	cc	18:cc	LId=jako-2|Functor=18:APPS
+12	jako	jako	CCONJ	J^-------------	_	18	mark	18:mark	LId=jako-2|Functor=18:APPS
 13	MLPS	MLPS	NOUN	BNXXX-----A----	Abbr=Yes	18	nmod	18:nmod	LId=MLPS-88|Functor=18:ID
 14	X	X	NOUN	Q3-------------	Abbr=Yes	18	nmod	18:nmod	LId=X-33|Functor=18:RSTR
 15	-	-	PUNCT	Z:-------------	_	16	punct	16:punct	Functor=16:CONJ
@@ -23816,7 +23816,7 @@
 24	Domingo	Domingo	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing	22	nmod	22:nmod:nom	LId=Domingo-2|Functor=22:FPHR
 25	jako	jako	SCONJ	J,-------------	_	27	mark	27:mark	LId=jako-1
 26	své	svůj	DET	P8NS4---------1	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	27	det	27:det	Entity=(faust_2010_07_jh_14e1--1-gstype:spec)|Functor=27:RSTR|LId=svůj-1
-27	centrum	centrum	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	18	xcomp	18:xcomp	Functor=18:COMPL
+27	centrum	centrum	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	18	advcl:pred	18:advcl:pred:jako	Functor=18:COMPL
 28	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	29	case	29:case	LId=pro-1
 28.1	někým	#PersPron	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Prs	_	_	29:nmod:ins	Entity=(faust_2010_07_jh_14e1--1-gstype:spec)|Functor=29:ACT
 29	přivážení	přivážení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	27	nmod	27:nmod:pro:acc	LDeriv=přivážit|Functor=27:AIM
@@ -24060,7 +24060,7 @@
 # Tectogrammatical annotation available.
 1	Jiná	jiný	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	2	amod	2:amod	Functor=2:RSTR
 2	oddělení	oddělení	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Vnoun	13	nsubj	13:nsubj	LDeriv=oddělit|Functor=13:ACT
-3	jako	jako	CCONJ	J^-------------	_	5	cc	5:cc	LId=jako-2|Functor=5:APPS
+3	jako	jako	CCONJ	J^-------------	_	5	mark	5:mark	LId=jako-2|Functor=5:APPS
 4	celní	celní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	Functor=5:RSTR
 5	správa	správa	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	appos	2:appos	Functor=2:ACT
 6	a	a	CCONJ	J^-------------	_	7	cc	7:cc	LId=a-1|Functor=7:CONJ
@@ -24944,7 +24944,7 @@
 # text = Rád lížu tvou buchtu .
 # orig_file_sentence faust_2010_07_jh_15#19
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	2	xcomp	2:xcomp	LId=rád-1|Functor=2:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	2	advcl:pred	2:advcl:pred	LId=rád-1|Functor=2:COMPL
 2	lížu	lízat	VERB	VB-S---1P-AAI-1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 3	tvou	tvůj	DET	PSFS4-S2------1	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	4:det	Functor=4:RSTR
 4	buchtu	buchta	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	Functor=2:PAT
@@ -25000,11 +25000,11 @@
 1	Vítejte	vítat	VERB	Vi-P---2--A-I--	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	0:root	Functor=0:PRED
 2	jako	jako	SCONJ	J,-------------	_	4	mark	4:mark	LId=jako-1
 3	plní	plný	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	4:amod	Functor=4:RSTR
-4	členové	člen	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	xcomp	1:xcomp	LId=člen-2|Functor=1:COMPL
+4	členové	člen	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	advcl:pred	1:advcl:pred:jako	LId=člen-2|Functor=1:COMPL
 5	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	7:case	LId=do-1
 6	Mezinárodní	mezinárodní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 7	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	1	obl	1:obl:do:gen	LDeriv=společný|Functor=1:DIR3
-8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	obl	7:obl:acc	LId=pro-1
+8	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	nmod	7:nmod:acc	LId=pro-1
 
 # newpar id = faust_2010_07_jh_15-p1574
 # sent_id = faust_2010_07_jh_15-p1574s1
@@ -25353,7 +25353,7 @@
 9	dědictví	dědictví	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	7	nmod	7:nmod:gen	Functor=7:RSTR
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1|Functor=11:CONJ
 11	vzdělávat	vzdělávat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	conj	1:csubj|3:conj	LDeriv=vzdělat|Functor=3:ACT
-12	budoucí	budoucí	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	13	amod	13:amod	Entity=(faust_2010_07_jh_15e33--2-gstype:spec|Functor=13:RSTR
+12	budoucí	budoucí	ADJ	AAFP4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	13	amod	13:amod	Entity=(faust_2010_07_jh_15e33--2-gstype:spec|Functor=13:RSTR
 13	generace	generace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	11	obj	11:obj	Entity=faust_2010_07_jh_15e33)|Functor=11:PAT
 14	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 15-16	aby	_	_	_	_	_	_	_	_
@@ -25842,7 +25842,7 @@
 35	RECH	RECH	NOUN	BNXXX-----A----	Abbr=Yes	33	obl	33:obl:v:acc	LId=RECH-88|Functor=33:ID
 36	3	3	NUM	C=-------------	NumForm=Digit|NumType=Card	35	nummod	35:nummod	Functor=35:RSTR
 37	jako	jako	SCONJ	J,-------------	_	38	mark	38:mark	LId=jako-1
-38	proměnné	proměnná	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	33	xcomp	33:xcomp	LId=proměnná-2|Functor=33:COMPL
+38	proměnné	proměnná	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	33	advcl:pred	33:advcl:pred:jako	LId=proměnná-2|Functor=33:COMPL
 39	závislé	závislý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	38	amod	38:amod	Functor=38:RSTR
 40	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	41	case	41:case	LId=na-1
 41	zemi	země	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	39	obl:arg	39:obl:arg:na:loc	Functor=39:PAT
@@ -26224,10 +26224,10 @@
 27	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	28	expl:pv	28:expl:pv	LGloss=(zvr._zájmeno/částice)
 28	prokázalo	prokázat	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	parataxis	4:parataxis	Functor=4:PRED
 29	jako	jako	SCONJ	J,-------------	_	30	mark	30:mark	LId=jako-1
-30	spolehlivé	spolehlivý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	28	obj	28:obj	Functor=28:PAT
+30	spolehlivé	spolehlivý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	28	advcl:pred	28:advcl:pred:jako	Functor=28:PAT
 31	a	a	CCONJ	J^-------------	_	33	cc	33:cc	LId=a-1|Functor=33:CONJ
 32	zároveň	zároveň	ADV	Db-------------	_	30	advmod:emph	30:advmod:emph|33:advmod:emph	Functor=30:CM
-33	dostupné	dostupný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	30	conj	28:obj|30:conj	Functor=30:PAT
+33	dostupné	dostupný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	30	conj	28:advcl:pred:jako|30:conj	Functor=30:PAT
 34	.	.	PUNCT	Z:-------------	_	28	punct	28:punct	_
 35	Naše	náš	DET	PSHS1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	36	det	36:det	Entity=(faust_2010_07_jh_18e96--1-gstype:spec)|Functor=36:RSTR
 36	místo	místo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	41	nsubj	41:nsubj|43:nsubj	LId=místo-1|LGloss=(fyzické_umístění)|Functor=41:ACT
@@ -26786,7 +26786,7 @@
 2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	LGloss=(zvr._zájmeno/částice)
 3	jí	on	PRON	PEFS3--3------1	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	1	obl:arg	1:obl:arg:dat	Entity=(faust_2010_07_jh_19e36--1-gstype:spec)|Functor=1:ACT|LId=on-1
 4	tohle	tenhle	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	7:det	Functor=7:RSTR
-5	jakoby	jakoby	PART	TT-------------	_	6	advmod:emph	6:advmod:emph	LId=jakoby-2|Functor=6:ATT
+5	jakoby	jakoby	ADV	TT-------------	_	6	advmod:emph	6:advmod:emph	LId=jakoby-2|Functor=6:ATT
 6	myší	myší	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 7	rozpoložení	rozpoložení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	1	nsubj	1:nsubj	LDeriv=rozpoložit|Functor=1:PAT
 8	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -27034,7 +27034,7 @@
 26	vyloučení	vyloučení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	22	obl	22:obl:pro:acc	LDeriv=vyloučit|Functor=22:AIM
 27	plicní	plicní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	28	amod	28:amod	Functor=28:RSTR
 28	léze	léze	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	26	nmod	26:nmod:gen	Functor=26:PAT
-29	jako	jako	CCONJ	J^-------------	_	31	cc	31:cc	LId=jako-2|Functor=31:APPS
+29	jako	jako	CCONJ	J^-------------	_	31	mark	31:mark	LId=jako-2|Functor=31:APPS
 30	plicní	plicní	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	31	amod	31:amod	Functor=31:RSTR
 31	TB	TB	NOUN	BNXXX-----A----	Abbr=Yes	28	appos	28:appos	LId=TB-88|Functor=28:ID
 32	nebo	nebo	CCONJ	J^-------------	_	33	cc	33:cc	Functor=33:DISJ
@@ -27699,7 +27699,7 @@
 # text = Rád bych se ujistil , jestli platba bude provedena telegrafickým převodem pro Impulse International Pvt . s . r . o A / C č . 0005302285 u Citibank N . A . , Noida Branch , Indie
 # orig_file_sentence faust_2010_07_jh_20#21
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	4	xcomp	4:xcomp	LId=rád-1|Functor=4:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	4	advcl:pred	4:advcl:pred	LId=rád-1|Functor=4:COMPL
 2	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	4	aux	4:aux	_
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	ujistil	ujistit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
@@ -29265,7 +29265,7 @@
 12	panem	pan	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	10:nmod:s:ins	Functor=10:RSTR
 13	Nasserem	Nasser	PROPN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Giv|Number=Sing	12	flat	12:flat	Functor=12:ACMP
 14	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	16	aux	16:aux	_
-15	rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	16	xcomp	16:xcomp	LId=rád-1|Functor=16:COMPL
+15	rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	16	advcl:pred	16:advcl:pred	LId=rád-1|Functor=16:COMPL
 15.1	já	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	_	_	16:nsubj	Entity=(faust_2010_07_mu_02e4--1)|Functor=16:ACT
 16	potvrdil	potvrdit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
 17	naši	náš	DET	PSFS4-P1-------	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det	18:det	Bridge=faust_2010_07_mu_02e1<faust_2010_07_mu_02e3:subset,faust_2010_07_mu_02e4<faust_2010_07_mu_02e3:subset|Entity=(faust_2010_07_mu_02e3--1)|Functor=18:RSTR
@@ -29535,7 +29535,7 @@
 1	Je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux:pass	2:aux:pass	_
 2	používána	používaný	ADJ	VsQW----X-API--	Aspect=Imp|Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=používat|Functor=0:PRED
 3	jako	jako	SCONJ	J,-------------	_	4	mark	4:mark	LId=jako-1
-4	metoda	metoda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	2:xcomp	Functor=2:COMPL
+4	metoda	metoda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	advcl:pred	2:advcl:pred:jako	Functor=2:COMPL
 5	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	6:case	LId=pro-1
 6	výběr	výběr	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	2:obl:pro:acc	Functor=2:AIM
 7	druhů	druh	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	6:nmod:gen	LId=druh-1|LGloss=(typ)|Functor=6:RSTR
@@ -29610,7 +29610,7 @@
 10	nejdříve	dříve	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	9	advmod	9:advmod	Functor=9:TWHEN
 11	zítra	zítra	ADV	Db-------------	_	9	advmod	9:advmod	Entity=faust_2010_07_mu_02e45)|Functor=9:TWHEN
 12	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
-13	I	i	CCONJ	J^-------------	_	17	cc	17:cc	LId=i-1|Functor=17:PREC
+13	I	i	CCONJ	J^-------------	_	17	advmod:emph	17:advmod:emph	LId=i-1|Functor=17:PREC
 14	přesto	přesto	CCONJ	J^-------------	_	17	cc	17:cc	LId=přesto-2|Functor=17:PREC
 15	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	17	expl:pv	17:expl:pv	LGloss=(zvr._zájmeno/částice)
 16	budeme	být	AUX	VB-P---1F-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
@@ -29979,7 +29979,7 @@
 # Tectogrammatical annotation available.
 1	Mám	mít	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	něco	něco	PRON	PK--4----------	Animacy=Inan|Case=Acc|PronType=Ind	3	obj	3:obj	Functor=3:PAT
-3	dohodnuto	dohodnutý	ADJ	VsNS----X-APP--	Aspect=Perf|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	LDeriv=dohodnout|Functor=1:PRED
+3	dohodnuto	dohodnutý	ADJ	VsNS----X-APP--	Aspect=Perf|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl:pred	1:advcl:pred	LDeriv=dohodnout|Functor=1:PRED
 4	doma	doma	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	advmod	1:advmod	Functor=1:LOC
 5	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
@@ -30291,7 +30291,7 @@
 6	vždy	vždy	ADV	Db-------------	PronType=Tot	5	advmod	5:advmod	Functor=5:TWHEN
 7	novinkám	novinka	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur	5	obl:arg	5:obl:arg:dat	Entity=(faust_2010_07_mu_03e13--1-gstype:spec)faust_2010_07_mu_03e9[2/2])|Functor=5:PAT
 8	-	-	PUNCT	Z:-------------	_	10	punct	10:punct	Functor=10:APPS
-9	tedy	tedy	PART	TT-------------	_	10	advmod:emph	10:advmod:emph	LId=tedy-1|Functor=10:CM
+9	tedy	tedy	ADV	TT-------------	_	10	advmod:emph	10:advmod:emph	LId=tedy-1|Functor=10:CM
 10	alespoň	alespoň	ADV	Db-------------	_	5	appos	5:appos	LId=alespoň-1|Functor=5:EXT
 11	ne	ne	PART	TT-------------	_	14	advmod:emph	14:advmod:emph	LId=ne-1|Functor=14:RHEM
 12	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	14	case	14:case	LId=do-1
@@ -30712,7 +30712,7 @@
 2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	3:case	LId=v-1
 3	hrnku	hrnek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	1:nmod:v:loc	Functor=1:LOC
 4	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	Functor=8:CONJ
-5	žízniví	žíznivý	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	xcomp	8:xcomp	Functor=8:COMPL
+5	žízniví	žíznivý	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	advcl:pred	8:advcl:pred	Functor=8:COMPL
 6	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
 7	jsme	být	AUX	VB-P---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 8	chodili	chodit	VERB	VpMP----R-AAI--	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	Functor=1:PRED
@@ -31406,7 +31406,7 @@
 17	Měl	mít	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	parataxis	1:parataxis	_
 18	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	17	aux	17:aux	_
 19	platit	platit	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	xcomp	17:xcomp	Functor=17:PRED
-20	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	21	obl	21:obl	LNumValue=2|Functor=21:EXT
+20	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	21	nmod	21:nmod	LNumValue=2|Functor=21:EXT
 21	tolik	tolik	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Dem	19	obl	19:obl:acc	LId=tolik-1|Functor=19:EXT
 22	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	23	case	23:case	_
 23	měsíční	měsíční	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	19	dep	19:dep	Functor=19:RSTR
@@ -31629,8 +31629,8 @@
 31	dávat	dávat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	30	xcomp	30:xcomp	LId=dávat-1|LDeriv=dát|Functor=30:PRED
 32	vinu	vina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	31	obj	31:obj	Functor=31:DPHR
 33	jen	jen	PART	TT-------------	_	34	advmod:emph	34:advmod:emph	LId=jen-1|Functor=34:RHEM
-34	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	31	xcomp	31:xcomp	LGloss=(samotný)|Functor=31:COMPL
-35	sobě	se	PRON	P6--3----------	Case=Dat|PronType=Prs|Reflex=Yes	31	obl:arg	31:obl:arg:dat|34:nsubj:xsubj	Entity=(faust_2010_07_mu_04e72--1-gstype:spec)|Functor=31:PAT|LGloss=(zvr._zájmeno/částice)
+34	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	31	advcl:pred	31:advcl:pred	LGloss=(samotný)|Functor=31:COMPL
+35	sobě	se	PRON	P6--3----------	Case=Dat|PronType=Prs|Reflex=Yes	31	obl:arg	31:obl:arg:dat	Entity=(faust_2010_07_mu_04e72--1-gstype:spec)|Functor=31:PAT|LGloss=(zvr._zájmeno/částice)
 36	,	,	PUNCT	Z:-------------	_	39	punct	39:punct	_
 37	protože	protože	SCONJ	J,-------------	_	39	mark	39:mark	_
 38	šance	šance	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	39	nsubj	39:nsubj	Functor=39:ACT
@@ -31732,9 +31732,9 @@
 20	zapojení	zapojení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	19	nmod	19:nmod:gen	LDeriv=zapojit|Functor=19:RSTR
 21	zákazníka	zákazník	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	20:nmod:gen	Entity=(faust_2010_07_mu_04e93--1-gstype:spec)|Functor=20:ACT
 22	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
-23	nebo	nebo	CCONJ	J^-------------	_	27	cc	27:cc	Functor=27:APPS
-24	-	-	PUNCT	Z:-------------	_	27	punct	27:punct	_
-25	li	li	SCONJ	J,-------------	_	27	cc	27:cc	LId=li-2
+23	nebo	nebo	CCONJ	J^-------------	ExtPos=CCONJ	27	cc	27:cc	Functor=27:APPS
+24	-	-	PUNCT	Z:-------------	_	25	punct	25:punct	_
+25	li	li	SCONJ	J,-------------	_	23	fixed	23:fixed	LId=li-2
 26	Zákazníkova	zákazníkův	ADJ	AUFS1M---------	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Poss=Yes	27	amod	27:amod	Entity=(faust_2010_07_mu_04e93--1-gstype:spec)|Functor=27:RSTR|LDeriv=zákazník
 27	cesta	cesta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	19	appos	19:appos	Entity=faust_2010_07_mu_04e91)|Functor=19:PAT
 28	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
@@ -32706,7 +32706,7 @@
 20	omezit	omezit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	19	xcomp	19:xcomp	Functor=19:PAT
 21	takové	takový	DET	PDFP4----------	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	22	det	22:det	Functor=22:RSTR
 22	aktivity	aktivita	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	20	obj	20:obj	Functor=20:PAT
-23	jako	jako	CCONJ	J^-------------	_	24	cc	24:cc	LId=jako-2|Functor=24:APPS
+23	jako	jako	CCONJ	J^-------------	_	24	mark	24:mark	LId=jako-2|Functor=24:APPS
 24	produkci	produkce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	22	appos	22:appos	Functor=22:PAT
 25	a	a	CCONJ	J^-------------	_	26	cc	26:cc	LId=a-1|Functor=26:CONJ
 26	distribuci	distribuce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	24	conj	22:appos|24:conj	Functor=24:PAT
@@ -33139,7 +33139,7 @@
 6	za	za	ADP	RR--7----------	AdpType=Prep|Case=Ins	5	mark	5:mark	_
 7	;	;	PUNCT	Z:-------------	_	5	punct	5:punct	Functor=5:CONJ
 8	odejít	odejít	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	parataxis	1:parataxis	Functor=1:PRED
-9	rozhořčený	rozhořčený	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	xcomp	8:xcomp	LDeriv=rozhořčit|Functor=8:COMPL
+9	rozhořčený	rozhořčený	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	8	advcl:pred	8:advcl:pred	LDeriv=rozhořčit|Functor=8:COMPL
 
 # newpar id = faust_2010_07_mu_08-p0784
 # sent_id = faust_2010_07_mu_08-p0784s1
@@ -33241,7 +33241,7 @@
 # orig_file_sentence faust_2010_07_mu_08#17
 # Tectogrammatical annotation available.
 1	Dítě	dítě	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	LId=dítě-1|Functor=4:ACT
-2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	obj	4:obj	Functor=4:ADDR
+2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	iobj	4:iobj	Functor=4:ADDR
 3	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	4:obj	Functor=4:PAT
 4	naučilo	naučit	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
 5	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	6	case	6:case	LId=před-1
@@ -33463,7 +33463,7 @@
 # orig_file_sentence faust_2010_07_mu_08#33
 # Tectogrammatical annotation available.
 1	Jak	jak	ADV	Db-------------	PronType=Int,Rel	2	advmod	2:advmod	LId=jak-3|Functor=2:EXT
-2	vysoké	vysoký	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	obj	3:obj	Functor=3:EFF
+2	vysoké	vysoký	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	advcl:pred	3:advcl:pred	Functor=3:EFF
 3	máš	mít	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	stipendium	stipendium	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	3	obj	3:obj	Functor=3:PAT
 5	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -33583,7 +33583,7 @@
 # text = Rád bych dostával nabídky od našich partnerů .
 # orig_file_sentence faust_2010_07_mu_08#39
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	3	xcomp	3:xcomp	LId=rád-1|Functor=3:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	3	advcl:pred	3:advcl:pred	LId=rád-1|Functor=3:COMPL
 2	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	3	aux	3:aux	_
 3	dostával	dostávat	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	LDeriv=dostat|Functor=0:PRED
 4	nabídky	nabídka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	3	obj	3:obj	Functor=3:PAT
@@ -35022,7 +35022,7 @@
 7	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	8:case	LId=z-1
 8	USA	USA	PROPN	BNXXX-----A----	Abbr=Yes|NameType=Geo	3	parataxis	3:parataxis	LGloss=(United_States_of_America)|Functor=3:DIR1
 9	a	a	CCONJ	J^-------------	_	14	cc	14:cc	LId=a-1|Functor=14:CONJ
-10	rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	14	xcomp	14:xcomp|17:xcomp	LId=rád-1|Functor=14:COMPL
+10	rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	14	advcl:pred	14:advcl:pred|17:advcl:pred	LId=rád-1|Functor=14:COMPL
 11	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	14	aux	14:aux	_
 12	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	13	case	13:case	Entity=(faust_2010_07_mu_10e23--2-gstype:spec|LId=s-1
 13	tebou	ty	PRON	PP-S7--2-------	Case=Ins|Number=Sing|Person=2|PronType=Prs	14	obl	14:obl:s:ins	Entity=faust_2010_07_mu_10e23)|Functor=14:ACMP
@@ -35802,7 +35802,7 @@
 # text = Rád slyším , že jste měli pěkné počasí , jsem si jistý , že to dělá tvou práci trochu příjemnější . Zdá se , že v Minnesotě je rybaření lepší , když je zataženo a mokro .
 # orig_file_sentence faust_2010_07_mu_11#12
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	2	xcomp	2:xcomp	LId=rád-1|Functor=2:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	2	advcl:pred	2:advcl:pred	LId=rád-1|Functor=2:COMPL
 2	slyším	slyšet	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 3	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 4	že	že	SCONJ	J,-------------	_	6	mark	6:mark	LId=že-1
@@ -35933,7 +35933,7 @@
 1	Ohodnoť	ohodnotit	VERB	Vi-S---2--A-P--	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	0:root	Functor=0:PRED
 2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obj	1:obj	Entity=(faust_2010_07_mu_11e11--1-gstype:spec)|Functor=1:PAT
 3	jako	jako	SCONJ	J,-------------	_	4	mark	4:mark	LId=jako-1
-4	první	první	ADJ	CrMS1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	1	xcomp	1:xcomp	LId=první-1|Functor=1:COMPL
+4	první	první	ADJ	CrMS1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	1	advcl:pred	1:advcl:pred:jako	LId=první-1|Functor=1:COMPL
 5	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 6-7	abys	_	_	_	_	_	_	_	_
 6	aby	aby	SCONJ	J,-------------	_	8	mark	8:mark	_
@@ -36271,7 +36271,7 @@
 18	couvání	couvání	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	17	nmod	17:nmod:gen	LDeriv=couvat|Functor=17:RSTR
 18.1	vy	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	_	_	19:nsubj	Entity=(faust_2010_07_mu_11e32--1-gstype:spec)|Functor=19:ACT
 19	mějte	mít	VERB	Vi-P---2--A-I--	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	1	conj	0:root|1:conj	Functor=1:PRED
-20	otočenou	otočený	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	obj	19:obj	LDeriv=otočit|Functor=19:EFF
+20	otočenou	otočený	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	advcl:pred	19:advcl:pred	LDeriv=otočit|Functor=19:EFF
 21	hlavu	hlava	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	19	obj	19:obj	Functor=19:PAT
 22	a	a	CCONJ	J^-------------	_	23	cc	23:cc	LId=a-1|Functor=23:CONJ
 23	dívejte	dívat	VERB	Vi-P---2--A-I--	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	19	conj	0:root|19:conj	Functor=19:PRED
@@ -36453,7 +36453,7 @@
 # orig_file_sentence faust_2010_07_mu_11#49
 # Tectogrammatical annotation available.
 1	Jsi	být	AUX	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	Functor=3:PRED
-2	celý	celý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	xcomp	3:xcomp	Functor=3:COMPL
+2	celý	celý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	advcl:pred	3:advcl:pred	Functor=3:COMPL
 3	špinavý	špinavý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	Functor=0:PAT
 4	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
@@ -37030,7 +37030,7 @@
 35	době	doba	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	36	obl	36:obl:v:loc	Functor=36:TWHEN
 36	pronajímán	pronajímaný	ADJ	VsYS----X-API--	Aspect=Imp|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	26	conj	1:parataxis|26:conj	LDeriv=pronajímat|Functor=26:PRED
 37	jako	jako	SCONJ	J,-------------	_	38	mark	38:mark	LId=jako-1
-38	restaurace	restaurace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	36	xcomp	36:xcomp	Functor=36:COMPL
+38	restaurace	restaurace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	36	advcl:pred	36:advcl:pred:jako	Functor=36:COMPL
 39	.	.	PUNCT	Z:-------------	_	26	punct	26:punct	_
 40	Nájemníci	nájemník	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	41	nsubj	41:nsubj	Entity=(faust_2010_07_mu_12e31--2|Functor=41:ACT
 41	platí	platit	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	1:parataxis	Functor=1:PRED
@@ -37375,7 +37375,7 @@
 7	odstranit	odstranit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	acl	6:acl	Functor=6:RSTR
 8	muže	muž	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	7:obj	Functor=7:PAT
 9	jakožto	jakožto	SCONJ	J,-------------	_	10	mark	10:mark	Entity=(faust_2010_07_mu_13e3--2
-10	normu	norma	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	xcomp	7:xcomp|16:obl:podle:gen|23:nmod	Functor=7:COMPL
+10	normu	norma	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	advcl:pred	7:advcl:pred:jako|16:obl:podle:gen|23:nmod	Functor=7:COMPL
 11	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 12	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	13	case	13:case	Entity=(faust_2010_07_mu_13e3--2|LId=podle-2
 13	které	který	DET	P4FS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	16	obl	10:ref	Entity=faust_2010_07_mu_13e3)|Functor=16:CRIT
@@ -37707,12 +37707,12 @@
 1	Dobré	dobrý	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	2	amod	2:amod	Functor=2:RSTR
 2	ráno	ráno	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	0	root	0:root	LId=ráno-1|Functor=0:PAT
 3	!	!	PUNCT	Z:-------------	_	2	punct	2:punct	_
-4	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	6	xcomp	6:xcomp	LId=rád-1|Functor=6:COMPL
+4	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	6	advcl:pred	6:advcl:pred	LId=rád-1|Functor=6:COMPL
 5	bych	být	AUX	Vc----------Ic-	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	6	aux	6:aux	_
 6	koupil	koupit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	parataxis	2:parataxis	Functor=2:PRED
 7	některé	některý	DET	PZYP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	6	obj	6:obj	Functor=6:PAT
 8	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	9:case	LId=z-1
-9	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	7:obl:z:gen	Functor=7:DIR1
+9	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod:z:gen	Functor=7:DIR1
 10	Vaší	váš	DET	PSFS2-P2-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	11	det	11:det	Functor=11:RSTR
 11	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod:gen	LDeriv=společný|Functor=9:RSTR
 12	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	Functor=15:APPS
@@ -37761,7 +37761,7 @@
 # Tectogrammatical annotation available.
 0.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	1:nsubj	Entity=(faust_2010_07_mu_13e17--1)|Functor=1:ACT
 1	mysli	myslit	VERB	Vi-S---2--A-I--	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	0:root	Functor=0:PRED
-2	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	1	xcomp	1:xcomp	LGloss=(samotný)|Functor=1:COMPL
+2	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	1	advcl:pred	1:advcl:pred	LGloss=(samotný)|Functor=1:COMPL
 3	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	4:case	Entity=(faust_2010_07_mu_13e17--2
 4	sebe	se	PRON	P6--4----------	Case=Acc|PronType=Prs|Reflex=Yes	1	obl	1:obl:za:acc	Entity=faust_2010_07_mu_13e17)|Functor=1:SUBS|LGloss=(zvr._zájmeno/částice)
 
@@ -37955,7 +37955,7 @@
 4	domů	domů	ADV	Db-------------	_	3	advmod	3:advmod	Functor=3:DIR3
 5	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	3	obl	3:obl	LNumValue=2|Functor=3:THO
 6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	_
-7	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	5:obl:za:acc	Functor=5:THL
+7	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	5:nmod:za:acc	Functor=5:THL
 8	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # newpar id = faust_2010_07_mu_13-p1388
@@ -38114,7 +38114,7 @@
 36	republiky	republika	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	34	nmod	34:nmod:gen	Functor=34:RSTR
 37	,	,	PUNCT	Z:-------------	_	34	punct	34:punct	_
 38	jako	jako	SCONJ	J,-------------	_	39	mark	39:mark	LId=jako-1
-39	základnu	základna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	27	xcomp	27:xcomp	Functor=27:EFF
+39	základnu	základna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	27	advcl:pred	27:advcl:pred:jako	Functor=27:EFF
 40	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	42	case	42:case	LId=pro-1
 41	pomocné	pomocný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	42	amod	42:amod	Functor=42:RSTR
 42	operace	operace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	39	nmod	39:nmod:pro:acc	Functor=39:BEN
@@ -38338,7 +38338,7 @@
 # Tectogrammatical annotation available.
 1	Jiná	jiný	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	2	amod	2:amod	Functor=2:RSTR
 2	oddělení	oddělení	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Vnoun	11	nsubj	11:nsubj	LDeriv=oddělit|Functor=11:ACT
-3	jako	jako	CCONJ	J^-------------	_	4	cc	4:cc	LId=jako-2|Functor=4:APPS
+3	jako	jako	CCONJ	J^-------------	_	4	mark	4:mark	LId=jako-2|Functor=4:APPS
 4	celnice	celnice	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	appos	2:appos	LDeriv=celník|Functor=2:ACT
 5	a	a	CCONJ	J^-------------	_	6	cc	6:cc	LId=a-1|Functor=6:CONJ
 6	imigrace	imigrace	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	conj	2:appos|4:conj	Functor=4:ACT
@@ -39224,7 +39224,7 @@
 # text = Rád saji tvou kundičku .
 # orig_file_sentence faust_2010_07_mu_15#19
 # Tectogrammatical annotation available.
-1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	2	xcomp	2:xcomp	LId=rád-1|Functor=2:COMPL
+1	Rád	rád	ADJ	ACYS------A----	Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	2	advcl:pred	2:advcl:pred	LId=rád-1|Functor=2:COMPL
 2	saji	sát	VERB	VB-S---1P-AAI-1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 3	tvou	tvůj	DET	PSFS4-S2------1	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	4:det	Functor=4:RSTR
 4	kundičku	kundička	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Style=Vulg	2	obj	2:obj	Functor=2:PAT
@@ -39284,7 +39284,7 @@
 6	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	8:case	LId=u-1
 7	Mezinárodní	mezinárodní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	Functor=8:RSTR
 8	Společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod:u:gen	LDeriv=společný|Functor=5:LOC
-9	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	obl	8:obl:acc	LId=pro-1
+9	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	nmod	8:nmod:acc	LId=pro-1
 
 # newpar id = faust_2010_07_mu_15-p1574
 # sent_id = faust_2010_07_mu_15-p1574s1
@@ -39628,7 +39628,7 @@
 9	Hongkongu	Hongkong	PROPN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|NameType=Geo|Number=Sing	8	nmod	8:nmod:gen	Functor=8:RSTR
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	LId=a-1|Functor=11:CONJ
 11	vychovávat	vychovávat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	conj	1:xcomp|3:conj	LDeriv=vychovat|Functor=3:ACT
-12	budoucí	budoucí	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	13	amod	13:amod	Entity=(faust_2010_07_mu_15e47--2-gstype:spec|Functor=13:RSTR
+12	budoucí	budoucí	ADJ	AAFP4----1A----	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	13	amod	13:amod	Entity=(faust_2010_07_mu_15e47--2-gstype:spec|Functor=13:RSTR
 13	generace	generace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	11	obj	11:obj	Entity=faust_2010_07_mu_15e47)|Functor=11:PAT
 14	tak	tak	ADV	Db-------------	PronType=Dem	11	advmod	11:advmod	LId=tak-3|Functor=11:MANN
 15	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
@@ -40127,7 +40127,7 @@
 38	země	země	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	40	nmod	40:nmod:nom	Functor=40:RSTR
 39	-	-	PUNCT	Z:-------------	_	40	punct	40:punct	Functor=40:CONJ
 40	specifické	specifický	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	41	amod	41:amod	Functor=41:RSTR
-41	proměnné	proměnná	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	33	xcomp	33:xcomp	LId=proměnná-2|Functor=33:COMPL
+41	proměnné	proměnná	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	33	advcl:pred	33:advcl:pred:jako	LId=proměnná-2|Functor=33:COMPL
 
 # newpar id = faust_2010_07_mu_18-p1898
 # sent_id = faust_2010_07_mu_18-p1898s1
@@ -40984,7 +40984,7 @@
 5	jestli	jestli	SCONJ	J,-------------	_	9	mark	9:mark	_
 6	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	7	case	7:case	LId=s-1
 7	mnou	já	PRON	PP-S7--1-------	Case=Ins|Number=Sing|Person=1|PronType=Prs	9	obl:arg	9:obl:arg:s:ins	Functor=9:ADDR
-8	nerada	rád	ADJ	ACQW------N----	Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Neg|Variant=Short	9	xcomp	9:xcomp	LId=rád-1|Functor=9:COMPL
+8	nerada	rád	ADJ	ACQW------N----	Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Neg|Variant=Short	9	advcl:pred	9:advcl:pred	LId=rád-1|Functor=9:COMPL
 9	chatuješ	chatovat	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	3:csubj	Functor=3:ACT.cop
 10	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 

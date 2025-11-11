@@ -68,7 +68,7 @@ Additional consistency tests were performed after conversion to UD.
 | LEMMA  | Manual selection from possibilities provided by morphological analysis. In the UD conversion, PDT-C lemmas were stripped of the ID numbers distinguishing homonyms, semantic tags and comments; this information is preserved as attributes in the MISC column. |
 | UPOS   | Converted automatically from XPOS (via [Interset](https://ufal.mff.cuni.cz/interset)), from the semantic tags in PDT-C lemma, and occasionally from other information available in the treebank. |
 | XPOS   | Manual selection from possibilities provided by morphological analysis. |
-| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT lemma, and occasionally from other information available in the treebank. |
+| FEATS  | Converted automatically from XPOS (via Interset), from the semantic tags in PDT-C lemma, and occasionally from other information available in the treebank. |
 | HEAD   | Original PDT-C annotation is manual. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
 | DEPREL | Original PDT-C annotation is manual. Automatic conversion to UD; human checking of patterns revealed by automatic consistency tests. |
 | DEPS   | Generated from the basic UD tree and additional annotation from the original PDT-C. |
@@ -135,6 +135,11 @@ page of the project website.
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Changed annotation of "budoucí": VerbForm=Part, Voice=Act, Tense=Fut.
+  * Optional depictives are now annotated with "advcl:pred" (previously "xcomp").
+  * Fixed depictives that were annotated as objects.
+  * Fixed multiple objects under one predicate.
 * 2025-05-15 v2.16
   * Repository renamed from UD_Czech-PDT to UD_Czech-PDTC.
   * Source data is now PDT-C 2.0 (previously it was 1.0).
@@ -255,6 +260,8 @@ page of the project website.
   * Improved heuristics to distinguish DET and PRON
   * Improved treatment of comparative complements (conjunctions “než” and “jako”)
   * Remaining lemma extensions moved from LEMMA to MISC
+* 2015-01-15 v1.0
+  * Initial release in Universal Dependencies.
 
 
 
@@ -263,12 +270,13 @@ page of the project website.
 Data available since: UD v1.0
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news reviews nonfiction academic spoken social
-Lemmas: converted from manual
-UPOS: converted from manual
+Lemmas: converted with corrections
+UPOS: converted with corrections
 XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Features: converted with corrections
+Relations: converted with corrections
 Contributors: Zeman, Daniel; Hajič, Jan; Bémová, Alevtina; Buráňová, Eva; Hajičová, Eva; Havelka, Jiří; Hlaváčová, Jaroslava; Kárník, Jiří; Kolářová, Veronika; Kučová, Lucie; Lopatková, Markéta; Mikulová, Marie; Mírovský, Jiří; Nedoluzhko, Anna; Novák, Michal; Pajas, Petr; Panevová, Jarmila; Sgall, Petr; Straka, Milan; Ševčíková, Magda; Štěpánek, Jan; Štěpánková, Barbora; Urešová, Zdeňka; Vidová Hladká, Barbora; Žabokrtský, Zdeněk
 Contributing: elsewhere
 Contact: zeman@ufal.mff.cuni.cz
