@@ -112,6 +112,9 @@ Zdeněk Žabokrtský, and many other contributors (technical support, guidelines
 – they are listed in the [Credits](https://ufal.mff.cuni.cz/pdt-c/credits)
 page of the project website.
 
+The improvements done in 2023–2026, including the expansion from PDT to PDT-C, benefited from
+the COST Action CA21167 [UniDive](https://unidive.lisn.upsaclay.fr/).
+
 ## References
 
 * Jan Hajič, Eduard Bejček, Jaroslava Hlaváčová, Marie Mikulová, Milan Straka,
