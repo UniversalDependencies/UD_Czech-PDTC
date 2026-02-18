@@ -117,23 +117,16 @@ the COST Action CA21167 [UniDive](https://unidive.lisn.upsaclay.fr/).
 
 ## References
 
-* Jan Hajič, Eduard Bejček, Jaroslava Hlaváčová, Marie Mikulová, Milan Straka,
-  Jan Štěpánek, and Barbora Štěpánková. 2020. Prague Dependency Treebank –
-  Consolidated 1.0.
-  In: Proceedings of the 12th Conference on Language Resources and Evaluation
-  (LREC 2020), Marseille, France, pp. 5208-5218.
-  https://aclanthology.org/2020.lrec-1.641.pdf
-* Jan Hajič, Eduard Bejček, Alevtina Bémová, Eva Buráňová, Eva Fučíková,
-  Eva Hajičová, Jiří Havelka, Jaroslava Hlaváčová, Petr Homola, Pavel Ircing,
-  Jiří Kárník, Václava Kettnerová, Natalia Klyueva, Veronika Kolářová, Petr Pajas,
-  Jarmila Panevová, Nino Peterek, Lucie Poláková, Martin Popel, Jan Popelka,
-  Jan Romportl, Magdaléna Rysová, Jiří Semecký, Petr Sgall, Johanka Spoustová,
-  Milan Straka, Pavel Straňák, Pavlína Synková, Magda Ševčíková, Jana Šindlerová,
-  Jan Štěpánek, Barbora Štěpánková, Josef Toman, Zdeňka Urešová, Barbora Vidová Hladká,
-  Daniel Zeman, Šárka Zikánová, Zdeněk Žabokrtský. 2024.
-  Prague Dependency Treebank – Consolidated 2.0 (PDT-C 2.0).
-  Data/software, LINDAT/CLARIAH-CZ digital library, Praha, Czechia,
-  [http://hdl.handle.net/11234/1-5813](http://hdl.handle.net/11234/1-5813).
+```
+@inproceedings{udpdtc,
+  author    = {Marie Mikulová and Barbora Štěpánková and Daniel Zeman and Jan Štěpánek and Milan Straka and Jan Hajič},
+  title     = {Meet {UD_Czech-PDTC}: A Large and Genre-Rich Treebank in {Universal Dependencies}},
+  booktitle = {Proceedings of the 15th International Conference on Language Resources and Evaluation (LREC 2026)},
+  publisher = {European Language Resources Association},
+  address   = {Palma, Spain},
+  year      = 2026,
+}
+```
 
 
 # Changelog
