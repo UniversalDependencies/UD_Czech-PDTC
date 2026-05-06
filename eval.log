@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Czech-PDTC:
-commit 459af5a031b285956e852bd2cb4561f846443f70
-Merge: b4467de d24709e
+commit e163fa8fbbfdbc8d61a08b792e821b411ddd3938
+Merge: 950fa61 c8ad7d2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(?:(cs_pdtc)-ud-train-[clmvfsw](a|t[012]?)\.conllu|(.+)-ud-(dev|test)\.conllu)'
 Language-treebank code (from CoNLL-U file name) = 'cs_pdtc'
