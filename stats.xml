@@ -57,7 +57,7 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV">7879</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejvíc, největším, největších, nejstarší, nejdříve -->
     <feat name="ExtPos" value="ADJ" upos="DET">29</feat><!-- ty, ten, ti, ta -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,VERB,X">7283</feat><!-- v, na, ve, vzhledem, spolu, ze, z, s, za, společně -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">411</feat><!-- přece, více, de, víc, nejen, co, a, méně, rok, všeho -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">423</feat><!-- přece, více, de, víc, nejen, co, a, méně, rok, všeho -->
     <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ,DET">782</feat><!-- a, to, nebo, neřku -->
     <feat name="ExtPos" value="SCONJ" upos="ADV,CCONJ,SCONJ">1123</feat><!-- i, jestli, než, poté, zatím, zda -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">47621</feat><!-- Corp, Inc, co, New, s, Wall, street, San, International, de -->
@@ -148,7 +148,7 @@
     <dep name="aux">54094</dep>
     <dep name="aux:pass">15422</dep>
     <dep name="case">317665</dep>
-    <dep name="cc">109127</dep>
+    <dep name="cc">109115</dep>
     <dep name="ccomp">35050</dep>
     <dep name="compound">10807</dep>
     <dep name="conj">141365</dep>
@@ -162,7 +162,7 @@
     <dep name="discourse">1270</dep>
     <dep name="expl:pass">9809</dep>
     <dep name="expl:pv">45998</dep>
-    <dep name="fixed">11241</dep>
+    <dep name="fixed">11253</dep>
     <dep name="flat">57411</dep>
     <dep name="iobj">2260</dep>
     <dep name="mark">78546</dep>

@@ -2408,8 +2408,8 @@
 12	dalších	další	ADJ	AANP2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	14	amod	14:amod	Functor=14:RSTR
 13	rostlinných	rostlinný	ADJ	AANP2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	14	amod	14:amod	Functor=14:RSTR
 14	hnojiv	hnojivo	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	10	conj	9:nmod:gen|10:conj	Functor=10:RSTR
-15	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	17	advmod	17:advmod	Functor=17:EXT
-16	než	než	SCONJ	J,-------------	_	15	cc	15:cc	LId=než-2|Functor=15:DPHR
+15	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	17	advmod	17:advmod	Functor=17:EXT
+16	než	než	SCONJ	J,-------------	_	15	fixed	15:fixed	LId=než-2|Functor=15:DPHR
 17	vyrovnávají	vyrovnávat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED|LDeriv=vyrovnat
 18	mírný	mírný	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	19	amod	19:amod	Functor=19:RSTR
 19	pokles	pokles	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	17:obj	Functor=17:PAT
