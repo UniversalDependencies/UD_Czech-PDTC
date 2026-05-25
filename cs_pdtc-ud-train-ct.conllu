@@ -8531,14 +8531,14 @@
 # text = Rok s databankou pracovních příležitostí manažerského svazového fondu
 # orig_file_sentence cmpr9410_017#2
 # Tectogrammatical annotation available.
-1	Rok	rok	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	Entity=(cmpr9410017e8--1-gstype:spec|Functor=0:DENOM
+1	Rok	rok	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	Entity=(cmpr9410017e10--1-gstype:spec|Functor=0:DENOM
 2	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	3	case	3:case	Entity=(cmpr9410017e3--2-gstype:spec|LId=s-1
 3	databankou	databanka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	1	nmod	1:nmod:s:ins	Functor=1:ACMP
 4	pracovních	pracovní	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	5	amod	5:amod	Entity=(cmpr9410017e6--2-gstype:gen|Functor=5:RSTR
 5	příležitostí	příležitost	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	3	nmod	3:nmod:gen	Entity=cmpr9410017e6)|Functor=3:MAT
 6	manažerského	manažerský	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	8:amod	Entity=(cmpr9410017e1--3-gstype:spec|Functor=8:RSTR
 7	svazového	svazový	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	8:amod	Functor=8:RSTR
-8	fondu	fond	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:gen	Entity=cmpr9410017e1)cmpr9410017e3)cmpr9410017e8)|Functor=3:APP
+8	fondu	fond	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod:gen	Entity=cmpr9410017e1)cmpr9410017e3)cmpr9410017e10)|Functor=3:APP
 
 # newpar id = cmpr9410-017-p4
 # sent_id = cmpr9410-017-p4s1
@@ -8556,7 +8556,7 @@
 9	součástí	součást	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	5	advcl:pred	5:advcl:pred:jako	Functor=5:COMPL
 10	profesní	profesní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	amod	11:amod	Functor=11:RSTR
 11	ochrany	ochrana	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod:gen	Functor=9:MAT
-12	manažerů	manažer	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod:gen	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=11:PAT|LId=manažer-1|SpaceAfter=No
+12	manažerů	manažer	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod:gen	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=11:PAT|LId=manažer-1|SpaceAfter=No
 13	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = cmpr9410-017-p4s2
@@ -8568,25 +8568,25 @@
 3	základna	základna	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	11:nsubj	Functor=11:ACT
 4	pracovních	pracovní	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	5	amod	5:amod	Entity=(cmpr9410017e6--2-gstype:gen|Functor=5:RSTR
 5	příležitostí	příležitost	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	3	nmod	3:nmod:gen	Entity=cmpr9410017e6)cmpr9410017e3)|Functor=3:APP
-6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	_
-7	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	11	advmod	11:advmod	Functor=11:THL
-8	než	než	SCONJ	J,-------------	_	9	mark	9:mark	Entity=(cmpr9410017e8--2-gstype:spec|LId=než-2
-9	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	7:obl:než	Functor=7:CPR
-10	existence	existence	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod:gen	Entity=cmpr9410017e8)|Functor=9:APP
+6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	9:case	_
+7	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	9	advmod	9:advmod	Functor=9:THL
+8	než	než	SCONJ	J,-------------	_	7	fixed	7:fixed	Entity=(cmpr9410017e10--2-gstype:spec|LId=než-2
+9	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	11:obl:za:acc	Functor=11:CPR
+10	existence	existence	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod:gen	Entity=cmpr9410017e10)|Functor=9:APP
 11	obsahuje	obsahovat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 12	přes	přes	ADP	RR--4----------	AdpType=Prep|Case=Acc	14	case	14:case	LId=přes-1
 13	sto	sto	NUM	CzNS4----------	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	14	nummod:gov	14:nummod:gov	LId=sto-1|LNumValue=100|Functor=14:PAT
-14	zájemců	zájemce	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	obl:arg	11:obl:arg:přes:acc	Bridge=cmpr9410017e11<cmpr9410017e10:subset|Entity=(cmpr9410017e10--1-gstype:spec|Functor=11:MAT
+14	zájemců	zájemce	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	obl:arg	11:obl:arg:přes:acc	Bridge=cmpr9410017e9<cmpr9410017e8:subset|Entity=(cmpr9410017e8--1-gstype:spec|Functor=11:MAT
 15	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	16:case	Entity=(cmpr9410017e70--2-gstype:gen|LId=o-1
 16	změnu	změna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	14	nmod	14:nmod:o:acc	Functor=14:PAT
-17	zaměstnání	zaměstnání	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	16	nmod	16:nmod:gen	Entity=(cmpr9410017e52--1-gstype:gen)cmpr9410017e70)cmpr9410017e10)|Functor=16:PAT|LDeriv=zaměstnat|SpaceAfter=No
+17	zaměstnání	zaměstnání	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	16	nmod	16:nmod:gen	Entity=(cmpr9410017e52--1-gstype:gen)cmpr9410017e70)cmpr9410017e8)|Functor=16:PAT|LDeriv=zaměstnat|SpaceAfter=No
 18	.	.	PUNCT	Z:-------------	_	11	punct	11:punct	_
 
 # sent_id = cmpr9410-017-p4s3
 # text = Jejich důvody jsou různé - od připravované reorganizace, přes nespokojenost v dosavadním zařazení, až po snahu o lepší uplatnění svých schopností.
 # orig_file_sentence cmpr9410_017#5
 # Tectogrammatical annotation available.
-1	Jejich	jeho	DET	P9XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	2:det	Entity=(cmpr9410017e10--1-gstype:spec)|Functor=2:APP
+1	Jejich	jeho	DET	P9XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	2:det	Entity=(cmpr9410017e8--1-gstype:spec)|Functor=2:APP
 2	důvody	důvod	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj	Functor=4:ACT.cop
 3	jsou	být	AUX	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	Functor=4:PRED
 4	různé	různý	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	0:root	Functor=0:PAT
@@ -8626,7 +8626,7 @@
 7	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	Functor=8:ACT
 7.1	ona	#PersPron	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	_	_	8:nsubj	Entity=(cmpr9410017e3--1-gstype:spec)|Functor=8:ACT.cop
 8	složena	složený	ADJ	VsQW----X-APP--	Aspect=Perf|Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	4	csubj	4:csubj	LDeriv=složit|Functor=4:PAT
-9	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	11	case	11:case	Entity=(cmpr9410017e10--3-gstype:spec|LId=z-1
+9	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	11	case	11:case	Entity=(cmpr9410017e8--3-gstype:spec|LId=z-1
 10	řídících	řídící	ADJ	AGMP2-----A----	Animacy=Anim|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	11:amod	LDeriv=řídit|Functor=11:RSTR
 11	pracovníků	pracovník	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	obl:arg	8:obl:arg:z:gen	Functor=8:ORIG
 12	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=v-1
@@ -8634,7 +8634,7 @@
 14	šíři	šíře	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	11	nmod	11:nmod:v:loc	LGloss=(jeden_z_rozměrů)|Functor=11:RSTR
 15	produktivního	produktivní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	17	amod	17:amod	Entity=(cmpr9410017e20--3|Functor=17:RSTR
 16	věkového	věkový	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	17	amod	17:amod	Functor=17:RSTR
-17	spektra	spektrum	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	14	nmod	14:nmod:gen	Entity=cmpr9410017e20)cmpr9410017e10)|Functor=14:APP|SpaceAfter=No
+17	spektra	spektrum	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	14	nmod	14:nmod:gen	Entity=cmpr9410017e20)cmpr9410017e8)|Functor=14:APP|SpaceAfter=No
 18	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = cmpr9410-017-p5s2
@@ -8644,7 +8644,7 @@
 1	Přes	přes	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	2:case	LId=přes-1
 2	70	70	NUM	C=-------------	NumForm=Digit|NumType=Card	8	nsubj	8:nsubj	Functor=8:RSTR
 3	%	%	SYM	Z:-------------	_	2	nmod	2:nmod	Functor=2:ACT.cop
-4	jich	on	PRON	PEXP2--3------1	Case=Gen|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	3	nmod	3:nmod:gen	Entity=(cmpr9410017e10--1-gstype:spec)|Functor=3:MAT|LId=on-1
+4	jich	on	PRON	PEXP2--3------1	Case=Gen|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	3	nmod	3:nmod:gen	Entity=(cmpr9410017e8--1-gstype:spec)|Functor=3:MAT|LId=on-1
 5	však	však	CCONJ	J^-------------	_	8	cc	8:cc	LId=však-1|Functor=8:PREC
 6	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	Functor=8:PRED
 7	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	8	case	8:case	Bridge=cmpr9410017e20<cmpr9410017e19:subset|Entity=(cmpr9410017e19--2|LId=v-1
@@ -8659,10 +8659,10 @@
 16	věku	věk	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	appos	8:appos|20:obl	Functor=8:LOC|SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 18	kdy	kdy	ADV	Db-------------	PronType=Int,Rel	20	advmod	16:ref	Entity=(cmpr9410017e21--1)|Functor=20:TWHEN
-19	manažeři	manažer	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	20:nsubj	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=20:ACT|LId=manažer-1
+19	manažeři	manažer	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	20:nsubj	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=20:ACT|LId=manažer-1
 20	dosahují	dosahovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	16:acl:relcl	Functor=16:RSTR
 21	vrcholu	vrchol	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl:arg	20:obl:arg:gen	Functor=20:PAT
-22	své	svůj	DET	P8FS2---------1	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	23	det	23:det	Bridge=cmpr9410017e27<cmpr9410017e11:subset|Entity=(cmpr9410017e11--1-gstype:gen)|Functor=23:APP|LId=svůj-1
+22	své	svůj	DET	P8FS2---------1	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	23	det	23:det	Bridge=cmpr9410017e27<cmpr9410017e9:subset|Entity=(cmpr9410017e9--1-gstype:gen)|Functor=23:APP|LId=svůj-1
 23	činnosti	činnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	21	nmod	21:nmod:gen	Entity=cmpr9410017e21)|Functor=21:APP|LDeriv=činný|SpaceAfter=No
 24	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 
@@ -8751,7 +8751,7 @@
 2	hledají	hledat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 3	své	svůj	DET	P8NS4---------1	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	4:det	Entity=(cmpr9410017e36--1)|Functor=4:ACT|LId=svůj-1
 4	uplatnění	uplatnění	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	2	obj	2:obj	LDeriv=uplatnit|Functor=2:PAT
-5	manažeři	manažer	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	2:nsubj|14:obl:arg:dat|16:nsubj:pass:xsubj	Bridge=cmpr9410017e11<cmpr9410017e36:subset|Entity=(cmpr9410017e36--1|Functor=2:ACT,16:ACT|LId=manažer-1
+5	manažeři	manažer	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	2:nsubj|14:obl:arg:dat|16:nsubj:pass:xsubj	Bridge=cmpr9410017e9<cmpr9410017e36:subset|Entity=(cmpr9410017e36--1|Functor=2:ACT,16:ACT|LId=manažer-1
 6	starší	starý	ADJ	AAMP1----2A----	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	5:amod	LId=starý-2|LGloss=(člověk,_věc)|Functor=5:RSTR
 7	45	45	NUM	C=-------------	NumForm=Digit|NumType=Card	8	nummod	8:nummod	Functor=8:RSTR
 8	let	léta	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	6	obl	6:obl:gen	SpaceAfter=No|Functor=6:CPR
@@ -8778,7 +8778,7 @@
 2	jen	jen	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	Entity=(cmpr9410017e47--2|Functor=3:RHEM|LId=jen-1
 3	30	30	NUM	C=-------------	NumForm=Digit|NumType=Card	7	nsubj	7:nsubj	Functor=7:RSTR
 4	%	%	SYM	Z:-------------	_	3	nmod	3:nmod|8:nsubj:xsubj	Functor=3:ACT.cop,8:ACT
-5	uchazečů	uchazeč	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod:gen	Entity=(cmpr9410017e10--1-gstype:spec)cmpr9410017e47)|Functor=4:MAT
+5	uchazečů	uchazeč	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod:gen	Entity=(cmpr9410017e8--1-gstype:spec)cmpr9410017e47)|Functor=4:MAT
 6	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	Functor=7:PRED
 7	ochotno	ochotný	ADJ	ACNS------A----	Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short	0	root	0:root	Functor=0:PAT
 8	pracovat	pracovat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	Functor=7:PAT
@@ -8794,7 +8794,7 @@
 18	celé	celý	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	20:amod	Functor=20:RSTR
 19	České	český	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	20:amod	Functor=20:RSTR
 20	republice	republika	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	7	conj	0:root|7:conj	Entity=cmpr9410017e45)|Functor=7:LOC
-21	jen	jen	PART	TT-------------	_	23	advmod:emph	23:advmod:emph	Bridge=cmpr9410017e10<cmpr9410017e46:subset|Entity=(cmpr9410017e46--4|Functor=23:RHEM|LId=jen-1
+21	jen	jen	PART	TT-------------	_	23	advmod:emph	23:advmod:emph	Bridge=cmpr9410017e8<cmpr9410017e46:subset|Entity=(cmpr9410017e46--4|Functor=23:RHEM|LId=jen-1
 22	okolo	okolo	ADP	RR--2----------	AdpType=Prep|Case=Gen	24	case	24:case	LId=okolo-1
 23	dvaceti	dvacet	NUM	Cl-P2----------	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	24	nummod:gov	24:nummod:gov	LNumValue=20|Functor=24:RSTR
 24	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	7	conj	0:root|7:conj|8:nsubj:xsubj	Entity=cmpr9410017e46)cmpr9410017e50)|Functor=7:ACT.cop,8:ACT|SpaceAfter=No
@@ -8813,11 +8813,11 @@
 7	firmy	firma	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	17:nsubj|19:nsubj	Entity=(cmpr9410017e86--1-gstype:gen|Functor=17:ACT|SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 9	nabízející	nabízející	ADJ	AGFP1-----A----	Aspect=Imp|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	7:amod	LDeriv=nabízet|Functor=7:RSTR
-10	manažerům	manažer	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl:arg	9:obl:arg:dat	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=9:ADDR|LId=manažer-1
+10	manažerům	manažer	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl:arg	9:obl:arg:dat	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=9:ADDR|LId=manažer-1
 11	pracovní	pracovní	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	amod	12:amod	Functor=12:RSTR
 12	místo	místo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	9	obj	9:obj	Entity=cmpr9410017e86)|Functor=9:PAT|LGloss=(fyzické_umístění)|LId=místo-1|SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
-14	je	on	PRON	PEXP4--3-------	Case=Acc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	17	obj	17:obj|19:obj	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=17:ADDR|LId=on-1
+14	je	on	PRON	PEXP4--3-------	Case=Acc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	17	obj	17:obj|19:obj	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=17:ADDR|LId=on-1
 15	nedostatečně	dostatečně	ADV	Dg-------1N----	Degree=Pos|Polarity=Neg	17	advmod	17:advmod|19:advmod	LDeriv=dostatečný|Functor=17:EXT
 16	hmotně	hmotně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	17	advmod	17:advmod	LDeriv=hmotný|Functor=17:REG
 17	stimulují	stimulovat	VERB	VB-P---3P-AAB--	Aspect=Imp,Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	4:acl:že	Functor=4:PAT
@@ -8828,7 +8828,7 @@
 21	aby	aby	SCONJ	J,-------------	_	24	mark	24:mark	_
 22	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	24	aux	24:aux	_
 23	byli	být	AUX	VpMP----R-AAI--	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	24	cop	24:cop	Functor=24:PAT
-23.1	oni	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	_	_	24:nsubj|25:nsubj:xsubj	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=24:ACT.cop,25:ACT
+23.1	oni	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	_	_	24:nsubj|25:nsubj:xsubj	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=24:ACT.cop,25:ACT
 24	ochotni	ochotný	ADJ	ACMP------A----	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short	19	ccomp	19:ccomp	Functor=19:PAT
 25	dojíždět	dojíždět	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	24	xcomp	24:xcomp	Functor=24:PAT
 26	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	27	case	27:case	Entity=(cmpr9410017e52--2-gstype:gen|LId=do-1
@@ -8838,7 +8838,7 @@
 30	desítek	desítka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	25	obl	25:obl:acc	Functor=25:DIR3
 31	kilometrů	kilometr	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	30:nmod:gen	Functor=30:MAT
 32	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	35	case	35:case	Entity=(cmpr9410017e54--4-gstype:gen|LId=od-1
-33	svého	svůj	DET	P8ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	35	det	35:det	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=35:APP|LId=svůj-1
+33	svého	svůj	DET	P8ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	35	det	35:det	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=35:APP|LId=svůj-1
 34	trvalého	trvalý	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	35	amod	35:amod	LDeriv=trvat|Functor=35:RSTR
 35	bydliště	bydliště	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	31	nmod	31:nmod:od:gen	Entity=cmpr9410017e54)|Functor=31:DIR1|SpaceAfter=No
 36	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -8856,7 +8856,7 @@
 6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	8:case	Entity=(cmpr9410017e3--3-gstype:spec|LId=v-1
 7	naší	náš	DET	PSFS6-P1-------	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	8:det	Entity=(cmpr9410017e1--1-gstype:spec)|Functor=8:APP
 8	databance	databanka	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	4	obl	4:obl:v:loc	Entity=cmpr9410017e3)|Functor=4:LOC
-9	35	35	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nsubj	4:nsubj	Bridge=cmpr9410017e10<cmpr9410017e63:subset|Entity=(cmpr9410017e63--1|Functor=4:RSTR
+9	35	35	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nsubj	4:nsubj	Bridge=cmpr9410017e8<cmpr9410017e63:subset|Entity=(cmpr9410017e63--1|Functor=4:RSTR
 10	%	%	SYM	Z:-------------	_	9	nmod	9:nmod	Functor=9:ACT.cop
 11	ředitelů	ředitel	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	10:nmod:gen	Entity=(cmpr9410017e64--1-gstype:gen)|Functor=10:MAT
 12	a	a	CCONJ	J^-------------	_	18	cc	18:cc	LId=a-1|Functor=18:CONJ
@@ -8872,7 +8872,7 @@
 # text = Pětadvacet procent zahrnuje asistenty, poradce a samostatné hospodářské pracovníky.
 # orig_file_sentence cmpr9410_017#15
 # Tectogrammatical annotation available.
-1	Pětadvacet	pětadvacet	NUM	Cl-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	2	nummod:gov	2:nummod:gov	Bridge=cmpr9410017e10<cmpr9410017e66:subset|Entity=(cmpr9410017e66--2|Functor=2:RSTR|LNumValue=25
+1	Pětadvacet	pětadvacet	NUM	Cl-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	2	nummod:gov	2:nummod:gov	Bridge=cmpr9410017e8<cmpr9410017e66:subset|Entity=(cmpr9410017e66--2|Functor=2:RSTR|LNumValue=25
 2	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	3	nsubj	3:nsubj	Entity=cmpr9410017e66)|Functor=3:ACT
 3	zahrnuje	zahrnovat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	asistenty	asistent	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	3:obj	SpaceAfter=No|Functor=3:PAT
@@ -8888,14 +8888,14 @@
 # text = Patnáct procent tvoří vedoucí personální pracovníci, zbytek jsou vojáci z povolání a manažeři různého zaměření.
 # orig_file_sentence cmpr9410_017#16
 # Tectogrammatical annotation available.
-1	Patnáct	patnáct	NUM	Cl-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	2	nummod:gov	2:nummod:gov	Bridge=cmpr9410017e10<cmpr9410017e67:subset|Entity=(cmpr9410017e67--2|Functor=2:RSTR|LNumValue=15
+1	Patnáct	patnáct	NUM	Cl-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	2	nummod:gov	2:nummod:gov	Bridge=cmpr9410017e8<cmpr9410017e67:subset|Entity=(cmpr9410017e67--2|Functor=2:RSTR|LNumValue=15
 2	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	3	obl	3:obl:acc	Entity=cmpr9410017e67)|Functor=3:EXT
 3	tvoří	tvořit	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	vedoucí	vedoucí	ADJ	AGMP1-----A----	Animacy=Anim|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	6:amod	LDeriv=vést|Functor=6:RSTR
 5	personální	personální	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	6:amod	Functor=6:RSTR
 6	pracovníci	pracovník	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	3:nsubj	SpaceAfter=No|Functor=3:ACT
 7	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	Functor=8:CONJ
-8	zbytek	zbytek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	0:root|3:conj	Bridge=cmpr9410017e10<cmpr9410017e68:subset|Entity=(cmpr9410017e68--1)|Functor=3:PAT
+8	zbytek	zbytek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	0:root|3:conj	Bridge=cmpr9410017e8<cmpr9410017e68:subset|Entity=(cmpr9410017e68--1)|Functor=3:PAT
 9	jsou	být	AUX	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	Functor=8:PRED
 10	vojáci	voják	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	8:nsubj	Functor=8:ACT
 11	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	12	case	12:case	LId=z-1
@@ -8920,7 +8920,7 @@
 # text = Uchazeči vidí ve změně zaměstnání v 55 % cestu k širšímu uplatnění svých schopností a lepšímu ocenění svého pracovního nasazení, v 25 % v zabezpečení dalšího uplatnění, neboť se nacházejí v podniku, který je před reorganizací nebo restrukturalizací.
 # orig_file_sentence cmpr9410_017#18
 # Tectogrammatical annotation available.
-1	Uchazeči	uchazeč	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	2:nsubj	Entity=(cmpr9410017e10--1-gstype:spec)|Functor=2:ACT
+1	Uchazeči	uchazeč	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	2:nsubj	Entity=(cmpr9410017e8--1-gstype:spec)|Functor=2:ACT
 2	vidí	vidět	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 3	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	4	case	4:case	Entity=(cmpr9410017e70--2-gstype:gen|LId=v-1
 4	změně	změna	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	2	obl:arg	2:obl:arg:v:loc	Functor=2:EFF
@@ -8931,16 +8931,16 @@
 9	cestu	cesta	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	Functor=2:PAT
 10	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	12	case	12:case	LId=k-1
 11	širšímu	široký	ADJ	AANS3----2A----	Case=Dat|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	12	amod	12:amod	Functor=12:RSTR
-11.1	někým	#PersPron	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Prs	_	_	12:nmod:ins	Entity=(cmpr9410017e10--1-gstype:spec)|Functor=12:ACT
+11.1	někým	#PersPron	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Prs	_	_	12:nmod:ins	Entity=(cmpr9410017e8--1-gstype:spec)|Functor=12:ACT
 12	uplatnění	uplatnění	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	9	nmod	9:nmod:k:dat	LDeriv=uplatnit|Functor=9:DIR3
-13	svých	svůj	DET	P8XP2----------	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	14:det	Entity=(cmpr9410017e10--1-gstype:spec)|Functor=14:ACT|LId=svůj-1
+13	svých	svůj	DET	P8XP2----------	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	14:det	Entity=(cmpr9410017e8--1-gstype:spec)|Functor=14:ACT|LId=svůj-1
 14	schopností	schopnost	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	12	nmod	12:nmod:gen	LDeriv=schopný|Functor=12:PAT
 15	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1|Functor=17:CONJ
 16	lepšímu	lepší	ADJ	AANS3----2A----	Case=Dat|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	17	amod	17:amod	Functor=17:MANN
 17	ocenění	ocenění	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	12	conj	9:nmod:k:dat|12:conj	LDeriv=ocenit|Functor=12:DIR3
-18	svého	svůj	DET	P8ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	20:det	Bridge=cmpr9410017e84<cmpr9410017e10:subset|Entity=(cmpr9410017e10--1-gstype:spec)|Functor=20:PAT|LId=svůj-1
+18	svého	svůj	DET	P8ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	20:det	Bridge=cmpr9410017e84<cmpr9410017e8:subset|Entity=(cmpr9410017e8--1-gstype:spec)|Functor=20:PAT|LId=svůj-1
 19	pracovního	pracovní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	20	amod	20:amod	Functor=20:RSTR
-19.1	někým	#PersPron	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Prs	_	_	20:nmod:ins	Entity=(cmpr9410017e10--1-gstype:spec)|Functor=20:ACT
+19.1	někým	#PersPron	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Prs	_	_	20:nmod:ins	Entity=(cmpr9410017e8--1-gstype:spec)|Functor=20:ACT
 20	nasazení	nasazení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	17	nmod	17:nmod:gen	SpaceAfter=No|LDeriv=nasadit|Functor=17:PAT
 21	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	Functor=24:CONJ
 22	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	24	case	24:case	LId=v-1
@@ -9075,11 +9075,11 @@
 11	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
 12	které	který	DET	P4FP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	13	nsubj	6:ref|8:ref|10:ref	Entity=(cmpr9410017e100--1-gstype:gen)|Functor=13:ACT
 13	potřebují	potřebovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl|8:acl:relcl|10:acl:relcl	Functor=6:RSTR
-14	vedoucí	vedoucí	ADJ	AGMP4-----A----	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	15:amod	Entity=(cmpr9410017e11--2-gstype:gen|Functor=15:RSTR|LDeriv=vést
+14	vedoucí	vedoucí	ADJ	AGMP4-----A----	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	15:amod	Entity=(cmpr9410017e9--2-gstype:gen|Functor=15:RSTR|LDeriv=vést
 15	pracovníky	pracovník	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	obj	13:obj	Functor=13:PAT
 16	nejen	nejen	ADV	Db-------------	_	17	advmod:emph	17:advmod:emph	Bridge=cmpr9410017e100<cmpr9410017e103:funct|Entity=(cmpr9410017e103--3|Functor=17:RHEM
 17	vrcholového	vrcholový	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	18	amod	18:amod	Functor=18:RSTR
-18	managementu	management	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	15:nmod:gen	Entity=cmpr9410017e103)cmpr9410017e11)cmpr9410017e100)|Functor=15:APP|LGloss=(^DD**manažment)|SpaceAfter=No
+18	managementu	management	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	15:nmod:gen	Entity=cmpr9410017e103)cmpr9410017e9)cmpr9410017e100)|Functor=15:APP|LGloss=(^DD**manažment)|SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = cmpr9410-017-p13s2
@@ -9098,7 +9098,7 @@
 10	svazového	svazový	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	amod	11:amod	Functor=11:RSTR
 11	fondu	fond	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod:gen	Entity=cmpr9410017e1)cmpr9410017e3)|Functor=8:APP
 12	jsou	být	AUX	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	Functor=8:EFF
-13	kvalitní	kvalitní	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	14	amod	14:amod	Entity=(cmpr9410017e10--2-gstype:spec|Functor=14:RSTR
+13	kvalitní	kvalitní	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	14	amod	14:amod	Entity=(cmpr9410017e8--2-gstype:spec|Functor=14:RSTR
 14	manažeři	manažer	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	8:nsubj	Functor=8:ACT.cop|LId=manažer-1
 15	specialisté	specialista	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nmod	14:nmod:nom	Functor=14:RSTR
 16	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	17	case	17:case	Entity=(cmpr9410017e120--2-gstype:gen(cmpr9410017e117[1/2]--1)|LId=na-1
@@ -9115,7 +9115,7 @@
 27	psychologicky	psychologicky	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	25	conj	25:conj|30:advmod	LDeriv=psychologický|Functor=25:REG
 28	i	i	CCONJ	J^-------------	_	29	cc	29:cc	LId=i-1|Functor=29:CONJ
 29	jazykově	jazykově	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	25	conj	25:conj|30:advmod	LDeriv=jazykový|Functor=25:REG
-30	přezkoušení	přezkoušený	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	14:amod	Entity=cmpr9410017e10)|Functor=14:RSTR|LDeriv=přezkoušet|SpaceAfter=No
+30	přezkoušení	přezkoušený	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	14:amod	Entity=cmpr9410017e8)|Functor=14:RSTR|LDeriv=přezkoušet|SpaceAfter=No
 31	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # newpar id = cmpr9410-017-p14
@@ -9237,14 +9237,14 @@
 # text = Manažeři zřejmě budou muset stále více za svým uplatněním cestovat i několik desítek kilometrů od svého bydliště.
 # orig_file_sentence cmpr9410_017#29
 # Tectogrammatical annotation available.
-1	Manažeři	manažer	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj|10:nsubj:xsubj	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=4:ACT|LId=manažer-1
+1	Manažeři	manažer	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj|10:nsubj:xsubj	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=4:ACT|LId=manažer-1
 2	zřejmě	zřejmě	PART	TT-------------	_	4	advmod:emph	4:advmod:emph	LId=zřejmě-2|Functor=4:MOD
 3	budou	být	AUX	VB-P---3F-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 4	muset	muset	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	0:root	_
 5	stále	stále	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod:emph	6:advmod:emph	LDeriv=stálý|Functor=6:RHEM
 6	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	Functor=4:EXT
 7	za	za	ADP	RR--7----------	AdpType=Prep|Case=Ins	9	case	9:case	_
-8	svým	svůj	DET	P8ZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	9:det	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=9:ACT|LId=svůj-1
+8	svým	svůj	DET	P8ZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	9:det	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=9:ACT|LId=svůj-1
 9	uplatněním	uplatnění	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|VerbForm=Vnoun	4	obl	4:obl:za:ins	LDeriv=uplatnit|Functor=4:INTT
 10	cestovat	cestovat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	Functor=4:PRED
 11	i	i	PART	TT-------------	_	12	advmod:emph	12:advmod:emph	LId=i-2|Functor=12:RHEM
@@ -9252,7 +9252,7 @@
 13	desítek	desítka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	4	obl	4:obl:acc	Functor=4:DIR3
 14	kilometrů	kilometr	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	13:nmod:gen	Functor=13:MAT
 15	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	17	case	17:case	Entity=(cmpr9410017e54--3-gstype:gen|LId=od-1
-16	svého	svůj	DET	P8ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	17:det	Entity=(cmpr9410017e11--1-gstype:gen)|Functor=17:APP|LId=svůj-1
+16	svého	svůj	DET	P8ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	17:det	Entity=(cmpr9410017e9--1-gstype:gen)|Functor=17:APP|LId=svůj-1
 17	bydliště	bydliště	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	14	nmod	14:nmod:od:gen	Entity=cmpr9410017e54)|Functor=14:DIR1|SpaceAfter=No
 18	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -9283,13 +9283,13 @@
 # orig_file_sentence cmpr9410_018#3
 # Tectogrammatical annotation available.
 1	Hotelových	hotelový	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	2	amod	2:amod	Bridge=cmpr9410018e2<cmpr9410018e1:subset,cmpr9410018e115<cmpr9410018e1:subset,cmpr9410018e42<cmpr9410018e13:subset|Entity=(cmpr9410018e1--2(cmpr9410018e13--1-gstype:gen)|Functor=2:RSTR
-2	kapacit	kapacita	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	5	nmod	5:nmod:gen	Entity=cmpr9410018e1)|Functor=5:ACT
+2	kapacit	kapacita	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	8	nmod	8:nmod:gen	Entity=cmpr9410018e1)|Functor=8:ACT
 3	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
-4	mnohem	mnohem	ADV	Db-------------	_	5	advmod	5:advmod	Functor=5:EXT
-5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	3	nsubj	3:nsubj	Functor=3:PAT
-6	než	než	SCONJ	J,-------------	_	8	mark	8:mark	LId=než-2
+4	mnohem	mnohem	ADV	Db-------------	_	8	advmod	8:advmod	Functor=8:EXT
+5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	8	advmod	8:advmod	Functor=8:PAT
+6	než	než	SCONJ	J,-------------	_	5	fixed	5:fixed	LId=než-2
 7	současná	současný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	Functor=8:RSTR
-8	poptávka	poptávka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	advcl	5:advcl:než	Functor=5:ACT
+8	poptávka	poptávka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	Functor=3:ACT
 
 # newpar id = cmpr9410-018-p4
 # sent_id = cmpr9410-018-p4s1
@@ -9558,7 +9558,7 @@
 4	představuje	představovat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 5	úhrnná	úhrnný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	Bridge=cmpr9410018e63<cmpr9410018e39:subset|Entity=(cmpr9410018e39--2-gstype:gen|Functor=6:RSTR
 6	nabídka	nabídka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	Functor=4:ACT
-7	akcií	akcie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	6	nmod	6:nmod:gen	Bridge=cmpr9410018e69<cmpr9410018e41:subset|Entity=(cmpr9410018e41--1-gstype:gen)cmpr9410018e39)|Functor=6:PAT
+7	akcií	akcie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	6	nmod	6:nmod:gen	Bridge=cmpr9410018e70<cmpr9410018e41:subset|Entity=(cmpr9410018e41--1-gstype:gen)cmpr9410018e39)|Functor=6:PAT
 8	jen	jen	PART	TT-------------	_	9	advmod:emph	9:advmod:emph	LId=jen-1|Functor=9:RHEM
 9	1.5	1.5	NUM	C=-------------	NumForm=Digit|NumType=Card	4	obj	4:obj	Functor=4:RSTR
 10	mld	miliarda	NUM	CzFXX---------b	Abbr=Yes|Gender=Fem|NumType=Card	9	compound	9:compound	SpaceAfter=No|LNumValue=1000000000|Functor=9:PAT
@@ -9589,9 +9589,9 @@
 # text = Více než rok po ukončení první vlny kuponové privatizace a půl roku po začátku obchodování akciemi na českém kapitálovém trhu je jasné, že původní představy o výnosnosti tohoto odvětví je třeba opravit.
 # orig_file_sentence cmpr9410_018#17
 # Tectogrammatical annotation available.
-1	Více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	22	advmod	22:advmod	Functor=22:TWHEN
-2	než	než	SCONJ	J,-------------	_	3	mark	3:mark	LId=než-2
-3	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	1:obl:než	Functor=1:CPR
+1	Více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	3	advmod	3:advmod	Functor=3:TWHEN
+2	než	než	SCONJ	J,-------------	_	1	fixed	1:fixed	LId=než-2
+3	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	22:obl:acc	Functor=22:CPR
 4	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	LId=po-1
 5	ukončení	ukončení	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|VerbForm=Vnoun	3	nmod	3:nmod:po:loc	LDeriv=ukončit|Functor=3:TWHEN
 6	první	první	ADJ	CrFS2----------	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	7	amod	7:amod	Entity=(cmpr9410018e14--2-gstype:spec|Functor=7:RSTR|LId=první-1
@@ -9600,11 +9600,11 @@
 9	privatizace	privatizace	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod:gen	Entity=cmpr9410018e3)cmpr9410018e14)|Functor=7:APP
 10	a	a	CCONJ	J^-------------	_	12	cc	12:cc	LId=a-1|Functor=12:CONJ
 11	půl	půl	NUM	Cl-XX----------	NumForm=Word|NumType=Card	12	nummod:gov	12:nummod:gov	LId=půl-1|Functor=12:TWHEN
-12	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	conj	1:conj|22:obl	Functor=1:MAT
+12	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	3:conj|22:obl:acc	Functor=3:MAT
 13	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=po-1
 14	začátku	začátek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	12:nmod:po:loc	Functor=12:TWHEN
 15	obchodování	obchodování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	14	nmod	14:nmod:gen	Entity=(cmpr9410018e143--1-gstype:gen|Functor=14:ACT|LDeriv=obchodovat
-16	akciemi	akcie	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	15	nmod	15:nmod:ins	Entity=(cmpr9410018e69--1-gstype:gen)|Functor=15:PAT
+16	akciemi	akcie	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	15	nmod	15:nmod:ins	Entity=(cmpr9410018e70--1-gstype:gen)|Functor=15:PAT
 17	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	20	case	20:case	Entity=(cmpr9410018e129--4-gstype:spec|LId=na-1
 18	českém	český	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	20:amod	Entity=(cmpr9410018e22--1-gstype:spec)|Functor=20:RSTR
 19	kapitálovém	kapitálový	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	20:amod	Functor=20:RSTR
@@ -10002,7 +10002,7 @@
 17	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	LId=na-1
 18	velké	velký	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	19	amod	19:amod	Functor=19:RSTR
 19	balíky	balík	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl:arg	15:obl:arg:na:acc	LId=balík-1|LGloss=(předmět)|Functor=15:PAT
-20	akcií	akcie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	19	nmod	19:nmod:gen	Entity=(cmpr9410018e69--1-gstype:gen)|Functor=19:MAT|SpaceAfter=No
+20	akcií	akcie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	19	nmod	19:nmod:gen	Entity=(cmpr9410018e70--1-gstype:gen)|Functor=19:MAT|SpaceAfter=No
 21	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = cmpr9410-018-p15s3B
@@ -10785,9 +10785,9 @@
 5	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	6:case	Entity=(cmpr9410022e34--2-gstype:spec|LId=o-1
 6	úspěšnosti	úspěšnost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	4	obl:arg	4:obl:arg:o:loc	Functor=4:PAT|LDeriv=úspěšný
 7	firmy	firma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod:gen	Entity=(cmpr9410022e32--1)cmpr9410022e34)|Functor=6:APP
-8	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	Functor=4:EXT
-9	než	než	SCONJ	J,-------------	_	10	mark	10:mark	LId=než-2
-10	on	on	PRON	PEYS1--3-------	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	advcl	8:advcl:než	Entity=(cmpr9410022e30--1-gstype:spec)|Functor=8:ACT|LId=on-1|SpaceAfter=No
+8	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	10	advmod	10:advmod	Functor=10:EXT
+9	než	než	SCONJ	J,-------------	_	8	fixed	8:fixed	LId=než-2
+10	on	on	PRON	PEYS1--3-------	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	4:obl	Entity=(cmpr9410022e30--1-gstype:spec)|Functor=4:ACT|LId=on-1|SpaceAfter=No
 11	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = cmpr9410-022-p10s4
@@ -16816,11 +16816,11 @@
 20	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	22	case	22:case	LId=z-1
 21	rozpočtových	rozpočtový	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	22	amod	22:amod	Functor=22:RSTR
 22	prostředků	prostředek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	19:obl:z:gen	LGloss=(střed,způsob,_nástroj)|Functor=19:DIR1
-23	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	19	nsubj:pass	19:nsubj:pass	Functor=19:PAT
-24	než	než	SCONJ	J,-------------	_	27	mark	27:mark	LId=než-2
+23	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	27	advmod	27:advmod	Functor=27:PAT
+24	než	než	SCONJ	J,-------------	_	23	fixed	23:fixed	LId=než-2
 25	11	11	NUM	C=-------------	NumForm=Digit|NumType=Card	27	nummod:gov	27:nummod:gov	Functor=27:RSTR
 26	miliard	miliarda	NUM	CzFP2----------	Case=Gen|Gender=Fem|Number=Plur|NumType=Card	27	nummod:gov	27:nummod:gov	LNumValue=1000000000|Functor=27:CPR
-27	korun	koruna	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	23	obl	23:obl:než	Entity=cmpr9410031e29)|Functor=23:MAT|SpaceAfter=No
+27	korun	koruna	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	19	nsubj:pass	19:nsubj:pass	Entity=cmpr9410031e29)|Functor=19:MAT|SpaceAfter=No
 28	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = cmpr9410-031-p10s2
@@ -21607,10 +21607,10 @@
 13	jelenem	jelen	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	nmod	11:nmod:s:ins	Entity=cmpr9410041e24)|Functor=11:ACMP
 13.1	my	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	14:nsubj	Entity=(cmpr9410041e1--1-gstype:spec)|Functor=14:ACT
 14	děláme	dělat	VERB	VB-P---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl:zatímco	Functor=8:CONTRD
-15	už	už	PART	TT-------------	_	16	advmod:emph	16:advmod:emph	LId=už-2|Functor=16:RHEM
-16	víc	více	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	14	advmod	14:advmod	Functor=14:THL
-17	než	než	SCONJ	J,-------------	_	18	mark	18:mark	LId=než-2
-18	století	století	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	16	advcl	16:advcl:než	SpaceAfter=No|Functor=16:CPR
+15	už	už	PART	TT-------------	_	18	advmod:emph	18:advmod:emph	LId=už-2|Functor=18:RHEM
+16	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	18	advmod	18:advmod	Functor=18:THL
+17	než	než	SCONJ	J,-------------	_	16	fixed	16:fixed	LId=než-2
+18	století	století	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	14	obl	14:obl:acc	SpaceAfter=No|Functor=14:CPR
 19	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 
 # sent_id = cmpr9410-041-p6s5
@@ -28183,11 +28183,11 @@
 5	zemích	země	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	2	obl	2:obl:v:loc	Entity=cmpr9410053e24)|Functor=2:LOC
 6	a	a	CCONJ	J^-------------	_	7	cc	7:cc	LId=a-1|Functor=7:CONJ
 7	obchoduje	obchodovat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	Functor=2:PRED
-8	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	9	case	9:case	LId=s-1
-9	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	7	obl:arg	7:obl:arg:s:ins	Functor=7:ADDR
-10	než	než	SCONJ	J,-------------	_	12	mark	12:mark	LId=než-2
+8	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	12	case	12:case	LId=s-1
+9	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	12	advmod	12:advmod	Functor=12:ADDR
+10	než	než	SCONJ	J,-------------	_	9	fixed	9:fixed	LId=než-2
 11	100	100	NUM	C=-------------	NumForm=Digit|NumType=Card	12	nummod	12:nummod	Functor=12:RSTR
-12	státy	stát	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	9:obl:než	SpaceAfter=No|LId=stát-1|LGloss=(státní_útvar)|Functor=9:CPR
+12	státy	stát	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl:arg	7:obl:arg:s:ins	SpaceAfter=No|LId=stát-1|LGloss=(státní_útvar)|Functor=7:CPR
 13	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = cmpr9410-053-p3s4
@@ -38971,10 +38971,10 @@
 3	soustava	soustava	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	Entity=cmpr9413020e62)|Functor=4:ACT
 4	funguje	fungovat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 5	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	6:case	LId=o-1
-6	něco	něco	PRON	PK--4----------	Animacy=Inan|Case=Acc|PronType=Ind	7	obl	7:obl:o:acc	Functor=7:DIFF
-7	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	Functor=4:THL
-8	než	než	SCONJ	J,-------------	_	9	mark	9:mark	LId=než-2
-9	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	7:obl:než	SpaceAfter=No|Functor=7:CPR
+6	něco	něco	PRON	PK--4----------	Animacy=Inan|Case=Acc|PronType=Ind	9	nmod	9:nmod:o:acc	Functor=9:DIFF
+7	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	9	advmod	9:advmod	Functor=9:THL
+8	než	než	SCONJ	J,-------------	_	7	fixed	7:fixed	LId=než-2
+9	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	4:obl:acc	SpaceAfter=No|Functor=4:CPR
 10	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = cmpr9413-020-p8s5
@@ -42871,15 +42871,15 @@
 6	poradce	poradce	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	1:nmod:nom|3:conj	Entity=cmpr9413025e93)|Functor=3:ID
 6.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	7:nsubj	Entity=(cmpr9413025e93--1-gstype:spec)|Functor=7:ACT
 7	umožňují	umožňovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
-8	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	7	obj	7:obj	Functor=7:PAT
-9	než	než	SCONJ	J,-------------	_	11	mark	11:mark	LId=než-2
+8	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	11	advmod	11:advmod	Functor=11:PAT
+9	než	než	SCONJ	J,-------------	_	8	fixed	8:fixed	LId=než-2
 10	jen	jen	PART	TT-------------	_	11	advmod:emph	11:advmod:emph	LId=jen-1|Functor=11:RHEM
-11	orientaci	orientace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	8	advcl	8:advcl:než	Functor=8:PAT
+11	orientaci	orientace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	obj	7:obj	Functor=7:PAT
 12	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	Entity=(cmpr9413025e101--3-gstype:gen|LId=v-1
 13	příslušných	příslušný	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	14	amod	14:amod	LDeriv=příslušet|Functor=14:RSTR
 14	zákonech	zákon	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	11:nmod:v:loc	Entity=cmpr9413025e101)|Functor=11:LOC|SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	Functor=16:APPS
-16	vyhledávání	vyhledávání	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	8	appos	8:appos	LDeriv=vyhledávat|Functor=8:PAT
+16	vyhledávání	vyhledávání	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	11	appos	11:appos	LDeriv=vyhledávat|Functor=11:PAT
 17	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	19	case	19:case	LId=podle-2
 18	nejrůznějších	různý	ADJ	AANP2----3A----	Case=Gen|Degree=Sup|Gender=Neut|Number=Plur|Polarity=Pos	19	amod	19:amod	Functor=19:RSTR
 19	kritérií	kritérium	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	16	nmod	16:nmod:podle:gen	SpaceAfter=No|Functor=16:CRIT
@@ -44504,12 +44504,12 @@
 22	vybavení	vybavení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	17	conj	11:obj|17:conj	LDeriv=vybavit|Functor=17:PAT
 23	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	24	case	24:case	LId=v-1
 24	hodnotě	hodnota	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	22	nmod	22:nmod:v:loc	Functor=22:RSTR
-25	už	už	PART	TT-------------	_	26	advmod:emph	26:advmod:emph	LId=už-2|Functor=26:RHEM
-26	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	24	advmod	24:advmod	Functor=24:RSTR
-27	než	než	SCONJ	J,-------------	_	28	mark	28:mark	LId=než-2
-28	5	5	NUM	C=-------------	NumForm=Digit|NumType=Card	26	obl	26:obl:než	Functor=26:RSTR
+25	už	už	PART	TT-------------	_	28	advmod:emph	28:advmod:emph	LId=už-2|Functor=28:RHEM
+26	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	28	advmod	28:advmod	Functor=28:RSTR
+27	než	než	SCONJ	J,-------------	_	26	fixed	26:fixed	LId=než-2
+28	5	5	NUM	C=-------------	NumForm=Digit|NumType=Card	24	nmod	24:nmod	Functor=24:RSTR
 29	milionů	milion	NUM	CzIP2----------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card	28	compound	28:compound	LNumValue=1000000|LGloss=(^DD**milión)|Functor=28:CPR
-30	korun	koruna	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	26	nmod	26:nmod:gen	Entity=cmpr9413030e12)cmpr9413030e13)|Functor=26:MAT|SpaceAfter=No
+30	korun	koruna	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	28	nmod	28:nmod:gen	Entity=cmpr9413030e12)cmpr9413030e13)|Functor=28:MAT|SpaceAfter=No
 31	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = cmpr9413-030-p6s2
@@ -49708,15 +49708,15 @@
 9	ceny	cena	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	obl:arg	4:obl:arg:gen	Functor=4:PAT
 10	1876	1876	NUM	C=-------------	NumForm=Digit|NumType=Card	9	nummod	9:nummod	Entity=(cmpr9413040e73--1|Functor=9:RSTR
 11	Kč	Kč	NOUN	BNXXX-----A----	Abbr=Yes	10	nmod	10:nmod	Entity=cmpr9413040e73)|Functor=10:RSTR|LGloss=(koruna_česká)|SpaceAfter=No
-12	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	Functor=18:APPS
-13	což	což	PRON	PQ--1----------	Case=Nom|PronType=Int,Rel	18	nsubj	18:nsubj	Entity=(cmpr9413040e73--1)|Functor=18:ACT.cop|LId=což-1
-14	bylo	být	AUX	VpNS----R-AAI--	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	18	cop	18:cop	Functor=18:RSTR
+12	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	Functor=20:APPS
+13	což	což	PRON	PQ--1----------	Case=Nom|PronType=Int,Rel	20	nsubj	20:nsubj	Entity=(cmpr9413040e73--1)|Functor=20:ACT.cop|LId=což-1
+14	bylo	být	AUX	VpNS----R-AAI--	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	20	cop	20:cop	Functor=20:RSTR
 15	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	16:case	LId=o-1
-16	59	59	NUM	C=-------------	NumForm=Digit|NumType=Card	18	obl	18:obl:o:acc	Functor=18:RSTR
+16	59	59	NUM	C=-------------	NumForm=Digit|NumType=Card	20	nmod	20:nmod:o:acc	Functor=20:RSTR
 17	%	%	SYM	Z:-------------	_	16	nmod	16:nmod	Functor=16:DIFF
-18	víc	více	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	10	appos	10:appos	Functor=10:PAT
-19	než	než	SCONJ	J,-------------	_	20	mark	20:mark	LId=než-2
-20	cena	cena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	18	advcl	18:advcl:než	Functor=18:ACT.cop
+18	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	20	advmod	20:advmod	Functor=20:PAT
+19	než	než	SCONJ	J,-------------	_	18	fixed	18:fixed	LId=než-2
+20	cena	cena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	10	appos	10:appos	Functor=10:ACT.cop
 21	akcií	akcie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	20	nmod	20:nmod:gen	Functor=20:PAT
 22	všech	všechen	DET	PLXP2----------	Case=Gen|Number=Plur|PronType=Tot	23	det	23:det	Entity=(cmpr9413040e71--2|Functor=23:RSTR
 23	podniků	podnik	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	21:nmod:gen	Entity=cmpr9413040e71)|Functor=21:APP|SpaceAfter=No
@@ -49996,14 +49996,14 @@
 3	dnes	dnes	ADV	Db-------------	_	4	advmod	4:advmod	Functor=4:TWHEN
 3.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	4:nsubj	Entity=(cmpr9413042e1--1-gstype:gen)|Functor=4:ACT
 4	stojí	stát	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LId=stát-3|LGloss=(stojím_stojíš)|Functor=0:PRED
-5	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	8	obl	8:obl	LNumValue=2|Functor=8:EXT
+5	dvakrát	dvakrát	ADV	Cv-------------	NumType=Mult	12	nmod	12:nmod	LNumValue=2|Functor=12:EXT
 6	i	i	CCONJ	J^-------------	_	7	cc	7:cc	LId=i-1|Functor=7:CONJ
-7	čtyřikrát	čtyřikrát	ADV	Cv-------------	NumType=Mult	5	conj	5:conj|8:advmod	LNumValue=4|Functor=5:EXT
-8	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	obj	4:obj	Functor=4:EXT
-9	než	než	SCONJ	J,-------------	_	12	mark	12:mark	LId=než-2
+7	čtyřikrát	čtyřikrát	ADV	Cv-------------	NumType=Mult	5	conj	5:conj|12:nmod	LNumValue=4|Functor=5:EXT
+8	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	12	advmod	12:advmod	Functor=12:EXT
+9	než	než	SCONJ	J,-------------	_	8	fixed	8:fixed	LId=než-2
 10	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	12	case	12:case	LId=před-1
 11	pár	pár	DET	Ca--X----------	NumType=Card|PronType=Dem,Ind	12	det:nummod	12:det:nummod	LId=pár-1|Functor=12:RSTR
-12	lety	léta	NOUN	NNNP7-----A----	Case=Ins|Gender=Neut|Number=Plur	8	dep	8:dep	SpaceAfter=No|Functor=8:TWHEN
+12	lety	léta	NOUN	NNNP7-----A----	Case=Ins|Gender=Neut|Number=Plur	4	obj	4:obj	SpaceAfter=No|Functor=4:TWHEN
 13	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = cmpr9413-042-p4s2
@@ -56306,9 +56306,9 @@
 12	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	13	obl	13:obl:ins	Entity=(cmpr9413051e90--1-gstype:spec)|Functor=13:MEANS
 12.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	13:nsubj	Entity=(cmpr9413051e1--1-gstype:spec)|Functor=13:ACT
 13	ušetří	ušetřit	VERB	VB-S---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	Functor=4:PRED
-14	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	13	obj	13:obj	Functor=13:PAT
-15	než	než	SCONJ	J,-------------	_	16	mark	16:mark	LId=než-2
-16	třetinu	třetina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	14	obl	14:obl:než	Functor=14:CPR
+14	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	16	advmod	16:advmod	Functor=16:PAT
+15	než	než	SCONJ	J,-------------	_	14	fixed	14:fixed	LId=než-2
+16	třetinu	třetina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	13	obj	13:obj	Functor=13:CPR
 17	stavebního	stavební	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	18	amod	18:amod	Entity=(cmpr9413051e92--2|Functor=18:RSTR
 18	materiálu	materiál	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	16:nmod:gen	Entity=cmpr9413051e92)|Functor=16:MAT|SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -58934,11 +58934,11 @@
 12	1990	1990	NUM	C=-------------	NumForm=Digit|NumType=Card	11	nummod	11:nummod	Functor=11:RSTR
 13	až	až	CCONJ	J^-------------	_	14	cc	14:cc	LId=až-1|LGloss=(2_až_3)|Functor=14:OPER
 14	1993	1993	NUM	C=-------------	NumForm=Digit|NumType=Card	12	conj	11:nummod|12:conj	Entity=cmpr9415002e21)|Functor=12:RSTR
-15	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	16:case	Entity=(cmpr9415002e17--2-gstype:gen|LId=na-1
-16	méně	méně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	9	obl:arg	9:obl:arg:na:acc	Functor=9:RSTR
-17	než	než	SCONJ	J,-------------	_	19	mark	19:mark	LId=než-2
+15	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	Entity=(cmpr9415002e17--5-gstype:gen|LId=na-1
+16	méně	méně	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	19	advmod	19:advmod	Functor=19:RSTR
+17	než	než	SCONJ	J,-------------	_	16	fixed	16:fixed	LId=než-2
 18	1300	1300	NUM	C=-------------	NumForm=Digit|NumType=Card	19	nummod:gov	19:nummod:gov	Functor=19:CPR
-19	jednotek	jednotka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	16	obl	16:obl:než	Entity=cmpr9415002e17)|Functor=16:PAT|SpaceAfter=No
+19	jednotek	jednotka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	9	obl:arg	9:obl:arg:na:acc	Entity=cmpr9415002e17)|Functor=9:PAT|SpaceAfter=No
 20	.	.	PUNCT	Z:-------------	_	9	punct	9:punct	_
 
 # sent_id = cmpr9415-002-p8s2
@@ -59621,9 +59621,9 @@
 8	Spojených	spojený	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	amod	9:amod	LDeriv=spojit|Functor=9:RSTR
 9	států	stát	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	4:obl:do:gen	Functor=4:DIR3|LGloss=(státní_útvar)|LId=stát-1
 10	amerických	americký	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	9:amod	Entity=cmpr9415002e133)|Functor=9:RSTR
-11	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	nsubj	4:nsubj	Functor=4:ACT
-12	než	než	SCONJ	J,-------------	_	13	mark	13:mark	Entity=(cmpr9415002e140--2-gstype:spec|LId=než-2
-13	70	70	NUM	C=-------------	NumForm=Digit|NumType=Card	11	obl	11:obl:než	Functor=11:RSTR
+11	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	13	advmod	13:advmod	Functor=13:ACT
+12	než	než	SCONJ	J,-------------	_	11	fixed	11:fixed	Entity=(cmpr9415002e140--2-gstype:spec|LId=než-2
+13	70	70	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nsubj	4:nsubj	Functor=4:RSTR
 14	%	%	SYM	Z:-------------	_	13	nmod	13:nmod	Functor=13:DIFF
 15	leteckých	letecký	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	16:amod	Entity=(cmpr9415002e18--2-gstype:gen|Functor=16:RSTR
 16	motorů	motor	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	14:nmod:gen	Entity=cmpr9415002e18)cmpr9415002e140)|Functor=14:MAT|SpaceAfter=No
@@ -60314,9 +60314,9 @@
 5	tisíc	tisíc	NUM	CzIXX----------	Animacy=Inan|Gender=Masc|NumType=Card	6	nummod:gov	6:nummod:gov	LNumValue=1000|Functor=6:ACT
 6	kamionů	kamion	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	3:nmod	Entity=(cmpr9415003e48--1-gstype:gen)|Functor=3:MAT|LGloss=(^DD**kamión)
 7	a	a	CCONJ	J^-------------	_	11	cc	11:cc	Functor=11:CONJ|LId=a-1
-8	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	11	advmod	11:advmod	Functor=11:ACT
-9	než	než	SCONJ	J,-------------	_	10	mark	10:mark	LId=než-2
-10	sedmi	sedm	NUM	Cl-P2----------	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	8	obl	8:obl:než	LNumValue=7|Functor=8:RSTR
+8	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	10	advmod	10:advmod	Functor=10:ACT
+9	než	než	SCONJ	J,-------------	_	8	fixed	8:fixed	LId=než-2
+10	sedmi	sedm	NUM	Cl-P2----------	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	11	nmod	11:nmod:gen	LNumValue=7|Functor=11:RSTR
 11	stovek	stovka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	6	conj	3:nmod|6:conj	Functor=6:CPR
 12	letounů	letoun	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod:gen|15:nsubj	SpaceAfter=No|LId=letoun-1|Functor=11:MAT
 13	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
@@ -65435,22 +65435,22 @@
 # text = Bylo to asi o 150 % více než za stejné období v roce 1990.
 # orig_file_sentence cmpr9415_021#5
 # Tectogrammatical annotation available.
-1	Bylo	být	AUX	VpNS----R-AAI--	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	cop	7:cop	Functor=7:PRED
-2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Entity=(cmpr9415021e16--1-gstype:spec)|Functor=7:ACT.cop
+1	Bylo	být	AUX	VpNS----R-AAI--	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	cop	11:cop	Functor=11:PRED
+2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Entity=(cmpr9415021e16--1-gstype:spec)|Functor=11:ACT.cop
 3	asi	asi	PART	TT-------------	_	5	nmod	5:nmod	Functor=5:EXT
 4	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	LId=o-1
-5	150	150	NUM	C=-------------	NumForm=Digit|NumType=Card	7	obl	7:obl:o:acc	Functor=7:RSTR
+5	150	150	NUM	C=-------------	NumForm=Digit|NumType=Card	11	nmod	11:nmod:o:acc	Functor=11:RSTR
 6	%	%	SYM	Z:-------------	_	5	nmod	5:nmod	Functor=5:DIFF
-6.1	ono	#PersPron	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	_	_	7:nsubj	Entity=(cmpr9415021e16--1-gstype:spec)|Functor=7:ACT.cop
-7	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	0	root	0:root	Functor=0:PAT
-8	než	než	SCONJ	J,-------------	_	11	mark	11:mark	LId=než-2
+7	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	11	advmod	11:advmod	Functor=11:PAT
+8	než	než	SCONJ	J,-------------	_	7	fixed	7:fixed	LId=než-2
 9	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	_
 10	stejné	stejný	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	11	amod	11:amod	Functor=11:RSTR
-11	období	období	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	7	dep	7:dep	Functor=7:THL
+10.1	někoho	#PersPron	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	_	_	11:nsubj	Entity=(cmpr9415021e16--1-gstype:spec)|Functor=11:ACT.cop
+11	období	období	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	0	root	0:root	Functor=0:THL
 12	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	13:case	Entity=(cmpr9415021e14--2-gstype:spec|LId=v-1
 13	roce	rok	NOUN	NNIS6-----A---1	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	11:nmod:v:loc	Functor=11:TWHEN
 14	1990	1990	NUM	C=-------------	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Entity=cmpr9415021e14)|Functor=13:RSTR|SpaceAfter=No
-15	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
+15	.	.	PUNCT	Z:-------------	_	11	punct	11:punct	_
 
 # sent_id = cmpr9415-021-p4s4
 # text = Na dánském exportu se nejvíce podílely stroje a dopravní zařízení, různé přístroje, chemikálie a potraviny, zejména ryby.
@@ -67824,10 +67824,10 @@
 2	dodává	dodávat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LDeriv=dodat|Functor=0:PRED
 3	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	4:case	LId=na-1
 4	export	export	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	2:obl:na:acc	Functor=2:DIR3
-5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	2	obj	2:obj	Functor=2:PAT
-6	než	než	SCONJ	J,-------------	_	8	mark	8:mark	LId=než-2
+5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	8	advmod	8:advmod	Functor=8:PAT
+6	než	než	SCONJ	J,-------------	_	5	fixed	5:fixed	LId=než-2
 7	60	60	NUM	C=-------------	NumForm=Digit|NumType=Card	8	nummod:gov	8:nummod:gov	Functor=8:RSTR
-8	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	5	obl	5:obl:než	Functor=5:CPR
+8	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	2	obj	2:obj	Functor=2:CPR
 9	zboží	zboží	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	8	nmod	8:nmod:gen	Bridge=cmpr9415027e31<cmpr9415027e30:part|Entity=(cmpr9415027e30--1)|Functor=8:MAT|SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
@@ -77089,9 +77089,9 @@
 6	programu	program	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	5:nmod:gen	LId=program-1|Functor=5:APP
 7	ČT	ČT	PROPN	BNXXX-----A----	Abbr=Yes|NameType=Oth	6	nmod	6:nmod	Bridge=cmpr9415047e15<cmpr9415047e16:part|Entity=(cmpr9415047e16--1|Functor=6:ID|LGloss=(Česká_televize)
 8	2	2	NUM	C=-------------	NumForm=Digit|NumType=Card	7	nummod	7:nummod	Entity=cmpr9415047e16)|Functor=7:RSTR
-9	méně	méně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	obj	4:obj	Functor=4:PAT
-10	než	než	SCONJ	J,-------------	_	11	mark	11:mark	LId=než-2
-11	polovinu	polovina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	9	obl	9:obl:než	Functor=9:CPR
+9	méně	méně	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	11	advmod	11:advmod	Functor=11:PAT
+10	než	než	SCONJ	J,-------------	_	9	fixed	9:fixed	LId=než-2
+11	polovinu	polovina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	Functor=4:CPR
 12	území	území	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	11	nmod	11:nmod:gen	Functor=11:MAT
 13	republiky	republika	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	12	nmod	12:nmod:gen	Bridge=cmpr9415047e17<cmpr9415047e11:part|Entity=(cmpr9415047e11--1-gstype:spec)|Functor=12:APP|SpaceAfter=No
 14	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -79213,10 +79213,10 @@
 7	Ocel	ocel	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nmod	6:nmod:nom	Entity=cmpr9415050e1)|Functor=6:RSTR
 8	Vladimír	Vladimír	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	flat	5:flat	Functor=5:RSTR
 9	Stehlík	Stehlík	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	flat	5:flat	Entity=cmpr9415050e3)|Functor=5:ACT
-10	všechny	všechen	DET	PLYP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	11	det	11:det	Entity=(cmpr9415050e33--2-gstype:spec|Functor=11:RSTR
+10	všechny	všechen	DET	PLYP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	11	det	11:det	Entity=(cmpr9415050e35--2-gstype:spec|Functor=11:RSTR
 11	odběratele	odběratel	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	3:obj	Functor=3:PAT
 12	ocelí	ocel	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	11	nmod	11:nmod:gen	Entity=(cmpr9415050e30--1-gstype:gen|Functor=11:PAT
-13	POLDI	Poldi	PROPN	NNXXX-----A----	NameType=Oth	12	nmod	12:nmod	Entity=(cmpr9415050e1--1-gstype:spec)cmpr9415050e30)cmpr9415050e33)|Functor=12:APP|LId=Poldi-1
+13	POLDI	Poldi	PROPN	NNXXX-----A----	NameType=Oth	12	nmod	12:nmod	Entity=(cmpr9415050e1--1-gstype:spec)cmpr9415050e30)cmpr9415050e35)|Functor=12:APP|LId=Poldi-1
 14	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	16:case	LId=na-1
 15	předkontraktační	předkontraktační	ADJ	AANP4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	16	amod	16:amod	Functor=16:RSTR
 16	jednání	jednání	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur|VerbForm=Vnoun	3	obl	3:obl:na:acc	LDeriv=jednat|Functor=3:DIR3
@@ -79233,23 +79233,23 @@
 # text = Více než sto zahraničních i domácích zákazníků bylo seznámeno s podmínkami přímého prodeje a při této příležitosti se podepsaly i první rámcové smlouvy.
 # orig_file_sentence cmpr9415_050#16
 # Tectogrammatical annotation available.
-1	Více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	9	nsubj:pass	9:nsubj:pass	Entity=(cmpr9415050e35--9-gstype:spec|Functor=9:ADDR
-2	než	než	SCONJ	J,-------------	_	7	mark	7:mark	Entity=(cmpr9415050e33--6-gstype:spec|LId=než-2
+1	Více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	7	advmod	7:advmod	Entity=(cmpr9415050e33--9-gstype:spec|Functor=7:ADDR
+2	než	než	SCONJ	J,-------------	_	1	fixed	1:fixed	Entity=(cmpr9415050e35--6-gstype:spec|LId=než-2
 3	sto	sto	NUM	CzNS1----------	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	7	nummod:gov	7:nummod:gov	LId=sto-1|LNumValue=100|Functor=7:RSTR
 4	zahraničních	zahraniční	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 5	i	i	CCONJ	J^-------------	_	6	cc	6:cc	LId=i-1|Functor=6:CONJ
 6	domácích	domácí	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	conj	4:conj|7:amod	LId=domácí-1|Functor=4:RSTR
-7	zákazníků	zákazník	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	obl	1:obl:než	Entity=cmpr9415050e33)|Functor=1:CPR
+7	zákazníků	zákazník	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nsubj:pass	9:nsubj:pass	Entity=cmpr9415050e35)|Functor=9:CPR
 8	bylo	být	AUX	VpNS----R-AAI--	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	aux:pass	9:aux:pass	_
 9	seznámeno	seznámený	ADJ	VsNS----X-APP--	Aspect=Perf|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	Functor=0:PRED|LDeriv=seznámit
 10	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	11	case	11:case	LId=s-1
 11	podmínkami	podmínka	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	9	obl:arg	9:obl:arg:s:ins	Functor=9:PAT
 12	přímého	přímý	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	13	amod	13:amod	Functor=13:RSTR
-13	prodeje	prodej	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	11:nmod:gen	Entity=cmpr9415050e35)|Functor=11:PAT|LGloss=(akt_prodeje_zboží)
+13	prodeje	prodej	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	11:nmod:gen	Entity=cmpr9415050e33)|Functor=11:PAT|LGloss=(akt_prodeje_zboží)
 14	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1|Functor=19:CONJ
-15	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	17	case	17:case	Entity=(cmpr9415050e35--3-gstype:spec|LId=při-1
+15	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	17	case	17:case	Entity=(cmpr9415050e33--3-gstype:spec|LId=při-1
 16	této	tento	DET	PDFS6----------	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	17	det	17:det	Functor=17:RSTR
-17	příležitosti	příležitost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	19	obl	19:obl:při:loc	Entity=cmpr9415050e35)|Functor=19:TWHEN
+17	příležitosti	příležitost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	19	obl	19:obl:při:loc	Entity=cmpr9415050e33)|Functor=19:TWHEN
 18	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	19	expl:pass	19:expl:pass	LGloss=(zvr._zájmeno/částice)
 19	podepsaly	podepsat	VERB	VpTP----R-AAP--	Animacy=Inan|Aspect=Perf|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	conj	0:root|9:conj	Functor=9:PRED
 20	i	i	PART	TT-------------	_	21	advmod:emph	21:advmod:emph	LId=i-2|Functor=21:RHEM
@@ -79831,10 +79831,10 @@
 7	45	45	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nsubj	4:nsubj	Functor=4:RSTR
 8	%	%	SYM	Z:-------------	_	7	nmod	7:nmod	Functor=7:ACT
 9	návštěvníků	návštěvník	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	8:nmod:gen	Entity=(cmpr9415051e50--1-gstype:spec)|Functor=8:MAT
-10	méně	méně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	Functor=4:EXT
-11	než	než	SCONJ	J,-------------	_	13	mark	13:mark	LId=než-2
+10	méně	méně	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	13	advmod	13:advmod	Functor=13:EXT
+11	než	než	SCONJ	J,-------------	_	10	fixed	10:fixed	LId=než-2
 12	30	30	NUM	C=-------------	NumForm=Digit|NumType=Card	13	nummod:gov	13:nummod:gov	Functor=13:RSTR
-13	dolarů	dolar	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	10:obl:než	Functor=10:CPR
+13	dolarů	dolar	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	4:obl	Functor=4:CPR
 14	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1|Functor=19:CONJ
 15	pouze	pouze	PART	TT-------------	_	16	advmod:emph	16:advmod:emph	Functor=16:RHEM
 16	asi	asi	PART	TT-------------	_	17	nmod	17:nmod	Bridge=cmpr9415051e50<cmpr9415051e63:subset|Entity=(cmpr9415051e63--2|Functor=17:EXT
@@ -81064,10 +81064,10 @@
 9	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	10	case	10:case	LId=proti-1
 10	roku	rok	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	8:obl:proti:dat	Functor=8:CPR
 11	1989	1989	NUM	C=-------------	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Functor=10:RSTR
-12	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	13	case	13:case	LId=o-1
-13	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	8	advmod	8:advmod	Functor=8:DIFF
-14	než	než	SCONJ	J,-------------	_	15	mark	15:mark	LId=než-2
-15	polovinu	polovina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	13	nmod	13:nmod:než	Functor=13:CPR
+12	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	15	case	15:case	LId=o-1
+13	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	15	advmod	15:advmod	Functor=15:DIFF
+14	než	než	SCONJ	J,-------------	_	13	fixed	13:fixed	LId=než-2
+15	polovinu	polovina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	8	obl	8:obl:o:acc	Functor=8:CPR
 16	a	a	CCONJ	J^-------------	_	19	cc	21.1:cc	Functor=19:CONJ|LId=a-1
 17	některé	některý	DET	PZFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	19	det	19:det	Functor=19:RSTR
 18	progresivní	progresivní	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	19	amod	19:amod	Functor=19:RSTR
