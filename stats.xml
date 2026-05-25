@@ -57,7 +57,7 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV">7879</feat><!-- největší, nejlepší, nejvyšší, nejvíce, nejméně, nejvíc, největším, největších, nejstarší, nejdříve -->
     <feat name="ExtPos" value="ADJ" upos="DET">29</feat><!-- ty, ten, ti, ta -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,VERB,X">7283</feat><!-- v, na, ve, vzhledem, spolu, ze, z, s, za, společně -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">1839</feat><!-- více, méně, přece, víc, de, nejen, co, a, rok, všeho -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,VERB,X">1827</feat><!-- více, méně, přece, víc, de, nejen, co, a, rok, všeho -->
     <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ,DET">782</feat><!-- a, to, nebo, neřku -->
     <feat name="ExtPos" value="SCONJ" upos="ADV,CCONJ,SCONJ">1123</feat><!-- i, jestli, než, poté, zatím, zda -->
     <feat name="Foreign" value="Yes" upos="ADV,NOUN,X">47621</feat><!-- Corp, Inc, co, New, s, Wall, street, San, International, de -->
@@ -139,9 +139,9 @@
   <deps unique="44">
     <dep name="acl">13795</dep>
     <dep name="acl:relcl">35309</dep>
-    <dep name="advcl">31684</dep>
+    <dep name="advcl">31696</dep>
     <dep name="advcl:pred">8243</dep>
-    <dep name="advmod">129069</dep>
+    <dep name="advmod">129060</dep>
     <dep name="advmod:emph">73026</dep>
     <dep name="amod">298769</dep>
     <dep name="appos">23568</dep>
@@ -152,22 +152,22 @@
     <dep name="ccomp">35050</dep>
     <dep name="compound">10807</dep>
     <dep name="conj">141365</dep>
-    <dep name="cop">71022</dep>
+    <dep name="cop">71019</dep>
     <dep name="csubj">9228</dep>
     <dep name="csubj:pass">1179</dep>
-    <dep name="dep">14030</dep>
+    <dep name="dep">14029</dep>
     <dep name="det">72974</dep>
     <dep name="det:numgov">2936</dep>
     <dep name="det:nummod">1295</dep>
     <dep name="discourse">1270</dep>
     <dep name="expl:pass">9809</dep>
     <dep name="expl:pv">45998</dep>
-    <dep name="fixed">12669</dep>
+    <dep name="fixed">12657</dep>
     <dep name="flat">57411</dep>
     <dep name="iobj">2260</dep>
-    <dep name="mark">77130</dep>
+    <dep name="mark">77142</dep>
     <dep name="nmod">310183</dep>
-    <dep name="nsubj">204317</dep>
+    <dep name="nsubj">204318</dep>
     <dep name="nsubj:pass">17131</dep>
     <dep name="nummod">38398</dep>
     <dep name="nummod:gov">31918</dep>

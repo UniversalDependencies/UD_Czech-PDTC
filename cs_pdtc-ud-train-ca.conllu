@@ -62327,10 +62327,10 @@
 # orig_file_sentence cmpr9416_015#11
 1	Přitom	přitom	ADV	Db-------------	_	2	advmod:emph	2:advmod:emph	_
 2	má	mít	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	zakázek	zakázka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	6	nmod	6:nmod:gen	_
-4	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	6	advmod	6:advmod	_
-5	než	než	SCONJ	J,-------------	_	4	fixed	4:fixed	LId=než-2
-6	může	moci	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	obj	2:obj	_
+3	zakázek	zakázka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	4	nmod	4:nmod:gen	_
+4	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	2	obj	2:obj	_
+5	než	než	SCONJ	J,-------------	_	6	mark	6:mark	LId=než-2
+6	může	moci	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl:než	_
 7	zvládnout	zvládnout	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	6	xcomp	6:xcomp	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
