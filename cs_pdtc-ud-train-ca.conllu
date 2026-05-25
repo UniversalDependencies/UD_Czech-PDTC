@@ -10592,15 +10592,15 @@
 7	nájemních	nájemní	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	8:amod	_
 8	domů	dům	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod:gen	_
 9	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-10	starostí	starost	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	18	nmod	18:nmod:gen	LId=starost-2|LDeriv=starý
+10	starostí	starost	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	16	nmod	16:nmod:gen	LId=starost-2|LDeriv=starý
 11	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	13	case	13:case	LId=s-1
 12	jejich	jeho	DET	P9XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	13:det|15:det	_
 13	údržbou	údržba	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	10	nmod	10:nmod:s:ins	_
 14	nebo	nebo	CCONJ	J^-------------	_	15	cc	15:cc	_
 15	rekonstrukcemi	rekonstrukce	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	13	conj	10:nmod:s:ins|13:conj	_
-16	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	18	advmod	18:advmod	_
-17	než	než	SCONJ	J,-------------	_	16	fixed	16:fixed	LId=než-2
-18	dost	dost	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	nsubj	5:nsubj	SpaceAfter=No
+16	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	5	nsubj	5:nsubj	_
+17	než	než	SCONJ	J,-------------	_	18	mark	18:mark	LId=než-2
+18	dost	dost	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	16	advmod	16:advmod	SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # newpar id = cmpr9406-014-p8
@@ -17698,14 +17698,14 @@
 # sent_id = cmpr9406-035-p3s1
 # text = Spolupráce při výrobě je víc než jen obchodování
 # orig_file_sentence cmpr9406_035#2
-1	Spolupráce	spolupráce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	_
+1	Spolupráce	spolupráce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	5:nsubj	_
 2	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	3:case	LId=při-1
 3	výrobě	výroba	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	1	nmod	1:nmod:při:loc	_
-4	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
-5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	8	advmod	8:advmod	_
-6	než	než	SCONJ	J,-------------	_	5	fixed	5:fixed	LId=než-2
+4	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	0	root	0:root	_
+6	než	než	SCONJ	J,-------------	_	8	mark	8:mark	LId=než-2
 7	jen	jen	ADV	Db-------------	_	8	advmod:emph	8:advmod:emph	LId=jen-4|LGloss=(pouze)
-8	obchodování	obchodování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	0	root	0:root	LDeriv=obchodovat
+8	obchodování	obchodování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	5	advcl	5:advcl:než	LDeriv=obchodovat
 
 # newpar id = cmpr9406-035-p4
 # sent_id = cmpr9406-035-p4s1
@@ -29884,15 +29884,15 @@
 # text = Pro někoho jsou holt peníze více než dobrá pověst.
 # orig_file_sentence cmpr9406_057#47
 1	Pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	2:case	LId=pro-1
-2	někoho	někdo	PRON	PK--4----------	Animacy=Anim|Case=Acc|PronType=Ind	9	nmod	9:nmod:pro:acc	_
-3	jsou	být	AUX	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
-4	holt	holt	ADV	Db-------------	Style=Coll	9	advmod:emph	9:advmod:emph	_
-5	peníze	peníze	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	9:nsubj	LGloss=(jako_platidlo)
-6	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	9	advmod	9:advmod	_
-7	než	než	SCONJ	J,-------------	_	6	fixed	6:fixed	LId=než-2
+2	někoho	někdo	PRON	PK--4----------	Animacy=Anim|Case=Acc|PronType=Ind	6	obl	6:obl:pro:acc	_
+3	jsou	být	AUX	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+4	holt	holt	ADV	Db-------------	Style=Coll	6	advmod:emph	6:advmod:emph	_
+5	peníze	peníze	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	6:nsubj	LGloss=(jako_platidlo)
+6	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	0	root	0:root	_
+7	než	než	SCONJ	J,-------------	_	9	mark	9:mark	LId=než-2
 8	dobrá	dobrý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	9:amod	_
-9	pověst	pověst	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
-10	.	.	PUNCT	Z:-------------	_	9	punct	9:punct	_
+9	pověst	pověst	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	advcl	6:advcl:než	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
 # newpar id = cmpr9406-057-p16
 # sent_id = cmpr9406-057-p16s1
@@ -30971,10 +30971,10 @@
 7	vozů	vůz	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	6:nmod:gen	_
 8	řady	řada	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod:gen	LGloss=(linka,zástup,pořadí,...)
 9	900	900	NUM	C=-------------	NumForm=Digit|NumType=Card	8	nummod	8:nummod	_
-10	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	13	case	13:case	LId=o-1
-11	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	13	advmod	13:advmod	_
-12	než	než	SCONJ	J,-------------	_	11	fixed	11:fixed	LId=než-2
-13	čtvrtinu	čtvrtina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	5	obl	5:obl:o:acc	SpaceAfter=No
+10	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	LId=o-1
+11	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	5	advmod	5:advmod	_
+12	než	než	SCONJ	J,-------------	_	13	mark	13:mark	LId=než-2
+13	čtvrtinu	čtvrtina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	11	obl	11:obl:než	SpaceAfter=No
 14	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = cmpr9406-058-p13s7
@@ -34063,9 +34063,9 @@
 25	.	.	PUNCT	Z:-------------	_	24	punct	24:punct	SpaceAfter=No
 26	1993	1993	NUM	C=-------------	NumForm=Digit|NumType=Card	24	compound	24:compound	SpaceAfter=No
 27	)	)	PUNCT	Z:-------------	_	24	punct	24:punct	_
-28	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	30	advmod	30:advmod	_
-29	než	než	SCONJ	J,-------------	_	28	fixed	28:fixed	LId=než-2
-30	dvojnásobek	dvojnásobek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	16:obj	_
+28	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	16	obj	16:obj	_
+29	než	než	SCONJ	J,-------------	_	30	mark	30:mark	LId=než-2
+30	dvojnásobek	dvojnásobek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obl	28:obl:než	_
 31	tržní	tržní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	32	amod	32:amod	_
 32	hodnoty	hodnota	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	30	nmod	30:nmod:gen|37:obj	SpaceAfter=No
 33	,	,	PUNCT	Z:-------------	_	37	punct	37:punct	_
@@ -54223,9 +54223,9 @@
 6	akciové	akciový	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 7	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod:gen	LDeriv=společný
 8	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
-9	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	11	advmod	11:advmod	_
-10	než	než	SCONJ	J,-------------	_	9	fixed	9:fixed	LId=než-2
-11	pětistovka	pětistovka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+9	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	3	nsubj	3:nsubj	_
+10	než	než	SCONJ	J,-------------	_	11	mark	11:mark	LId=než-2
+11	pětistovka	pětistovka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	9	obl	9:obl:než	_
 12	podniků	podnik	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod:gen	SpaceAfter=No
 13	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
@@ -55907,9 +55907,9 @@
 12	letech	léta	NOUN	NNNP6-----A----	Case=Loc|Gender=Neut|Number=Plur	8	nmod	8:nmod:v:loc	_
 13	stále	stále	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	14	advmod	14:advmod	LDeriv=stálý
 14	vytváří	vytvářet	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
-15	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	17	advmod	17:advmod	_
-16	než	než	SCONJ	J,-------------	_	15	fixed	15:fixed	LId=než-2
-17	pětinu	pětina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	14	obj	14:obj	_
+15	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	14	obj	14:obj	_
+16	než	než	SCONJ	J,-------------	_	17	mark	17:mark	LId=než-2
+17	pětinu	pětina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	15	obl	15:obl:než	_
 18	hrubého	hrubý	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	20:amod	_
 19	domácího	domácí	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	20:amod	LId=domácí-1
 20	produktu	produkt	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	17:nmod:gen	_
@@ -57547,10 +57547,10 @@
 # sent_id = cmpr9407-053-p4s1
 # text = Už více než rok platí opatření ministerstva financí, kde je mimo jiné stanoveno, jak má vypadat peněžní deník pro vedení jednoduchého účetnictví.
 # orig_file_sentence cmpr9407_053#3
-1	Už	už	ADV	Db-------------	_	4	advmod:emph	4:advmod:emph	LId=už-1
-2	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	4	advmod	4:advmod	_
-3	než	než	SCONJ	J,-------------	_	2	fixed	2:fixed	LId=než-2
-4	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	5:obl:acc	_
+1	Už	už	ADV	Db-------------	_	2	advmod:emph	2:advmod:emph	LId=už-1
+2	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	5	advmod	5:advmod	_
+3	než	než	SCONJ	J,-------------	_	4	mark	4:mark	LId=než-2
+4	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	2:obl:než	_
 5	platí	platit	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	opatření	opatření	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	5	nsubj	5:nsubj|14:obl	LDeriv=opatřit
 7	ministerstva	ministerstvo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	6	nmod	6:nmod:gen	_
@@ -94446,9 +94446,9 @@
 29	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	28	nmod	28:nmod:gen	LDeriv=společný
 30	soudem	soud	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	nmod	28:nmod:ins	_
 31	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	35	case	35:case	LId=pro-1
-32	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	34	advmod	34:advmod	_
-33	než	než	SCONJ	J,-------------	_	32	fixed	32:fixed	LId=než-2
-34	dvouletou	dvouletý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	35	advmod	35:advmod	_
+32	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	35	advmod	35:advmod	_
+33	než	než	SCONJ	J,-------------	_	34	mark	34:mark	LId=než-2
+34	dvouletou	dvouletý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	32	obl	32:obl:než	_
 35	nečinnost	nečinnost	NOUN	NNFS4-----N----	Case=Acc|Gender=Fem|Number=Sing	28	nmod	28:nmod:pro:acc	SpaceAfter=No|LDeriv=činnost
 36	.	.	PUNCT	Z:-------------	_	24	punct	24:punct	_
 
