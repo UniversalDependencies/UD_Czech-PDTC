@@ -3281,7 +3281,7 @@
 28	vypadala	vypadat	VERB	VpQW----R-AAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	24	advcl	24:advcl:že	LId=vypadat-1|LGloss=(ty_vypadáš)|Functor=24:BEN
 29	"	"	PUNCT	Z:-------------	_	31	punct	31:punct	SpaceAfter=No
 30	jako	jako	SCONJ	J,-------------	_	31	mark	31:mark	LId=jako-1
-31	tvář	tvář	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	28	advcl	28:advcl:jako|35:obj	Entity=(wsj2010001e27--1|Functor=28:ACT|SpaceAfter=No
+31	tvář	tvář	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	28	obl	28:obl:jako|35:obj	Entity=(wsj2010001e27--1|Functor=28:ACT|SpaceAfter=No
 32	,	,	PUNCT	Z:-------------	_	35	punct	35:punct	_
 33	kterou	který	DET	P4FS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	35	obj	31:ref	Entity=(wsj2010001e27--1)|Functor=35:PAT
 34	byste	být	AUX	Vc----------Ie-	Aspect=Imp|Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin	35	aux	35:aux	_
@@ -4942,7 +4942,7 @@
 6	uhlazený	uhlazený	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=uhladit|Functor=0:PAT
 7	jako	jako	SCONJ	J,-------------	_	9	mark	9:mark	LId=jako-1
 8	íránský	íránský	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	9:amod	Bridge=wsj2013001e95<wsj2013001e97:subset|Entity=(wsj2013001e97--2-gstype:spec|Functor=9:RSTR
-9	šáh	šáh	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	advcl	5:advcl:jako	Entity=wsj2013001e97)|Functor=5:ACT.cop|SpaceAfter=No
+9	šáh	šáh	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	obl	5:obl:jako	Entity=wsj2013001e97)|Functor=5:ACT.cop|SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 11	nepochází	pocházet	VERB	VB-S---3P-NAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	0:root|6:conj	Functor=6:PRED
 12	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	15	case	15:case	LId=z-1
@@ -4951,7 +4951,7 @@
 15	rodiny	rodina	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	11	obl	11:obl:z:gen	Functor=11:DIR1
 16	jako	jako	SCONJ	J,-------------	_	18	mark	18:mark	LId=jako-1
 17	nikaragujský	nikaragujský	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	18	amod	18:amod	Bridge=wsj2013001e95<wsj2013001e96:subset|Entity=(wsj2013001e96--2-gstype:spec|Functor=18:RSTR
-18	Anastasio	Anastasio	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	13	advcl	13:advcl:jako	Functor=13:RSTR
+18	Anastasio	Anastasio	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	13	obl	13:obl:jako	Functor=13:RSTR
 19	Somoza	Somoza	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	18	flat	18:flat	Entity=wsj2013001e96)|Functor=18:ACT|SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
 21	není	být	AUX	VB-S---3P-NAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	23:cop	Functor=23:PRED
@@ -4959,7 +4959,7 @@
 23	imperiální	imperiální	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	conj	0:root|6:conj	Functor=6:PAT
 24	jako	jako	SCONJ	J,-------------	_	26	mark	26:mark	LId=jako-1
 25	filipínský	filipínský	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	26	amod	26:amod	Bridge=wsj2013001e95<wsj2013001e98:subset|Entity=(wsj2013001e98--2|Functor=26:RSTR
-26	Ferdinand	Ferdinand	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	22	advcl	22:advcl:jako	Functor=22:RSTR
+26	Ferdinand	Ferdinand	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	22	obl	22:obl:jako	Functor=22:RSTR
 27	Marcos	Marcos	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	26	flat	26:flat	Entity=wsj2013001e98)|Functor=26:ACT.cop
 28	nebo	nebo	CCONJ	J^-------------	_	30	cc	30:cc	Functor=30:CONJ
 29	tak	tak	ADV	Db-------------	PronType=Dem	30	advmod	30:advmod	LId=tak-3|Functor=30:EXT
@@ -4968,7 +4968,7 @@
 32	haitský	haitský	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	33	amod	33:amod	Bridge=wsj2013001e95<wsj2013001e99:subset|Entity=(wsj2013001e99--4|Functor=33:RSTR
 33	Baby	Baby	X	F%-------------	Foreign=Yes	35	nmod	35:nmod	LId=Baby-77|Functor=35:RSTR
 34	Doc	Doc	X	F%-------------	Foreign=Yes	35	nmod	35:nmod	LId=Doc-77|Functor=35:RSTR
-35	Duvalier	Duvalier	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	29	advcl	29:advcl:jako	Entity=wsj2013001e99)|Functor=29:ACT.cop|SpaceAfter=No
+35	Duvalier	Duvalier	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	29	obl	29:obl:jako	Entity=wsj2013001e99)|Functor=29:ACT.cop|SpaceAfter=No
 36	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
 # sent_id = wsj2013-001-p1s20
@@ -5523,7 +5523,7 @@
 5	roky	rok	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	6:obl:o:acc	Functor=6:DIFF
 6	starší	starý	ADJ	AAMS1----2A----	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	LId=starý-2|LGloss=(člověk,_věc)|Functor=0:PAT
 7	než	než	SCONJ	J,-------------	_	8	mark	8:mark	LId=než-2
-8	většina	většina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	advcl	6:advcl:než	Functor=6:ACT.cop
+8	většina	většina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	obl	6:obl:než	Functor=6:ACT.cop
 9	jeho	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	10:det	Entity=(wsj2013001e8--1-gstype:spec)|Functor=10:RSTR
 10	spolužáků	spolužák	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	8:nmod:gen	Functor=8:RSTR
 11	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1|Functor=15:CONJ
@@ -9279,7 +9279,7 @@
 4	klesl	klesnout	VERB	VpYS----R-AAP-1	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
 5	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	Functor=4:EXT
 6	než	než	SCONJ	J,-------------	_	7	mark	7:mark	LId=než-2
-7	objem	objem	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	advcl	5:advcl:než	Functor=5:ACT
+7	objem	objem	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	obl	5:obl:než	Functor=5:ACT
 8	celkový	celkový	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	7:amod	SpaceAfter=No|Functor=7:RSTR
 9	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -9359,7 +9359,7 @@
 15	delší	dlouhý	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	7	acl:relcl	7:acl:relcl	LGloss=(tyč;doba)|Functor=7:PAT
 16	než	než	SCONJ	J,-------------	_	18	mark	18:mark	LId=než-2
 17	tři	tři	NUM	Cl-P1----------	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	18	nummod	18:nummod	LNumValue=3|Functor=18:RSTR
-18	roky	rok	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	advcl	15:advcl:než	Entity=wsj2015001e41)|Functor=15:ACT.cop|SpaceAfter=No
+18	roky	rok	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	obl	15:obl:než	Entity=wsj2015001e41)|Functor=15:ACT.cop|SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = wsj2015-001-p1s10
@@ -9961,7 +9961,7 @@
 16	že	že	SCONJ	J,-------------	_	21	mark	21:mark	LId=že-1
 17	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	21	advmod	21:advmod	LDeriv=stejný|Functor=21:MANN
 18	jako	jako	SCONJ	J,-------------	_	19	mark	19:mark	LId=jako-1
-19	míra	míra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	17	advcl	17:advcl:jako	LGloss=(měřítko,poměr)|Functor=17:ACT
+19	míra	míra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	17	obl	17:obl:jako	LGloss=(měřítko,poměr)|Functor=17:ACT
 20	úmrtnosti	úmrtnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	19	nmod	19:nmod:gen	Functor=19:RSTR
 21	poklesl	poklesnout	VERB	VpYS----R-AAP-1	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	14	ccomp	14:ccomp	Functor=14:EFF
 22	během	během	ADP	RR--2----------	AdpType=Prep|Case=Gen	23	case	23:case	Entity=(wsj2017001e28--2-gstype:spec
@@ -10400,7 +10400,7 @@
 3	kouří	kouřit	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	3	advcl:pred	3:advcl:pred	Functor=3:COMPL
 5	než	než	SCONJ	J,-------------	_	6	mark	6:mark	LId=než-2
-6	mužů	muž	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	advcl	4:advcl:než	Functor=4:ACT
+6	mužů	muž	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	obl	4:obl:než	Functor=4:ACT
 7	bílých	bílý	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	6:amod	SpaceAfter=No|Functor=6:RSTR
 8	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
@@ -10432,7 +10432,7 @@
 20	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	17	nsubj	17:nsubj	Entity=(wsj2017001e65[2/2]--2-gstype:spec|Functor=17:RSTR
 21	bělochů	běloch	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	20:nmod:gen	Functor=20:ACT
 22	než	než	SCONJ	J,-------------	_	23	mark	23:mark	LId=než-2
-23	černochů	černoch	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	advcl	20:advcl:než	Entity=wsj2017001e65[2/2])|Functor=20:ACT|SpaceAfter=No
+23	černochů	černoch	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	obl	20:obl:než	Entity=wsj2017001e65[2/2])|Functor=20:ACT|SpaceAfter=No
 24	.	.	PUNCT	Z:-------------	_	17	punct	17:punct	_
 
 # sent_id = wsj2017-001-p1s24
@@ -15214,7 +15214,7 @@
 17	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
 18	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	14	advmod	14:advmod	LDeriv=stejný|Functor=14:MANN
 19	jako	jako	SCONJ	J,-------------	_	20	mark	20:mark	LId=jako-1
-20	platy	plat	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	advcl	18:advcl:jako	LGloss=(mzda)|Functor=18:PAT
+20	platy	plat	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	obl	18:obl:jako	LGloss=(mzda)|Functor=18:PAT
 21	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	22	case	22:case	_
 22	přesčasy	přesčas	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	nmod	20:nmod:za:acc	SpaceAfter=No|LId=přesčas-1|LGloss=(doba)|Functor=20:CAUS
 23	.	.	PUNCT	Z:-------------	_	14	punct	14:punct	_
@@ -18527,7 +18527,7 @@
 17	méně	méně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	11	appos	11:appos	Functor=11:PAT
 18	než	než	SCONJ	J,-------------	_	20	mark	20:mark	LId=než-2
 19	původní	původní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	20	amod	20:amod	Functor=20:RSTR
-20	objem	objem	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	advcl	17:advcl:než	Functor=17:ACT
+20	objem	objem	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	17:obl:než	Functor=17:ACT
 21	1050	1050	NUM	C=-------------	NumForm=Digit|NumType=Card	20	nummod	20:nummod	Functor=20:RSTR
 22	denně	denně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	20	advmod	20:advmod	SpaceAfter=No|LDeriv=denní|Functor=20:THO
 23	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -18837,7 +18837,7 @@
 15	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	3:advmod	LDeriv=stejný|Functor=3:MANN
 16	jako	jako	SCONJ	J,-------------	_	18	mark	18:mark	LId=jako-1
 17	jiným	jiný	ADJ	AAIP3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	18	amod	18:amod	Entity=(wsj2033001e40--2|Functor=18:RSTR
-18	regionům	region	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	15	advcl	15:advcl:jako|23:nsubj:pass	Functor=15:ADDR|SpaceAfter=No
+18	regionům	region	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	15	obl	15:obl:jako|23:nsubj:pass	Functor=15:ADDR|SpaceAfter=No
 19	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
 20	které	který	DET	P4IP1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	23	nsubj:pass	18:ref	Entity=(wsj2033001e40--1)|Functor=23:PAT
 21	tak	tak	ADV	Db-------------	PronType=Dem	23	obj	23:obj	LId=tak-3|Functor=23:EFF
@@ -19541,7 +19541,7 @@
 1	VĚTŠÍ	velký	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	Functor=0:PAT
 2	NEŽ	než	SCONJ	J,-------------	_	4	mark	4:mark	LId=než-2
 3	JEHO	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	4:det	Entity=(wsj2033001e141--1-gstype:spec)|Functor=4:RSTR
-4	CHLEBNÍK	chlebník	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	advcl	1:advcl:než	Functor=1:ACT.cop
+4	CHLEBNÍK	chlebník	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	obl	1:obl:než	Functor=1:ACT.cop
 5	byla	být	AUX	VpQW----R-AAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	cop	1:cop	Functor=1:PRED
 6	pověst	pověst	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	Functor=1:ACT.cop
 7	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	8:case	LId=o-1
@@ -21477,7 +21477,7 @@
 27	pneumatik	pneumatika	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	25	nmod	25:nmod:gen	Functor=25:RSTR
 28	než	než	SCONJ	J,-------------	_	30	mark	30:mark	LId=než-2
 29	závodní	závodní	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	30	amod	30:amod	Functor=30:RSTR
-30	kola	kolo	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur	24	advcl	24:advcl:než	SpaceAfter=No|Functor=24:ACT
+30	kola	kolo	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur	24	obl	24:obl:než	SpaceAfter=No|Functor=24:ACT
 31	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = wsj2034-001-p1s50
@@ -21553,7 +21553,7 @@
 7	návštěvníků	návštěvník	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	6:nmod:gen	Functor=6:PAT
 8	než	než	SCONJ	J,-------------	_	10	mark	10:mark	LId=než-2
 9	nejrušnější	rušný	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	Functor=10:RSTR
-10	týden	týden	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	advcl	6:advcl:než	LGloss=(jednotka_času)|Functor=6:ACT
+10	týden	týden	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obl	6:obl:než	LGloss=(jednotka_času)|Functor=6:ACT
 11	zimní	zimní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	Functor=13:RSTR
 12	lyžařské	lyžařský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	Functor=13:RSTR
 13	sezony	sezona	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod:gen	LGloss=(^DD**sezóna)|Functor=10:RSTR
@@ -21610,7 +21610,7 @@
 10	"	"	PUNCT	Z:-------------	_	11	punct	11:punct	SpaceAfter=No
 11	poslíčkovské	poslíčkovský	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	13	amod	13:amod	Entity=(wsj2034001e221--3|Functor=13:RSTR|SpaceAfter=No
 12	"	"	PUNCT	Z:-------------	_	11	punct	11:punct	_
-13	kolo	kolo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	7	advcl	7:advcl:jako|17:obj	Functor=7:ACT.cop|SpaceAfter=No
+13	kolo	kolo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	7	obl	7:obl:jako|17:obj	Functor=7:ACT.cop|SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 15	které	který	DET	P4NS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	17	obj	13:ref	Entity=(wsj2034001e221--1)|Functor=17:PAT
 16	jsme	být	AUX	VB-P---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
@@ -24431,7 +24431,7 @@
 27	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	25	advmod	25:advmod	LDeriv=stejný|Functor=25:MANN
 28	jako	jako	SCONJ	J,-------------	_	30	mark	30:mark	LId=jako-1
 29	jisté	jistý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	30	amod	30:amod	Functor=30:RSTR
-30	oblasti	oblast	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	27	advcl	27:advcl:jako	Functor=27:ACT
+30	oblasti	oblast	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	27	obl	27:obl:jako	Functor=27:ACT
 31	velkoobchodního	velkoobchodní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	32	amod	32:amod	Functor=32:RSTR
 32	bankovnictví	bankovnictví	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	30	nmod	30:nmod:gen	SpaceAfter=No|Functor=30:RSTR
 33	.	.	PUNCT	Z:-------------	_	25	punct	25:punct	_
@@ -28242,7 +28242,7 @@
 19	lépe	lépe	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	18	advmod	18:advmod	Functor=18:MANN
 20	než	než	SCONJ	J,-------------	_	22	mark	22:mark	LId=než-2
 21	cenné	cenný	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	22	amod	22:amod	Functor=22:RSTR
-22	papíry	papír	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	advcl	19:advcl:než	Functor=19:ACT
+22	papíry	papír	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	obl	19:obl:než	Functor=19:ACT
 23	Vládní	vládní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	26	amod	26:amod	Entity=(wsj2043001e124--4-gstype:spec|Functor=26:RSTR
 24	národní	národní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	26	amod	26:amod	Functor=26:RSTR
 25	hypotékové	hypotékový	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	26	amod	26:amod	Functor=26:RSTR
@@ -32307,7 +32307,7 @@
 42	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	36	advmod	36:advmod	LDeriv=stejný|Functor=36:MANN
 43	jako	jako	SCONJ	J,-------------	_	45	mark	45:mark	LId=jako-1
 44	řídícím	řídící	ADJ	AGMP3-----A----	Animacy=Anim|Aspect=Imp|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	45	amod	45:amod	LDeriv=řídit|Functor=45:RSTR
-45	pracovníkům	pracovník	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	42	advcl	42:advcl:jako	Entity=wsj2048001e34)|Functor=42:ADDR|SpaceAfter=No
+45	pracovníkům	pracovník	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	42	obl	42:obl:jako	Entity=wsj2048001e34)|Functor=42:ADDR|SpaceAfter=No
 46	.	.	PUNCT	Z:-------------	_	19	punct	19:punct	_
 
 # sent_id = wsj2048-001-p1s13
@@ -33906,7 +33906,7 @@
 22	,	,	PUNCT	Z:-------------	_	25	punct	25:punct	_
 23	jako	jako	SCONJ	J,-------------	_	25	mark	25:mark	LId=jako-1
 24	sovětská	sovětský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	25	amod	25:amod	Entity=(wsj2052001e23--2-gstype:spec|Functor=25:RSTR
-25	podpora	podpora	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	20	advcl	20:advcl:jako	Functor=20:ACT|LGloss=(peníze;_tyč;_morální_p.)
+25	podpora	podpora	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	20	obl	20:obl:jako	Functor=20:ACT|LGloss=(peníze;_tyč;_morální_p.)
 26	Kábulu	Kábul	PROPN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|NameType=Geo|Number=Sing	25	nmod	25:nmod:gen	Entity=(wsj2052001e5--1-gstype:spec)wsj2052001e23)|Functor=25:RSTR|SpaceAfter=No
 27	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -34194,7 +34194,7 @@
 35	rychlejší	rychlý	ADJ	AAIP1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	33	xcomp	33:xcomp	Functor=33:PAT
 36	než	než	SCONJ	J,-------------	_	38	mark	38:mark	LId=než-2
 37	pákistánské	pákistánský	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	38	amod	38:amod	Functor=38:RSTR
-38	letouny	letoun	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	35	advcl	35:advcl:než	LId=letoun-1|Functor=35:ACT.cop
+38	letouny	letoun	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	35	obl	35:obl:než	LId=letoun-1|Functor=35:ACT.cop
 39	F	F	NOUN	Q3-------------	Abbr=Yes	38	nmod	38:nmod	LId=F-33|Functor=38:ID
 40	16	16	NUM	C=-------------	NumForm=Digit|NumType=Card	39	nummod	39:nummod	Functor=39:RSTR
 41	vyrobené	vyrobený	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	38	amod	38:amod	LDeriv=vyrobit|Functor=38:RSTR
@@ -34214,7 +34214,7 @@
 54	být	být	AUX	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	55	cop	55:cop	Functor=55:RSTR
 55	rychlejší	rychlý	ADJ	AAIP1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	53	xcomp	53:xcomp	Functor=53:PAT
 56	než	než	SCONJ	J,-------------	_	57	mark	57:mark	LId=než-2
-57	letouny	letoun	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	55	advcl	55:advcl:než	LId=letoun-1|Functor=55:ACT.cop
+57	letouny	letoun	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	55	obl	55:obl:než	LId=letoun-1|Functor=55:ACT.cop
 58	MiG	MiG	NOUN	BNXXX-----A----	Abbr=Yes	60	nmod	60:nmod	SpaceAfter=No|LId=MiG-88|Functor=60:FPHR
 59	-	-	PUNCT	Z:-------------	_	58	punct	58:punct	SpaceAfter=No|Functor=58:FPHR
 60	29	29	NUM	C=-------------	NumForm=Digit|NumType=Card	57	nummod	57:nummod	Entity=wsj2052001e94)|Functor=57:FPHR|SpaceAfter=No
@@ -35180,7 +35180,7 @@
 9	něco	něco	PRON	PK--4----------	Animacy=Inan|Case=Acc|PronType=Ind	10	obl	10:obl:o:acc	Functor=10:DIFF
 10	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	6	obj	6:obj	Functor=6:PAT
 11	než	než	SCONJ	J,-------------	_	12	mark	12:mark	LId=než-2
-12	fňukání	fňukání	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	10	advcl	10:advcl:než	SpaceAfter=No|LDeriv=fňukat|Functor=10:ACT
+12	fňukání	fňukání	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	10	obl	10:obl:než	SpaceAfter=No|LDeriv=fňukat|Functor=10:ACT
 13	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
 14	i	i	CCONJ	J^-------------	ExtPos=SCONJ	18	mark	18:mark	LId=i-1
 15	když	když	SCONJ	J,-------------	_	14	fixed	14:fixed	_
@@ -37005,7 +37005,7 @@
 2	stěží	stěží	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=stěží-2|Functor=3:MOD
 3	zní	znít	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	jako	jako	SCONJ	J,-------------	_	5	mark	5:mark	LId=jako-1
-5	litanie	litanie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	advcl	3:advcl:jako	Functor=3:ACT
+5	litanie	litanie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	obl	3:obl:jako	Functor=3:ACT
 6	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	7	case	7:case	LId=proti-1
 7	homosexuálům	homosexuál	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	nmod	5:nmod:proti:dat	SpaceAfter=No|Functor=5:BEN
 8	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -37257,7 +37257,7 @@
 19	jako	jako	SCONJ	J,-------------	_	22	mark	22:mark	LId=jako-1
 20	W	W	NOUN	Q3-------------	Abbr=Yes	22	nmod	22:nmod	Entity=(wsj2054001e1--3-gstype:spec|Functor=22:RSTR|LId=W-33|SpaceAfter=No
 21	.	.	PUNCT	Z:-------------	_	20	punct	20:punct	_
-22	Allen	Allen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	16	advcl	16:advcl:jako	Entity=wsj2054001e1)|Functor=16:ACT.cop|SpaceAfter=No
+22	Allen	Allen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	16	obl	16:obl:jako	Entity=wsj2054001e1)|Functor=16:ACT.cop|SpaceAfter=No
 23	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # newdoc id = wsj2055-001
@@ -39233,7 +39233,7 @@
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	chovají	chovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	Functor=10:EFF
 5	jako	jako	SCONJ	J,-------------	_	6	mark	6:mark	LId=jako-1
-6	stádo	stádo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	4	advcl	4:advcl:jako	Functor=4:ACT
+6	stádo	stádo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	4	obl	4:obl:jako	Functor=4:ACT
 7	zvěře	zvěř	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod:gen	SpaceAfter=No|Functor=6:RSTR
 8	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	SpaceAfter=No
 9	"	"	PUNCT	Z:-------------	_	7	punct	7:punct	_
@@ -39274,7 +39274,7 @@
 # Tectogrammatical annotation available.
 1	Stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod	4:advmod	Entity=(wsj2057001e31--5-gstype:spec|Functor=4:MANN|LDeriv=stejný
 2	jako	jako	SCONJ	J,-------------	_	3	mark	3:mark	LId=jako-1
-3	kobylky	kobylka	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	1	advcl	1:advcl:jako	Functor=1:ACT
+3	kobylky	kobylka	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	1	obl	1:obl:jako	Functor=1:ACT
 3.1	my	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	4:nsubj|6:nsubj:xsubj	Entity=(wsj2057001e29--1)|Functor=4:ACT,6:ACT
 4	máme	mít	VERB	VB-P---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 5	sklon	sklon	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj	Functor=4:CPHR
@@ -40770,7 +40770,7 @@
 17	víc	více	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	18	advmod	18:advmod	Functor=18:EXT
 18	protispolečenská	protispolečenský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	ccomp	4:ccomp	Functor=4:PAT
 19	než	než	SCONJ	J,-------------	_	20	mark	20:mark	LId=než-2
-20	fetišismus	fetišismus	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	advcl	17:advcl:než	Entity=(wsj2057001e184--1-gstype:spec|Functor=17:ACT.cop|LGloss=(^DD**fetišizmus)
+20	fetišismus	fetišismus	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	obl	17:obl:než	Entity=(wsj2057001e184--1-gstype:spec|Functor=17:ACT.cop|LGloss=(^DD**fetišizmus)
 21	likvidity	likvidita	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	20	nmod	20:nmod:gen	Entity=wsj2057001e184)|Functor=20:RSTR|SpaceAfter=No
 22	"	"	PUNCT	Z:-------------	_	21	punct	21:punct	SpaceAfter=No
 23	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -41255,7 +41255,7 @@
 27	jsou	být	AUX	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	28:cop	Functor=28:RSTR
 28	stejná	stejný	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	24	acl:relcl	24:acl:relcl	Functor=24:PAT
 29	jako	jako	SCONJ	J,-------------	_	30	mark	30:mark	LId=jako-1
-30	jméno	jméno	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	28	advcl	28:advcl:jako	Functor=28:ACT.cop
+30	jméno	jméno	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	28	obl	28:obl:jako	Functor=28:ACT.cop
 31	uživatele	uživatel	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	30	nmod	30:nmod:gen	Entity=wsj2058001e66)wsj2058001e71)|Functor=30:RSTR|SpaceAfter=No
 32	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
@@ -42979,7 +42979,7 @@
 51	méně	méně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	50	obj	50:obj	Functor=50:EXT
 52	nejistoty	nejistota	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	51	nmod	51:nmod:gen	Functor=51:PAT
 53	než	než	SCONJ	J,-------------	_	54	mark	54:mark	LId=než-2
-54	rozhodnutí	rozhodnutí	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Vnoun	51	advcl	51:advcl:než|59:nsubj	Entity=(wsj2059001e176--1|Functor=51:ACT|LDeriv=rozhodnout
+54	rozhodnutí	rozhodnutí	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Vnoun	51	obl	51:obl:než|59:nsubj	Entity=(wsj2059001e176--1|Functor=51:ACT|LDeriv=rozhodnout
 55	soudů	soud	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	54	nmod	54:nmod:gen	SpaceAfter=No|Functor=54:ACT
 56	,	,	PUNCT	Z:-------------	_	59	punct	59:punct	_
 57	která	který	DET	P4NP1----------	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	59	nsubj	54:ref	Entity=(wsj2059001e176--1)|Functor=59:ACT.cop
@@ -44246,7 +44246,7 @@
 7	ostřejším	ostrý	ADJ	AAIS7----2A----	Animacy=Inan|Case=Ins|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	8:amod	Functor=8:RSTR
 8	dohledem	dohled	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	ccomp	15:ccomp	Functor=15:LOC
 9	než	než	SCONJ	J,-------------	_	10	mark	10:mark	LId=než-2
-10	dluhy	dluh	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	advcl	7:advcl:než	Functor=7:ACT.cop
+10	dluhy	dluh	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	obl	7:obl:než	Functor=7:ACT.cop
 11	rozvojových	rozvojový	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	12	amod	12:amod	Functor=12:RSTR
 12	zemí	země	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	10	nmod	10:nmod:gen	SpaceAfter=No|Functor=10:RSTR
 13	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	SpaceAfter=No
@@ -46287,7 +46287,7 @@
 8	a	a	CCONJ	J^-------------	_	9	cc	9:cc	LId=a-1|Functor=9:CONJ
 9	dolů	dolů	ADV	Db-------------	_	7	conj	6:advmod|7:conj	Functor=7:DIR3
 10	jako	jako	SCONJ	J,-------------	_	11	mark	11:mark	LId=jako-1
-11	výtah	výtah	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	advcl	6:advcl:jako	SpaceAfter=No|Functor=6:ACT
+11	výtah	výtah	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obl	6:obl:jako	SpaceAfter=No|Functor=6:ACT
 12	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	SpaceAfter=No
 13	"	"	PUNCT	Z:-------------	_	11	punct	11:punct	_
 14	hlásal	hlásat	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
@@ -46640,7 +46640,7 @@
 10	jako	jako	SCONJ	J,-------------	_	13	mark	13:mark	LId=jako-1
 11	obří	obří	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	13	amod	13:amod	Functor=13:RSTR
 12	depozitní	depozitní	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	13	amod	13:amod	Functor=13:RSTR
-13	certifikáty	certifikát	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	advcl	9:advcl:jako	Functor=9:ACT
+13	certifikáty	certifikát	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	obl	9:obl:jako	Functor=9:ACT
 14	úzce	úzce	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	15	advmod	15:advmod	Functor=15:MANN
 14.1	někoho	#PersPron	PRON	_	Case=Acc|PronType=Prs	_	_	15:obj	Entity=(wsj2063001e52--1-gstype:spec)|Functor=15:PAT
 15	souvisejí	souviset	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	Functor=2:RSTR
@@ -47127,7 +47127,7 @@
 29	finančními	finanční	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	30	amod	30:amod	Functor=30:RSTR
 30	institucemi	instituce	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	26	obl	26:obl:mezi:ins	Functor=26:LOC
 31	jako	jako	SCONJ	J,-------------	_	32	mark	32:mark	LId=jako-1
-32	hráč	hráč	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	advcl	26:advcl:jako	Functor=26:ACT
+32	hráč	hráč	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	obl	26:obl:jako	Functor=26:ACT
 33	prvních	první	ADJ	CrFP2----------	Case=Gen|Gender=Fem|Number=Plur|NumType=Ord	34	amod	34:amod	LId=první-1|Functor=34:RSTR
 34	houslí	housle	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	32	nmod	32:nmod:gen	SpaceAfter=No|Functor=32:RSTR
 35	.	.	PUNCT	Z:-------------	_	20	punct	20:punct	_
@@ -47301,7 +47301,7 @@
 15	jen	jen	PART	TT-------------	_	16	advmod:emph	16:advmod:emph	LId=jen-1|Functor=16:RHEM
 16	chvályhodné	chvályhodný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	18	amod	18:amod	Functor=18:RSTR
 17	reformní	reformní	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	18	amod	18:amod	Functor=18:RSTR
-18	úsilí	úsilí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	9	advcl	9:advcl:než	SpaceAfter=No|Functor=9:ACT
+18	úsilí	úsilí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	9	obl	9:obl:než	SpaceAfter=No|Functor=9:ACT
 19	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = wsj2064-001-p1s16
@@ -51132,7 +51132,7 @@
 20	trzích	trh	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	conj	0:root|6:conj	SpaceAfter=No|Functor=6:LOC
 21	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
 22	jako	jako	SCONJ	J,-------------	_	23	mark	23:mark	LId=jako-1
-23	společnost	společnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	20	advcl	20:advcl:jako	Entity=(wsj2073001e6--1-gstype:spec|Functor=20:ACT|LDeriv=společný
+23	společnost	společnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	20	nmod	20:nmod:jako	Entity=(wsj2073001e6--1-gstype:spec|Functor=20:ACT|LDeriv=společný
 24	Maryland	Maryland	X	F%-------------	Foreign=Yes	23	nmod	23:nmod	LId=Maryland-77|Functor=23:FPHR
 25	Club	Club	X	F%-------------	Foreign=Yes	24	flat	24:flat	Entity=wsj2073001e6)|Functor=24:FPHR|LId=Club-77|SpaceAfter=No
 26	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
@@ -55631,7 +55631,7 @@
 37	než	než	SCONJ	J,-------------	_	39	mark	39:mark	LId=než-2
 38	veškerá	veškerý	PRON	PLNP1----------	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot	39	nmod	39:nmod:nom	Entity=(wsj2090001e3--3|Functor=39:THO
 38.1	někoho	#PersPron	PRON	_	Case=Gen|PronType=Prs	_	_	39:nmod:gen	Entity=(wsj2090001e5--1-gstype:spec)|Functor=39:PAT
-39	očekávání	očekávání	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Vnoun	36	advcl	36:advcl:než|42:nsubj	Functor=36:ACT.cop|LDeriv=očekávat|SpaceAfter=No
+39	očekávání	očekávání	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Vnoun	36	obl	36:obl:než|42:nsubj	Functor=36:ACT.cop|LDeriv=očekávat|SpaceAfter=No
 40	,	,	PUNCT	Z:-------------	_	42	punct	42:punct	_
 41	která	který	DET	P4NP1----------	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	42	nsubj	39:ref	Entity=(wsj2090001e3--1)|Functor=42:ACT
 42	hovořila	hovořit	VERB	VpQW----R-AAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	39	acl:relcl	39:acl:relcl	Functor=39:RSTR
@@ -55996,7 +55996,7 @@
 15	marže	marže	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	13	obj	13:obj	Functor=13:PAT
 16	než	než	SCONJ	J,-------------	_	18	mark	18:mark	LId=než-2
 17	operační	operační	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	18	amod	18:amod	Functor=18:RSTR
-18	systémy	systém	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	advcl	14:advcl:než	Entity=wsj2091001e29)wsj2091001e27)wsj2091001e32)|Functor=14:ACT|SpaceAfter=No
+18	systémy	systém	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	obl	14:obl:než	Entity=wsj2091001e29)wsj2091001e27)wsj2091001e32)|Functor=14:ACT|SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = wsj2091-001-p1s8
@@ -56319,7 +56319,7 @@
 11	jako	jako	SCONJ	J,-------------	_	14	mark	14:mark	LId=jako-1
 12	její	jeho	DET	P9XP1FS3-------	Case=Nom|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	14:det	Entity=(wsj2092001e14--1-gstype:spec)|Functor=14:RSTR
 13	další	další	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	14	amod	14:amod	Functor=14:RSTR
-14	konkurenti	konkurent	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	advcl	10:advcl:jako	SpaceAfter=No|Functor=10:ACT
+14	konkurenti	konkurent	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	obl	10:obl:jako	SpaceAfter=No|Functor=10:ACT
 15	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 16	přístup	přístup	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	Functor=5:PAT
 17	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	18	case	18:case	LId=k-1
@@ -57945,7 +57945,7 @@
 9	přesnější	přesný	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	Functor=0:PAT
 10	než	než	SCONJ	J,-------------	_	12	mark	12:mark	LId=než-2
 11	dosavadní	dosavadní	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	12	amod	12:amod	Functor=12:RSTR
-12	testy	test	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	advcl	8:advcl:než	Functor=8:ACT.cop
+12	testy	test	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	obl	8:obl:než	Functor=8:ACT.cop
 13	určené	určený	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	12:amod	LDeriv=určit|Functor=12:RSTR
 14	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	15	case	15:case	LId=pro-1
 15	stanovení	stanovení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	13	obl	13:obl:pro:acc	SpaceAfter=No|LDeriv=stanovit|Functor=13:AIM
@@ -60461,7 +60461,7 @@
 16	vyšší	vysoký	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	9	acl:relcl	9:acl:relcl	Functor=9:PAT
 17	než	než	SCONJ	J,-------------	_	19	mark	19:mark	LId=než-2
 18	předchozí	předchozí	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	19	amod	19:amod	Entity=(wsj2101001e26--2|Functor=19:RSTR
-19	odhad	odhad	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	advcl	16:advcl:než|22:nsubj	Functor=16:ACT.cop|SpaceAfter=No
+19	odhad	odhad	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obl	16:obl:než|22:nsubj	Functor=16:ACT.cop|SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
 21	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	22	nsubj	19:ref	Entity=(wsj2101001e26--1)|Functor=22:ACT
 22	činil	činit	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	19	acl:relcl	19:acl:relcl	Functor=19:RSTR
@@ -61406,7 +61406,7 @@
 36	jako	jako	SCONJ	J,-------------	_	39	mark	39:mark	LId=jako-1
 37	ostatní	ostatní	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	39	amod	39:amod	Functor=39:RSTR
 38	industrializované	industrializovaný	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	39	amod	39:amod	LDeriv=industrializovat|Functor=39:RSTR
-39	národy	národ	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	34	advcl	34:advcl:jako	Entity=wsj2102001e77)|Functor=34:ACT.cop|SpaceAfter=No
+39	národy	národ	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	34	obl	34:obl:jako	Entity=wsj2102001e77)|Functor=34:ACT.cop|SpaceAfter=No
 40	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = wsj2102-001-p1s21
@@ -63407,7 +63407,7 @@
 24	všechny	všechen	DET	PLYP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	25	det	25:det	Functor=25:RSTR
 25	zaměstnance	zaměstnanec	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	22	obl	22:obl:pro:acc	Functor=22:BEN
 26	než	než	SCONJ	J,-------------	_	27	mark	27:mark	LId=než-2
-27	alternativa	alternativa	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	22	advcl	22:advcl:než|36:obl:arg:za:acc	Entity=(wsj2104001e172--1|Functor=22:ACT.cop
+27	alternativa	alternativa	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	22	obl	22:obl:než|36:obl:arg:za:acc	Entity=(wsj2104001e172--1|Functor=22:ACT.cop
 28	vlastníka	vlastník	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	27:nmod:gen	Functor=27:RSTR
 29	mimo	mimo	ADP	RR--4----------	AdpType=Prep|Case=Acc	30	case	30:case	Entity=(wsj2104001e1--2-gstype:spec|LId=mimo-1
 30	společnost	společnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	28	nmod	28:nmod:mimo:acc	Entity=wsj2104001e1)|Functor=28:LOC|LDeriv=společný|SpaceAfter=No
@@ -64233,7 +64233,7 @@
 14	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	15	case	15:case	LId=s-1
 15	kadeřemi	kadeř	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	11	nmod	11:nmod:s:ins	Functor=11:RSTR
 16	jako	jako	SCONJ	J,-------------	_	17	mark	17:mark	LId=jako-1
-17	hřebíky	hřebík	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	advcl	15:advcl:jako	Functor=15:ACT
+17	hřebíky	hřebík	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nmod	15:nmod:jako	Functor=15:ACT
 18	seděla	sedět	VERB	VpQW----R-AAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	parataxis	5:parataxis|9:parataxis	Functor=5:PAR
 19	vedle	vedle	ADP	RR--2----------	AdpType=Prep|Case=Gen	20	case	20:case	Entity=(wsj2106001e3--2|LId=vedle-1
 20	mladíka	mladík	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	obl	18:obl:vedle:gen|27:nsubj	Functor=18:LOC|SpaceAfter=No
@@ -64446,7 +64446,7 @@
 2	však	však	CCONJ	J^-------------	_	3	cc	3:cc	LId=však-1|Functor=3:PREC
 3	zní	znít	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	jako	jako	SCONJ	J,-------------	_	5	mark	5:mark	LId=jako-1
-5	kulisa	kulisa	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	advcl	3:advcl:jako	Functor=3:ACT
+5	kulisa	kulisa	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	obl	3:obl:jako	Functor=3:ACT
 6	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	8:case	LId=pro-1
 7	vesmírné	vesmírný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	8:amod	Functor=8:RSTR
 8	lodě	loď	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	5	nmod	5:nmod:pro:acc	SpaceAfter=No|Functor=5:BEN
@@ -64501,14 +64501,14 @@
 13	spíše	spíš	PART	TT------------1	_	9	advmod	9:advmod|11:advmod	Functor=9:EXT
 14	jako	jako	SCONJ	J,-------------	_	16	mark	16:mark	Entity=(wsj2106001e50--3|LId=jako-1
 15	rozcuchaný	rozcuchaný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	16	amod	16:amod	LDeriv=rozcuchat|Functor=16:RSTR
-16	básník	básník	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	advcl	9:advcl:jako|11:advcl:jako	Functor=9:CPR
+16	básník	básník	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	9:nmod:jako|11:nmod:jako	Functor=9:CPR
 17	popisující	popisující	ADJ	AGMS1-----A----	Animacy=Anim|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	16:amod	LDeriv=popisovat|Functor=16:RSTR
 18	své	svůj	DET	P8NS4---------1	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	19:det	Entity=(wsj2106001e50--1)|Functor=19:RSTR|LId=svůj-1
 19	dílo	dílo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	17	obj	17:obj	Entity=wsj2106001e50)|Functor=17:PAT|LGloss=(umělecké,_vědecké,...)
 20	než	než	SCONJ	J,-------------	_	13	mark	13:mark	LId=než-2
 21	jako	jako	SCONJ	J,-------------	_	23	mark	23:mark	Entity=(wsj2106001e47--3|LId=jako-1
 22	klasický	klasický	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	23	amod	23:amod	Functor=23:RSTR
-23	pianista	pianista	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	advcl	13:advcl:jako|26:nsubj	Functor=13:CPR|SpaceAfter=No
+23	pianista	pianista	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nmod	13:nmod:jako|26:nsubj	Functor=13:CPR|SpaceAfter=No
 24	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
 25	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	26	nsubj	23:ref	Entity=(wsj2106001e47--1)|Functor=26:ACT
 26	hraje	hrát	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	23:acl:relcl	Functor=23:RSTR
@@ -64988,7 +64988,7 @@
 # orig_file_sentence wsj2106.cz#32
 # Tectogrammatical annotation available.
 1	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
-2	Koleno	koleno	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	16:nsubj	Entity=(wsj2106001e109--1-gstype:spec|Functor=16:ID
+2	Koleno	koleno	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	19:nsubj	Entity=(wsj2106001e109--1-gstype:spec|Functor=19:ID
 3	číslo	číslo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	2	nmod	2:nmod:nom	Functor=2:RSTR
 4	čtyři	čtyři	NUM	Cl-P1----------	Case=Nom|Number=Plur|NumForm=Word|NumType=Card	3	nummod	3:nummod	SpaceAfter=No|LNumValue=4|Functor=3:RSTR
 5	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
@@ -65002,16 +65002,16 @@
 13	pláži	pláž	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	11	nmod	11:nmod:na:loc	Entity=wsj2106001e109)|Functor=11:LOC|SpaceAfter=No
 14	"	"	PUNCT	Z:-------------	_	13	punct	13:punct	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-16	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
+16	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	Functor=19:PRED
 17	sice	sice	CCONJ	J^-------------	_	24	cc	24:cc	LId=sice-1|LGloss=(spojka;_připouští_se_určitá_fakta)|Functor=24:CM
 18	jako	jako	SCONJ	J,-------------	_	19	mark	19:mark	LId=jako-1
-19	toccata	toccata	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	16	advcl	16:advcl:jako	SpaceAfter=No|Functor=16:CPR
+19	toccata	toccata	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No|Functor=0:CPR
 20	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
 21	ovšem	ovšem	PART	TT-------------	_	24	cc	24:cc	Functor=24:ADVS
 22	moc	moc	ADV	Db-------------	_	24	advmod	24:advmod	LId=moc-3|LGloss=(moc_hezká,_moc_peněz)|Functor=24:EXT
 23	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	24	expl:pv	24:expl:pv	LGloss=(zvr._zájmeno/částice)
 23.1	ona	#PersPron	PRON	_	Case=Nom|Gender=Fem,Neut|Number=Plur,Sing|PronType=Prs	_	_	24:nsubj	Entity=(wsj2106001e109--1-gstype:spec)|Functor=24:ACT
-24	nepohnula	pohnout	VERB	VpQW----R-NAP--	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	16	conj	0:root|16:conj	Functor=16:PRED
+24	nepohnula	pohnout	VERB	VpQW----R-NAP--	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	19	conj	0:root|19:conj	Functor=19:PRED
 25	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	26	case	26:case	LId=od-1
 26	prazákladu	prazáklad	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	24:obl:od:gen	Functor=24:DIR1
 27	partu	part	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	26:nmod:gen	Functor=26:RSTR
@@ -65022,7 +65022,7 @@
 32	slepých	slepý	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	33	amod	33:amod	Functor=33:RSTR
 33	myší	myš	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	27	nmod	27:nmod:gen	SpaceAfter=No|Functor=27:ID
 34	"	"	PUNCT	Z:-------------	_	33	punct	33:punct	SpaceAfter=No
-35	.	.	PUNCT	Z:-------------	_	16	punct	16:punct	_
+35	.	.	PUNCT	Z:-------------	_	19	punct	19:punct	_
 
 # sent_id = wsj2106-001-p1s32
 # text = Když se Glass rozhodne, že bude hrát opravdu zajímavě, překříží ruce a zahraje pravou rukou souznějící basovou notu.
@@ -65426,7 +65426,7 @@
 29.1	_	#Idph	NOUN	_	_	_	_	25:nsubj	Entity=(wsj2106001e165--1-gstype:spec|Functor=25:ACT.cop
 30	Dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	31	advmod	31:advmod	Functor=31:MANN
 31	temperovaný	temperovaný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	32	amod	32:amod	LDeriv=temperovat|Functor=32:RSTR
-32	klavír	klavír	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	advcl	24:advcl:jako	Entity=wsj2106001e165)wsj2106001e160)|Functor=24:ID|SpaceAfter=No
+32	klavír	klavír	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	obl	24:obl:jako	Entity=wsj2106001e165)wsj2106001e160)|Functor=24:ID|SpaceAfter=No
 33	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 34	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -66901,7 +66901,7 @@
 6	více	více	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	obj	4:obj	Functor=4:RSTR
 7	čtenářů	čtenář	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	6:nmod:gen	Functor=6:PAT
 8	než	než	SCONJ	J,-------------	_	9	mark	9:mark	LId=než-2
-9	časopis	časopis	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	advcl	6:advcl:než	Functor=6:ACT
+9	časopis	časopis	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obl	6:obl:než	Functor=6:ACT
 10	typu	typ	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	9:nmod:gen	Functor=9:RSTR
 11	Smithsonian	Smithsonian	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Oth|Number=Sing	10	nmod	10:nmod:nom	Entity=wsj2109001e73)|Functor=10:ID|SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -66957,7 +66957,7 @@
 10	tak	tak	ADV	Db-------------	PronType=Dem	7	advmod	7:advmod	LId=tak-3|Functor=7:MANN
 11	jako	jako	SCONJ	J,-------------	_	13	mark	13:mark	LId=jako-1
 12	ostatní	ostatní	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	13	amod	13:amod	Functor=13:RSTR
-13	časopisy	časopis	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	advcl	10:advcl:jako	Functor=10:ACT
+13	časopisy	časopis	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	obl	10:obl:jako	Functor=10:ACT
 14	nabízet	nabízet	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	Entity=(wsj2109001e81--1-gstype:spec|Functor=7:PAT
 15	místní	místní	ADJ	AANP4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	16	amod	16:amod	Entity=(wsj2109001e75--2|Functor=16:RSTR
 16	vydání	vydání	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur|VerbForm=Vnoun	14	obj	14:obj|20:nsubj	Functor=14:PAT|LDeriv=vydat|SpaceAfter=No
@@ -67014,7 +67014,7 @@
 10	pomalejší	pomalý	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	Functor=0:PAT
 11	než	než	SCONJ	J,-------------	_	13	mark	13:mark	LId=než-2
 12	jeho	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	13:det	Entity=(wsj2109001e3--1-gstype:spec)|Functor=13:RSTR
-13	konkurenti	konkurent	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	advcl	10:advcl:než	Functor=10:ACT.cop
+13	konkurenti	konkurent	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	obl	10:obl:než	Functor=10:ACT.cop
 14	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1|Functor=19:CONJ
 15	až	až	PART	TT-------------	_	17	advmod:emph	17:advmod:emph	LId=až-3|LGloss=(až_k_...,_až_dost)|Functor=17:RHEM
 16	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	17	case	17:case	Entity=(wsj2109001e50--2-gstype:spec|LId=do-1
@@ -67025,7 +67025,7 @@
 19	nabízel	nabízet	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	10	conj	0:root|10:conj	Functor=10:PRED
 20	méně	méně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	19	obj	19:obj	Functor=19:RSTR
 21	než	než	SCONJ	J,-------------	_	22	mark	22:mark	LId=než-2
-22	konkurenti	konkurent	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	advcl	20:advcl:než	Entity=wsj2109001e90[2/2])|Functor=20:ACT|SpaceAfter=No
+22	konkurenti	konkurent	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	obl	20:obl:než	Entity=wsj2109001e90[2/2])|Functor=20:ACT|SpaceAfter=No
 23	.	.	PUNCT	Z:-------------	_	10	punct	10:punct	_
 
 # sent_id = wsj2109-001-p1s19
@@ -67118,7 +67118,7 @@
 10	menší	malý	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	3	acl:relcl	3:acl:relcl	Functor=3:PAT
 11	než	než	SCONJ	J,-------------	_	13	mark	13:mark	LId=než-2
 12	obvyklé	obvyklý	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	13	amod	13:amod	Functor=13:RSTR
-13	formáty	formát	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	advcl	10:advcl:než	Entity=wsj2109001e106)|Functor=10:ACT.cop|SpaceAfter=No
+13	formáty	formát	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	obl	10:obl:než	Entity=wsj2109001e106)|Functor=10:ACT.cop|SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 15	znamená	znamenat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 16	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	17	case	17:case	LId=pro-1
@@ -68873,7 +68873,7 @@
 14	interiérů	interiér	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	13:nmod:gen	Functor=13:PAT
 15	chovala	chovat	VERB	VpQW----R-AAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	ccomp	5:ccomp	Functor=5:EFF
 16	jako	jako	SCONJ	J,-------------	_	17	mark	17:mark	LId=jako-1
-17	policajt	policajt	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	advcl	15:advcl:jako	SpaceAfter=No|Functor=15:ACT
+17	policajt	policajt	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	obl	15:obl:jako	SpaceAfter=No|Functor=15:ACT
 18	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	SpaceAfter=No
 19	"	"	PUNCT	Z:-------------	_	17	punct	17:punct	_
 20	ale	ale	CCONJ	J^-------------	_	23	cc	23:cc	Functor=23:ADVS
@@ -71446,7 +71446,7 @@
 4	řinčel	řinčet	VERB	VpYS----R-AAI--	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	0:root|2:conj	Functor=2:PRED
 5	jako	jako	SCONJ	J,-------------	_	7	mark	7:mark	LId=jako-1
 6	Marleyův	Marleyův	ADJ	AUMS1M---------	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc|NameType=Giv|Number=Sing|Poss=Yes	7	amod	7:amod	LDeriv=Marley|Functor=7:RSTR
-7	duch	duch	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	advcl	4:advcl:jako	SpaceAfter=No|LId=duch-1|Functor=4:ACT
+7	duch	duch	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	obl	4:obl:jako	SpaceAfter=No|LId=duch-1|Functor=4:ACT
 8	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	Functor=9:CONJ
 9	táhl	táhnout	VERB	VpYS----R-AAI-1	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	conj	0:root|4:conj	Functor=4:PRED
 10	za	za	ADP	RR--7----------	AdpType=Prep|Case=Ins	11	case	11:case	Entity=(wsj2112001e50--2-gstype:spec
@@ -71724,7 +71724,7 @@
 9	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	Functor=10:PRED
 10	impozantnější	impozantní	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	Functor=0:PAT
 11	než	než	SCONJ	J,-------------	_	12	mark	12:mark	LId=než-2
-12	sídlo	sídlo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	10	advcl	10:advcl:než	Functor=10:ACT.cop
+12	sídlo	sídlo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	10	obl	10:obl:než	Functor=10:ACT.cop
 13	běžné	běžný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	Functor=17:RSTR
 14	spořitelní	spořitelní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	Functor=17:RSTR
 15	a	a	CCONJ	J^-------------	_	16	cc	16:cc	LId=a-1|Functor=16:CONJ
@@ -76439,7 +76439,7 @@
 20	posledním	poslední	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	21	amod	21:amod	Functor=21:RSTR
 21	prodeji	prodej	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	dep	17:dep	LGloss=(akt_prodeje_zboží)|Functor=17:TWHEN
 22	minulý	minulý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	23	amod	23:amod	Functor=23:RSTR
-23	čtvrtek	čtvrtek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	advcl	21:advcl	SpaceAfter=No|Functor=21:TWHEN
+23	čtvrtek	čtvrtek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	21:obl:acc	SpaceAfter=No|Functor=21:TWHEN
 24	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
 
 # sent_id = wsj2117-001-p1s1
@@ -76512,7 +76512,7 @@
 19	prodeji	prodej	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	dep	15:dep	LGloss=(akt_prodeje_zboží)|Functor=15:TWHEN
 20	4	4	NUM	C=-------------	NumForm=Digit|NumType=Card	22	nummod	22:nummod	SpaceAfter=No|Functor=22:RSTR
 21	.	.	PUNCT	Z:-------------	_	20	punct	20:punct	_
-22	října	říjen	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	advcl	19:advcl	SpaceAfter=No|Functor=19:TWHEN
+22	října	říjen	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	19:obl:gen	SpaceAfter=No|Functor=19:TWHEN
 23	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = wsj2117-001-p1s4
@@ -83936,7 +83936,7 @@
 7	poloviční	poloviční	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	Functor=8:RSTR
 8	rychlostí	rychlost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	6	obl	6:obl:ins	LDeriv=rychlý|Functor=6:MANN
 9	než	než	SCONJ	J,-------------	_	10	mark	10:mark	LId=než-2
-10	tržby	tržba	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	7	advcl	7:advcl:než	Functor=7:ACT
+10	tržby	tržba	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	7	obl	7:obl:než	Functor=7:ACT
 11	jeho	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	12:det	Entity=(wsj2140001e32--1-gstype:spec)|Functor=12:RSTR
 12	konkurentů	konkurent	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	10:nmod:gen	SpaceAfter=No|Functor=10:RSTR
 13	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
@@ -84264,7 +84264,7 @@
 25	než	než	SCONJ	J,-------------	_	28	mark	28:mark	LId=než-2
 26	19	19	NUM	C=-------------	NumForm=Digit|NumType=Card	28	nummod	28:nummod	SpaceAfter=No|Functor=28:RSTR
 27	.	.	PUNCT	Z:-------------	_	26	punct	26:punct	_
-28	října	říjen	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	advcl	24:advcl:než	Functor=24:TWHEN
+28	října	říjen	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	24:obl:než	Functor=24:TWHEN
 29	1987	1987	NUM	C=-------------	NumForm=Digit|NumType=Card	28	nummod	28:nummod	SpaceAfter=No|Functor=28:RSTR
 30	.	.	PUNCT	Z:-------------	_	10	punct	10:punct	_
 
@@ -85353,7 +85353,7 @@
 14	než	než	SCONJ	J,-------------	_	17	mark	17:mark	LId=než-2
 15	tvrdé	tvrdý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	17	amod	17:amod	Entity=(wsj2144001e15--3|Functor=17:RSTR
 16	kontaktní	kontaktní	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	17	amod	17:amod	Functor=17:RSTR
-17	čočky	čočka	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	8	advcl	8:advcl:než|11:advcl:než|20:nsubj	Functor=8:ACT.cop|SpaceAfter=No
+17	čočky	čočka	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	8	nmod	8:nmod:než|11:nmod:než|20:nsubj	Functor=8:ACT.cop|SpaceAfter=No
 18	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 19	které	který	DET	P4FP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	20	nsubj	17:ref	Entity=(wsj2144001e15--1)|Functor=20:ACT
 20	existovaly	existovat	VERB	VpTP----R-AAI--	Animacy=Inan|Aspect=Imp|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	17	acl:relcl	17:acl:relcl	Functor=17:RSTR
@@ -88255,7 +88255,7 @@
 9	jako	jako	SCONJ	J,-------------	_	12	mark	12:mark	LId=jako-1
 10	jeho	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	12:det	Entity=(wsj2149001e1--1-gstype:spec)|Functor=12:RSTR
 11	milovaného	milovaný	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	12	amod	12:amod	LDeriv=milovat|Functor=12:RSTR
-12	pána	pán	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	advcl	14:advcl:jako	Functor=14:ACT
+12	pána	pán	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	obl	14:obl:jako	Functor=14:ACT
 13	-	-	PUNCT	Z:-------------	_	12	punct	12:punct	_
 13.1	někoho	#PersPron	PRON	_	Case=Acc|PronType=Prs	_	_	14:obj	Entity=(wsj2149001e17--1-gstype:spec)|Functor=14:PAT
 14	ničí	ničit	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
@@ -90624,7 +90624,7 @@
 7	nezněly	znít	VERB	VpTP----R-NAI--	Animacy=Inan|Aspect=Imp|Gender=Fem,Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	Functor=0:PRED
 8	jako	jako	SCONJ	J,-------------	_	9	mark	9:mark	LId=jako-1
 8.1	někým	#PersPron	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Prs	_	_	9:nmod:ins	Entity=(wsj2151001e1--1-gstype:spec)|Functor=9:ACT
-9	pochlebování	pochlebování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	7	advcl	7:advcl:jako	SpaceAfter=No|LDeriv=pochlebovat|Functor=7:ACT
+9	pochlebování	pochlebování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	7	obl	7:obl:jako	SpaceAfter=No|LDeriv=pochlebovat|Functor=7:ACT
 10	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
 
 # newdoc id = wsj2152-001
@@ -92136,7 +92136,7 @@
 8	než	než	SCONJ	J,-------------	_	11	mark	11:mark	LId=než-2
 9	ústřední	ústřední	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	amod	11:amod	Functor=11:RSTR
 10	válcovaná	válcovaný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	amod	11:amod	LDeriv=válcovat|Functor=11:RSTR
-11	ocel	ocel	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	7	advcl	7:advcl:než	Entity=wsj2153001e155)|Functor=7:ACT.cop|SpaceAfter=No
+11	ocel	ocel	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	7	obl	7:obl:než	Entity=wsj2153001e155)|Functor=7:ACT.cop|SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
 
 # sent_id = wsj2153-001-p1s51
@@ -93740,7 +93740,7 @@
 27	podstatně	podstatně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	28	advmod	28:advmod	LDeriv=podstatný|Functor=28:EXT
 28	níž	nízko	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	14	appos	14:appos	LId=nízko-1|Functor=14:EXT
 29	než	než	SCONJ	J,-------------	_	30	mark	30:mark	LId=než-2
-30	rekord	rekord	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	advcl	27:advcl:než|34:obl:arg:gen	Entity=(wsj2155001e58--1|Functor=27:ACT.cop|SpaceAfter=No
+30	rekord	rekord	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	obl	27:obl:než|34:obl:arg:gen	Entity=(wsj2155001e58--1|Functor=27:ACT.cop|SpaceAfter=No
 31	,	,	PUNCT	Z:-------------	_	34	punct	34:punct	_
 32	kterého	který	DET	P4ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	34	obl:arg	30:ref	Entity=(wsj2155001e58--1)|Functor=34:PAT
 33	IBM	IBM	NOUN	BNXXX-----A----	Abbr=Yes	34	nsubj	34:nsubj	Entity=(wsj2155001e7--1-gstype:spec)|Functor=34:ACT|LId=IBM-88
@@ -96519,7 +96519,7 @@
 23	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
 24	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	9	advmod	9:advmod	LDeriv=stejný|Functor=9:MANN
 25	jako	jako	SCONJ	J,-------------	_	26	mark	26:mark	LId=jako-1
-26	majitel	majitel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	advcl	24:advcl:jako	Entity=(wsj2160001e105--1-gstype:spec|Functor=24:RSTR
+26	majitel	majitel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	obl	24:obl:jako	Entity=(wsj2160001e105--1-gstype:spec|Functor=24:RSTR
 27	firmy	firma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	26	nmod	26:nmod:gen	Entity=(wsj2160001e62--1-gstype:spec)|Functor=26:RSTR
 28	Stephen	Stephen	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	26	flat	26:flat	Functor=26:RSTR
 29	Fossett	Fossett	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	26	flat	26:flat	Entity=wsj2160001e105)|Functor=26:ACT|SpaceAfter=No
@@ -97515,7 +97515,7 @@
 13.1	_	#Benef	PRON	_	PronType=Prs	_	_	14:obl|17:nsubj:xsubj	Entity=(wsj2161001e57--1)|Functor=14:BEN,17:ACT
 14	silnou	silný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	11	amod	11:amod	Functor=11:RSTR
 15	jako	jako	SCONJ	J,-------------	_	16	mark	16:mark	LId=jako-1
-16	potřeba	potřeba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	13	advcl	13:advcl:jako	LId=potřeba-1|Functor=13:ACT.cop
+16	potřeba	potřeba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	13	obl	13:obl:jako	LId=potřeba-1|Functor=13:ACT.cop
 17	jíst	jíst	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	16	acl	16:acl	Functor=16:RSTR
 18	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1|Functor=19:CONJ
 19	spát	spát	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	17	conj	16:acl|17:conj	Entity=wsj2161001e53)|Functor=17:RSTR|SpaceAfter=No
@@ -99485,7 +99485,7 @@
 14	rozruchu	rozruch	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	10:nmod:o:loc	Functor=10:RSTR
 15	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	advmod	7:advmod	LDeriv=stejný|Functor=7:MANN
 16	jako	jako	SCONJ	J,-------------	_	17	mark	17:mark	LId=jako-1
-17	obavám	obava	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur	15	advcl	15:advcl:jako	Functor=15:PAT
+17	obavám	obava	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur	15	obl	15:obl:jako	Functor=15:PAT
 18	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	LId=o-1
 19	zabezpečení	zabezpečení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	17	nmod	17:nmod:o:acc	LDeriv=zabezpečit|Functor=17:RSTR
 20	úvěru	úvěr	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	19:nmod:gen	Entity=(wsj2162001e3--1-gstype:spec)|Functor=19:PAT|SpaceAfter=No
@@ -101689,7 +101689,7 @@
 14	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	15	case	15:case	_
 15	něco	něco	PRON	PK--4----------	Animacy=Inan|Case=Acc|PronType=Ind	13	obl:arg	13:obl:arg:za:acc	Functor=13:EFF
 16	jako	jako	SCONJ	J,-------------	_	17	mark	17:mark	LId=jako-1
-17	žert	žert	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	advcl	15:advcl:jako	SpaceAfter=No|Functor=15:ACT
+17	žert	žert	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nmod	15:nmod:jako	SpaceAfter=No|Functor=15:ACT
 18	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = wsj2167-001-p1s17
@@ -103913,7 +103913,7 @@
 18	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	13	advmod	13:advmod	LDeriv=stejný|Functor=13:MANN
 19	jako	jako	SCONJ	J,-------------	_	21	mark	21:mark	LId=jako-1
 20	finanční	finanční	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	21:amod	Entity=(wsj2170001e36--2-gstype:spec|Functor=21:RSTR
-21	rezerva	rezerva	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	18	advcl	18:advcl:jako|24:nsubj	Functor=18:ACT|SpaceAfter=No
+21	rezerva	rezerva	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	18	obl	18:obl:jako|24:nsubj	Functor=18:ACT|SpaceAfter=No
 22	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
 23	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	24	nsubj	21:ref	Entity=(wsj2170001e36--1-gstype:spec)|Functor=24:PAT
 24	může	moci	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	21:acl:relcl	_
