@@ -34971,7 +34971,7 @@
 10	dolarů	dolar	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl:arg	2:obl:arg:na:acc	_
 11	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	12:case	LId=při-1
 12	započítání	započítání	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|VerbForm=Vnoun	2	obl	2:obl:při:loc	LDeriv=započítat
-13	jak	jak	CCONJ	J^-------------	_	15	cc	15:cc	LId=jak-4
+13	jak	jak	ADV	J^-------------	PronType=Int,Rel	15	cc	15:cc	LId=jak-4
 14	poradenských	poradenský	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	15	amod	15:amod	_
 15	služeb	služba	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	12	nmod	12:nmod:gen	SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_

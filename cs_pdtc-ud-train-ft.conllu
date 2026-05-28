@@ -19849,7 +19849,7 @@
 15	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 16	byly	být	AUX	VpTP----R-AAI--	Animacy=Inan|Aspect=Imp|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	17	aux:pass	17:aux:pass	_
 17	zmírněny	zmírněný	ADJ	VsTP----X-APP--	Animacy=Inan|Aspect=Perf|Degree=Pos|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=zmírnit|Functor=0:PRED
-18	jak	jak	CCONJ	J^-------------	_	20	cc	20:cc	LId=jak-4
+18	jak	jak	ADV	J^-------------	PronType=Int,Rel	20	cc	20:cc	LId=jak-4
 19	praktickou	praktický	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	20:amod	Functor=20:RSTR
 20	zkušeností	zkušenost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	17	obl:arg	17:obl:arg:ins	LDeriv=zkušený|Functor=17:ACT
 21	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
@@ -34136,7 +34136,7 @@
 17	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 18	byly	být	AUX	VpTP----R-AAI--	Animacy=Inan|Aspect=Imp|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	19	aux:pass	19:aux:pass	_
 19	ovlivněny	ovlivněný	ADJ	VsTP----X-APP--	Animacy=Inan|Aspect=Perf|Degree=Pos|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=ovlivnit|Functor=0:PRED
-20	jak	jak	CCONJ	J^-------------	_	22	cc	22:cc	LId=jak-4
+20	jak	jak	ADV	J^-------------	PronType=Int,Rel	22	cc	22:cc	LId=jak-4
 21	praktickými	praktický	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	22	amod	22:amod	Functor=22:RSTR
 22	zkušenostmi	zkušenost	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	19	obl:arg	19:obl:arg:ins	LDeriv=zkušený|Functor=19:ACT
 23	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_

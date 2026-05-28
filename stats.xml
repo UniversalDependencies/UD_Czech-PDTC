@@ -17,9 +17,9 @@
   <tags unique="17">
     <tag name="ADJ">361037</tag><!-- velký, další, nový, první, český, jiný, vysoký, druhý, celý, malý -->
     <tag name="ADP">320013</tag><!-- v, na, z, s, o, do, za, k, pro, po -->
-    <tag name="ADV">169738</tag><!-- tam, tak, už, jak, více, kde, pak, kdy, ještě, včera -->
+    <tag name="ADV">170079</tag><!-- tam, tak, už, jak, více, kde, pak, kdy, ještě, včera -->
     <tag name="AUX">144986</tag><!-- být, bývat, bývávat -->
-    <tag name="CCONJ">112143</tag><!-- a, ale, i, nebo, však, takže, či, až, proto, ani -->
+    <tag name="CCONJ">111802</tag><!-- a, ale, i, nebo, však, takže, či, až, proto, ani -->
     <tag name="DET">154606</tag><!-- ten, který, tento, jeho, svůj, všechen, můj, náš, takový, nějaký -->
     <tag name="INTJ">464</tag><!-- aha, pozor, ahoj, díky, pardon, ach, hele, nashledanou, proboha, jé -->
     <tag name="NOUN">782703</tag><!-- společnost, rok, dolar, akcie, léta, firma, cena, trh, doba, den -->
@@ -111,7 +111,7 @@
     <feat name="PronType" value="Dem,Ind" upos="ADV,DET">1158</feat><!-- kolik, pár, kolika, párkrát, nejednou, kolikáté, kolikátého, malinko, kolikpak, kolikátá -->
     <feat name="PronType" value="Emp" upos="DET">1803</feat><!-- sám, sama, sami, samé, samy, samo, samí, samého, samá, samém -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">16827</feat><!-- něco, několik, nějaké, některé, mnoho, někteří, někdy, několika, některých, nějaký -->
-    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">49527</feat><!-- které, který, co, která, jak, kde, kdy, kteří, což, kdo -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">49868</feat><!-- které, který, co, která, jak, kde, kdy, kteří, což, kdo -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">5683</feat><!-- nic, žádné, nikdy, nikdo, žádný, žádná, žádnou, nijak, nikoho, žádném -->
     <feat name="PronType" value="Prs" upos="DET,PRON">128074</feat><!-- se, si, jeho, své, jejich, nás, mi, mě, její, já -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">4152</feat><!-- jehož, nichž, jež, níž, jejichž, němž, jejíž, jenž, něhož, něž -->
