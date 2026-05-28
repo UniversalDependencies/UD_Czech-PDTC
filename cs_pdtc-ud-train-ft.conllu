@@ -2241,7 +2241,7 @@
 2	žádný	žádný	DET	PWIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	3	det	3:det	Functor=3:RSTR
 3	život	život	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	Functor=1:PAT
 4	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	Functor=5:CSQ
-5	tak	tak	PART	TT-------------	_	1	advmod:emph	1:advmod:emph|9:advmod:emph	LId=tak-1|Functor=1:CM
+5	tak	tak	ADV	TT-------------	PronType=Dem	1	advmod:emph	1:advmod:emph|9:advmod:emph	LId=tak-1|Functor=1:CM
 6	jak	jak	ADV	Db-------------	PronType=Int,Rel	9	advmod	9:advmod	LId=jak-3|Functor=9:MANN
 7	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	Functor=9:PRED
 8	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Functor=9:ACT.cop
@@ -2464,7 +2464,7 @@
 # text = tak proč mám pořád zlomené srdce
 # orig_file_sentence faust_2010_07_es_03#43
 # Tectogrammatical annotation available.
-1	tak	tak	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=tak-1|Functor=3:PREC
+1	tak	tak	ADV	TT-------------	PronType=Dem	3	advmod:emph	3:advmod:emph	LId=tak-1|Functor=3:PREC
 2	proč	proč	ADV	Db-------------	PronType=Int,Rel	3	advmod	3:advmod	Functor=3:CAUS
 3	mám	mít	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	pořád	pořád	ADV	Db-------------	_	3	advmod	3:advmod	Functor=3:THL
@@ -2706,7 +2706,7 @@
 41	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	42	case	42:case	LId=do-1
 42	Šanghaje	Šanghaj	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	39	obl	39:obl:do:gen	Functor=39:DIR3
 43	.	.	PUNCT	Z:-------------	_	36	punct	36:punct	_
-44	Tak	tak	PART	TT-------------	_	47	advmod:emph	47:advmod:emph	LId=tak-1|Functor=47:PREC
+44	Tak	tak	ADV	TT-------------	PronType=Dem	47	advmod:emph	47:advmod:emph	LId=tak-1|Functor=47:PREC
 45	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	47	obl:arg	47:obl:arg:dat	Entity=(faust_2010_07_es_04e16--1-gstype:spec)|Functor=47:ADDR
 46	prosím	prosit	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	47	parataxis	47:parataxis	Functor=47:ATT
 46.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	47:nsubj	Entity=(faust_2010_07_es_04e14--1-gstype:spec)|Functor=47:ACT
@@ -3654,7 +3654,7 @@
 14	obtěžovat	obtěžovat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	xcomp	13:xcomp	Functor=13:PRED
 15	ostatní	ostatní	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	14	obj	14:obj	Functor=14:PAT
 16	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	Functor=17:CSQ
-17	tak	tak	PART	TT-------------	_	13	advmod:emph	13:advmod:emph|20:advmod:emph	LId=tak-1|Functor=13:CM
+17	tak	tak	ADV	TT-------------	PronType=Dem	13	advmod:emph	13:advmod:emph|20:advmod:emph	LId=tak-1|Functor=13:CM
 18	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	20	expl:pv	20:expl:pv	LGloss=(zvr._zájmeno/částice)
 19	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	20	obj	20:obj	Functor=20:PAT
 20	nechám	nechat	VERB	VB-S---1P-AAP--	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	0:root|13:conj	Functor=13:PRED
@@ -5510,7 +5510,7 @@
 4	pomocí	pomocí	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	5:case	_
 5	překladače	překladač	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	1:obl:pomocí:gen	Functor=1:MEANS
 6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	Functor=7:CSQ
-7	tak	tak	PART	TT-------------	_	1	advmod:emph	1:advmod:emph|8:advmod:emph	LId=tak-1|Functor=1:CM
+7	tak	tak	ADV	TT-------------	PronType=Dem	1	advmod:emph	1:advmod:emph|8:advmod:emph	LId=tak-1|Functor=1:CM
 8	doufám	doufat	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	Functor=1:PRED
 9	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 10	že	že	SCONJ	J,-------------	_	11	mark	11:mark	LId=že-1
@@ -13272,7 +13272,7 @@
 4	omámená	omámený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	5:amod	LDeriv=omámit|Functor=5:RSTR
 5	kočička	kočička	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	obl	2:obl:jako	Functor=2:ACT
 6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	Functor=7:CSQ
-7	tak	tak	PART	TT-------------	_	2	advmod:emph	2:advmod:emph|8:advmod:emph	LId=tak-1|Functor=2:CM
+7	tak	tak	ADV	TT-------------	PronType=Dem	2	advmod:emph	2:advmod:emph|8:advmod:emph	LId=tak-1|Functor=2:CM
 8	co	co	PART	TT-------------	_	2	conj	0:root|2:conj	LId=co-2|LGloss=(cože;_ale_co)|Functor=2:ACT
 
 # newpar id = faust_2010_07_es_20-p2114
@@ -13998,7 +13998,7 @@
 47	,	,	PUNCT	Z:-------------	_	49	punct	49:punct	_
 48	a	a	CCONJ	J^-------------	_	49	cc	49:cc	LId=a-1|Functor=49:CSQ
 49	přispět	přispět	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	44	conj	43:xcomp|44:conj	Functor=44:RSTR
-50	tak	tak	PART	TT-------------	_	44	advmod:emph	44:advmod:emph|49:advmod:emph	LId=tak-1|Functor=44:CM
+50	tak	tak	ADV	TT-------------	PronType=Dem	44	advmod:emph	44:advmod:emph|49:advmod:emph	LId=tak-1|Functor=44:CM
 51	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	52	case	52:case	LId=k-1
 52	dosažení	dosažení	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	49	obl:arg	49:obl:arg:k:dat	LDeriv=dosáhnout|Functor=49:PAT
 53	hmotných	hmotný	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	56	amod	56:amod	Functor=56:RSTR
@@ -16395,7 +16395,7 @@
 2	žádný	žádný	DET	PWIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	3	det	3:det	Functor=3:RSTR
 3	život	život	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	Functor=1:PAT
 4	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	Functor=5:CSQ
-5	tak	tak	PART	TT-------------	_	1	advmod:emph	1:advmod:emph|9:advmod:emph	LId=tak-1|Functor=1:CM
+5	tak	tak	ADV	TT-------------	PronType=Dem	1	advmod:emph	1:advmod:emph|9:advmod:emph	LId=tak-1|Functor=1:CM
 6	jak	jak	ADV	Db-------------	PronType=Int,Rel	9	advmod	9:advmod	LId=jak-3|Functor=9:MANN
 7	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	Functor=9:PRED
 8	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Functor=9:ACT.cop
@@ -16621,7 +16621,7 @@
 # text = Tak proč mám pořád zlomené srdce ?
 # orig_file_sentence faust_2010_07_jh_03#43
 # Tectogrammatical annotation available.
-1	Tak	tak	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=tak-1|Functor=3:PREC
+1	Tak	tak	ADV	TT-------------	PronType=Dem	3	advmod:emph	3:advmod:emph	LId=tak-1|Functor=3:PREC
 2	proč	proč	ADV	Db-------------	PronType=Int,Rel	3	advmod	3:advmod	Functor=3:CAUS
 3	mám	mít	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 4	pořád	pořád	ADV	Db-------------	_	3	advmod	3:advmod	Functor=3:THL
@@ -16859,7 +16859,7 @@
 36.1	někoho	#PersPron	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=1|PronType=Prs	_	_	37:nsubj	Entity=(faust_2010_07_jh_04e9--1-gstype:spec)|Functor=37:ACT.cop
 37	Šanghaji	Šanghaj	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	30	ccomp	30:ccomp	Functor=30:LOC
 38	.	.	PUNCT	Z:-------------	_	30	punct	30:punct	_
-39	Tak	tak	PART	TT-------------	_	42	advmod:emph	42:advmod:emph	LId=tak-1|Functor=42:PREC
+39	Tak	tak	ADV	TT-------------	PronType=Dem	42	advmod:emph	42:advmod:emph	LId=tak-1|Functor=42:PREC
 40	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	42	obl:arg	42:obl:arg:dat	Entity=(faust_2010_07_jh_04e9--1-gstype:spec)|Functor=42:ADDR
 41	prosím	prosit	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	42	parataxis	42:parataxis	Functor=42:ATT
 41.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	42:nsubj	Entity=(faust_2010_07_jh_04e7--1-gstype:spec)|Functor=42:ACT
@@ -17772,7 +17772,7 @@
 # text = Tak přeju , aby ti každý nový den přinesl
 # orig_file_sentence faust_2010_07_jh_05#2
 # Tectogrammatical annotation available.
-1	Tak	tak	PART	TT-------------	_	2	advmod:emph	2:advmod:emph	LId=tak-1|Functor=2:PREC
+1	Tak	tak	ADV	TT-------------	PronType=Dem	2	advmod:emph	2:advmod:emph	LId=tak-1|Functor=2:PREC
 1.1	někomu	#PersPron	PRON	_	Case=Dat|PronType=Prs	_	_	2:obl:arg:dat	Entity=(faust_2010_07_jh_05e1--1-gstype:spec)|Functor=2:ADDR
 2	přeju	přát	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 3	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
@@ -17816,7 +17816,7 @@
 21	rušit	rušit	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	20	xcomp	20:xcomp	Functor=20:PRED
 22	ostatní	ostatní	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	21	obj	21:obj	Functor=21:PAT
 23	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	Functor=24:CSQ
-24	tak	tak	PART	TT-------------	_	20	advmod:emph	20:advmod:emph|27:advmod:emph	LId=tak-1|Functor=20:CM
+24	tak	tak	ADV	TT-------------	PronType=Dem	20	advmod:emph	20:advmod:emph|27:advmod:emph	LId=tak-1|Functor=20:CM
 25	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	27	expl:pv	27:expl:pv	LGloss=(zvr._zájmeno/částice)
 26	věci	věc	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	27	obj	27:obj	Functor=27:PAT
 27	nechávám	nechávat	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	0:root|20:conj	LDeriv=nechat|Functor=20:PRED
@@ -19719,7 +19719,7 @@
 4	zprávu	zpráva	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	1	obl	1:obl:na:acc	Entity=faust_2010_07_jh_09e12)|Functor=1:AIM
 5	překladatel	překladatel	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	LId=překladatel-2|Functor=1:PAT
 6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	Functor=7:CSQ
-7	tak	tak	PART	TT-------------	_	1	advmod:emph	1:advmod:emph|8:advmod:emph	LId=tak-1|Functor=1:CM
+7	tak	tak	ADV	TT-------------	PronType=Dem	1	advmod:emph	1:advmod:emph|8:advmod:emph	LId=tak-1|Functor=1:CM
 8	doufám	doufat	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	Functor=1:PRED
 9	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
 10	že	že	SCONJ	J,-------------	_	12	mark	12:mark	LId=že-1
@@ -19853,7 +19853,7 @@
 19	praktickou	praktický	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	20:amod	Functor=20:RSTR
 20	zkušeností	zkušenost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	17	obl:arg	17:obl:arg:ins	LDeriv=zkušený|Functor=17:ACT
 21	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
-22	tak	tak	CCONJ	J^-------------	_	24	cc	24:cc	LId=tak-2|Functor=24:CONJ
+22	tak	tak	ADV	J^-------------	PronType=Dem	24	cc	24:cc	LId=tak-2|Functor=24:CONJ
 23	postupujícím	postupující	ADJ	AGIS7-----A----	Animacy=Inan|Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	24:amod	LDeriv=postupovat|Functor=24:RSTR
 24	vývojem	vývoj	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	conj	17:obl:arg:ins|20:conj	Functor=20:ACT
 25	politické	politický	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	26	amod	26:amod	Functor=26:RSTR
@@ -24224,7 +24224,7 @@
 4	Hej	hej	INTJ	II-------------	_	9	discourse	9:discourse	Functor=9:PARTL
 5	holka	holka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	9	vocative	9:vocative	Entity=(faust_2010_07_jh_14e26--1-gstype:spec)|Functor=9:VOCAT
 6	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
-7	tak	tak	PART	TT-------------	_	9	advmod:emph	9:advmod:emph	LId=tak-1|Functor=9:PREC
+7	tak	tak	ADV	TT-------------	PronType=Dem	9	advmod:emph	9:advmod:emph	LId=tak-1|Functor=9:PREC
 8	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 9	chci	chtít	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	1:parataxis	Functor=1:PRED
 10	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
@@ -26871,7 +26871,7 @@
 25	nějaký	nějaký	DET	PZIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	26	det	26:det	Functor=26:RSTR
 26	materiál	materiál	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	24:obj	Functor=24:PAT
 27	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
-28	tak	tak	PART	TT-------------	_	32	advmod:emph	32:advmod:emph	LId=tak-1|Functor=32:PREC
+28	tak	tak	ADV	TT-------------	PronType=Dem	32	advmod:emph	32:advmod:emph	LId=tak-1|Functor=32:PREC
 29	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	32	expl:pv	32:expl:pv	LGloss=(zvr._zájmeno/částice)
 30	nám	my	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	32	obl:arg	32:obl:arg:dat	Entity=(faust_2010_07_jh_19e47--1-gstype:spec)|Functor=32:PAT
 31	prosím	prosit	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	32	parataxis	32:parataxis	Functor=32:ATT
@@ -27572,7 +27572,7 @@
 # text = Tak vypadá jako zdrogované kotě , no a co .
 # orig_file_sentence faust_2010_07_jh_20#13
 # Tectogrammatical annotation available.
-1	Tak	tak	PART	TT-------------	_	2	advmod:emph	2:advmod:emph	LId=tak-1|Functor=2:PREC
+1	Tak	tak	ADV	TT-------------	PronType=Dem	2	advmod:emph	2:advmod:emph	LId=tak-1|Functor=2:PREC
 2	vypadá	vypadat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LId=vypadat-1|LGloss=(ty_vypadáš)|Functor=0:PRED
 3	jako	jako	SCONJ	J,-------------	_	5	mark	5:mark	LId=jako-1
 4	zdrogované	zdrogovaný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	5	amod	5:amod	LDeriv=zdrogovat|Functor=5:RSTR
@@ -29171,7 +29171,7 @@
 31.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	32:nsubj	Entity=(faust_2010_07_mu_01e49--1-gstype:spec)|Functor=32:ACT
 32	znáš	znát	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	35:advcl:jak	Functor=35:PAR
 33	,	,	PUNCT	Z:-------------	_	32	punct	32:punct	_
-34	tak	tak	PART	TT-------------	_	35	advmod:emph	35:advmod:emph	LId=tak-1|Functor=35:PREC
+34	tak	tak	ADV	TT-------------	PronType=Dem	35	advmod:emph	35:advmod:emph	LId=tak-1|Functor=35:PREC
 34.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	35:nsubj	Entity=(faust_2010_07_mu_01e49--1-gstype:spec)|Functor=35:ACT
 35	víš	vědět	VERB	VB-S---2P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	Functor=4:PRED
 36	,	,	PUNCT	Z:-------------	_	39	punct	39:punct	_
@@ -30669,7 +30669,7 @@
 2	žádný	žádný	DET	PWIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	3	det	3:det	Functor=3:RSTR
 3	život	život	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	Functor=1:PAT
 4	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	Functor=5:CSQ
-5	tak	tak	PART	TT-------------	_	1	advmod:emph	1:advmod:emph|9:advmod:emph	LId=tak-1|Functor=1:CM
+5	tak	tak	ADV	TT-------------	PronType=Dem	1	advmod:emph	1:advmod:emph|9:advmod:emph	LId=tak-1|Functor=1:CM
 6	jak	jak	ADV	Db-------------	PronType=Int,Rel	9	advmod	9:advmod	LId=jak-3|Functor=9:MANN
 7	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	Functor=9:PRED
 8	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Functor=9:ACT.cop
@@ -30900,7 +30900,7 @@
 # text = Tak proč je mé srdce stále zlomené ?
 # orig_file_sentence faust_2010_07_mu_03#43
 # Tectogrammatical annotation available.
-1	Tak	tak	PART	TT-------------	_	7	advmod:emph	7:advmod:emph	LId=tak-1|Functor=7:PREC
+1	Tak	tak	ADV	TT-------------	PronType=Dem	7	advmod:emph	7:advmod:emph	LId=tak-1|Functor=7:PREC
 2	proč	proč	ADV	Db-------------	PronType=Int,Rel	7	advmod	7:advmod	Functor=7:CAUS
 3	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	Functor=7:PRED
 4	mé	můj	DET	PSNS1-S1------1	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	5:det	Functor=5:RSTR
@@ -31052,7 +31052,7 @@
 11	svou	svůj	DET	P8FS4---------1	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	12:det	Entity=(faust_2010_07_mu_04e1--1-gstype:spec)|Functor=12:RSTR|LId=svůj-1
 12	lásku	láska	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	10	obj	10:obj	Functor=10:PAT
 13	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
-14	tak	tak	PART	TT-------------	_	16	advmod:emph	16:advmod:emph	LId=tak-1|Functor=16:PREC
+14	tak	tak	ADV	TT-------------	PronType=Dem	16	advmod:emph	16:advmod:emph	LId=tak-1|Functor=16:PREC
 15	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	16	expl:pv	16:expl:pv	LGloss=(zvr._zájmeno/částice)
 15.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	16:nsubj	Entity=(faust_2010_07_mu_04e1--1-gstype:spec)|Functor=16:ACT
 15.2	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	16:nsubj	Entity=(faust_2010_07_mu_04e1--1-gstype:spec)|Functor=16:ACT
@@ -31090,7 +31090,7 @@
 45	jiným	jiný	ADJ	AANS7----1A----	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	44	amod	44:amod	Functor=44:RSTR
 46	.	.	PUNCT	Z:-------------	_	26	punct	26:punct	_
 47	A	a	CCONJ	J^-------------	_	49	cc	49:cc	LId=a-1|Functor=49:PREC
-48	tak	tak	PART	TT-------------	_	49	advmod:emph	49:advmod:emph	LId=tak-1|Functor=49:PREC
+48	tak	tak	ADV	TT-------------	PronType=Dem	49	advmod:emph	49:advmod:emph	LId=tak-1|Functor=49:PREC
 49	mohu	moci	VERB	VB-S---1P-AAI-1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	6:parataxis	_
 50	jen	jen	PART	TT-------------	_	51	advmod:emph	51:advmod:emph	LId=jen-1|Functor=51:RHEM
 51	hrát	hrát	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	49	xcomp	49:xcomp	Functor=49:PRED
@@ -31158,7 +31158,7 @@
 39	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	40	case	40:case	LId=do-1
 40	Šanghaje	Šanghaj	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	37	obl	37:obl:do:gen	Functor=37:DIR3
 41	.	.	PUNCT	Z:-------------	_	34	punct	34:punct	_
-42	Tak	tak	PART	TT-------------	_	45	advmod:emph	45:advmod:emph	LId=tak-1|Functor=45:PREC
+42	Tak	tak	ADV	TT-------------	PronType=Dem	45	advmod:emph	45:advmod:emph	LId=tak-1|Functor=45:PREC
 43	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	45	obl:arg	45:obl:arg:dat	Entity=(faust_2010_07_mu_04e16--1-gstype:spec)|Functor=45:ADDR
 44	prosím	prosit	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	45	parataxis	45:parataxis	Functor=45:ATT
 44.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	45:nsubj	Entity=(faust_2010_07_mu_04e14--1-gstype:spec)|Functor=45:ACT
@@ -31801,7 +31801,7 @@
 14	starala	starat	VERB	VpQW----R-AAI--	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	parataxis	6:parataxis	LGloss=(se)|Functor=6:PRED
 15	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 16	a	a	CCONJ	J^-------------	_	22	cc	22:cc	LId=a-1|Functor=22:CSQ
-17	tak	tak	PART	TT-------------	_	14	advmod:emph	14:advmod:emph|22:advmod:emph	LId=tak-1|Functor=14:CM
+17	tak	tak	ADV	TT-------------	PronType=Dem	14	advmod:emph	14:advmod:emph|22:advmod:emph	LId=tak-1|Functor=14:CM
 18	když	když	SCONJ	J,-------------	_	19	mark	19:mark	_
 19	přišlo	přijít	VERB	VpNS----R-AAP--	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	22	advcl	22:advcl:když	Functor=22:TWHEN
 20	léto	léto	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	19:nsubj	Functor=19:ACT
@@ -32744,7 +32744,7 @@
 16	dobrou	dobrý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	Functor=17:RSTR
 17	nabídku	nabídka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	15	obj	15:obj	Functor=15:CPHR
 18	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
-19	tak	tak	PART	TT-------------	_	22	advmod:emph	22:advmod:emph	LId=tak-1|Functor=22:PREC
+19	tak	tak	ADV	TT-------------	PronType=Dem	22	advmod:emph	22:advmod:emph	LId=tak-1|Functor=22:PREC
 20	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	22	obl:arg	22:obl:arg:dat	Entity=(faust_2010_07_mu_05e57--1-gstype:spec)|Functor=22:ADDR|LGloss=(zvr._zájmeno/částice)
 21	ji	on	PRON	PEFS4--3-------	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	22	obj	22:obj	Entity=(faust_2010_07_mu_05e61--1-gstype:spec)|Functor=22:PAT|LId=on-1
 21.1	já	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	22:nsubj	Entity=(faust_2010_07_mu_05e57--1-gstype:spec)|Functor=22:ACT
@@ -34001,7 +34001,7 @@
 6	zprávy	zpráva	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	nmod	4:nmod:gen	Entity=faust_2010_07_mu_09e19)|Functor=4:PAT
 7	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 8	a	a	CCONJ	J^-------------	_	10	cc	10:cc	LId=a-1|Functor=10:CSQ
-9	tak	tak	PART	TT-------------	_	1	advmod:emph	1:advmod:emph|10:advmod:emph	LId=tak-1|Functor=1:CM
+9	tak	tak	ADV	TT-------------	PronType=Dem	1	advmod:emph	1:advmod:emph|10:advmod:emph	LId=tak-1|Functor=1:CM
 9.1	já	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	10:nsubj	Entity=(faust_2010_07_mu_09e14--1-gstype:spec)|Functor=10:ACT
 10	doufám	doufat	VERB	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	Functor=1:PRED
 11	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
@@ -34029,7 +34029,7 @@
 26	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	27	case	27:case	LId=po-1
 27	emailu	email	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	25:obl:po:loc	Functor=25:MEANS
 28	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
-29	tak	tak	PART	TT-------------	_	31	advmod:emph	31:advmod:emph	LId=tak-1|Functor=31:PREC
+29	tak	tak	ADV	TT-------------	PronType=Dem	31	advmod:emph	31:advmod:emph	LId=tak-1|Functor=31:PREC
 30	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	31	obl:arg	31:obl:arg:dat	Entity=(faust_2010_07_mu_09e14--1-gstype:spec)|Functor=31:ADDR
 30.1	ty	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	31:nsubj	Entity=(faust_2010_07_mu_09e12--1-gstype:spec)|Functor=31:ACT
 31	pošli	poslat	VERB	Vi-S---2--A-P--	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	1	parataxis	1:parataxis	Functor=1:PRED
@@ -34140,7 +34140,7 @@
 21	praktickými	praktický	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	22	amod	22:amod	Functor=22:RSTR
 22	zkušenostmi	zkušenost	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	19	obl:arg	19:obl:arg:ins	LDeriv=zkušený|Functor=19:ACT
 23	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
-24	tak	tak	CCONJ	J^-------------	_	26	cc	26:cc	LId=tak-2|Functor=26:CONJ
+24	tak	tak	ADV	J^-------------	PronType=Dem	26	cc	26:cc	LId=tak-2|Functor=26:CONJ
 25	probíhajícím	probíhající	ADJ	AGIS7-----A----	Animacy=Inan|Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	26:amod	LDeriv=probíhat|Functor=26:RSTR
 26	vývojem	vývoj	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	conj	19:obl:arg:ins|22:conj	Functor=22:ACT
 27	politických	politický	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	28	amod	28:amod	Functor=28:RSTR
@@ -40510,7 +40510,7 @@
 43	,	,	PUNCT	Z:-------------	_	45	punct	45:punct	_
 44	a	a	CCONJ	J^-------------	_	45	cc	45:cc	LId=a-1|Functor=45:CONJ
 45	zahrnuje	zahrnovat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	42	conj	3:parataxis|42:conj	Functor=42:PRED
-46	tak	tak	PART	TT-------------	_	45	advmod:emph	45:advmod:emph	LId=tak-1|Functor=45:PREC
+46	tak	tak	ADV	TT-------------	PronType=Dem	45	advmod:emph	45:advmod:emph	LId=tak-1|Functor=45:PREC
 47	nyní	nyní	ADV	Db-------------	PronType=Dem	45	advmod	45:advmod	Functor=45:TWHEN
 48	trhy	trh	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	45	obj	45:obj	Functor=45:PAT
 49	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	50	case	50:case	LId=z-1
@@ -41786,7 +41786,7 @@
 # text = Tak vypadá jako drogový závislák a co ?
 # orig_file_sentence faust_2010_07_mu_20#13
 # Tectogrammatical annotation available.
-1	Tak	tak	PART	TT-------------	_	2	advmod:emph	2:advmod:emph	LId=tak-1|Functor=2:PREC
+1	Tak	tak	ADV	TT-------------	PronType=Dem	2	advmod:emph	2:advmod:emph	LId=tak-1|Functor=2:PREC
 2	vypadá	vypadat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LId=vypadat-1|LGloss=(ty_vypadáš)|Functor=0:PRED
 3	jako	jako	SCONJ	J,-------------	_	5	mark	5:mark	LId=jako-1
 4	drogový	drogový	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	5:amod	Functor=5:RSTR
@@ -42504,7 +42504,7 @@
 38	,	,	PUNCT	Z:-------------	_	40	punct	40:punct	_
 39	a	a	CCONJ	J^-------------	_	40	cc	40:cc	LId=a-1|Functor=40:CSQ
 40	přispět	přispět	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	35	conj	34:xcomp|35:conj	Functor=35:RSTR
-41	tak	tak	PART	TT-------------	_	35	advmod:emph	35:advmod:emph|40:advmod:emph	LId=tak-1|Functor=35:CM
+41	tak	tak	ADV	TT-------------	PronType=Dem	35	advmod:emph	35:advmod:emph|40:advmod:emph	LId=tak-1|Functor=35:CM
 42	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	43	case	43:case	LId=k-1
 43	vytvoření	vytvoření	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun	40	obl:arg	40:obl:arg:k:dat	LDeriv=vytvořit|Functor=40:PAT
 44	hmotných	hmotný	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	47	amod	47:amod	Functor=47:RSTR

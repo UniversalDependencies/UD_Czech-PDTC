@@ -3090,7 +3090,7 @@
 14	hodnot	hodnota	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	10	obl:arg	10:obl:arg:gen	SpaceAfter=No|Functor=10:PAT
 15	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 16	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1|Functor=19:CSQ
-17	tak	tak	PART	TT-------------	_	9	advmod:emph	9:advmod:emph|19:advmod:emph	LId=tak-1|Functor=9:CM
+17	tak	tak	ADV	TT-------------	PronType=Dem	9	advmod:emph	9:advmod:emph|19:advmod:emph	LId=tak-1|Functor=9:CM
 18	bylo	být	AUX	VpNS----R-AAI--	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	19	cop	19:cop	Functor=19:PRED
 18.1	pro_někoho	#Gen	PRON	_	Case=Acc|PronType=Ind	_	_	19:obl:acc|20:nsubj:xsubj	Entity=(cmpr9410005e54--1)|Functor=19:BEN,20:ACT
 19	nutné	nutný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	9	conj	0:root|9:conj	Functor=9:PAT
@@ -3472,7 +3472,7 @@
 9	nepěstují	pěstovat	VERB	VB-P---3P-NAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Functor=0:PRED
 10	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 11	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1|Functor=17:CSQ
-12	tak	tak	PART	TT-------------	_	9	advmod:emph	9:advmod:emph|17:advmod:emph	LId=tak-1|Functor=9:CM
+12	tak	tak	ADV	TT-------------	PronType=Dem	9	advmod:emph	9:advmod:emph|17:advmod:emph	LId=tak-1|Functor=9:CM
 13	jejich	jeho	DET	P9XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	14:det	Entity=(cmpr9410006e2--2-gstype:gen(cmpr9410006e17--1-gstype:gen)|Functor=14:PAT
 14	dovoz	dovoz	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	17:nsubj	Entity=cmpr9410006e2)|Functor=17:ACT
 15	naše	náš	DET	PSXP4-P1-------	Case=Acc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	16:det	Entity=(cmpr9410006e14--1-gstype:spec)|Functor=16:APP
@@ -4388,7 +4388,7 @@
 15.1	on	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	_	_	16:nsubj	Entity=(cmpr9410008e116--1-gstype:spec)|Functor=16:ACT
 16	vyhrál	vyhrát	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	acl:relcl	9:acl:relcl	Entity=cmpr9410008e129)|Functor=9:RSTR|SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
-18	tak	tak	CCONJ	J^-------------	_	20	cc	20:cc	LId=tak-2|Functor=20:CONJ
+18	tak	tak	ADV	J^-------------	PronType=Dem	20	cc	20:cc	LId=tak-2|Functor=20:CONJ
 19	i	i	PART	TT-------------	_	7	advmod:emph	7:advmod:emph|20:advmod:emph	LId=i-2|Functor=7:CM
 20	možnost	možnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	7	conj	6:obj|7:conj	LDeriv=možný|Functor=7:PAT
 21	vyhrát	vyhrát	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	20	acl	20:acl	Functor=20:PAT
@@ -11722,7 +11722,7 @@
 3	jak	jak	CCONJ	J^-------------	_	4	cc	4:cc	LId=jak-4
 4	zákazníky	zákazník	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	2:obj	Entity=(cmpr9410024e57--1-gstype:gen)|Functor=2:PAT|SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
-6	tak	tak	CCONJ	J^-------------	_	9	cc	9:cc	LId=tak-2|Functor=9:CONJ
+6	tak	tak	ADV	J^-------------	PronType=Dem	9	cc	9:cc	LId=tak-2|Functor=9:CONJ
 7	všechny	všechen	DET	PLYP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	9	det	9:det	Bridge=cmpr9410024e37<cmpr9410024e73:subset|Entity=(cmpr9410024e73--3|Functor=9:RSTR
 8	seriozní	seriozní	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Style=Coll	9	amod	9:amod	LGloss=(^GC**seriózní)|Functor=9:RSTR
 9	vydavatele	vydavatel	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	conj	2:obj|4:conj	Entity=cmpr9410024e73)|Functor=4:PAT|SpaceAfter=No
@@ -16895,7 +16895,7 @@
 # orig_file_sentence cmpr9410_031#11
 # Tectogrammatical annotation available.
 1	Relativně	relativně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod	4:advmod	LDeriv=relativní|Functor=4:MANN
-2	tak	tak	PART	TT-------------	_	4	advmod:emph	4:advmod:emph	LId=tak-1|Functor=4:PREC
+2	tak	tak	ADV	TT-------------	PronType=Dem	4	advmod:emph	4:advmod:emph	LId=tak-1|Functor=4:PREC
 3	stát	stát	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	Entity=(cmpr9410031e3--1-gstype:spec)|Functor=4:ACT|LGloss=(státní_útvar)|LId=stát-1
 4	vynakládá	vynakládat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 5	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	8:case	Entity=(cmpr9410031e27--4-gstype:gen|LId=na-1
@@ -17680,7 +17680,7 @@
 5	punc	punc	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj	Functor=4:PAT
 6	solidnosti	solidnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod:gen	SpaceAfter=No|Functor=5:ID
 7	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_
-8	tak	tak	PART	TT-------------	_	9	advmod:emph	9:advmod:emph	LId=tak-1|Functor=9:PREC
+8	tak	tak	ADV	TT-------------	PronType=Dem	9	advmod:emph	9:advmod:emph	LId=tak-1|Functor=9:PREC
 9	nechybí	chybět	VERB	VB-S---3P-NAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LGloss=(někde_něco_chybí)|Functor=0:PRED
 10	upozornění	upozornění	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun	9	nsubj	9:nsubj	SpaceAfter=No|LDeriv=upozornit|Functor=9:ACT
 11	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
@@ -19941,7 +19941,7 @@
 # orig_file_sentence cmpr9410_035#17
 # Tectogrammatical annotation available.
 1	A	a	CCONJ	J^-------------	_	10	cc	10:cc	LId=a-1|Functor=10:PREC
-2	tak	tak	PART	TT-------------	_	10	advmod:emph	10:advmod:emph	LId=tak-1|Functor=10:PREC
+2	tak	tak	ADV	TT-------------	PronType=Dem	10	advmod:emph	10:advmod:emph	LId=tak-1|Functor=10:PREC
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	10	expl:pv	10:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	jedna	jeden	NUM	CnFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card	10	nsubj	10:nsubj	Bridge=cmpr9410035e50<cmpr9410035e48:subset|Entity=(cmpr9410035e48--1-gstype:spec|Functor=10:ACT|LNumValue=1
 5	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	9:case	Entity=(cmpr9410035e50--5|LId=z-1
@@ -20454,7 +20454,7 @@
 13	hodnotu	hodnota	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	11	obj	11:obj	Functor=11:PAT
 14	aktivní	aktivní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	SpaceAfter=No|Functor=13:RSTR
 15	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
-16	tak	tak	CCONJ	J^-------------	_	17	cc	17:cc	LId=tak-2|Functor=17:CONJ
+16	tak	tak	ADV	J^-------------	PronType=Dem	17	cc	17:cc	LId=tak-2|Functor=17:CONJ
 17	hodnotu	hodnota	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	13	conj	11:obj|13:conj	Entity=(cmpr9410036e110--1|Functor=13:PAT
 18	pasivní	pasivní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	Entity=cmpr9410036e110)cmpr9410036e108)|Functor=17:RSTR|SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -20860,7 +20860,7 @@
 7	vyplatit	vyplatit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	5:xcomp	Functor=5:PRED
 8	dobrovolně	dobrovolně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	7	advmod	7:advmod	LDeriv=dobrovolný|Functor=7:MANN
 9	a	a	CCONJ	J^-------------	_	14	cc	14:cc	LId=a-1|Functor=14:CSQ
-10	tak	tak	PART	TT-------------	_	5	advmod:emph	5:advmod:emph|14:advmod:emph	LId=tak-1|Functor=5:CM
+10	tak	tak	ADV	TT-------------	PronType=Dem	5	advmod:emph	5:advmod:emph|14:advmod:emph	LId=tak-1|Functor=5:CM
 11	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	13:case	LId=na-1
 12	vaší	váš	DET	PSFS6-P2-------	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	13	det	13:det	Entity=(cmpr9410036e155--1-gstype:spec)|Functor=13:APP
 13	straně	strana	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	14	obl	14:obl:na:loc	Functor=14:LOC
@@ -23706,7 +23706,7 @@
 16	příjmů	příjem	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	14:nmod:gen	Functor=14:ACT
 17	domácností	domácnost	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	16	nmod	16:nmod:gen	SpaceAfter=No|Functor=16:APP
 18	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
-19	tak	tak	CCONJ	J^-------------	_	21	cc	21:cc	LId=tak-2|Functor=21:CONJ
+19	tak	tak	ADV	J^-------------	PronType=Dem	21	cc	21:cc	LId=tak-2|Functor=21:CONJ
 20	vysokou	vysoký	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	21:amod	Functor=21:RSTR
 21	úroveň	úroveň	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	14	conj	12:obj|14:conj	Functor=14:PAT
 22	zaměstnanosti	zaměstnanost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	21	nmod	21:nmod:gen	Entity=cmpr9410043e55)|Functor=21:APP|LDeriv=zaměstnaný|SpaceAfter=No
@@ -23768,7 +23768,7 @@
 27	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	28	case	28:case	LId=na-1
 28	pracovišti	pracoviště	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	21	nmod	21:nmod:na:loc	SpaceAfter=No|Functor=21:LOC
 29	,	,	PUNCT	Z:-------------	_	32	punct	32:punct	_
-30	tak	tak	CCONJ	J^-------------	_	32	cc	32:cc	LId=tak-2|Functor=32:CONJ
+30	tak	tak	ADV	J^-------------	PronType=Dem	32	cc	32:cc	LId=tak-2|Functor=32:CONJ
 31	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	32	case	32:case	LId=v-1
 32	rodině	rodina	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	28	conj	21:nmod:na:loc|28:conj	Entity=cmpr9410043e60)|Functor=28:LOC|SpaceAfter=No
 33	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
@@ -23868,7 +23868,7 @@
 # orig_file_sentence cmpr9410_043#20
 # Tectogrammatical annotation available.
 1	I	i	CCONJ	J^-------------	_	4	advmod:emph	4:advmod:emph	LId=i-1|Functor=4:PREC
-2	tak	tak	PART	TT-------------	_	4	advmod:emph	4:advmod:emph	LId=tak-1|Functor=4:PREC
+2	tak	tak	ADV	TT-------------	PronType=Dem	4	advmod:emph	4:advmod:emph	LId=tak-1|Functor=4:PREC
 3	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	Functor=4:PRED
 4	zřejmé	zřejmý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No|Functor=0:PAT
 5	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
@@ -26259,7 +26259,7 @@
 12	telefonní	telefonní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	Functor=13:RSTR
 13	stanice	stanice	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod:gen	Entity=cmpr9410046e109)|Functor=10:PAT|SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
-15	tak	tak	CCONJ	J^-------------	_	19	cc	19:cc	Functor=19:CONJ|LId=tak-2
+15	tak	tak	ADV	J^-------------	PronType=Dem	19	cc	19:cc	Functor=19:CONJ|LId=tak-2
 16	i	i	PART	TT-------------	_	7	advmod:emph	7:advmod:emph|19:advmod:emph|22:advmod:emph	LId=i-2|Functor=7:CM
 17	měsíční	měsíční	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	19	amod	19:amod	Entity=(cmpr9410046e110--3|Functor=19:RSTR
 18	udržovací	udržovací	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	19	amod	19:amod	LDeriv=udržovat|Functor=19:RSTR
@@ -26576,7 +26576,7 @@
 18	70	70	NUM	C=-------------	NumForm=Digit|NumType=Card	16	conj	16:conj|19:nummod:gov	Functor=16:RSTR
 19	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	11	nmod	11:nmod:na:acc	SpaceAfter=No|Functor=11:EXT
 20	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
-21	tak	tak	PART	TT-------------	_	27	advmod:emph	27:advmod:emph	LId=tak-1|Functor=27:PREC
+21	tak	tak	ADV	TT-------------	PronType=Dem	27	advmod:emph	27:advmod:emph	LId=tak-1|Functor=27:PREC
 22	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	24	case	24:case	LId=v-1
 23	letošním	letošní	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	24	amod	24:amod	Functor=24:RSTR
 24	roce	rok	NOUN	NNIS6-----A---1	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	xcomp	27:xcomp	Functor=27:TWHEN
@@ -26868,7 +26868,7 @@
 14	a	a	CCONJ	J^-------------	_	15	cc	15:cc	LId=a-1|Functor=15:CONJ
 15	lékaři	lékař	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	conj	3:nsubj|10:nsubj:xsubj|13:conj	SpaceAfter=No|Functor=13:ACT
 16	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
-17	tak	tak	CCONJ	J^-------------	_	20	cc	20:cc	LId=tak-2|Functor=20:CONJ
+17	tak	tak	ADV	J^-------------	PronType=Dem	20	cc	20:cc	LId=tak-2|Functor=20:CONJ
 18	i	i	PART	TT-------------	_	13	advmod:emph	13:advmod:emph|15:advmod:emph|20:advmod:emph	LId=i-2|Functor=13:CM
 19	samotní	samotný	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	20	amod	20:amod	Entity=(cmpr9410047e19--2-gstype:gen|Functor=20:RSTR
 20	pacienti	pacient	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	conj	3:nsubj|10:nsubj:xsubj|13:conj|25:obl:arg:dat	Functor=13:ACT|SpaceAfter=No
@@ -26921,7 +26921,7 @@
 9	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	10:case	Entity=(cmpr9410047e3--2-gstype:spec|LId=u-1
 10	nás	my	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	7	obl	7:obl:u:gen	Entity=cmpr9410047e3)cmpr9410047e89)|Functor=7:LOC|SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-12	tak	tak	PART	TT-------------	_	13	advmod:emph	13:advmod:emph	LId=tak-1|Functor=13:PREC
+12	tak	tak	ADV	TT-------------	PronType=Dem	13	advmod:emph	13:advmod:emph	LId=tak-1|Functor=13:PREC
 12.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	13:nsubj	Entity=(cmpr9410047e87--1-gstype:spec)|Functor=13:ACT
 13	ušetří	ušetřit	VERB	VB-P---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 14	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	15	case	15:case	_
@@ -28096,7 +28096,7 @@
 4.1	já	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	_	_	5:nsubj	Bridge=cmpr9410051e3<cmpr9410051e5:subset|Entity=(cmpr9410051e5--1)|Functor=5:ACT
 5	prozradil	prozradit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	advcl	16:advcl:když	SpaceAfter=No|Functor=16:COND
 6	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
-7	tak	tak	PART	TT-------------	_	16	advmod:emph	16:advmod:emph	LId=tak-1|Functor=16:PREC
+7	tak	tak	ADV	TT-------------	PronType=Dem	16	advmod:emph	16:advmod:emph	LId=tak-1|Functor=16:PREC
 8	nám	my	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	16	obl	16:obl:dat	Entity=(cmpr9410051e3--1-gstype:spec)|Functor=16:BEN
 9	tu	tu	ADV	Db-------------	PronType=Dem	16	advmod	16:advmod	LId=tu-1|Functor=16:LOC
 10	jako	jako	SCONJ	J,-------------	_	12	mark	12:mark	LId=jako-1
@@ -29556,7 +29556,7 @@
 1	Jenže	jenže	CCONJ	J^-------------	_	2	cc	2:cc	Entity=(cmpr9413002e39[1/2]--3-gstype:spec|Functor=2:PREC
 1.1	on	#PersPron	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	2:nsubj	Entity=(cmpr9413002e27--1-gstype:gen)|Functor=2:ACT
 2	nebere	brát	VERB	VB-S---3P-NAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
-3	tak	tak	PART	TT-------------	_	2	advmod:emph	2:advmod:emph	LId=tak-1|Functor=2:PREC
+3	tak	tak	ADV	TT-------------	PronType=Dem	2	advmod:emph	2:advmod:emph	LId=tak-1|Functor=2:PREC
 4	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	LId=v-1
 5	úvahu	úvaha	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	2	obl:arg	2:obl:arg:v:acc	Functor=2:DPHR
 6	jízdní	jízdní	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	7	amod	7:amod	Entity=(cmpr9413002e33[1/2]--3|Functor=7:RSTR
@@ -36645,7 +36645,7 @@
 # orig_file_sentence cmpr9413_014#13
 # Tectogrammatical annotation available.
 1	A	a	CCONJ	J^-------------	_	7	cc	7:cc	LId=a-1|Functor=7:PREC
-2	tak	tak	PART	TT-------------	_	7	advmod:emph	7:advmod:emph|14:advmod:emph|20:advmod:emph	LId=tak-1|Functor=7:PREC
+2	tak	tak	ADV	TT-------------	PronType=Dem	7	advmod:emph	7:advmod:emph|14:advmod:emph|20:advmod:emph	LId=tak-1|Functor=7:PREC
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	7	expl:pv	7:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	nejméně	méně	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	5	advmod	5:advmod	Functor=5:EXT
 5	jedenkrát	jedenkrát	ADV	Cv-------------	NumType=Mult	7	obl	7:obl	LId=jedenkrát-1|LNumValue=1|Functor=7:THO
@@ -36713,7 +36713,7 @@
 # Tectogrammatical annotation available.
 1	A	a	CCONJ	J^-------------	_	2	cc	2:cc	LId=a-1|Functor=2:PREC
 1.1	oni	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	2:nsubj	Entity=(cmpr9413014e2--1-gstype:gen)|Functor=2:ACT.cop
-2	tak	tak	PART	TT-------------	_	0	root	0:root	LId=tak-1|Functor=0:PREC
+2	tak	tak	ADV	TT-------------	PronType=Dem	0	root	0:root	LId=tak-1|Functor=0:PREC
 3	jsou	být	AUX	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	Functor=2:PRED
 4	zde	zde	ADV	Db-------------	PronType=Dem	2	advmod	2:advmod	SpaceAfter=No|Functor=2:LOC
 5	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -36787,7 +36787,7 @@
 # orig_file_sentence cmpr9413_014#19
 # Tectogrammatical annotation available.
 1	A	a	CCONJ	J^-------------	_	4	cc	4:cc	LId=a-1|Functor=4:PREC
-2	tak	tak	PART	TT-------------	_	4	advmod:emph	4:advmod:emph	LId=tak-1|Functor=4:PREC
+2	tak	tak	ADV	TT-------------	PronType=Dem	4	advmod:emph	4:advmod:emph	LId=tak-1|Functor=4:PREC
 3	klepači	klepač	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj	Entity=(cmpr9413014e2--1-gstype:gen)|Functor=4:ACT|LId=klepač-2
 4	klepou	klepat	VERB	VB-P---3P-AAI-1	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Functor=0:PRED
 5	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -38897,7 +38897,7 @@
 7	jak	jak	CCONJ	J^-------------	_	8	cc	8:cc	LId=jak-4
 8	vláda	vláda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	Entity=(cmpr9413020e37--1-gstype:spec)|Functor=6:ACT|SpaceAfter=No
 9	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
-10	tak	tak	CCONJ	J^-------------	_	12	cc	12:cc	LId=tak-2|Functor=12:CONJ
+10	tak	tak	ADV	J^-------------	PronType=Dem	12	cc	12:cc	LId=tak-2|Functor=12:CONJ
 11	i	i	PART	TT-------------	_	8	advmod:emph	8:advmod:emph|12:advmod:emph	LId=i-2|Functor=8:CM
 12	podnikatelé	podnikatel	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	conj	6:nsubj|8:conj	Entity=(cmpr9413020e3--1-gstype:spec)|Functor=8:ACT|SpaceAfter=No
 13	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
@@ -39851,7 +39851,7 @@
 7	zákona	zákon	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	6:nmod:gen	Entity=(cmpr9413021e11--1-gstype:spec)cmpr9413021e9)cmpr9413021e16)|Functor=6:APP
 8	a	a	CCONJ	J^-------------	_	9	cc	9:cc	LId=a-1|Functor=9:CSQ
 9	formulovat	formulovat	VERB	Vf--------A-B--	Aspect=Imp,Perf|Polarity=Pos|VerbForm=Inf	4	conj	3:acl|4:conj	Functor=4:PAT
-10	tak	tak	PART	TT-------------	_	4	advmod:emph	4:advmod:emph|9:advmod:emph	LId=tak-1|Functor=4:CM
+10	tak	tak	ADV	TT-------------	PronType=Dem	4	advmod:emph	4:advmod:emph|9:advmod:emph	LId=tak-1|Functor=4:CM
 11	některé	některý	DET	PZNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	12	det	12:det	Entity=(cmpr9413021e9--2-gstype:spec|Functor=12:RSTR
 12	ustanovení	ustanovení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	9	obj	9:obj	Functor=9:PAT|LDeriv=ustanovit
 13	zákona	zákon	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	12:nmod:gen	Entity=(cmpr9413021e11--1-gstype:spec)cmpr9413021e9)|Functor=12:APP
@@ -40177,7 +40177,7 @@
 11	a	a	CCONJ	J^-------------	_	12	cc	12:cc	LId=a-1|Functor=12:CSQ
 12	vystavovat	vystavovat	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	10	conj	8:csubj|10:conj	Functor=10:ACT
 13	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	12	obj	12:obj	Entity=(cmpr9413021e71--1-gstype:gen)|Functor=12:ADDR|LGloss=(zvr._zájmeno/částice)
-14	tak	tak	PART	TT-------------	_	10	advmod:emph	10:advmod:emph|12:advmod:emph	LId=tak-1|Functor=10:CM
+14	tak	tak	ADV	TT-------------	PronType=Dem	10	advmod:emph	10:advmod:emph|12:advmod:emph	LId=tak-1|Functor=10:CM
 15	nebezpečí	nebezpečí	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing	12	obl:arg	12:obl:arg:dat	SpaceAfter=No|Functor=12:PAT
 16	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	SpaceAfter=No
 17	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	SpaceAfter=No
@@ -40244,7 +40244,7 @@
 18	bodů	bod	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	15:nmod:gen	Entity=cmpr9413021e51)|Functor=15:MAT|SpaceAfter=No
 19	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 20	a	a	CCONJ	J^-------------	_	27	cc	27:cc	LId=a-1|Functor=27:CSQ
-21	tak	tak	PART	TT-------------	_	9	advmod:emph	9:advmod:emph|12:advmod:emph|27:advmod:emph	SpaceAfter=No|LId=tak-1|Functor=9:CM
+21	tak	tak	ADV	TT-------------	PronType=Dem	9	advmod:emph	9:advmod:emph|12:advmod:emph|27:advmod:emph	SpaceAfter=No|LId=tak-1|Functor=9:CM
 22	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
 23	krátce	krátce	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	24	advmod	24:advmod	Entity=(cmpr9413021e88--6-gstype:spec|Functor=24:MANN
 23.1	on	#PersPron	PRON	_	Case=Nom|PronType=Prs	_	_	24:obl:arg:nom	Entity=(cmpr9413021e88--1-gstype:spec)|Functor=24:EFF
@@ -41241,7 +41241,7 @@
 18	obchodních	obchodní	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	19	amod	19:amod	Functor=19:RSTR
 19	činnostech	činnost	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	16	obl	16:obl:v:loc	Entity=cmpr9413022e166)|Functor=16:LOC|LDeriv=činný|SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
-21	tak	tak	PART	TT-------------	_	29	advmod:emph	29:advmod:emph	LId=tak-1|Functor=29:PREC
+21	tak	tak	ADV	TT-------------	PronType=Dem	29	advmod:emph	29:advmod:emph	LId=tak-1|Functor=29:PREC
 22	pokles	pokles	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	29:nsubj	Functor=29:ACT
 23	koupěschopnosti	koupěschopnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	22	nmod	22:nmod:gen	LDeriv=koupěschopný|Functor=22:ACT
 24	obyvatel	obyvatel	NOUN	NNMP2-----A---1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	23:nmod:gen	Functor=23:APP
@@ -41404,7 +41404,7 @@
 5	slabé	slabý	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	6:amod	Functor=6:RSTR
 6	regiony	region	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	3:obj	Entity=cmpr9413022e177)|Functor=3:PAT|SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
-8	tak	tak	PART	TT-------------	_	11	advmod:emph	11:advmod:emph	LId=tak-1|Functor=11:PREC
+8	tak	tak	ADV	TT-------------	PronType=Dem	11	advmod:emph	11:advmod:emph	LId=tak-1|Functor=11:PREC
 9	tam	tam	ADV	Db-------------	PronType=Dem	11	advmod	11:advmod	Functor=11:LOC
 10	podnikatelé	podnikatel	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	11:nsubj	Entity=(cmpr9413022e14--1-gstype:gen)|Functor=11:ACT
 11	nepřežijí	přežít	VERB	VB-P---3P-NAP-1	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
@@ -44959,7 +44959,7 @@
 10	jeho	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	11:det	Entity=(cmpr9413031e39--2-gstype:spec(cmpr9413031e16--1-gstype:spec)|Functor=11:APP
 11	firma	firma	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	18:nsubj	Entity=cmpr9413031e39)|Functor=18:ACT|SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
-13	tak	tak	CCONJ	J^-------------	_	14	cc	14:cc	Functor=14:CONJ|LId=tak-2
+13	tak	tak	ADV	J^-------------	PronType=Dem	14	cc	14:cc	Functor=14:CONJ|LId=tak-2
 14	on	on	PRON	PEYS1--3-------	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	conj	1:nsubj|11:conj|18:nsubj	Entity=(cmpr9413031e16--1-gstype:spec)cmpr9413031e42)|Functor=1:ACT,11:ACT|LId=on-1
 15	jako	jako	SCONJ	J,-------------	_	17	mark	17:mark	LId=jako-1
 16	její	jeho	DET	P9FXXFS3-------	Gender=Fem|Gender[psor]=Fem|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	17:det	Entity=(cmpr9413031e39--1-gstype:spec)|Functor=17:PAT
@@ -45058,7 +45058,7 @@
 10	i	i	PART	TT-------------	_	11	advmod:emph	11:advmod:emph	LId=i-2|Functor=11:RHEM
 11	jeho	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	12:det	Entity=(cmpr9413031e56--2-gstype:spec(cmpr9413031e16--1-gstype:spec)|Functor=12:APP
 12	partneři	partner	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	14:nsubj	Entity=cmpr9413031e56)|Functor=14:ACT
-13	tak	tak	PART	TT-------------	_	14	advmod:emph	14:advmod:emph	LId=tak-1|Functor=14:PREC
+13	tak	tak	ADV	TT-------------	PronType=Dem	14	advmod:emph	14:advmod:emph	LId=tak-1|Functor=14:PREC
 14	mají	mít	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	Functor=4:PRED
 15	zakázky	zakázka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	14	obj	14:obj	SpaceAfter=No|Functor=14:PAT
 16	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -45884,7 +45884,7 @@
 27	ovzduší	ovzduší	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	26	obj	26:obj	Entity=(cmpr9413032e42--1-gstype:gen|Functor=26:PAT
 28	sympatie	sympatie	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	27	nmod	27:nmod:gen	Entity=(cmpr9413032e44--1-gstype:gen)cmpr9413032e42)|Functor=27:APP
 29	a	a	CCONJ	J^-------------	_	31	cc	31:cc	LId=a-1|Functor=31:CSQ
-30	tak	tak	PART	TT-------------	_	26	advmod:emph	26:advmod:emph|31:advmod:emph	LId=tak-1|Functor=26:CM
+30	tak	tak	ADV	TT-------------	PronType=Dem	26	advmod:emph	26:advmod:emph|31:advmod:emph	LId=tak-1|Functor=26:CM
 31	ulehčit	ulehčit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	26	conj	25:acl|26:conj	Functor=26:PAT
 32	komunikaci	komunikace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	31	obj	31:obj	SpaceAfter=No|Functor=31:PAT
 33	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -46267,7 +46267,7 @@
 7	jejich	jeho	DET	P9XXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	8:det	Entity=(cmpr9413033e21--1-gstype:spec)|Functor=8:APP
 8	praktikami	praktika	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	4	obl:arg	4:obl:arg:s:ins	Entity=cmpr9413033e33)|Functor=4:PAT|LGloss=(způsob)|LId=praktika-1
 9	a	a	CCONJ	J^-------------	_	13	cc	13:cc	LId=a-1|Functor=13:CSQ
-10	tak	tak	PART	TT-------------	_	4	advmod:emph	4:advmod:emph|13:advmod:emph	Entity=(cmpr9413033e33--1-gstype:spec)|Functor=4:CM|LId=tak-1
+10	tak	tak	ADV	TT-------------	PronType=Dem	4	advmod:emph	4:advmod:emph|13:advmod:emph	Entity=(cmpr9413033e33--1-gstype:spec)|Functor=4:CM|LId=tak-1
 11	vlastně	vlastně	ADV	TT-------------	_	13	advmod:emph	13:advmod:emph	LId=vlastně-2|Functor=13:ATT
 12	preventivně	preventivně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	13	advmod	13:advmod	LDeriv=preventivní|Functor=13:MANN
 13	předcházet	předcházet	VERB	Vf--------A-I--	Aspect=Imp|Polarity=Pos|VerbForm=Inf	4	conj	3:csubj|4:conj	Functor=4:ACT
@@ -47411,7 +47411,7 @@
 # orig_file_sentence cmpr9413_034#21
 # Tectogrammatical annotation available.
 1	A	a	CCONJ	J^-------------	_	4	cc	4:cc	LId=a-1|Functor=4:PREC
-2	tak	tak	PART	TT-------------	_	4	advmod:emph	4:advmod:emph	LId=tak-1|Functor=4:PREC
+2	tak	tak	ADV	TT-------------	PronType=Dem	4	advmod:emph	4:advmod:emph	LId=tak-1|Functor=4:PREC
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	zdá	zdát	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Functor=0:PRED
 5	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
@@ -48397,7 +48397,7 @@
 14	rodinnou	rodinný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	15	amod	15:amod	Entity=(cmpr9413036e131[2/2]--1-gstype:gen|Functor=15:RSTR
 15	pohodou	pohoda	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	12	conj	7:obl:arg:mezi:ins|12:conj	Entity=cmpr9413036e131[2/2])|Functor=12:ORIG|SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
-17	tak	tak	CCONJ	J^-------------	_	19	cc	19:cc	LId=tak-2|Functor=19:CONJ
+17	tak	tak	ADV	J^-------------	PronType=Dem	19	cc	19:cc	LId=tak-2|Functor=19:CONJ
 18	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	19	case	19:case	LId=mezi-1
 19	pomocí	pomoc	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	12	conj	7:obl:arg:mezi:ins|12:conj	Functor=12:ORIG
 20	ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen|ExtPos=ADP	23	case	23:case	LId=z-1
@@ -50731,7 +50731,7 @@
 5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	1	conj	0:root|1:conj	SpaceAfter=No|Functor=1:RSTR
 6	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 7	a	a	CCONJ	J^-------------	_	12	cc	12:cc	LId=a-1|Functor=12:CSQ
-8	tak	tak	PART	TT-------------	_	1	advmod:emph	1:advmod:emph|3:advmod:emph|5:advmod:emph|12:advmod:emph	LId=tak-1|Functor=1:CM
+8	tak	tak	ADV	TT-------------	PronType=Dem	1	advmod:emph	1:advmod:emph|3:advmod:emph|5:advmod:emph|12:advmod:emph	LId=tak-1|Functor=1:CM
 9	největší	velký	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	Functor=10:RSTR
 10	nápor	nápor	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj	Functor=12:ACT
 11	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	12	expl:pv	12:expl:pv	LGloss=(zvr._zájmeno/částice)
@@ -52716,12 +52716,12 @@
 20	,	,	PUNCT	Z:-------------	_	33	punct	33:punct	_
 21	že	že	SCONJ	J,-------------	_	33	mark	33:mark	LId=že-1
 22	stejně	stejně	ADV	TT-------------	_	26	advmod:emph	26:advmod:emph|32:advmod:emph	LId=stejně-2|Functor=26:CM
-23	tak	tak	PART	TT-------------	_	26	advmod:emph	26:advmod:emph|32:advmod:emph	LId=tak-1|Functor=26:CM
+23	tak	tak	ADV	TT-------------	PronType=Dem	26	advmod:emph	26:advmod:emph|32:advmod:emph	LId=tak-1|Functor=26:CM
 24	jako	jako	CCONJ	J^-------------	_	26	cc	26:cc	LId=jako-2|Functor=26:CONJ
 25	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	26	case	26:case	Entity=(cmpr9413045e34--2-gstype:gen|LId=pro-1
 26	něho	on	PRON	PEZS4--3------1	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	33	obl	33:obl:pro:acc	Entity=cmpr9413045e34)|Functor=33:BEN|LId=on-1|SpaceAfter=No
 27	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
-28	tak	tak	PART	TT-------------	_	26	advmod:emph	26:advmod:emph|32:advmod:emph	LId=tak-1|Functor=26:CM
+28	tak	tak	ADV	TT-------------	PronType=Dem	26	advmod:emph	26:advmod:emph|32:advmod:emph	LId=tak-1|Functor=26:CM
 29	i	i	PART	TT-------------	_	26	advmod:emph	26:advmod:emph|32:advmod:emph	LId=i-2|Functor=26:CM
 30	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	32	case	32:case	Entity=(cmpr9413045e33--3-gstype:gen|LId=pro-1
 31	jeho	jeho	DET	P9XXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	det	32:det	Entity=(cmpr9413045e34--1-gstype:gen)|Functor=32:APP
@@ -55681,7 +55681,7 @@
 # text = TAK MI TO DOCELA DOBŘE VYCHÁZÍ: Obrat a zisk utěšeně roste.
 # orig_file_sentence cmpr9413_050#79
 # Tectogrammatical annotation available.
-1	TAK	tak	PART	TT-------------	_	6	advmod:emph	6:advmod:emph	LId=tak-1|Functor=6:PREC
+1	TAK	tak	ADV	TT-------------	PronType=Dem	6	advmod:emph	6:advmod:emph	LId=tak-1|Functor=6:PREC
 2	MI	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obl	6:obl:dat	Entity=(cmpr9413050e253--1-gstype:spec)|Functor=6:BEN
 3	TO	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Functor=6:ACT
 4	DOCELA	docela	ADV	Db-------------	_	5	advmod	5:advmod	Functor=5:EXT
@@ -56857,7 +56857,7 @@
 # orig_file_sentence cmpr9413_052#13
 # Tectogrammatical annotation available.
 1	A	a	CCONJ	J^-------------	_	3	cc	3:cc	LId=a-1|Functor=3:PREC
-2	tak	tak	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=tak-1|Functor=3:PREC
+2	tak	tak	ADV	TT-------------	PronType=Dem	3	advmod:emph	3:advmod:emph	LId=tak-1|Functor=3:PREC
 3	nepřekvapuje	překvapovat	VERB	VB-S---3P-NAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Functor=0:PRED
 4	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
 5	že	že	SCONJ	J,-------------	_	15	mark	15:mark	LId=že-1
@@ -57590,7 +57590,7 @@
 4	normální	normální	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	Entity=(cmpr9413052e171--2-gstype:gen|Functor=5:RSTR
 5	klientely	klientela	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	3	obl:arg	3:obl:arg:gen	Entity=cmpr9413052e171)|Functor=3:PAT
 6	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
-7	tak	tak	PART	TT-------------	_	9	advmod:emph	9:advmod:emph	LId=tak-1|Functor=9:PREC
+7	tak	tak	ADV	TT-------------	PronType=Dem	9	advmod:emph	9:advmod:emph	LId=tak-1|Functor=9:PREC
 8	tu	ten	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	obj	9:obj	Entity=(cmpr9413052e171--1-gstype:gen)|Functor=9:PAT
 9	představují	představovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Functor=0:PRED
 10	především	především	PART	TT-------------	_	11	advmod:emph	11:advmod:emph	Entity=(cmpr9413052e174--3-gstype:gen|Functor=11:RHEM|LId=především-2
@@ -57670,7 +57670,7 @@
 11	cizinců	cizinec	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	10:nmod:gen	Entity=cmpr9413052e184)|Functor=10:PAT
 12	napáleno	napálený	ADJ	VsNS----X-APP--	Aspect=Perf|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=napálit|Functor=0:PRED
 13	a	a	CCONJ	J^-------------	_	16	cc	16:cc	LId=a-1|Functor=16:CSQ
-14	tak	tak	PART	TT-------------	_	12	advmod:emph	12:advmod:emph|16:advmod:emph	LId=tak-1|Functor=12:CM
+14	tak	tak	ADV	TT-------------	PronType=Dem	12	advmod:emph	12:advmod:emph|16:advmod:emph	LId=tak-1|Functor=12:CM
 15	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	18	expl:pv	18:expl:pv	LGloss=(zvr._zájmeno/částice)
 16	není	být	AUX	VB-S---3P-NAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	0:root|12:conj	Functor=12:PRED
 17	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	18	obl	18:obl:acc	LId=co-1|Functor=18:EXT
@@ -59108,7 +59108,7 @@
 15	výrobní	výrobní	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	16:amod	Functor=16:RSTR
 16	časy	čas	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	13:obj	SpaceAfter=No|Functor=13:PAT
 17	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
-18	tak	tak	CCONJ	J^-------------	_	19	cc	19:cc	LId=tak-2|Functor=19:CONJ
+18	tak	tak	ADV	J^-------------	PronType=Dem	19	cc	19:cc	LId=tak-2|Functor=19:CONJ
 19	časy	čas	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	conj	13:obj|16:conj	Functor=16:PAT
 20	potřebné	potřebný	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	19	amod	19:amod	Functor=19:RSTR
 21	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	22	case	22:case	LId=pro-1
@@ -66044,7 +66044,7 @@
 16	neobvyklého	obvyklý	ADJ	AANS2----1N----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	15	nmod	15:nmod:gen	SpaceAfter=No|Functor=15:RSTR
 17	)	)	PUNCT	Z:-------------	_	15	punct	15:punct	SpaceAfter=No
 18	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
-19	tak	tak	PART	TT-------------	_	20	advmod:emph	20:advmod:emph	LId=tak-1|Functor=20:PREC
+19	tak	tak	ADV	TT-------------	PronType=Dem	20	advmod:emph	20:advmod:emph	LId=tak-1|Functor=20:PREC
 19.1	my	#PersPron	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	20:nsubj|24:nsubj:xsubj	Entity=(cmpr9415022e3--1-gstype:gen)|Functor=20:ACT
 20	musíme	muset	VERB	VB-P---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 21	jako	jako	SCONJ	J,-------------	_	22	mark	22:mark	LId=jako-1
@@ -66811,7 +66811,7 @@
 7	výrobek	výrobek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	8:obj	Entity=cmpr9415022e176)|Functor=8:PAT
 8	opraví	opravit	VERB	VB-S---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	Entity=cmpr9415022e174)|Functor=3:RSTR
 9	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1|Functor=17:CSQ
-10	tak	tak	PART	TT-------------	_	1	advmod:emph	1:advmod:emph|17:advmod:emph	LId=tak-1|Functor=1:CM
+10	tak	tak	ADV	TT-------------	PronType=Dem	1	advmod:emph	1:advmod:emph|17:advmod:emph	LId=tak-1|Functor=1:CM
 11	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	17	expl:pv	17:expl:pv	LGloss=(zvr._zájmeno/částice)
 12	ani	ani	PART	TT-------------	_	13	advmod:emph	13:advmod:emph	LId=ani-2|Functor=13:RHEM
 13	výrobců	výrobce	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	obl:arg	17:obl:arg:gen	Functor=17:PAT
@@ -73188,7 +73188,7 @@
 8	Když	když	SCONJ	J,-------------	_	9	mark	9:mark	_
 9	kvalita	kvalita	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	dep	4:dep|16:dep|23:dep	Functor=4:ACT
 10	-	-	PUNCT	Z:-------------	_	11	punct	11:punct	_
-11	tak	tak	PART	TT-------------	_	4	advmod:emph	4:advmod:emph|16:advmod:emph|23:advmod:emph	LId=tak-1|Functor=4:PREC
+11	tak	tak	ADV	TT-------------	PronType=Dem	4	advmod:emph	4:advmod:emph|16:advmod:emph|23:advmod:emph	LId=tak-1|Functor=4:PREC
 12	jedině	jedině	ADV	Db-------------	_	14	advmod:emph	14:advmod:emph	Functor=14:RHEM
 13	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	14	case	14:case	LId=od-1
 14	nás	my	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	dep	4:dep|16:dep|23:dep	SpaceAfter=No|Functor=4:ORIG
@@ -73242,7 +73242,7 @@
 9	a	a	CCONJ	J^-------------	_	10	cc	10:cc	LId=a-1|Functor=10:CONJ
 10	sebechvále	sebechvála	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing	8	conj	6:nmod:proti:dat|8:conj	SpaceAfter=No|Functor=8:PAT
 11	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	_
-12	tak	tak	PART	TT-------------	_	18	advmod:emph	18:advmod:emph	LId=tak-1|Functor=18:PREC
+12	tak	tak	ADV	TT-------------	PronType=Dem	18	advmod:emph	18:advmod:emph	LId=tak-1|Functor=18:PREC
 13	jsme	být	AUX	VB-P---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	Functor=18:PRED
 14	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	16	case	16:case	Entity=(cmpr9415041e11[1/2]--5-gstype:spec(cmpr9415041e5--3-gstype:gen|LId=proti-1
 15	takovému	takový	DET	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	16	det	16:det	Functor=16:RSTR
@@ -76487,7 +76487,7 @@
 0.1	my	#PersPron	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	_	_	1:nsubj|4:nsubj:xsubj	Entity=(cmpr9415044e6--1-gstype:spec)|Functor=1:ACT
 1	Chtěli	chtít	VERB	VpMP----R-AAI--	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	jsme	být	AUX	VB-P---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
-3	tak	tak	PART	TT-------------	_	4	advmod:emph	4:advmod:emph	Entity=(cmpr9415044e226--1-gstype:spec)|Functor=4:PREC|LId=tak-1
+3	tak	tak	ADV	TT-------------	PronType=Dem	4	advmod:emph	4:advmod:emph	Entity=(cmpr9415044e226--1-gstype:spec)|Functor=4:PREC|LId=tak-1
 4	odbřemenit	odbřemenit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	1	xcomp	1:xcomp	Functor=1:PRED
 5	výrobní	výrobní	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	6:amod	Entity=(cmpr9415044e229--2-gstype:spec|Functor=6:RSTR
 6	podniky	podnik	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	Entity=cmpr9415044e229)|Functor=4:PAT
@@ -76869,7 +76869,7 @@
 10	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	Functor=9:CPR
 11	tam	tam	ADV	Db-------------	PronType=Dem	9	advmod	9:advmod	Entity=(cmpr9415044e275--1-gstype:spec)|Functor=9:LOC|SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
-13	tak	tak	PART	TT-------------	_	17	advmod:emph	17:advmod:emph	LId=tak-1|Functor=17:PREC
+13	tak	tak	ADV	TT-------------	PronType=Dem	17	advmod:emph	17:advmod:emph	LId=tak-1|Functor=17:PREC
 14	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	18	expl:pv	18:expl:pv	LGloss=(zvr._zájmeno/částice)
 15	docela	docela	ADV	Db-------------	_	16	advmod	16:advmod	Functor=16:EXT
 16	klidně	klidně	PART	TT-------------	_	17	advmod:emph	17:advmod:emph	LId=klidně-2|Functor=17:ATT
@@ -81447,7 +81447,7 @@
 17	zadlužena	zadlužený	ADJ	VsQW----X-APP--	Aspect=Perf|Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	6	ccomp	6:ccomp	SpaceAfter=No|LDeriv=zadlužit|Functor=6:PAT
 18	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 19	a	a	CCONJ	J^-------------	_	26	cc	26:cc	LId=a-1|Functor=26:CSQ
-20	tak	tak	PART	TT-------------	_	2	advmod:emph	2:advmod:emph|26:advmod:emph	LId=tak-1|Functor=2:CM
+20	tak	tak	ADV	TT-------------	PronType=Dem	2	advmod:emph	2:advmod:emph|26:advmod:emph	LId=tak-1|Functor=2:CM
 21	velká	velký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	22	amod	22:amod	Functor=22:RSTR
 22	část	část	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	26	nsubj:pass	26:nsubj:pass	Functor=26:PAT
 23	disponibilního	disponibilní	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	24	amod	24:amod	Bridge=cmpr9415053e93<cmpr9415053e92:subset|Entity=(cmpr9415053e92--2|Functor=24:RSTR
@@ -81893,7 +81893,7 @@
 22	firmy	firma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	21	nmod	21:nmod:gen	Entity=(cmpr9415058e1--1-gstype:spec)cmpr9415058e116)|Functor=21:ACT
 23	a	a	CCONJ	J^-------------	_	24	cc	24:cc	LId=a-1|Functor=24:CONJ
 24	usnadnil	usnadnit	VERB	VpYS----R-AAP--	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	14	conj	6:acl:relcl|14:conj	Functor=14:RSTR
-25	tak	tak	PART	TT-------------	_	24	advmod:emph	24:advmod:emph	LId=tak-1|Functor=24:PREC
+25	tak	tak	ADV	TT-------------	PronType=Dem	24	advmod:emph	24:advmod:emph	LId=tak-1|Functor=24:PREC
 26	rozhodování	rozhodování	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun	24	obj	24:obj	Entity=cmpr9415058e27)|Functor=24:PAT|LDeriv=rozhodovat|SpaceAfter=No
 27	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
@@ -82880,7 +82880,7 @@
 6	vlastní	vlastní	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	7:amod	Functor=7:RSTR
 7	zaměstnance	zaměstnanec	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	SpaceAfter=No|Functor=4:PAT
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
-9	tak	tak	CCONJ	J^-------------	_	11	cc	11:cc	LId=tak-2|Functor=11:CONJ
+9	tak	tak	ADV	J^-------------	PronType=Dem	11	cc	11:cc	LId=tak-2|Functor=11:CONJ
 10	soukromé	soukromý	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	11	amod	11:amod	Functor=11:RSTR
 11	firmy	firma	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	7	conj	4:obj|7:conj	Functor=7:PAT
 12	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_

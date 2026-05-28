@@ -17,14 +17,14 @@
   <tags unique="17">
     <tag name="ADJ">361037</tag><!-- velký, další, nový, první, český, jiný, vysoký, druhý, celý, malý -->
     <tag name="ADP">320013</tag><!-- v, na, z, s, o, do, za, k, pro, po -->
-    <tag name="ADV">165193</tag><!-- tam, už, tak, jak, více, kde, pak, kdy, ještě, včera -->
+    <tag name="ADV">169738</tag><!-- tam, tak, už, jak, více, kde, pak, kdy, ještě, včera -->
     <tag name="AUX">144986</tag><!-- být, bývat, bývávat -->
-    <tag name="CCONJ">112632</tag><!-- a, ale, i, nebo, však, takže, či, až, proto, ani -->
+    <tag name="CCONJ">112143</tag><!-- a, ale, i, nebo, však, takže, či, až, proto, ani -->
     <tag name="DET">154606</tag><!-- ten, který, tento, jeho, svůj, všechen, můj, náš, takový, nějaký -->
     <tag name="INTJ">464</tag><!-- aha, pozor, ahoj, díky, pardon, ach, hele, nashledanou, proboha, jé -->
     <tag name="NOUN">782703</tag><!-- společnost, rok, dolar, akcie, léta, firma, cena, trh, doba, den -->
     <tag name="NUM">104456</tag><!-- jeden, milion, dva, 1, tři, miliarda, 2, oba, 3, 4 -->
-    <tag name="PART">64790</tag><!-- i, tak, asi, také, ještě, jen, až, taky, ne, už -->
+    <tag name="PART">60734</tag><!-- i, asi, také, ještě, jen, až, taky, ne, už, ano -->
     <tag name="PRON">118654</tag><!-- se, on, já, co, my, jenž, vy, což, něco, kdo -->
     <tag name="PROPN">130646</tag><!-- Praha, ČR, Evropa, USA, Německo, Plzeň, Brno, Jiří, Jan, LN -->
     <tag name="PUNCT">526543</tag><!-- ,, ., ", -, ?, ), (, :, /, & -->
@@ -107,7 +107,7 @@
     <feat name="Poss" value="Yes" upos="ADJ,DET">35836</feat><!-- jeho, své, jejich, její, svých, svého, svou, moje, svůj, můj -->
     <feat name="PrepCase" value="Npr" upos="PRON">7865</feat><!-- je, ji, jim, jí, jej, jich, jehož, jím, jemuž, jež -->
     <feat name="PrepCase" value="Pre" upos="PRON">7456</feat><!-- nich, ní, něj, nimi, ním, nichž, ně, níž, něm, němž -->
-    <feat name="PronType" value="Dem" upos="ADV,DET">98559</feat><!-- to, tam, tak, tím, toho, této, tom, tento, tomu, tady -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">103104</feat><!-- to, tam, tak, tím, toho, této, tom, tento, tomu, tady -->
     <feat name="PronType" value="Dem,Ind" upos="ADV,DET">1158</feat><!-- kolik, pár, kolika, párkrát, nejednou, kolikáté, kolikátého, malinko, kolikpak, kolikátá -->
     <feat name="PronType" value="Emp" upos="DET">1803</feat><!-- sám, sama, sami, samé, samy, samo, samí, samého, samá, samém -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">16827</feat><!-- něco, několik, nějaké, některé, mnoho, někteří, někdy, několika, některých, nějaký -->
@@ -141,7 +141,7 @@
     <dep name="acl:relcl">35309</dep>
     <dep name="advcl">29531</dep>
     <dep name="advcl:pred">8243</dep>
-    <dep name="advmod">128720</dep>
+    <dep name="advmod">128721</dep>
     <dep name="advmod:emph">73027</dep>
     <dep name="amod">298771</dep>
     <dep name="appos">23568</dep>
@@ -165,7 +165,7 @@
     <dep name="fixed">12159</dep>
     <dep name="flat">57411</dep>
     <dep name="iobj">2260</dep>
-    <dep name="mark">77640</dep>
+    <dep name="mark">77639</dep>
     <dep name="nmod">310324</dep>
     <dep name="nsubj">204319</dep>
     <dep name="nsubj:pass">17131</dep>

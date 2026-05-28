@@ -12090,7 +12090,7 @@
 # text = Stejně tak může zabavit dopravcům automobily a obchodníkům s potravinami mouku ze skladů a zaplatit jim za to cenu uvedenou ve svých nařízeních, nikoli cenu tržní.
 # orig_file_sentence cmpr9406_015#58
 1	Stejně	stejně	ADV	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=stejně-2
-2	tak	tak	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	LId=tak-1
+2	tak	tak	ADV	TT-------------	PronType=Dem	3	advmod:emph	3:advmod:emph	LId=tak-1
 3	může	moci	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	zabavit	zabavit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	3:xcomp	_
 5	dopravcům	dopravce	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl:arg	4:obl:arg:dat	_
@@ -21295,7 +21295,7 @@
 # text = Stejně tak výpočetní technika přejde do majetku okresních úřadů.
 # orig_file_sentence cmpr9406_038#32
 1	Stejně	stejně	ADV	TT-------------	_	5	advmod:emph	5:advmod:emph	LId=stejně-2
-2	tak	tak	PART	TT-------------	_	5	advmod:emph	5:advmod:emph	LId=tak-1
+2	tak	tak	ADV	TT-------------	PronType=Dem	5	advmod:emph	5:advmod:emph	LId=tak-1
 3	výpočetní	výpočetní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	technika	technika	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	5:nsubj	_
 5	přejde	přejít	VERB	VB-S---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
