@@ -31695,7 +31695,7 @@
 2	jsem	být	AUX	VB-S---1P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
 3	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	totiž	totiž	CCONJ	J^-------------	_	1	cc	1:cc	SpaceAfter=No|LId=totiž-1|Functor=1:PREC
-5	,	že	PUNCT	Z:-------------	_	1	punct	1:punct	_
+5	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 6	že	že	SCONJ	J,-------------	_	1	mark	1:mark	LId=že-1
 7	už	už	PART	TT-------------	_	8	advmod:emph	8:advmod:emph	LId=už-2|Functor=8:RHEM
 8	všechno	všechen	DET	PLNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	9	obj	9:obj	Functor=9:PAT

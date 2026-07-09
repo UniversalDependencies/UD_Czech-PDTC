@@ -98455,7 +98455,7 @@
 # text = Totiž, že objekty této ontologie korespondují s mými vnitřními zážitky či představami.
 # orig_file_sentence vesm9301_024#30
 1	Totiž	totiž	CCONJ	J^-------------	_	0	root	0:root	SpaceAfter=No|LId=totiž-1
-2	,	že	PUNCT	Z:-------------	_	1	punct	1:punct	_
+2	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 3	že	že	SCONJ	J,-------------	_	1	mark	1:mark	LId=že-1
 4	objekty	objekt	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	7:nsubj	_
 5	této	tento	DET	PDFS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	6:det	_
