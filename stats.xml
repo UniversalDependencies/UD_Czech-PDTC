@@ -41,9 +41,9 @@
     <feat name="AdpType" value="Voc" upos="ADP">25641</feat><!-- ve, se, ze, ke, beze, ode, ku, skrze, přede, nade -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">229116</feat><!-- byli, kteří, měli, kdo, lidí, pan, prezident, ředitel, lidé, předseda -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">429883</feat><!-- dolarů, co, roce, byly, roku, milionů, trhu, milionu, rok, něco -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">341048</feat><!-- je, by, jsem, jsme, byl, jsou, bylo, byla, bude, má -->
-    <feat name="Aspect" value="Imp,Perf" upos="ADJ,VERB">7094</feat><!-- jmenuje, jmenován, jmenoval, jmenovala, jmenuji, investovat, informoval, věnovat, komentovat, konstatoval -->
-    <feat name="Aspect" value="Perf" upos="ADJ,VERB">144881</feat><!-- řekl, uvedla, uvedl, oznámila, říct, řekla, dostal, získat, podíváme, přišel -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">346292</feat><!-- je, by, jsem, jsme, byl, jsou, bylo, byla, bude, má -->
+    <feat name="Aspect" value="Imp,Perf" upos="ADJ,VERB">8519</feat><!-- jmenuje, jmenován, jmenoval, jmenovala, jmenuji, investovat, informoval, věnovat, komentovat, konstatoval -->
+    <feat name="Aspect" value="Perf" upos="ADJ,VERB">161613</feat><!-- řekl, uvedla, uvedl, oznámila, říct, řekla, dostal, spojených, získat, podíváme -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">421457</feat><!-- se, na, pro, za, o, to, co, v, je, které -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">87603</feat><!-- k, si, mi, tomu, proti, nám, ke, mu, jim, vám -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">449889</feat><!-- z, do, společnosti, dolarů, od, podle, u, ze, let, roku -->
