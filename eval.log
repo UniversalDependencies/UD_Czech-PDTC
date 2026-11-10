@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Czech-PDTC:
-commit e163fa8fbbfdbc8d61a08b792e821b411ddd3938
-Merge: 950fa61 c8ad7d2
+commit 6cb2766af0e67d21b67ba370ea3a0395bcaef5e8
+Merge: 6d206ec 454d387
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(?:(cs_pdtc)-ud-train-[clmvfsw](a|t[012]?)\.conllu|(.+)-ud-(dev|test)\.conllu)'
 Language-treebank code (from CoNLL-U file name) = 'cs_pdtc'
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.9.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 2583908 out of 3440052 total words have one or more features.
+Features: 2588794 out of 3440052 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
